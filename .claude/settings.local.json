@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(brew install poppler)",
+      "Bash(/usr/bin/python3 -c \":*)",
+      "Bash(node -e \":*)"
+    ]
+  }
+}

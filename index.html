@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Normes ISO — Révisions</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==================== ÉCRAN 0 : CHOIX DE LA NORME ==================== -->
+  <section id="screen-norms" class="active">
+    <header class="app-header">
+      <h1>Quiz Normes ISO</h1>
+      <p>Choisissez une norme pour commencer</p>
+    </header>
+    <div class="container">
+      <div id="norm-grid">
+
+        <div class="norm-card" data-norm="iso27005" data-file="data/iso27005.json">
+          <div class="norm-badge">ISO/IEC</div>
+          <div class="norm-number">27005</div>
+          <div class="norm-title">Gestion des risques de sécurité de l'information</div>
+          <div class="norm-year">:2022</div>
+          <div class="norm-count" id="count-iso27005">Chargement…</div>
+        </div>
+
+        <div class="norm-card" data-norm="iso27001" data-file="data/iso27001.json">
+          <div class="norm-badge">ISO/IEC</div>
+          <div class="norm-number">27001</div>
+          <div class="norm-title">Système de Management de la Sécurité de l'Information</div>
+          <div class="norm-year">:2022</div>
+          <div class="norm-count" id="count-iso27001">Questions à venir</div>
+        </div>
+
+        <div class="norm-card norm-card--soon" data-norm="iso22301" data-file="data/iso22301.json">
+          <div class="norm-badge">ISO</div>
+          <div class="norm-number">22301</div>
+          <div class="norm-title">Continuité d'activité</div>
+          <div class="norm-year">:2019</div>
+          <div class="norm-count" id="count-iso22301">Questions à venir</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ÉCRAN 1 : ACCUEIL THÈMES ==================== -->
+  <section id="screen-home">
+    <header class="app-header app-header--quiz">
+      <button id="btn-back-norms" class="btn-back">← Normes</button>
+      <div>
+        <h1 id="norm-title-header"></h1>
+        <p id="norm-subtitle-header"></p>
+      </div>
+    </header>
+    <div class="container">
+
+      <div class="home-actions">
+        <label>
+          Nombre de questions :
+          <select id="question-count">
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
+            <option value="all">Toutes</option>
+          </select>
+        </label>
+      </div>
+
+      <p class="home-stats" id="home-stats"></p>
+      <div id="theme-grid"></div>
+
+    </div>
+  </section>
+
+  <!-- ==================== ÉCRAN 2 : QUIZ ==================== -->
+  <section id="screen-quiz">
+    <div class="container">
+
+      <div class="quiz-header">
+        <span class="quiz-theme-label" id="quiz-theme-label"></span>
+        <span class="quiz-counter" id="quiz-counter">Q 0 / 0</span>
+      </div>
+
+      <div id="progress-bar">
+        <div id="progress-fill"></div>
+      </div>
+
+      <div class="question-card">
+        <div class="question-meta" id="question-meta"></div>
+        <div id="question-text"></div>
+        <div id="options-list"></div>
+      </div>
+
+      <div id="feedback" class="hidden">
+        <p id="feedback-text"></p>
+        <p id="explanation-text"></p>
+        <div class="btn-group">
+          <button id="btn-next" class="btn btn-primary">Question suivante →</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== ÉCRAN 3 : RÉSULTATS ==================== -->
+  <section id="screen-results">
+    <div class="container">
+
+      <div class="results-card">
+        <div id="score-circle" class="score-circle">
+          <span id="score-pct" class="score-pct">0%</span>
+          <span class="score-label">score</span>
+        </div>
+        <p id="score-detail" class="score-detail"></p>
+        <p id="score-message" class="score-message"></p>
+        <div class="btn-group" style="justify-content:center">
+          <button id="btn-retry" class="btn btn-primary">Recommencer ce thème</button>
+          <button id="btn-review-errors" class="btn btn-danger hidden">Réviser mes erreurs (session)</button>
+          <button id="btn-home-from-results" class="btn btn-secondary">← Thèmes</button>
+        </div>
+      </div>
+
+      <div id="results-errors-list" class="errors-list hidden">
+        <h3>Questions ratées :</h3>
+        <div id="results-errors-items"></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== TOAST ==================== -->
+  <div id="toast"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

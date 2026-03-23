@@ -1,0 +1,1362 @@
+[
+  {
+    "id": "Q001",
+    "type": "mcq",
+    "theme": "fondamentaux",
+    "subtheme": "definition-risque",
+    "difficulty": 1,
+    "source": "ISO 27005:2022",
+    "question": "Quelle est la définition du risque selon ISO/IEC 27005:2022 ?",
+    "options": [
+      "Un danger éventuel plus ou moins prévisible",
+      "Effet de l'incertitude sur l'atteinte des objectifs",
+      "La possibilité qu'un événement redouté survienne",
+      "Une vulnérabilité exploitable par une menace"
+    ],
+    "answer": 1,
+    "explanation": "La norme ISO/IEC 27005:2022 définit le risque comme l'effet de l'incertitude sur l'atteinte des objectifs. La définition du dictionnaire ('danger éventuel prévisible') et celle d'EBIOS RM sont différentes."
+  },
+  {
+    "id": "Q002",
+    "type": "mcq",
+    "theme": "fondamentaux",
+    "subtheme": "definition-risque",
+    "difficulty": 1,
+    "source": "ISO 27005:2022",
+    "question": "Quelle est la définition du risque selon la méthode EBIOS Risk Manager ?",
+    "options": [
+      "Effet de l'incertitude sur l'atteinte des objectifs",
+      "Un danger éventuel plus ou moins prévisible",
+      "La possibilité qu'un événement redouté survienne et que ses effets perturbent les missions de l'objet de l'étude",
+      "Une faiblesse d'un actif pouvant être exploitée"
+    ],
+    "answer": 2,
+    "explanation": "EBIOS Risk Manager définit le risque comme la possibilité qu'un événement redouté survienne et que ses effets perturbent les missions de l'objet de l'étude."
+  },
+  {
+    "id": "Q003",
+    "type": "mcq",
+    "theme": "fondamentaux",
+    "subtheme": "concepts-fondamentaux",
+    "difficulty": 3,
+    "source": "ISO 27005:2022",
+    "question": "Qu'est-ce qu'un actif primaire (primary/business asset) ?",
+    "options": [
+      "Un composant du système d'information sur lequel s'appuient un ou plusieurs actifs",
+      "Une information ou un processus de valeur pour une organisation",
+      "Une cause potentielle d'un incident de sécurité",
+      "Une faiblesse d'un actif pouvant être exploitée"
+    ],
+    "answer": 1,
+    "explanation": "Un actif primaire est une information ou un processus de valeur pour une organisation, contrairement aux actifs de support qui sont les composants du SI."
+  },
+  {
+    "id": "Q004",
+    "type": "mcq",
+    "theme": "fondamentaux",
+    "subtheme": "concepts-fondamentaux",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Comment est définie une vulnérabilité selon la norme ?",
+    "options": [
+      "Une cause potentielle d'un incident de sécurité pouvant endommager un système",
+      "Un composant du système d'information supportant un actif",
+      "Une faiblesse d'un actif ou d'un contrôle qui peut être exploitée de sorte qu'un événement avec une conséquence négative se produise",
+      "Une menace exploitant les actifs primaires"
+    ],
+    "answer": 2,
+    "explanation": "Une vulnérabilité est une faiblesse d'un actif ou d'un contrôle qui peut être exploitée de sorte qu'un événement avec une conséquence négative se produise."
+  },
+  {
+    "id": "Q005",
+    "type": "mcq",
+    "theme": "fondamentaux",
+    "subtheme": "definition-risque",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Comment se calcule le niveau de risque ?",
+    "options": [
+      "Menace + Vulnérabilité",
+      "Conséquence + Probabilité",
+      "Conséquence × Probabilité",
+      "Actif primaire × Actif de support"
+    ],
+    "answer": 2,
+    "explanation": "Le niveau de risque se calcule en multipliant la conséquence (sévérité) par la probabilité (d'occurrence)."
+  },
+  {
+    "id": "Q006",
+    "type": "mcq",
+    "theme": "fondamentaux",
+    "subtheme": "concepts-fondamentaux",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Quelle est la différence principale entre une norme et une méthode ?",
+    "options": [
+      "Une norme est obligatoire, une méthode est optionnelle",
+      "Une norme fournit un framework général (squelette), une méthode permet systématiquement d'obtenir un résultat concret",
+      "Une méthode est plus ancienne qu'une norme",
+      "Il n'y a pas de différence, les deux termes sont synonymes"
+    ],
+    "answer": 1,
+    "explanation": "Une norme fournit un framework et un langage commun (abstraction), tandis qu'une méthode est une implémentation concrète permettant d'obtenir systématiquement un résultat (l'analyse de risques)."
+  },
+  {
+    "id": "Q007",
+    "type": "mcq",
+    "theme": "fondamentaux",
+    "subtheme": "concepts-fondamentaux",
+    "difficulty": 1,
+    "source": "ISO 27005:2022",
+    "question": "Qu'est-ce que la méthode EBIOS Risk Manager ?",
+    "options": [
+      "Une norme internationale de sécurité",
+      "La méthode d'analyse de risque française de référence, élaborée par l'ANSSI",
+      "Un outil de certification européen",
+      "Un standard américain équivalent à l'ISO 27005"
+    ],
+    "answer": 1,
+    "explanation": "EBIOS Risk Manager est la méthode d'analyse de risque française de référence, élaborée par l'ANSSI avec le Club EBIOS. Sa version actuelle date de 2018."
+  },
+  {
+    "id": "Q008",
+    "type": "mcq",
+    "theme": "fondamentaux",
+    "subtheme": "definition-risque",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Qu'est-ce qu'un programme de gestion des risques ?",
+    "options": [
+      "Un logiciel pour gérer les incidents de sécurité",
+      "Un ensemble d'analyses de risques isolées",
+      "Un programme ayant pour objectif d'appliquer une doctrine de gestion des risques dans une organisation",
+      "Un audit ponctuel de sécurité"
+    ],
+    "answer": 2,
+    "explanation": "Un programme de gestion des risques a pour objectif d'appliquer une doctrine dans une organisation, en regroupant l'ensemble des analyses de risques sous une même gouvernance (SMSI, PSSI)."
+  },
+  {
+    "id": "Q009",
+    "type": "mcq",
+    "theme": "fondamentaux",
+    "subtheme": "concepts-fondamentaux",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Qu'est-ce qu'une menace (threat) en sécurité de l'information ?",
+    "options": [
+      "Une faiblesse d'un actif pouvant être exploitée",
+      "Un événement ayant une conséquence négative sur un actif",
+      "Une cause potentielle d'un incident de sécurité pouvant endommager un système ou nuire à un organisme",
+      "Un composant du système d'information vulnérable"
+    ],
+    "answer": 2,
+    "explanation": "Une menace est une cause potentielle d'un incident de sécurité de l'information pouvant endommager un système ou nuire à un organisme."
+  },
+  {
+    "id": "Q010",
+    "type": "mcq",
+    "theme": "fondamentaux",
+    "subtheme": "definition-risque",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Dans la composante d'un risque, les menaces exploitent :",
+    "options": [
+      "Les actifs primaires directement",
+      "Les vulnérabilités des actifs de support pour nuire aux actifs primaires",
+      "Uniquement les réseaux informatiques",
+      "Les contrôles de sécurité existants"
+    ],
+    "answer": 1,
+    "explanation": "Selon le schéma d'interaction, les menaces exploitent les vulnérabilités des actifs de support, ce qui nuit aux actifs primaires."
+  },
+  {
+    "id": "Q011",
+    "type": "mcq",
+    "theme": "presentation-27005",
+    "subtheme": "presentation-norme",
+    "difficulty": 1,
+    "source": "ISO 27005:2022",
+    "question": "Qu'est-ce que l'ISO (International Organization for Standardization) ?",
+    "options": [
+      "Un organisme gouvernemental américain",
+      "Un organisme de normalisation internationale composé de représentants de 167 pays",
+      "Une entreprise privée de certification",
+      "Un comité européen de standardisation"
+    ],
+    "answer": 1,
+    "explanation": "L'ISO est un organisme de normalisation internationale composé de représentants d'organisations nationales de normalisation de 167 pays, selon le principe d'un membre par pays."
+  },
+  {
+    "id": "Q012",
+    "type": "mcq",
+    "theme": "presentation-27005",
+    "subtheme": "presentation-norme",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Quel organisme représente la France au sein de l'ISO ?",
+    "options": [
+      "L'ANSSI",
+      "L'AFNOR",
+      "Le CNIL",
+      "L'ENISA"
+    ],
+    "answer": 1,
+    "explanation": "L'organisme représentant la France au sein de l'ISO est l'AFNOR (Association Française de Normalisation)."
+  },
+  {
+    "id": "Q013",
+    "type": "mcq",
+    "theme": "presentation-27005",
+    "subtheme": "presentation-norme",
+    "difficulty": 1,
+    "source": "ISO 27005:2022",
+    "question": "Qu'est-ce que le JTC1 ?",
+    "options": [
+      "Le comité de sécurité de l'ISO",
+      "Le groupe de travail derrière les normes des technologies de l'information (ISO + IEC)",
+      "Un sous-comité de cybersécurité",
+      "L'organisme de certification ISO"
+    ],
+    "answer": 1,
+    "explanation": "Le JTC1 (Joint Technical Committee 1) est le groupe de travail commun ISO/IEC derrière les normes des technologies de l'information."
+  },
+  {
+    "id": "Q014",
+    "type": "mcq",
+    "theme": "presentation-27005",
+    "subtheme": "presentation-norme",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Quel est le sous-comité sécurité du JTC1 ?",
+    "options": [
+      "SC21",
+      "SC38",
+      "SC27",
+      "SC42"
+    ],
+    "answer": 2,
+    "explanation": "Le sous-comité sécurité du JTC1 est le SC27 (Techniques de sécurité de l'information)."
+  },
+  {
+    "id": "Q015",
+    "type": "mcq",
+    "theme": "presentation-27005",
+    "subtheme": "presentation-norme",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Quel est l'objectif principal de la norme ISO/IEC 27005:2022 ?",
+    "options": [
+      "Définir les exigences d'un SMSI",
+      "Décrire les grandes lignes d'une gestion des risques dans une perspective de mise en place d'un SMSI",
+      "Certifier les professionnels en cybersécurité",
+      "Remplacer la méthode EBIOS"
+    ],
+    "answer": 1,
+    "explanation": "La norme ISO/IEC 27005:2022 décrit les grandes lignes d'une gestion des risques dans une perspective de mise en place d'un SMSI."
+  },
+  {
+    "id": "Q016",
+    "type": "mcq",
+    "theme": "presentation-27005",
+    "subtheme": "presentation-norme",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Sur quel paradigme s'aligne l'ISO/IEC 27005 ?",
+    "options": [
+      "COBIT",
+      "TOGAF",
+      "PDCA (Plan, Do, Check, Act) ou Roue de Deming",
+      "ITIL"
+    ],
+    "answer": 2,
+    "explanation": "Comme beaucoup de normes, l'ISO/IEC 27005 s'aligne sur le paradigme PDCA (Plan, Do, Check, Act) aussi appelé Roue de Deming."
+  },
+  {
+    "id": "Q017",
+    "type": "mcq",
+    "theme": "presentation-27005",
+    "subtheme": "presentation-norme",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Combien de cycles identifie la norme ISO/IEC 27005 pour le management du risque ?",
+    "options": [
+      "Un seul cycle",
+      "Deux cycles : strategic cycle et operational cycle",
+      "Trois cycles : stratégique, tactique et opérationnel",
+      "Quatre cycles correspondant aux phases PDCA"
+    ],
+    "answer": 1,
+    "explanation": "La norme identifie deux cycles : le strategic cycle (cycle stratégique) et l'operational cycle (cycle opérationnel)."
+  },
+  {
+    "id": "Q018",
+    "type": "mcq",
+    "theme": "presentation-27005",
+    "subtheme": "structure-norme",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Quelle clause de l'ISO/IEC 27005 porte sur l'établissement du contexte ?",
+    "options": [
+      "Clause 5",
+      "Clause 6",
+      "Clause 7",
+      "Clause 8"
+    ],
+    "answer": 1,
+    "explanation": "La clause 6 de l'ISO/IEC 27005:2022 porte sur l'établissement du contexte."
+  },
+  {
+    "id": "Q019",
+    "type": "mcq",
+    "theme": "presentation-27005",
+    "subtheme": "presentation-norme",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Qu'est-ce qu'une approche processus dans l'ISO/IEC 27005 ?",
+    "options": [
+      "Un audit de sécurité continu",
+      "Chaque clause est formée d'activités séquentielles avec un déclencheur et une sortie",
+      "Une approche de développement logiciel",
+      "Une méthode de gestion de projet"
+    ],
+    "answer": 1,
+    "explanation": "Chaque clause de l'ISO/IEC 27005 est formée sur une approche processus : activité 1 → activité 2 → activité 3 → sortie, avec un élément déclencheur définissant quand la mise à jour est nécessaire."
+  },
+  {
+    "id": "Q020",
+    "type": "mcq",
+    "theme": "presentation-27005",
+    "subtheme": "relation-27001",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Quel est le lien entre l'ISO/IEC 27005 et l'ISO/IEC 27001 ?",
+    "options": [
+      "Ce sont deux normes indépendantes et sans lien",
+      "L'ISO 27001 a pour exigence d'utiliser le management des risques conformément à l'ISO 27005",
+      "L'ISO 27005 remplace l'ISO 27001",
+      "L'ISO 27001 est un sous-ensemble de l'ISO 27005"
+    ],
+    "answer": 1,
+    "explanation": "L'ISO/IEC 27001 a pour exigence d'utiliser le management des risques au sein de son SMSI conformément à la norme ISO/IEC 27005. Un lien très fort existe entre les deux normes."
+  },
+  {
+    "id": "Q021",
+    "type": "mcq",
+    "theme": "contexte",
+    "subtheme": "etablissement-contexte",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Quelles sont les 5 actions proposées par l'ISO/IEC 27005 dans la phase de contexte ?",
+    "options": [
+      "Identifier, estimer, évaluer, traiter, accepter",
+      "Contexte de l'organisation, identification des exigences, appliquer la gestion des risques, établir les critères, choisir une méthode",
+      "SWOT, PESTEL, analyse des parties prenantes, cartographie, audit",
+      "Plan, Do, Check, Act, Improve"
+    ],
+    "answer": 1,
+    "explanation": "La phase contexte comprend : 1) Contexte de l'organisation, 2) Identification des exigences de base, 3) Appliquer la gestion des risques, 4) Établir et maintenir des critères de risque, 5) Choisir une méthode appropriée."
+  },
+  {
+    "id": "Q022",
+    "type": "mcq",
+    "theme": "contexte",
+    "subtheme": "etablissement-contexte",
+    "difficulty": 1,
+    "source": "ISO 27005:2022",
+    "question": "Qu'est-ce que l'appétit pour le risque (risk appetite) ?",
+    "options": [
+      "Le niveau de risque maximal acceptable par une organisation en fonction de sa taille, complexité et secteur",
+      "Le désir de prendre des risques financiers élevés",
+      "Le nombre de risques identifiés dans une analyse",
+      "Le budget alloué à la gestion des risques"
+    ],
+    "answer": 0,
+    "explanation": "L'appétit pour le risque (risk appetite) est le niveau de risque qu'une organisation est prête à accepter, défini en fonction de sa taille, sa complexité et son secteur d'activité."
+  },
+  {
+    "id": "Q023",
+    "type": "mcq",
+    "theme": "contexte",
+    "subtheme": "etablissement-contexte",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Quel outil d'analyse permet d'identifier les forces, faiblesses, opportunités et menaces d'une organisation ?",
+    "options": [
+      "PESTEL",
+      "SWOT",
+      "Porter's Five Forces",
+      "BSC (Balanced Scorecard)"
+    ],
+    "answer": 1,
+    "explanation": "L'analyse SWOT (Forces, Faiblesses, Opportunités, Menaces) est utilisée pour établir le contexte d'une organisation."
+  },
+  {
+    "id": "Q024",
+    "type": "mcq",
+    "theme": "contexte",
+    "subtheme": "etablissement-contexte",
+    "difficulty": 3,
+    "source": "ISO 27005:2022",
+    "question": "Qu'est-ce que le 'socle de sécurité' mentionné dans la clause 6.2 ?",
+    "options": [
+      "L'ensemble des mesures de sécurité physique d'un bâtiment",
+      "Un concept qui regroupe l'existant en matière de sécurité de l'information, en exigences réglementaires et normatives",
+      "Le budget minimal alloué à la sécurité",
+      "La liste des risques résiduels acceptés"
+    ],
+    "answer": 1,
+    "explanation": "Le socle de sécurité (concept EBIOS RM, introduit dans la clause 6.2) regroupe l'existant en matière de sécurité de l'information, en exigences réglementaires et normatives, via des audits sur des référentiels tels que l'annexe A de l'ISO 27001, le guide d'hygiène ANSSI, NIST CF, CIS, RGPD, etc."
+  },
+  {
+    "id": "Q025",
+    "type": "mcq",
+    "theme": "contexte",
+    "subtheme": "criteres-risque",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Quels sont les types de critères de risque définis dans la clause 6.4 ?",
+    "options": [
+      "Critères d'acceptation et critères d'escalade",
+      "Critères d'acceptation et critères d'évaluation (conséquence, probabilité, niveau de risque)",
+      "Critères financiers et critères opérationnels",
+      "Critères stratégiques et critères tactiques"
+    ],
+    "answer": 1,
+    "explanation": "La clause 6.4 définit deux grands types de critères : les critères d'acceptation du risque et les critères d'évaluation des risques (pour la conséquence, la probabilité et le niveau de risque)."
+  },
+  {
+    "id": "Q026",
+    "type": "mcq",
+    "theme": "contexte",
+    "subtheme": "etablissement-contexte",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Quelle est la sévérité 'Critique (4)' dans la grille de conséquence qualitative EBIOS RM ?",
+    "options": [
+      "Conséquences négligeables pour l'organisation",
+      "Conséquences significatives mais limitées pour l'organisation",
+      "Conséquences importantes pour l'organisation",
+      "Conséquences désastreuses pour l'organisation avec d'éventuels impacts sur l'écosystème"
+    ],
+    "answer": 3,
+    "explanation": "Le niveau Critique (4) correspond à des conséquences désastreuses pour l'organisation avec d'éventuels impacts sur l'écosystème."
+  },
+  {
+    "id": "Q027",
+    "type": "mcq",
+    "theme": "contexte",
+    "subtheme": "criteres-risque",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "À quel moment les critères d'acceptation du risque sont-ils utilisés dans la phase d'évaluation ?",
+    "options": [
+      "Pour décider si un risque est acceptable ou non, et si le traitement proposé est suffisant",
+      "Uniquement pour chiffrer le coût des risques",
+      "Pour classer les risques par ordre alphabétique",
+      "Pour identifier les parties prenantes impliquées"
+    ],
+    "answer": 0,
+    "explanation": "Dans la phase d'évaluation, les critères d'acceptation permettent de déterminer si un risque est acceptable ou non, et si le traitement proposé est suffisant pour atteindre un niveau de risque acceptable."
+  },
+  {
+    "id": "Q028",
+    "type": "mcq",
+    "theme": "contexte",
+    "subtheme": "etablissement-contexte",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Qu'est-ce qu'un risque 'tolérable sous contrôle' ?",
+    "options": [
+      "Un risque dont le niveau est trop élevé et qui doit être traité immédiatement",
+      "Un risque acceptable ne nécessitant aucune action",
+      "Un risque entre le seuil acceptable et inacceptable qui peut être conservé à condition d'être surveillé",
+      "Un risque transféré à un tiers"
+    ],
+    "answer": 2,
+    "explanation": "Un risque tolérable sous contrôle se situe entre le seuil du risque acceptable et celui du risque inacceptable. Il peut être conservé mais doit être surveillé."
+  },
+  {
+    "id": "Q029",
+    "type": "mcq",
+    "theme": "contexte",
+    "subtheme": "etablissement-contexte",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Quels éléments constituent le contexte interne d'une organisation ?",
+    "options": [
+      "Les lois et réglementations nationales",
+      "L'organigramme, les processus, les normes applicables, les schémas d'infrastructure et les politiques existantes",
+      "Les concurrents et le marché",
+      "Les clients et les fournisseurs"
+    ],
+    "answer": 1,
+    "explanation": "Le contexte interne comprend l'organigramme, les processus, les normes/lois applicables, les schémas d'infrastructure du SI et les politiques existantes."
+  },
+  {
+    "id": "Q030",
+    "type": "mcq",
+    "theme": "contexte",
+    "subtheme": "criteres-risque",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Quels sont les 3 critères recommandés pour choisir une méthode appropriée de gestion des risques (clause 6.5) ?",
+    "options": [
+      "Rapidité, coût, facilité d'utilisation",
+      "Alignement aux autres risques de l'organisation, bien documentée, résultats cohérents et comparables",
+      "Conformité légale, exhaustivité, automatisation",
+      "Support éditeur, intégration SIEM, scalabilité"
+    ],
+    "answer": 1,
+    "explanation": "La clause 6.5 recommande d'utiliser une méthode alignée aux autres risques de l'organisation, bien documentée, et permettant d'obtenir des résultats cohérents, comparables et proches de la réalité."
+  },
+  {
+    "id": "Q031",
+    "type": "mcq",
+    "theme": "identification",
+    "subtheme": "identification-risques",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Quelles sont les deux approches d'identification des risques introduites dans la version 2022 de la norme ?",
+    "options": [
+      "Approche quantitative et approche qualitative",
+      "Approche par événement et approche par actif",
+      "Approche descendante et approche ascendante",
+      "Approche systémique et approche probabiliste"
+    ],
+    "answer": 1,
+    "explanation": "L'introduction de l'approche par événement et l'approche par actif est l'un des changements majeurs de la norme ISO/IEC 27005:2022."
+  },
+  {
+    "id": "Q032",
+    "type": "mcq",
+    "theme": "identification",
+    "subtheme": "identification-risques",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Qu'est-ce qu'un 'risk owner' (porteur du risque) ?",
+    "options": [
+      "Un auditeur externe chargé d'évaluer les risques",
+      "La personne ou l'entité ayant la responsabilité et le pouvoir de décision sur un risque identifié",
+      "Le directeur de la sécurité informatique",
+      "L'outil logiciel utilisé pour la gestion des risques"
+    ],
+    "answer": 1,
+    "explanation": "Le risk owner (porteur du risque) est la personne ou l'entité ayant la responsabilité et le pouvoir de décision pour traiter le risque identifié."
+  },
+  {
+    "id": "Q033",
+    "type": "mcq",
+    "theme": "identification",
+    "subtheme": "identification-risques",
+    "difficulty": 3,
+    "source": "ISO 27005:2022",
+    "question": "Parmi les sources de risque listées dans l'annexe A de l'ISO/IEC 27005:2022, qu'est-ce qu'un profil 'Pathologique' ?",
+    "options": [
+      "Un hacker expérimenté motivé financièrement",
+      "Un État conduisant des attaques sur le long terme",
+      "Un profil déterminé avec accès aux processus internes (employé mécontent, fraudeur, etc.)",
+      "Un amateur cherchant la reconnaissance"
+    ],
+    "answer": 2,
+    "explanation": "Le profil 'Pathologique' correspond à un profil déterminé avec accès aux processus internes (escroc, fraudeur, employé mécontent, etc.)."
+  },
+  {
+    "id": "Q034",
+    "type": "mcq",
+    "theme": "identification",
+    "subtheme": "identification-risques",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Quel objectif visé décrit 'une opération visant à rendre un site internet indisponible ou empêcher l'utilisation d'une ressource numérique' ?",
+    "options": [
+      "Espionnage",
+      "Influence",
+      "Entrave au fonctionnement",
+      "Lucratif"
+    ],
+    "answer": 2,
+    "explanation": "L'objectif 'Entrave au fonctionnement' correspond à des opérations de sabotage visant à rendre un site indisponible, provoquer une saturation ou empêcher l'utilisation d'une ressource numérique."
+  },
+  {
+    "id": "Q035",
+    "type": "mcq",
+    "theme": "identification",
+    "subtheme": "scenarios-risque",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Qu'est-ce qu'un scénario opérationnel ?",
+    "options": [
+      "Une analyse des impacts financiers d'un incident",
+      "Un scénario construit en analysant les modes opératoires qu'une source de risque peut utiliser pour atteindre les actifs métiers via des vulnérabilités",
+      "Un plan de continuité d'activité",
+      "Un rapport d'audit de sécurité"
+    ],
+    "answer": 1,
+    "explanation": "Dans l'approche par actifs, les scénarios opérationnels sont construits en analysant les différents modes opératoires que les sources de risque peuvent utiliser pour atteindre les actifs métiers (Cyber Kill Chain)."
+  },
+  {
+    "id": "Q036",
+    "type": "mcq",
+    "theme": "identification",
+    "subtheme": "identification-risques",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Qu'est-ce qu'un 'événement redouté' (event) ?",
+    "options": [
+      "Un incident de sécurité déjà survenu",
+      "Un scénario de risque potentiel décrivant comment une source de risque peut impacter un actif primaire",
+      "Un contrôle de sécurité défaillant",
+      "Un audit de sécurité planifié"
+    ],
+    "answer": 1,
+    "explanation": "Un événement redouté est un scénario décrivant comment une source de risque peut impacter un actif primaire (perte de confidentialité, intégrité ou disponibilité), associé à des conséquences."
+  },
+  {
+    "id": "Q037",
+    "type": "mcq",
+    "theme": "identification",
+    "subtheme": "identification-risques",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Dans l'exemple EBIOS RM, quelle est l'objectif 'Prépositionnement stratégique' ?",
+    "options": [
+      "Une opération visant un gain financier immédiat",
+      "Un prépositionnement visant généralement une attaque sur le long terme sans finalité clairement établie",
+      "Une opération d'espionnage économique",
+      "Une attaque de type DDoS pour saturer les infrastructures"
+    ],
+    "answer": 1,
+    "explanation": "Le prépositionnement stratégique consiste à se positionner dans un système pour une attaque sur le long terme, sans finalité étant clairement établie au moment de l'intrusion."
+  },
+  {
+    "id": "Q038",
+    "type": "mcq",
+    "theme": "identification",
+    "subtheme": "identification-risques",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Quelle source de risque correspond à 'Rançongiciel, botnet utilisé par des professionnels' ?",
+    "options": [
+      "Étatique",
+      "Activiste",
+      "Crime organisé",
+      "Mercenaire"
+    ],
+    "answer": 2,
+    "explanation": "Le Crime organisé est caractérisé par l'utilisation de rançongiciels, botnets, et autres outils utilisés par des professionnels de la cybercriminalité."
+  },
+  {
+    "id": "Q039",
+    "type": "mcq",
+    "theme": "identification",
+    "subtheme": "scenarios-risque",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Qu'est-ce qu'un scénario stratégique dans le contexte de l'ISO/IEC 27005 ?",
+    "options": [
+      "Un scénario décrivant les modes opératoires techniques détaillés",
+      "Un chemin d'attaque décrivant comment une source de risque peut accéder aux actifs d'une organisation via son écosystème",
+      "Un plan de réponse à incident",
+      "Une simulation d'exercice de crise"
+    ],
+    "answer": 1,
+    "explanation": "Un scénario stratégique décrit le chemin d'attaque d'une source de risque, notamment via les parties intéressées et l'écosystème de l'organisation."
+  },
+  {
+    "id": "Q040",
+    "type": "mcq",
+    "theme": "identification",
+    "subtheme": "identification-vulnerabilites",
+    "difficulty": 3,
+    "source": "ISO 27005:2022",
+    "question": "Parmi les exemples de vulnérabilités de l'annexe A de l'ISO/IEC 27005, quelle catégorie inclut 'Mauvaise gestion des mots de passe' ?",
+    "options": [
+      "Matériel",
+      "Réseau",
+      "Logiciel",
+      "Ressources humaines"
+    ],
+    "answer": 2,
+    "explanation": "La mauvaise gestion des mots de passe est classée dans la catégorie 'Logiciel' des vulnérabilités de l'annexe A de l'ISO/IEC 27005:2022."
+  },
+  {
+    "id": "Q041",
+    "type": "mcq",
+    "theme": "estimation",
+    "subtheme": "estimation-risques",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Quelles sont les 3 activités de la phase d'estimation ?",
+    "options": [
+      "Identifier, analyser, prioriser",
+      "Estimer la conséquence, estimer la probabilité, déterminer le niveau de risque",
+      "Comparer, contrôler, corriger",
+      "Planifier, déployer, auditer"
+    ],
+    "answer": 1,
+    "explanation": "La phase d'estimation contient 3 activités : estimer la conséquence, estimer la probabilité et déterminer le niveau de risque."
+  },
+  {
+    "id": "Q042",
+    "type": "mcq",
+    "theme": "estimation",
+    "subtheme": "impact",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Quel déclencheur peut initier une nouvelle estimation de la conséquence ?",
+    "options": [
+      "L'arrivée d'un nouveau collaborateur",
+      "Un changement dans la phase d'identification des risques, ou aucune itération depuis longtemps",
+      "L'achat d'un nouvel équipement informatique",
+      "Une mise à jour du site web de l'organisation"
+    ],
+    "answer": 1,
+    "explanation": "Les déclencheurs pour estimer la conséquence sont : aucune itération depuis longtemps, changement dans la phase d'identification, changement des risk owners ou des mesures, changement de périmètre ou de contexte."
+  },
+  {
+    "id": "Q043",
+    "type": "mcq",
+    "theme": "estimation",
+    "subtheme": "vraisemblance",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Quelle est la signification du niveau 'V4' dans l'échelle de vraisemblance EBIOS RM ?",
+    "options": [
+      "La vraisemblance du scénario est faible",
+      "La vraisemblance du scénario est significative",
+      "La vraisemblance du scénario est élevée",
+      "La vraisemblance du scénario est très élevée"
+    ],
+    "answer": 3,
+    "explanation": "V4 correspond au niveau le plus élevé de la vraisemblance : la vraisemblance du scénario de risque est très élevée."
+  },
+  {
+    "id": "Q044",
+    "type": "mcq",
+    "theme": "estimation",
+    "subtheme": "vraisemblance",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Quels aspects influencent la détermination des critères de probabilité ?",
+    "options": [
+      "Uniquement les événements cybercriminels",
+      "Les événements accidentels/naturels, le degré d'exposition de l'actif, le degré d'exploitation des vulnérabilités, les défaillances technologiques",
+      "Seulement le budget de sécurité",
+      "Uniquement les audits externes"
+    ],
+    "answer": 1,
+    "explanation": "La probabilité dépend des événements accidentels ou naturels, du degré d'exposition de l'actif, du degré d'exploitation d'une vulnérabilité, des défaillances technologiques, etc."
+  },
+  {
+    "id": "Q045",
+    "type": "mcq",
+    "theme": "estimation",
+    "subtheme": "vraisemblance",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Dans l'exemple d'estimation EBIOS RM, si la conséquence est 4/4 et la probabilité est 3/4, quel est le niveau de risque ?",
+    "options": [
+      "7/16",
+      "12/16",
+      "16/16",
+      "4/16"
+    ],
+    "answer": 1,
+    "explanation": "Le niveau de risque = conséquence × probabilité = 4 × 3 = 12/16."
+  },
+  {
+    "id": "Q046",
+    "type": "mcq",
+    "theme": "estimation",
+    "subtheme": "vraisemblance",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Quel déclencheur spécifique est mentionné pour l'estimation de la probabilité, absent de celle de la conséquence ?",
+    "options": [
+      "Résultats d'un audit financier",
+      "Nouvelles vulnérabilités découvertes et découverte de nouvelles menaces",
+      "Changement de direction de l'organisation",
+      "Déménagement de l'entreprise"
+    ],
+    "answer": 1,
+    "explanation": "Pour l'estimation de la probabilité, des déclencheurs spécifiques s'ajoutent : nouvelles vulnérabilités découvertes, résultats d'audit, découverte de nouvelles menaces."
+  },
+  {
+    "id": "Q047",
+    "type": "mcq",
+    "theme": "estimation",
+    "subtheme": "methodes-estimation",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Comment sont construits les scénarios opérationnels dans l'approche par actif ?",
+    "options": [
+      "En listant les menaces sans les connecter aux vulnérabilités",
+      "En analysant les étapes successives que la source de risque utilise (ex: vulnérabilité 1 → étape 1 → vulnérabilité 2 → étape 2 → état final désiré)",
+      "En calculant uniquement le coût financier des incidents",
+      "En comparant avec des incidents passés similaires"
+    ],
+    "answer": 1,
+    "explanation": "Les scénarios opérationnels décrivent les étapes successives (Cyber Kill Chain) que la source de risque utilise, chaque étape exploitant une ou plusieurs vulnérabilités pour atteindre l'état final désiré."
+  },
+  {
+    "id": "Q048",
+    "type": "mcq",
+    "theme": "estimation",
+    "subtheme": "vraisemblance",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Dans la grille de probabilité de succès EBIOS RM, quel pourcentage correspond au niveau 'Quasi-certaine' ?",
+    "options": [
+      "> 60%",
+      "> 20%",
+      "> 90%",
+      "< 3%"
+    ],
+    "answer": 2,
+    "explanation": "Le niveau 4 - Quasi-certaine correspond à une probabilité de succès quasi-certaine, soit > 90%."
+  },
+  {
+    "id": "Q049",
+    "type": "mcq",
+    "theme": "evaluation",
+    "subtheme": "evaluation-risques",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Quelles sont les 2 activités de la phase d'évaluation ?",
+    "options": [
+      "Identifier et estimer",
+      "Comparer les résultats d'analyse avec les critères, puis prioriser les risques",
+      "Traiter et accepter",
+      "Documenter et communiquer"
+    ],
+    "answer": 1,
+    "explanation": "La phase d'évaluation comporte 2 activités : la comparaison des résultats d'analyse du risque avec les critères de risque, et la priorisation des risques."
+  },
+  {
+    "id": "Q050",
+    "type": "mcq",
+    "theme": "evaluation",
+    "subtheme": "priorisation",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Quel est le déclencheur pour la priorisation des risques (clause 7.4.2) ?",
+    "options": [
+      "Uniquement lors de l'audit annuel",
+      "La priorisation est nécessaire à chaque fois que les risques sont analysés",
+      "Seulement lors d'un incident majeur",
+      "Lors de la revue de direction annuelle uniquement"
+    ],
+    "answer": 1,
+    "explanation": "La priorisation des risques est nécessaire à chaque fois que les risques sont analysés."
+  },
+  {
+    "id": "Q051",
+    "type": "mcq",
+    "theme": "evaluation",
+    "subtheme": "evaluation-risques",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Que produit la phase d'évaluation en sortie ?",
+    "options": [
+      "Un plan de traitement des risques",
+      "Une liste des risques priorisés avec des décisions sur les actions à entreprendre",
+      "Une déclaration d'applicabilité",
+      "Un rapport d'audit"
+    ],
+    "answer": 1,
+    "explanation": "La phase d'évaluation produit une liste des risques priorisés avec des décisions sur les actions à entreprendre (traiter, conserver, partager, éviter)."
+  },
+  {
+    "id": "Q052",
+    "type": "mcq",
+    "theme": "evaluation",
+    "subtheme": "evaluation-risques",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Comment un risque est-il positionné sur la matrice conséquence/probabilité pour déterminer s'il est acceptable ?",
+    "options": [
+      "En fonction du budget disponible uniquement",
+      "En comparant son niveau calculé (conséquence × probabilité) avec les seuils définis dans les critères de risque",
+      "En consultant uniquement la direction générale",
+      "En se basant sur des incidents historiques de l'organisation"
+    ],
+    "answer": 1,
+    "explanation": "Le risque est positionné sur la matrice en comparant son niveau estimé avec les seuils des critères de risque (acceptable, tolérable sous contrôle, inacceptable)."
+  },
+  {
+    "id": "Q053",
+    "type": "mcq",
+    "theme": "traitement",
+    "subtheme": "traitement-risques",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Quels sont les 4 choix possibles pour traiter un risque ?",
+    "options": [
+      "Ignorer, signaler, archiver, supprimer",
+      "Modification du risque, rétention du risque, partage du risque, évitement du risque",
+      "Prévenir, détecter, corriger, récupérer",
+      "Chiffrement, pare-feu, antivirus, sauvegarde"
+    ],
+    "answer": 1,
+    "explanation": "Les 4 options de traitement du risque sont : Modification (réduire), Rétention (accepter/conserver), Partage (transférer à un tiers), Évitement (éliminer)."
+  },
+  {
+    "id": "Q054",
+    "type": "mcq",
+    "theme": "traitement",
+    "subtheme": "traitement-risques",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Qu'est-ce qu'une Déclaration d'Applicabilité (DDA) ?",
+    "options": [
+      "Un document listant tous les risques identifiés",
+      "Un document récapitulant tous les contrôles applicables, leur justification et l'état de leur mise en œuvre",
+      "Un certificat de conformité ISO 27001",
+      "Un rapport d'audit annuel"
+    ],
+    "answer": 1,
+    "explanation": "La DDA (Déclaration d'Applicabilité) est un document qui recense tous les contrôles nécessaires, leur justification (applicable/non applicable) et l'état de leur mise en œuvre."
+  },
+  {
+    "id": "Q055",
+    "type": "mcq",
+    "theme": "traitement",
+    "subtheme": "controles-securite",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Quels sont les 3 types de contrôles listés dans l'ISO/IEC 27005 ?",
+    "options": [
+      "Physique, logique, administratif",
+      "Préventif, détection, correctif",
+      "Stratégique, tactique, opérationnel",
+      "Humain, technique, organisationnel"
+    ],
+    "answer": 1,
+    "explanation": "Les 3 types de contrôles sont : Préventif (empêcher l'incident), Détection (détecter l'incident), Correctif (corriger après l'incident)."
+  },
+  {
+    "id": "Q056",
+    "type": "mcq",
+    "theme": "traitement",
+    "subtheme": "risque-residuel",
+    "difficulty": 1,
+    "source": "ISO 27005:2022",
+    "question": "Qu'est-ce que le risque résiduel ?",
+    "options": [
+      "Le risque brut avant toute mesure de sécurité",
+      "Le risque calculé uniquement sur la conséquence",
+      "Le niveau de risque restant après application du plan de traitement (nouvelles mesures)",
+      "Un risque qui n'a pas encore été identifié"
+    ],
+    "answer": 2,
+    "explanation": "Le risque résiduel est le niveau de risque subsistant après application du plan de traitement des risques (risque net − nouvelles mesures de traitement)."
+  },
+  {
+    "id": "Q057",
+    "type": "mcq",
+    "theme": "traitement",
+    "subtheme": "risque-residuel",
+    "difficulty": 3,
+    "source": "ISO 27005:2022",
+    "question": "Quelle est la différence entre 'risque brut', 'risque net' et 'risque résiduel' ?",
+    "options": [
+      "Ce sont trois termes synonymes",
+      "Risque brut : sans aucune mesure ; Risque net : avec les mesures existantes ; Risque résiduel : après traitement",
+      "Risque brut : financier ; Risque net : opérationnel ; Risque résiduel : stratégique",
+      "Risque brut : identifié ; Risque net : évalué ; Risque résiduel : accepté"
+    ],
+    "answer": 1,
+    "explanation": "Risque brut = risque sans mesures. Risque net = risque avec les mesures existantes. Risque résiduel = risque après le traitement (application des nouvelles mesures du PTR)."
+  },
+  {
+    "id": "Q058",
+    "type": "mcq",
+    "theme": "traitement",
+    "subtheme": "options-traitement",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Quel est le déclencheur pour la sélection d'options de traitement des risques (clause 8.2) ?",
+    "options": [
+      "Seulement lors de la révision annuelle du SMSI",
+      "Aucun plan de traitement des risques n'existe ou le plan est incomplet",
+      "À chaque nouvelle embauche dans l'organisation",
+      "Uniquement suite à un incident de sécurité"
+    ],
+    "answer": 1,
+    "explanation": "La sélection d'options de traitement devient nécessaire si aucun plan de traitement des risques (PTR) n'existe ou si le plan est incomplet."
+  },
+  {
+    "id": "Q059",
+    "type": "mcq",
+    "theme": "traitement",
+    "subtheme": "controles-securite",
+    "difficulty": 3,
+    "source": "ISO 27005:2022",
+    "question": "Pourquoi compare-t-on les contrôles identifiés avec l'annexe A de l'ISO/IEC 27001 (clause 8.4) ?",
+    "options": [
+      "Pour obtenir la certification ISO 27001 automatiquement",
+      "Pour identifier les contrôles manquants et s'assurer qu'aucun contrôle pertinent n'a été oublié",
+      "Pour calculer le coût total des contrôles",
+      "Pour classer les contrôles par ordre de priorité financière"
+    ],
+    "answer": 1,
+    "explanation": "La comparaison avec l'annexe A de l'ISO 27001 permet d'identifier les contrôles manquants lors des plans de traitement des risques."
+  },
+  {
+    "id": "Q060",
+    "type": "mcq",
+    "theme": "traitement",
+    "subtheme": "risque-residuel",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Qui doit approuver les risques résiduels selon la norme ?",
+    "options": [
+      "L'auditeur externe",
+      "L'équipe IT uniquement",
+      "Les porteurs des risques (risk owners)",
+      "La CNIL"
+    ],
+    "answer": 2,
+    "explanation": "Les risques résiduels doivent être approuvés par les porteurs des risques (risk owners), qui ont la responsabilité et le pouvoir de décision sur ces risques."
+  },
+  {
+    "id": "Q061",
+    "type": "mcq",
+    "theme": "smsi",
+    "subtheme": "integration-smsi",
+    "difficulty": 1,
+    "source": "ISO 27005:2022",
+    "question": "Qu'est-ce que le SMSI ?",
+    "options": [
+      "Un système de management spécifique aux risques financiers",
+      "L'appareil pour gérer l'entièreté de la sécurité de l'information dans une organisation (sécurité physique, réseaux, RH, réponse à incident, etc.)",
+      "Un outil logiciel de gestion des vulnérabilités",
+      "Un référentiel de certification des auditeurs"
+    ],
+    "answer": 1,
+    "explanation": "Le SMSI (Système de Management de la Sécurité de l'Information) est l'appareil permettant de gérer l'entièreté de la sécurité de l'information dans une organisation."
+  },
+  {
+    "id": "Q062",
+    "type": "mcq",
+    "theme": "smsi",
+    "subtheme": "integration-smsi",
+    "difficulty": 3,
+    "source": "ISO 27005:2022",
+    "question": "Quels sont les 8 éléments de l'alignement ISO/IEC 27005 au SMSI ?",
+    "options": [
+      "Identifier, analyser, évaluer, traiter, communiquer, surveiller, auditer, certifier",
+      "Contexte, leadership, communication, informations documentées, surveillance, management de la révision, action corrective, amélioration continue",
+      "Planifier, organiser, diriger, contrôler, améliorer, certifier, former, sensibiliser",
+      "Risque, contrôle, audit, certification, formation, revue, documentation, reporting"
+    ],
+    "answer": 1,
+    "explanation": "Les 8 éléments d'alignement sont : 1) Contexte de l'organisation, 2) Leadership et engagement, 3) Communication et consultation, 4) Informations documentées, 5) Surveillance et révision, 6) Management de la révision, 7) Action corrective, 8) Amélioration continue."
+  },
+  {
+    "id": "Q063",
+    "type": "mcq",
+    "theme": "smsi",
+    "subtheme": "relation-27001",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Que requiert l'ISO/IEC 27001 concernant l'implication du management dans les risques (clause 10.2) ?",
+    "options": [
+      "Le management peut déléguer entièrement la gestion des risques à l'équipe IT",
+      "Un niveau approprié de top management doit être impliqué dans toutes les activités liées aux risques",
+      "Seul le RSSI est responsable des décisions liées aux risques",
+      "Le management n'intervient que lors des incidents majeurs"
+    ],
+    "answer": 1,
+    "explanation": "L'ISO/IEC 27001 exige qu'un niveau approprié de management (top management) soit impliqué dans toutes les activités liées aux risques."
+  },
+  {
+    "id": "Q064",
+    "type": "mcq",
+    "theme": "smsi",
+    "subtheme": "relation-27001",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Que documente l'ISO/IEC 27001 dans les informations documentées (clause 10.4) ?",
+    "options": [
+      "Uniquement les incidents de sécurité survenus",
+      "Les informations documentées sur les processus d'évaluation ET sur les résultats du traitement des risques",
+      "Seulement les contrôles techniques mis en place",
+      "Uniquement les rapports d'audit"
+    ],
+    "answer": 1,
+    "explanation": "L'ISO/IEC 27001 requiert des informations documentées sur les processus d'évaluation et de traitement des risques, ainsi que sur leurs résultats."
+  },
+  {
+    "id": "Q065",
+    "type": "mcq",
+    "theme": "smsi",
+    "subtheme": "integration-smsi",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Dans le modèle SFDT (Source-Function-Destination-Trigger), à quoi correspondent les 'Destinations' ?",
+    "options": [
+      "Les utilisateurs du système",
+      "Les actifs primaires, processus et informations surveillés",
+      "Les adresses IP des attaquants",
+      "Les systèmes de détection d'intrusion"
+    ],
+    "answer": 1,
+    "explanation": "Dans le modèle SFDT, les 'Destinations' correspondent aux actifs surveillés : actifs primaires, processus, informations."
+  },
+  {
+    "id": "Q066",
+    "type": "mcq",
+    "theme": "smsi",
+    "subtheme": "integration-smsi",
+    "difficulty": 1,
+    "source": "ISO 27005:2022",
+    "question": "Qu'est-ce que l'action corrective dans le contexte de l'ISO/IEC 27005 (clause 10.7) ?",
+    "options": [
+      "La correction d'un bug informatique",
+      "La révision du plan de traitement pour ramener le risque résiduel à un niveau acceptable",
+      "Une sanction disciplinaire suite à un incident",
+      "Un audit externe de sécurité"
+    ],
+    "answer": 1,
+    "explanation": "L'action corrective consiste à réviser le plan de traitement des risques lorsqu'un risque résiduel demeure toujours présent à un niveau inacceptable."
+  },
+  {
+    "id": "Q067",
+    "type": "mcq",
+    "theme": "smsi",
+    "subtheme": "amelioration-continue",
+    "difficulty": 1,
+    "source": "ISO 27005:2022",
+    "question": "Qu'est-ce que l'amélioration continue dans le contexte ISO/IEC 27005 (clause 10.8) ?",
+    "options": [
+      "L'installation régulière de mises à jour logicielles",
+      "Le processus de gestion des risques en constante surveillance permettant l'alignement aux exigences de l'organisation grâce aux leçons apprises",
+      "L'amélioration des performances financières",
+      "La formation annuelle des collaborateurs"
+    ],
+    "answer": 1,
+    "explanation": "L'amélioration continue consiste à faire évoluer le processus de gestion des risques en capitalisant sur les leçons apprises pour mieux répondre aux exigences de l'organisation."
+  },
+  {
+    "id": "Q068",
+    "type": "mcq",
+    "theme": "smsi",
+    "subtheme": "integration-smsi",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Quel est le déclencheur pour le management de la révision (clause 10.6) ?",
+    "options": [
+      "Un incident de sécurité majeur uniquement",
+      "Un agenda prévu pour les révisions",
+      "Le départ d'un collaborateur clé",
+      "La fin du budget annuel"
+    ],
+    "answer": 1,
+    "explanation": "Le déclencheur pour le management de la révision est un agenda prévu pour les révisions (révision planifiée)."
+  },
+  {
+    "id": "Q069",
+    "type": "mcq",
+    "theme": "smsi",
+    "subtheme": "integration-smsi",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Selon la phase de surveillance (10.5.2), quels types de facteurs doivent être surveillés en continu ?",
+    "options": [
+      "Uniquement les facteurs techniques",
+      "Les conséquences, menaces, vulnérabilités, contrôles et tout changement dans l'environnement de menace",
+      "Seulement les facteurs financiers",
+      "Uniquement les incidents déclarés"
+    ],
+    "answer": 1,
+    "explanation": "La surveillance porte sur tous les facteurs influençant les risques : conséquences, menaces, vulnérabilités, contrôles, ainsi que tout changement dans le fonctionnement actuel ou l'environnement de menace."
+  },
+  {
+    "id": "Q070",
+    "type": "mcq",
+    "theme": "smsi",
+    "subtheme": "integration-smsi",
+    "difficulty": 3,
+    "source": "ISO 27005:2022",
+    "question": "Quel déclencheur initie la clause 10.1 (Contexte de l'organisation dans l'alignement SMSI) ?",
+    "options": [
+      "Un audit annuel",
+      "Les problèmes internes et externes liés aux risques influençant la gestion des risques de sécurité de l'information",
+      "La certification ISO 27001",
+      "Une demande client"
+    ],
+    "answer": 1,
+    "explanation": "Le déclencheur de la clause 10.1 sont les problèmes internes et externes liés aux risques influençant la gestion des risques de sécurité de l'information."
+  },
+  {
+    "id": "Q071",
+    "type": "mcq",
+    "theme": "certification-esd",
+    "subtheme": "certification-esd",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Quelle est la durée de validité de la certification ESD ISO/IEC 27005 ?",
+    "options": [
+      "1 an",
+      "2 ans",
+      "3 ans",
+      "5 ans"
+    ],
+    "answer": 2,
+    "explanation": "La certification ESD ISO/IEC 27005 est valide 3 ans."
+  },
+  {
+    "id": "Q072",
+    "type": "mcq",
+    "theme": "certification-esd",
+    "subtheme": "certification-esd",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Quel score minimum faut-il obtenir pour réussir l'examen de certification ESD ?",
+    "options": [
+      "60%",
+      "70%",
+      "75%",
+      "80%"
+    ],
+    "answer": 1,
+    "explanation": "L'examen de certification ESD ISO/IEC 27005 requiert un score minimum de 70% pour être réussi."
+  },
+  {
+    "id": "Q073",
+    "type": "mcq",
+    "theme": "certification-esd",
+    "subtheme": "certification-esd",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Sous quel format se passe l'examen ESD ISO/IEC 27005 ?",
+    "options": [
+      "Examen écrit en présentiel",
+      "QCM en ligne d'une durée de 2 heures",
+      "Étude de cas pratique",
+      "Entretien oral avec jury"
+    ],
+    "answer": 1,
+    "explanation": "L'examen est un QCM en ligne d'une durée de 2 heures."
+  },
+  {
+    "id": "Q074",
+    "type": "mcq",
+    "theme": "certification-esd",
+    "subtheme": "certification-esd",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Combien de domaines de compétences sont évalués lors de l'examen de certification ESD ?",
+    "options": [
+      "2 domaines",
+      "3 domaines",
+      "4 domaines",
+      "5 domaines"
+    ],
+    "answer": 1,
+    "explanation": "L'examen évalue 3 domaines : 1) Compréhension de l'ISO/IEC 27005:2022 et gestion des risques, 2) Mise en œuvre de l'ISO/IEC 27005:2022, 3) Audit et amélioration continue de la gestion des risques."
+  },
+  {
+    "id": "Q075",
+    "type": "mcq",
+    "theme": "examen",
+    "subtheme": "synthese",
+    "difficulty": 3,
+    "source": "ISO 27005:2022",
+    "question": "Quel est le cycle complet de l'appréciation des risques selon l'ISO/IEC 27005:2022 ?",
+    "options": [
+      "Planifier → Exécuter → Mesurer → Améliorer",
+      "Identification → Estimation → Évaluation",
+      "Contexte → Traitement → Documentation",
+      "Menace → Vulnérabilité → Impact"
+    ],
+    "answer": 1,
+    "explanation": "Le cycle d'appréciation (analyse) des risques comporte 3 phases : Identification (identifier et détailler les risques), Estimation (déterminer le niveau des risques) et Évaluation (comparer les résultats, prioriser)."
+  },
+  {
+    "id": "Q076",
+    "type": "mcq",
+    "theme": "examen",
+    "subtheme": "synthese",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Dans quel ordre se déroulent les phases principales de l'ISO/IEC 27005 ?",
+    "options": [
+      "Traitement → Contexte → Identification → Estimation → Évaluation",
+      "Contexte → Identification → Estimation → Évaluation → Traitement",
+      "Évaluation → Identification → Estimation → Contexte → Traitement",
+      "Identification → Contexte → Estimation → Traitement → Évaluation"
+    ],
+    "answer": 1,
+    "explanation": "Le bon ordre est : Contexte → Identification → Estimation → Évaluation → Traitement, avec communication/surveillance et documentation en continu."
+  },
+  {
+    "id": "Q077",
+    "type": "mcq",
+    "theme": "examen",
+    "subtheme": "synthese",
+    "difficulty": 3,
+    "source": "ISO 27005:2022",
+    "question": "Quelle annexe de l'ISO/IEC 27005:2022 présente l'approche par événement et par actif ?",
+    "options": [
+      "Annexe A",
+      "Annexe B",
+      "Annexe C",
+      "Annexe D"
+    ],
+    "answer": 0,
+    "explanation": "L'annexe A de l'ISO/IEC 27005:2022 présente les approches par événement et par actif, et contient également des exemples de sources de risque, d'objectifs visés, de vulnérabilités, etc."
+  },
+  {
+    "id": "Q078",
+    "type": "mcq",
+    "theme": "examen",
+    "subtheme": "synthese",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Quelle est la Cyber Kill Chain et dans quel contexte est-elle utilisée dans l'ISO/IEC 27005 ?",
+    "options": [
+      "Un antivirus utilisé pour détecter les malwares",
+      "Un framework décrivant les étapes successives d'une cyberattaque, utilisé pour construire les scénarios opérationnels",
+      "Un protocole de communication sécurisé",
+      "Un outil de monitoring réseau"
+    ],
+    "answer": 1,
+    "explanation": "La Cyber Kill Chain est un framework décrivant les étapes d'une cyberattaque (Connaître → Rentrer → Trouver → Exploiter). Elle est utilisée dans l'ISO/IEC 27005 pour construire les scénarios opérationnels lors de la phase d'identification."
+  },
+  {
+    "id": "Q079",
+    "type": "mcq",
+    "theme": "examen",
+    "subtheme": "synthese",
+    "difficulty": 2,
+    "source": "ISO 27005:2022",
+    "question": "Quelle est la relation entre le PTR (Plan de Traitement des Risques) et la DDA (Déclaration d'Applicabilité) ?",
+    "options": [
+      "Ce sont deux documents identiques",
+      "La DDA liste tous les contrôles applicables justifiés, le PTR planifie concrètement les actions, responsables et échéances pour traiter les risques",
+      "Le PTR remplace la DDA dans les nouvelles versions de la norme",
+      "La DDA est obligatoire, le PTR est optionnel"
+    ],
+    "answer": 1,
+    "explanation": "La DDA recense tous les contrôles avec leur justification et état de mise en œuvre (document statique), tandis que le PTR planifie les actions concrètes avec responsables, échéances et statuts (document d'action)."
+  },
+  {
+    "id": "Q080",
+    "type": "mcq",
+    "theme": "examen",
+    "subtheme": "synthese",
+    "difficulty": 3,
+    "source": "ISO 27005:2022",
+    "question": "Parmi ces affirmations, laquelle est FAUSSE concernant l'ISO/IEC 27005:2022 ?",
+    "options": [
+      "Elle s'aligne sur le paradigme PDCA",
+      "Elle identifie deux cycles : stratégique et opérationnel",
+      "Elle impose une méthode unique et obligatoire pour réaliser l'analyse de risques",
+      "Elle est liée à l'ISO/IEC 27001 qui exige son utilisation"
+    ],
+    "answer": 2,
+    "explanation": "Cette affirmation est FAUSSE : l'ISO/IEC 27005 est une norme (framework), elle ne prescrit pas une méthode unique. Elle recommande de choisir une méthode appropriée (EBIOS RM, MEHARI, etc.) alignée aux besoins de l'organisation."
+  }
+]
