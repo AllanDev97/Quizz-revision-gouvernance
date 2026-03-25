@@ -9,9 +9,9 @@
     "question": "Quel est le rôle principal du RSSI dans le cadre du SMSI ?",
     "options": [
       "Connaître les mesures de sécurité, les obligations légales et interpréter les risques métiers en termes SI",
-      "Développer les applications métiers de l'entreprise",
-      "Gérer uniquement la sécurité physique des locaux",
-      "Assurer la maintenance des serveurs informatiques"
+      "Développer les applications métiers de l'entreprise et assurer la gestion de projet des évolutions du SI",
+      "Gérer uniquement la sécurité physique des locaux et le contrôle d'accès aux zones sensibles du bâtiment",
+      "Assurer la maintenance préventive et corrective des serveurs informatiques et des équipements réseau"
     ],
     "answer": 0,
     "explanation": "Le RSSI connaît les mesures de sécurité mises en œuvre, les obligations légales, réglementaires et contractuelles, et comprend les risques métiers qu'il sait interpréter en termes SI."
@@ -76,10 +76,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "La certification ISO 27001 est-elle obligatoire pour mettre en œuvre un SMSI ?",
     "options": [
-      "Oui, elle est toujours obligatoire",
+      "Oui, elle est toujours obligatoire pour toute organisation souhaitant mettre en place un SMSI",
       "Non, elle n'est pas obligatoire mais peut dégager un avantage auprès des parties prenantes",
-      "Oui, uniquement pour les grandes entreprises",
-      "Non, car la certification n'existe pas pour ISO 27001"
+      "Oui, uniquement pour les grandes entreprises de plus de 500 salariés dans le secteur numérique",
+      "Non, car la certification n'existe pas pour la norme ISO 27001 et ne peut être obtenue en pratique"
     ],
     "answer": 1,
     "explanation": "La certification ISO 27001 n'est pas obligatoire pour la mise en œuvre d'un SMSI. Cependant, elle peut dégager un avantage auprès des parties prenantes et permettre d'atteindre des objectifs de sécurité de l'information."
@@ -93,10 +93,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Quel est le rôle de la norme ISO 27000 ?",
     "options": [
-      "Définir les exigences du SMSI",
+      "Définir les exigences du SMSI et fournir un cadre contraignant pour la mise en œuvre opérationnelle",
       "Fournir un aperçu de la famille des normes du SMSI et définir les termes et expressions utilisés",
-      "Spécifier les exigences pour les organismes de certification",
-      "Fournir les lignes directrices pour l'audit"
+      "Spécifier les exigences pour les organismes de certification souhaitant auditer un SMSI conforme",
+      "Fournir les lignes directrices pour la conduite des audits internes et externes du système de management"
     ],
     "answer": 1,
     "explanation": "La norme ISO 27000 fournit un aperçu de la famille des normes du SMSI, définit les termes et expressions utilisés, et propose une brève description du processus Plan-Do-Check-Act."
@@ -110,10 +110,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Que contient la norme ISO/CEI 27002 ?",
     "options": [
-      "Les exigences obligatoires du SMSI",
+      "Les exigences obligatoires du SMSI que toute organisation certifiée doit respecter",
       "Un code de bonnes pratiques pour la gestion de la sécurité de l'information",
-      "Les exigences pour les organismes de certification",
-      "Le dictionnaire des termes ISO"
+      "Les exigences spécifiques pour les organismes de certification et d'accréditation",
+      "Le dictionnaire des termes ISO utilisés dans l'ensemble de la famille de normes 2700x"
     ],
     "answer": 1,
     "explanation": "L'ISO/CEI 27002 est un code de bonnes pratiques pour la gestion de la sécurité de l'information, composée de 114 bonnes pratiques utilisables pour la mise en place d'un SMSI."
@@ -127,10 +127,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Quelle est la particularité de la norme ISO 27003 ?",
     "options": [
-      "Elle impose des exigences supplémentaires à la norme 27001",
+      "Elle impose des exigences supplémentaires à la norme 27001 concernant les mesures de sécurité obligatoires",
       "Elle se concentre sur les aspects critiques pour une mise en œuvre réussie du SMSI, sans préciser d'exigences",
-      "Elle remplace la norme ISO 27001",
-      "Elle concerne uniquement l'audit des SMSI"
+      "Elle remplace la norme ISO 27001 en fournissant un cadre plus complet et plus détaillé pour le management",
+      "Elle concerne uniquement l'audit des SMSI et la qualification des auditeurs internes et externes certifiés"
     ],
     "answer": 1,
     "explanation": "La norme 27003 se concentre sur les aspects critiques nécessaires à une mise en œuvre réussie d'un SMSI. Elle ne donne que des recommandations et explications, en aucun cas elle ne précise des exigences de la norme 27001."
@@ -144,10 +144,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Quel est l'objet principal de la norme ISO 27005 ?",
     "options": [
-      "La gestion documentaire du SMSI",
+      "La gestion documentaire du SMSI et la structuration de l'ensemble des procédures associées",
       "Les lignes directrices relatives à la gestion des risques en sécurité de l'information",
-      "L'audit des systèmes de management",
-      "La certification des organismes"
+      "L'audit des systèmes de management de la sécurité de l'information et la conduite des évaluations",
+      "La certification des organismes souhaitant délivrer des certificats de conformité ISO 27001"
     ],
     "answer": 1,
     "explanation": "La norme 27005 contient les lignes directrices relatives à la gestion des risques en sécurité de l'information et est conçue pour aider à la mise en place de la sécurité de l'information basée sur une approche de gestion des risques."
@@ -161,10 +161,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "À qui la norme ISO 27006 est-elle principalement destinée ?",
     "options": [
-      "Aux développeurs informatiques",
-      "Aux utilisateurs finaux du SMSI",
+      "Aux développeurs informatiques chargés de concevoir les applications métiers",
+      "Aux utilisateurs finaux du SMSI qui manipulent les données sensibles au quotidien",
       "Aux organismes de certification pour soutenir leur accréditation",
-      "Aux responsables RH des organisations"
+      "Aux responsables RH des organisations pour la gestion des habilitations du personnel"
     ],
     "answer": 2,
     "explanation": "La norme 27006 est principalement destinée à soutenir l'accréditation des organismes de certification. Elle spécifie les exigences pour les organismes assurant l'audit et la certification d'un SMSI."
@@ -178,10 +178,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Quel est le sujet principal de la norme ISO 27007 ?",
     "options": [
-      "La gestion des incidents de sécurité",
+      "La gestion des incidents de sécurité de l'information et leur traitement structuré",
       "La gestion des programmes d'audit du SMSI et la compétence des auditeurs",
-      "La collecte de preuves numériques",
-      "La mise en œuvre des mesures de sécurité cloud"
+      "La collecte de preuves numériques dans le cadre d'investigations de sécurité informatique",
+      "La mise en œuvre des mesures de sécurité spécifiques aux environnements cloud computing"
     ],
     "answer": 1,
     "explanation": "La norme 27007 fournit des conseils sur la gestion d'un programme d'audit du SMSI, sur la conduite des audits et sur la compétence des auditeurs du SMSI."
@@ -195,10 +195,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Quel est le domaine spécifique traité par la norme ISO 27017 ?",
     "options": [
-      "La sécurité physique des data centers",
+      "La sécurité physique des data centers et des infrastructures",
       "Les mesures de sécurité spécifiques au Cloud",
-      "La gestion des ressources humaines",
-      "La continuité d'activité"
+      "La gestion des ressources humaines et de la formation",
+      "La continuité d'activité et la reprise après sinistre"
     ],
     "answer": 1,
     "explanation": "La norme 27017 affine certaines mesures de sécurité de l'ISO 27002 pour tenir compte de la notion de Cloud et y ajoute de nouvelles mesures spécifiques à ce domaine."
@@ -212,10 +212,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Quel est l'objectif principal de la norme ISO 27035 ?",
     "options": [
-      "L'identification et la collecte de preuves numériques",
+      "L'identification et la collecte de preuves numériques dans le cadre d'enquêtes de sécurité",
       "La gestion structurée et planifiée des incidents de sécurité de l'information",
-      "La mise en œuvre du cloud computing",
-      "La certification des auditeurs"
+      "La mise en œuvre du cloud computing et la sécurisation des environnements virtualisés",
+      "La certification des auditeurs chargés de vérifier la conformité des systèmes de management"
     ],
     "answer": 1,
     "explanation": "La norme 27035 fournit une approche structurée et planifiée pour détecter, signaler et évaluer les incidents et vulnérabilités de sécurité de l'information, et améliorer en permanence la sécurité."
@@ -229,10 +229,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Quels sont les 3 sujets principaux abordés par la norme ISO 27037 ?",
     "options": [
-      "Cloud, virtualisation et conteneurs",
+      "Cloud computing, virtualisation des serveurs et gestion sécurisée des conteneurs applicatifs",
       "Généralités sur les preuves, exemples pratiques de collecte, et annexes complémentaires",
-      "Audit interne, audit externe et certification",
-      "Politique de sécurité, analyse de risques et plan de traitement"
+      "Audit interne du SMSI, audit externe de certification et processus d'accréditation des organismes",
+      "Politique de sécurité de l'information, analyse de risques détaillée et plan de traitement associé"
     ],
     "answer": 1,
     "explanation": "L'ISO 27037 aborde les généralités (principes de base de la gestion des preuves), des exemples pratiques de collecte/transport/stockage des preuves numériques, et des annexes complémentaires."
@@ -246,10 +246,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Quelle est la différence principale entre une norme et une réglementation ?",
     "options": [
-      "Une norme est obligatoire, une réglementation est volontaire",
+      "Une norme est obligatoire et s'applique à tous, tandis qu'une réglementation est d'application volontaire",
       "Une norme est un document de référence volontaire, une réglementation est imposée par les autorités",
-      "Il n'y a aucune différence entre les deux",
-      "Une norme est créée par l'État, une réglementation par les entreprises"
+      "Il n'y a aucune différence entre les deux concepts car ils servent les mêmes objectifs de conformité",
+      "Une norme est créée par l'État et imposée par décret, une réglementation est élaborée par les entreprises"
     ],
     "answer": 1,
     "explanation": "La norme est un document de référence approuvé par un institut de normalisation, se conformer aux normes n'est pas obligatoire. La réglementation est créée par des autorités administratives et son application est imposée."
@@ -280,10 +280,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Qu'est-ce qu'un système de management permet de faire ?",
     "options": [
-      "Uniquement développer des logiciels",
+      "Uniquement développer des logiciels et gérer les projets informatiques de l'entreprise",
       "Établir une politique, définir des objectifs et les atteindre",
-      "Remplacer la direction générale",
-      "Automatiser tous les processus informatiques"
+      "Remplacer la direction générale dans ses fonctions décisionnelles et stratégiques",
+      "Automatiser tous les processus informatiques sans intervention humaine ni supervision"
     ],
     "answer": 1,
     "explanation": "Un système de management permet d'établir une politique, d'établir des objectifs et d'atteindre ces objectifs. C'est un ensemble de mesures organisationnelles et techniques."
@@ -297,10 +297,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Pourquoi la mise en œuvre d'un SMSI est-elle considérée comme un projet transverse ?",
     "options": [
-      "Car elle ne concerne que la DSI",
+      "Car elle ne concerne que la DSI et les équipes techniques chargées de l'infrastructure informatique",
       "Car elle implique un nombre important de métiers et de compétences, pas uniquement la DSI ou l'IT",
-      "Car elle est réalisée uniquement par des consultants externes",
-      "Car elle ne dure qu'une semaine"
+      "Car elle est réalisée uniquement par des consultants externes spécialisés en systèmes de management",
+      "Car elle ne dure qu'une semaine et ne nécessite qu'une seule équipe dédiée au projet de conformité"
     ],
     "answer": 1,
     "explanation": "La mise en œuvre d'un SMSI est nécessairement un projet transverse car les systèmes de management impliquent un nombre important de métiers et de compétences. Ce n'est PAS UNIQUEMENT LA DSI OU L'IT."
@@ -348,10 +348,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Quel est l'avantage principal d'un système de management intégré type QSE ?",
     "options": [
-      "Réduire le nombre d'employés dans l'entreprise",
+      "Réduire le nombre d'employés dans l'entreprise en automatisant les processus de sécurité existants",
       "Optimiser les ressources, éviter la redondance d'informations et faciliter la prise de décisions",
-      "Supprimer tous les audits externes",
-      "Éliminer tous les risques de sécurité"
+      "Supprimer tous les audits externes et les contrôles de conformité réglementaires pour réduire les coûts",
+      "Éliminer tous les risques de sécurité de manière définitive sans nécessité de réévaluation continue"
     ],
     "answer": 1,
     "explanation": "Un système QSE permet d'optimiser les ressources (humaines, financières et matérielles), d'éviter la redondance d'informations et de documents, et de créer un équilibre facilitant la prise de décisions."
@@ -399,10 +399,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Au niveau de maturité 2 (Reproductible), quel est le principal facteur de risque ?",
     "options": [
-      "L'absence totale de processus",
+      "L'absence totale de processus documentés et de procédures formalisées au sein de l'organisation",
       "La dépendance aux connaissances individuelles, d'où une probabilité d'erreurs",
-      "Le manque de budget pour la sécurité",
-      "L'automatisation excessive des processus"
+      "Le manque de budget pour la sécurité de l'information et les investissements technologiques associés",
+      "L'automatisation excessive des processus sans contrôle humain ni validation des résultats obtenus"
     ],
     "answer": 1,
     "explanation": "Au niveau 2, on se repose beaucoup sur les connaissances individuelles, il n'y a pas de formation formelle ni de communication des procédures standardisées, d'où une probabilité d'erreurs."
@@ -433,10 +433,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Comment définit-on la confidentialité dans le contexte de la sécurité de l'information ?",
     "options": [
-      "La capacité d'un actif à être accessible sur demande",
+      "La capacité d'un actif à être accessible et utilisable sur demande par toute entité autorisée du système",
       "La propriété que les informations ne soient pas divulguées à des personnes ou processus non autorisés",
-      "La propriété de protéger l'exactitude et l'exhaustivité d'un actif",
-      "La capacité de tracer toutes les actions sur un système"
+      "La propriété de protéger l'exactitude et l'exhaustivité d'un actif contre toute modification non autorisée",
+      "La capacité de tracer de manière fiable toutes les actions effectuées sur un système d'information donné"
     ],
     "answer": 1,
     "explanation": "La confidentialité est la propriété que les informations ne soient pas mises à disposition ou divulguées à des personnes, entités ou processus non autorisés."
@@ -467,10 +467,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Comment définit-on une vulnérabilité ?",
     "options": [
-      "Une cause potentielle d'incident",
-      "Un changement négatif au niveau des objectifs de l'activité",
+      "Une cause potentielle d'incident pouvant résulter en un dommage significatif au système d'information",
+      "Un changement négatif au niveau des objectifs de l'activité métier impactant la performance de l'organisme",
       "Une faiblesse d'un actif ou d'une mesure qui peut être exploitée par une ou plusieurs menaces",
-      "La possibilité qu'une menace exploite un actif"
+      "La possibilité qu'une menace donnée exploite un actif informationnel et cause un préjudice à l'entreprise"
     ],
     "answer": 2,
     "explanation": "Une vulnérabilité est une faiblesse d'un actif ou d'une mesure qui peuvent être exploitées par une ou plusieurs menaces."
@@ -484,10 +484,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Qu'est-ce qu'un risque en sécurité de l'information ?",
     "options": [
-      "Une faiblesse d'un actif",
-      "Un changement négatif au niveau des objectifs",
+      "Une faiblesse d'un actif informationnel qui peut être exploitée par une ou plusieurs menaces identifiées",
+      "Un changement négatif au niveau des objectifs de l'activité pouvant impacter la performance de l'organisme",
       "La possibilité qu'une menace exploite les vulnérabilités d'un actif et cause un préjudice",
-      "Une mesure de sécurité technique"
+      "Une mesure de sécurité technique visant à protéger les actifs contre les attaques et les accès non autorisés"
     ],
     "answer": 2,
     "explanation": "Le risque est la possibilité qu'une menace donnée exploite les vulnérabilités d'un actif ou d'un groupe d'actifs et cause ainsi un préjudice à l'entreprise. Il combine probabilité (occurrence) et conséquence (impact)."
@@ -501,10 +501,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Quelles sont les différentes natures de mesures de sécurité ?",
     "options": [
-      "Uniquement des mesures techniques",
+      "Uniquement des mesures techniques telles que les pare-feu et les systèmes de détection",
       "Mesures managériales, juridiques, techniques et administratives",
-      "Uniquement des mesures organisationnelles",
-      "Mesures financières et commerciales"
+      "Uniquement des mesures organisationnelles portant sur les processus et les procédures internes",
+      "Mesures financières et commerciales destinées à optimiser le chiffre d'affaires de l'entreprise"
     ],
     "answer": 1,
     "explanation": "Les mesures de sécurité peuvent être de nature managériale (séparation des tâches, rotation des postes), juridique (exigences réglementaires, contractuelles), technique (pare-feu, IDS, alarmes) et administrative (formation)."
@@ -535,10 +535,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Pourquoi réduire le SMSI à son côté strictement informatique serait une erreur ?",
     "options": [
-      "Parce que le SMSI ne concerne pas du tout l'informatique",
+      "Parce que le SMSI ne concerne pas du tout l'informatique ni les systèmes d'information de l'entreprise",
       "Parce que la sécurité de l'information a une vision large, au-delà de la sécurité informatique",
-      "Parce que le SMSI concerne uniquement la sécurité physique",
-      "Parce que l'informatique n'a aucun lien avec la sécurité"
+      "Parce que le SMSI concerne uniquement la sécurité physique des locaux et le contrôle d'accès bâtimentaire",
+      "Parce que l'informatique n'a aucun lien avec la sécurité de l'information ni avec la gestion des risques"
     ],
     "answer": 1,
     "explanation": "En parlant de sécurité de l'information, on a une vision large et non pas uniquement la sécurité informatique. Réduire le SMSI à son côté strictement informatique serait une grave erreur."
@@ -569,10 +569,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Que demande la clause 4.1 de la norme ISO 27001 ?",
     "options": [
-      "La mise en place d'un pare-feu",
+      "La mise en place d'un pare-feu et de mesures techniques de protection du réseau de l'organisation",
       "La compréhension de l'organisme et de son contexte, y compris les enjeux externes et internes",
-      "La nomination d'un auditeur interne",
-      "La rédaction de la politique de sécurité"
+      "La nomination d'un auditeur interne chargé de vérifier la conformité du SMSI aux exigences de la norme",
+      "La rédaction de la politique de sécurité de l'information et sa communication aux parties intéressées"
     ],
     "answer": 1,
     "explanation": "La clause 4.1 exige que l'organisation détermine quels sont les enjeux externes et internes pertinents compte tenu de sa mission et qui influent sur sa capacité à obtenir les résultats attendus de son SMSI."
@@ -586,10 +586,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Que demande la clause 4.2 de la norme ISO 27001 ?",
     "options": [
-      "La définition du périmètre du SMSI",
+      "La définition du périmètre du SMSI et de ses frontières organisationnelles et techniques",
       "La compréhension des besoins et des attentes des parties intéressées",
-      "La mise en œuvre du plan de traitement des risques",
-      "La réalisation d'un audit interne"
+      "La mise en œuvre du plan de traitement des risques et le suivi de son application opérationnelle",
+      "La réalisation d'un audit interne permettant de vérifier la conformité du SMSI aux exigences"
     ],
     "answer": 1,
     "explanation": "La clause 4.2 vise à déterminer qui sont les parties prenantes concernées par le SMSI ainsi que leurs attentes concernant la sécurité de l'information."
@@ -603,10 +603,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Pourquoi le choix du domaine d'application (périmètre) est-il un moment important ?",
     "options": [
-      "Parce qu'il n'a aucune conséquence sur le projet",
+      "Parce qu'il n'a aucune conséquence sur le projet et ne nécessite pas de réflexion approfondie de la part de l'équipe",
       "Parce qu'un périmètre trop restreint entraîne des oublis et un périmètre trop large augmente les coûts inutilement",
-      "Parce qu'il est imposé par l'État",
-      "Parce qu'il ne peut jamais être modifié"
+      "Parce qu'il est imposé par l'État et les autorités réglementaires compétentes, sans possibilité de le modifier",
+      "Parce qu'il ne peut jamais être modifié une fois défini et reste figé pendant toute la durée de la certification"
     ],
     "answer": 1,
     "explanation": "Un périmètre trop restreint entraînera des oublis (ex: identification des biens), au contraire un périmètre trop large pourrait avoir comme effet une augmentation des coûts inutile."
@@ -620,10 +620,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Selon quels 3 types de frontières le périmètre du SMSI peut-il être classé ?",
     "options": [
-      "Technique, financière, commerciale",
+      "Technique, financière, commerciale et logistique au sein de l'organisme",
       "Organisationnelle, systèmes d'information, physique",
-      "Interne, externe, mixte",
-      "Nationale, européenne, internationale"
+      "Interne, externe, mixte selon le type d'activités exercées par l'entreprise",
+      "Nationale, européenne, internationale selon la zone géographique d'intervention"
     ],
     "answer": 1,
     "explanation": "Le périmètre peut être classé selon 3 types de frontières : organisationnelle (processus, département), systèmes d'information (réseaux, systèmes, applications, données, équipements), et physique (internes et externes)."
@@ -637,10 +637,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Selon la clause 5.1, que doit faire la direction en matière de SMSI ?",
     "options": [
-      "Déléguer entièrement le SMSI à un prestataire externe",
+      "Déléguer entièrement le SMSI à un prestataire externe spécialisé en cybersécurité",
       "Faire preuve de leadership et affirmer son engagement en faveur du SMSI",
-      "Se concentrer uniquement sur les aspects financiers",
-      "Ignorer le SMSI et se focaliser sur la production"
+      "Se concentrer uniquement sur les aspects financiers sans considérer la sécurité de l'information",
+      "Ignorer le SMSI et se focaliser sur la production et les objectifs commerciaux de l'entreprise"
     ],
     "answer": 1,
     "explanation": "La direction doit faire preuve de leadership et affirmer son engagement en s'assurant qu'une politique et des objectifs sont établis, que les ressources sont disponibles, et en promouvant l'amélioration continue."
@@ -654,10 +654,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Quels rôles la direction peut-elle avoir dans le cadre du SMSI ?",
     "options": [
-      "Uniquement valider le budget",
+      "Uniquement valider le budget de sécurité alloué au projet sans s'impliquer dans les décisions stratégiques du SMSI",
       "Établir les objectifs, confirmer les rôles, valider les politiques, approuver les risques résiduels, attribuer les ressources",
-      "Uniquement signer les documents",
-      "Uniquement participer aux audits externes"
+      "Uniquement signer les documents officiels produits dans le cadre de la mise en œuvre et du maintien du SMSI conforme",
+      "Uniquement participer aux audits externes de certification sans s'impliquer dans la gouvernance quotidienne du SMSI"
     ],
     "answer": 1,
     "explanation": "Les rôles de la direction incluent : établir les objectifs et la stratégie, confirmer les rôles et responsabilités, valider les politiques, approuver les critères d'acceptation et les risques résiduels, et attribuer les ressources."
@@ -671,10 +671,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Quelles sont les caractéristiques principales de la politique de sécurité de l'information (PSI) ?",
     "options": [
-      "Elle doit faire plus de 100 pages et être très technique",
+      "Elle doit faire plus de 100 pages et être très technique pour couvrir tous les aspects de la sécurité informatique",
       "Elle doit être synthétique (10-15 pages), lisible par un CODIR et ne changer que lorsque la stratégie change",
-      "Elle doit être rédigée uniquement en anglais",
-      "Elle est identique pour toutes les organisations"
+      "Elle doit être rédigée uniquement en anglais pour être conforme aux exigences internationales de la norme ISO",
+      "Elle est identique pour toutes les organisations, quel que soit leur secteur d'activité ou leur taille réelle"
     ],
     "answer": 1,
     "explanation": "La PSI doit être synthétique et courte (généralement entre 10 et 15 pages), lisible et compréhensible par un CODIR, et ne doit changer sur le fond que lorsque la stratégie de l'organisme change."
@@ -688,10 +688,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Que doit faire une entreprise au minimum pour remplir les exigences de l'ISO 27001 en matière de politique de sécurité ?",
     "options": [
-      "Engager un consultant externe",
+      "Engager un consultant externe spécialisé en cybersécurité et en normes ISO pour gérer le SMSI",
       "Publier sa politique de sécurité et la communiquer aux parties intéressées",
-      "Acheter un logiciel de sécurité",
-      "Former uniquement le directeur informatique"
+      "Acheter un logiciel de sécurité certifié ISO 27001 couvrant l'ensemble des mesures de l'Annexe A",
+      "Former uniquement le directeur informatique aux exigences de la norme ISO 27001 et à sa mise en œuvre"
     ],
     "answer": 1,
     "explanation": "Une entreprise désirant remplir les exigences de l'ISO 27001 doit au moins publier sa politique de sécurité de l'information et la communiquer aux parties intéressées."
@@ -705,10 +705,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Selon la clause 5.3, que doit faire la direction concernant les rôles au sein de l'organisation ?",
     "options": [
-      "Garder les rôles confidentiels",
+      "Garder les rôles et responsabilités confidentiels afin de protéger les informations sensibles de l'organisme",
       "S'assurer que les responsabilités et autorités des rôles liés à la sécurité sont attribuées et communiquées",
-      "Externaliser tous les rôles de sécurité",
-      "Ne désigner qu'un seul responsable pour tout le SMSI"
+      "Externaliser tous les rôles de sécurité auprès de prestataires spécialisés en gestion de la cybersécurité",
+      "Ne désigner qu'un seul responsable pour tout le SMSI sans lui attribuer d'équipe de support ni de moyens"
     ],
     "answer": 1,
     "explanation": "La direction doit s'assurer que les responsabilités et autorités des rôles concernés par la sécurité de l'information sont attribuées et communiquées au sein de l'organisation."
@@ -739,10 +739,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Que demande la clause 6.1.2 concernant l'appréciation des risques ?",
     "options": [
-      "Uniquement identifier les risques financiers",
+      "Uniquement identifier les risques financiers liés aux investissements technologiques et aux dépenses de sécurité informatique de l'organisation",
       "Définir et appliquer un processus d'appréciation des risques incluant les critères d'acceptation et l'identification des propriétaires des risques",
-      "Supprimer tous les risques identifiés",
-      "Sous-traiter l'intégralité de la gestion des risques"
+      "Supprimer tous les risques identifiés de manière définitive en mettant en place des mesures de sécurité exhaustives sans aucun risque résiduel",
+      "Sous-traiter l'intégralité de la gestion des risques à un prestataire externe sans conserver de responsabilité ni de contrôle sur le processus"
     ],
     "answer": 1,
     "explanation": "La clause 6.1.2 demande à l'organisation de définir et appliquer un processus d'appréciation des risques qui établit les critères de risque, identifie les risques liés à la perte de CIA, et identifie les propriétaires des risques."
@@ -756,10 +756,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Qu'est-ce que la Déclaration d'Applicabilité (DDA) ?",
     "options": [
-      "Un document marketing de l'entreprise",
+      "Un document marketing de l'entreprise destiné à promouvoir la conformité du SMSI auprès des clients et partenaires",
       "Un document correspondant à l'Annexe A où l'organisation déclare les mesures applicables et justifie les exclusions",
-      "Un certificat de conformité",
-      "Un contrat avec les fournisseurs"
+      "Un certificat de conformité délivré par un organisme de certification accrédité attestant le respect de la norme",
+      "Un contrat avec les fournisseurs et prestataires définissant les responsabilités réciproques en matière de sécurité"
     ],
     "answer": 1,
     "explanation": "La DDA correspond à l'Annexe A de la norme ISO 27001. L'organisation doit décrire toutes les mesures appropriées qu'elle prend en compte et qui sont applicables à son SMSI, et justifier les mesures non-applicables."
@@ -773,10 +773,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Quels problèmes peuvent survenir lors de la construction de la DDA ?",
     "options": [
-      "Le document est toujours parfait dès la première version",
+      "Le document est toujours parfait dès la première version et ne nécessite aucune révision ni mise à jour ultérieure par l'équipe",
       "Une sélection trop large alourdit le travail, une sélection trop restreinte entraîne des oublis et un risque de non-conformité",
-      "Il n'y a jamais de problème avec la DDA",
-      "La DDA n'est pas exigée par la norme"
+      "Il n'y a jamais de problème avec la DDA car la norme fournit un modèle standard applicable à toutes les organisations conforme",
+      "La DDA n'est pas exigée par la norme ISO 27001 et son élaboration reste entièrement optionnelle pour les organismes certifiés"
     ],
     "answer": 1,
     "explanation": "Une sélection trop large peut alourdir le travail et augmenter les niveaux d'écarts. Une sélection trop restreinte peut entraîner des oublis importants et un risque de non-conformité."
@@ -790,10 +790,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Concernant la méthodologie de gestion des risques, que dit la norme ISO 27001 ?",
     "options": [
-      "Elle impose la méthode EBIOS",
-      "Elle impose la méthode MEHARI",
+      "Elle impose la méthode EBIOS comme seule approche valide pour l'appréciation des risques de sécurité",
+      "Elle impose la méthode MEHARI comme référence unique pour l'analyse et la gestion des risques du SMSI",
       "Aucune méthodologie n'est imposée, mais elle doit être alignée avec les exigences de la norme",
-      "Elle impose la méthode OCTAVE"
+      "Elle impose la méthode OCTAVE développée par le CERT pour identifier et gérer les risques informatiques"
     ],
     "answer": 2,
     "explanation": "Aucune méthodologie n'est imposée pour la gestion et l'appréciation des risques. Cependant, il faut considérer l'alignement avec les exigences de la norme, la langue, la documentation, la complexité et le coût."
@@ -807,10 +807,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Selon la clause 6.2, quelles propriétés les objectifs de sécurité de l'information doivent-ils avoir ?",
     "options": [
-      "Ils doivent être secrets et non communiqués",
+      "Ils doivent être secrets et non communiqués aux parties prenantes ni aux collaborateurs de l'organisme",
       "Ils doivent être cohérents avec la politique, mesurables, communiqués et mis à jour",
-      "Ils doivent être définis uniquement par les auditeurs externes",
-      "Ils n'ont pas besoin d'être documentés"
+      "Ils doivent être définis uniquement par les auditeurs externes lors de la certification du SMSI conforme",
+      "Ils n'ont pas besoin d'être documentés ni mesurables et restent à la discrétion de chaque responsable"
     ],
     "answer": 1,
     "explanation": "Les objectifs doivent être cohérents avec la politique de sécurité, mesurables (si possible), tenir compte des exigences et des résultats de l'appréciation des risques, être communiqués et mis à jour."
@@ -824,10 +824,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Que demande la clause 7.1 (Ressources) de la norme ISO 27001 ?",
     "options": [
-      "De réduire les effectifs au minimum",
+      "De réduire les effectifs au minimum pour diminuer les coûts liés au SMSI",
       "D'identifier et fournir les ressources nécessaires au SMSI",
-      "De ne pas investir dans la sécurité",
-      "De n'utiliser que des ressources gratuites"
+      "De ne pas investir dans la sécurité et de s'appuyer uniquement sur l'existant",
+      "De n'utiliser que des ressources gratuites et open source pour le fonctionnement du SMSI"
     ],
     "answer": 1,
     "explanation": "L'organisation doit identifier et fournir les ressources nécessaires à l'établissement, la mise en œuvre, la tenue à jour et l'amélioration continue du SMSI."
@@ -841,10 +841,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Selon la clause 7.2 (Compétences), que doit faire l'organisation ?",
     "options": [
-      "Ignorer les compétences du personnel",
+      "Ignorer les compétences du personnel et se concentrer uniquement sur l'achat d'outils de sécurité informatique",
       "Déterminer les compétences nécessaires, s'assurer que les personnes sont compétentes, et conserver les preuves",
-      "Former uniquement le RSSI",
-      "Sous-traiter toutes les compétences"
+      "Former uniquement le RSSI aux exigences de la norme et ne pas prendre en compte les compétences des équipes",
+      "Sous-traiter toutes les compétences de sécurité à un prestataire externe sans développer les ressources internes"
     ],
     "answer": 1,
     "explanation": "L'organisation doit déterminer les compétences nécessaires, s'assurer que les personnes sont compétentes (formation initiale, continue ou expérience), mener des actions pour acquérir les compétences et conserver les preuves."
@@ -858,10 +858,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Qui est concerné par la sensibilisation à la sécurité de l'information ?",
     "options": [
-      "Uniquement les informaticiens",
-      "Uniquement la direction générale",
+      "Uniquement les informaticiens et les équipes techniques du département systèmes d'information",
+      "Uniquement la direction générale et les membres du comité exécutif de l'organisation",
       "Tout le personnel de l'organisation, peu importe son niveau hiérarchique",
-      "Uniquement les prestataires externes"
+      "Uniquement les prestataires externes et les sous-traitants intervenant sur le système d'information"
     ],
     "answer": 2,
     "explanation": "La sensibilisation concerne tout le personnel de l'organisation peu importe son niveau hiérarchique. Elle vise essentiellement à inculquer les bons réflexes."
@@ -892,10 +892,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Selon la clause 7.5.2, quels éléments doivent être vérifiés lors de la création de documents ?",
     "options": [
-      "Uniquement le nom du fichier",
+      "Uniquement le nom du fichier et son emplacement sur le serveur de stockage documentaire de l'organisation",
       "L'identification (titre, date, auteur, numéro), le format (langue, version, graphiques) et l'approbation",
-      "Uniquement la taille du fichier",
-      "Uniquement le nombre de pages"
+      "Uniquement la taille du fichier et la compatibilité avec les systèmes informatiques utilisés par l'entreprise",
+      "Uniquement le nombre de pages du document et son poids numérique pour l'archivage sur les serveurs internes"
     ],
     "answer": 1,
     "explanation": "Lors de la création et mise à jour de documents, l'organisation doit s'assurer de l'identification (titre, date, auteur, numéro de référence), du format (langue, version logicielle, graphiques) et de l'examen et approbation."
@@ -909,10 +909,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Quelles sont les activités de contrôle des informations documentées selon la clause 7.5.3 ?",
     "options": [
-      "Uniquement le stockage sur clé USB",
+      "Uniquement le stockage sur clé USB et la sauvegarde locale des informations documentées du SMSI conforme",
       "Distribution, accès, récupération, stockage, contrôle des modifications et durée de conservation",
-      "Uniquement l'impression papier",
-      "Uniquement l'envoi par email"
+      "Uniquement l'impression papier des documents officiels et leur archivage physique dans les locaux sécurisés",
+      "Uniquement l'envoi par email aux parties intéressées et la confirmation de bonne réception des documents"
     ],
     "answer": 1,
     "explanation": "Le contrôle des informations documentées comprend : distribution, accès, récupération et utilisation, stockage et conservation, contrôle des modifications (contrôle des versions), et durée de conservation et suppression."
@@ -926,10 +926,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Que demande la clause 8.2 concernant l'appréciation des risques en phase de fonctionnement ?",
     "options": [
-      "Ne jamais réévaluer les risques une fois le SMSI en place",
+      "Ne jamais réévaluer les risques une fois le SMSI en place car l'appréciation initiale reste toujours valide",
       "Réaliser des appréciations des risques à des intervalles planifiés ou lors de changements significatifs",
-      "Réaliser une seule appréciation des risques pour toute la durée du certificat",
-      "Confier l'appréciation des risques uniquement à des auditeurs externes"
+      "Réaliser une seule appréciation des risques pour toute la durée du certificat ISO 27001 de trois ans",
+      "Confier l'appréciation des risques uniquement à des auditeurs externes accrédités par le COFRAC en France"
     ],
     "answer": 1,
     "explanation": "L'organisation doit réaliser des appréciations des risques à des intervalles planifiés ou quand des changements significatifs sont prévus ou ont lieu, en tenant compte des critères établis en 6.1.2."
@@ -943,10 +943,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Quels types d'indicateurs de performance (KPI) peuvent être construits pour le SMSI ?",
     "options": [
-      "Uniquement des indicateurs financiers",
+      "Uniquement des indicateurs financiers tels que le retour sur investissement et le budget de sécurité",
       "Indicateurs d'avancement du projet, indicateurs stratégiques et indicateurs opérationnels",
-      "Uniquement le nombre de serveurs",
-      "Uniquement le temps de réponse des applications"
+      "Uniquement le nombre de serveurs déployés et la capacité de stockage disponible dans l'infrastructure",
+      "Uniquement le temps de réponse des applications web et la latence des services réseau de l'entreprise"
     ],
     "answer": 1,
     "explanation": "Les indicateurs peuvent être construits sur l'avancement du projet SMSI, les indicateurs stratégiques (conformité, protection de l'information) et les indicateurs opérationnels (attaques, sinistres, risques couverts/non couverts)."
@@ -960,10 +960,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "La norme ISO 27001 impose-t-elle ce qui doit être mesuré ?",
     "options": [
-      "Oui, elle impose une liste exhaustive d'indicateurs",
+      "Oui, elle impose une liste exhaustive d'indicateurs que chaque organisation doit obligatoirement suivre et documenter",
       "Non, la norme n'impose pas ce qui doit être mesuré, mais il est recommandé de mesurer les processus les plus critiques",
-      "Oui, elle impose exactement 20 indicateurs",
-      "Non, car les mesures ne sont pas nécessaires"
+      "Oui, elle impose exactement 20 indicateurs prédéfinis que toute organisation certifiée doit mesurer chaque trimestre",
+      "Non, car les mesures ne sont pas nécessaires dans le cadre du SMSI et n'apportent aucune valeur à l'organisation"
     ],
     "answer": 1,
     "explanation": "La norme n'impose pas ce qui doit être mesuré. Cependant, il est de bonne pratique de mesurer les processus les plus critiques. Attention : trop d'indicateurs pourraient causer des incompréhensions."
@@ -977,10 +977,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Quel est l'objectif principal de l'audit interne du SMSI ?",
     "options": [
-      "Remplacer l'audit externe",
+      "Remplacer l'audit externe et éviter la nécessité d'une certification par un organisme tiers",
       "Déterminer si le SMSI est conforme aux exigences et efficacement mis en œuvre",
-      "Sanctionner les employés non conformes",
-      "Supprimer le SMSI si non conforme"
+      "Sanctionner les employés non conformes et leur imposer des mesures disciplinaires appropriées",
+      "Supprimer le SMSI si non conforme et recommencer entièrement le processus de mise en œuvre"
     ],
     "answer": 1,
     "explanation": "L'audit interne vise à déterminer si le SMSI est conforme aux exigences propres de l'organisation et de la norme, et s'il est efficacement mis en œuvre et tenu à jour."
@@ -994,10 +994,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Quelle est la différence entre l'audit interne et l'audit externe ?",
     "options": [
-      "Il n'y a aucune différence",
+      "Il n'y a aucune différence fondamentale entre l'audit interne et l'audit externe car ils suivent exactement la même méthodologie et poursuivent les mêmes objectifs",
       "L'audit interne a un rôle de conseil et tient compte de l'efficacité et l'efficience ; l'audit externe est indépendant de l'organisme et n'a aucun rôle de conseil",
-      "L'audit interne est réalisé par des auditeurs externes, et inversement",
-      "L'audit interne est obligatoire, l'audit externe est facultatif"
+      "L'audit interne est réalisé par des auditeurs externes certifiés, et inversement l'audit externe est conduit par des collaborateurs internes formés à la norme 27001",
+      "L'audit interne est obligatoire uniquement pour les grandes entreprises, l'audit externe est toujours facultatif quel que soit le type d'organisation et sa taille"
     ],
     "answer": 1,
     "explanation": "L'audit interne est indépendant des activités auditées, tient compte de l'efficacité et l'efficience et a un rôle de conseil. L'audit externe est indépendant de l'organisme, ne tient compte que de l'efficacité et n'a aucun rôle de conseil."
@@ -1011,10 +1011,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Quels sont les 3 points que l'audit interne vise généralement à vérifier ?",
     "options": [
-      "Le chiffre d'affaires, le bénéfice et la marge",
+      "Le chiffre d'affaires de l'organisation, le bénéfice net réalisé et la marge opérationnelle dégagée sur l'exercice comptable annuel",
       "L'absence d'écart avec les articles 4-10, l'application des mesures de la DDA, et l'absence d'écart entre procédures et application",
-      "La satisfaction client, la productivité et le turn-over",
-      "La qualité du code, la performance des serveurs et la bande passante"
+      "La satisfaction client mesurée par des enquêtes, la productivité des équipes et le taux de turn-over du personnel de l'organisation",
+      "La qualité du code source des applications, la performance des serveurs de production et la bande passante réseau disponible au quotidien"
     ],
     "answer": 1,
     "explanation": "L'audit interne vérifie : l'absence d'écart entre les processus et les exigences des articles 4 à 10, l'application des mesures de sécurité de la DDA, et l'absence d'écart entre les procédures et leur application."
@@ -1028,10 +1028,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "À quelle fréquence minimale la revue de direction doit-elle être effectuée ?",
     "options": [
-      "Une fois par semaine",
-      "Une fois par mois",
+      "Une fois par semaine au minimum",
+      "Une fois par mois obligatoirement",
       "Au moins une fois par an",
-      "Tous les 3 ans"
+      "Tous les 3 ans lors du renouvellement"
     ],
     "answer": 2,
     "explanation": "Une revue de direction doit être effectuée à intervalles planifiés, au moins une fois par an. Les revues de direction doivent être documentées."
@@ -1045,10 +1045,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Que doit faire l'organisation lorsqu'une non-conformité se produit selon la clause 10.1 ?",
     "options": [
-      "Ignorer la non-conformité et continuer",
+      "Ignorer la non-conformité et continuer les opérations normales sans modifier les processus existants du SMSI",
       "Réagir pour maîtriser et corriger la non-conformité, traiter les conséquences, et évaluer les actions nécessaires",
-      "Arrêter immédiatement toute activité",
-      "Renouveler entièrement le SMSI"
+      "Arrêter immédiatement toute activité de l'organisation jusqu'à ce qu'un audit externe valide les corrections",
+      "Renouveler entièrement le SMSI en reprenant toutes les étapes depuis la phase initiale d'analyse et de cadrage"
     ],
     "answer": 1,
     "explanation": "L'organisation doit réagir à la non-conformité (maîtriser et corriger, traiter les conséquences), évaluer s'il faut une action pour éliminer les causes, examiner la non-conformité, déterminer les causes et les non-conformités similaires."
@@ -1062,10 +1062,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Pourquoi la détection de non-conformités est-elle vue positivement par les auditeurs externes ?",
     "options": [
-      "Parce que les auditeurs aiment trouver des erreurs",
+      "Parce que les auditeurs aiment trouver des erreurs et sanctionner les organisations pour les non-conformités",
       "Parce qu'elle démontre la franchise, la transparence et la sensibilisation des équipes",
-      "Parce qu'elle permet de facturer plus d'audits",
-      "Parce qu'elle n'a aucune importance"
+      "Parce qu'elle permet de facturer plus d'audits supplémentaires et d'augmenter les revenus de l'organisme",
+      "Parce qu'elle n'a aucune importance dans le processus de certification et n'influence pas la décision finale"
     ],
     "answer": 1,
     "explanation": "La détection de non-conformités est signe de franchise et transparence. L'absence de non-conformités pendant un an rend l'auditeur méfiant. La présence de non-conformités n'est pas reprochée, mais l'absence de détection ou d'actions peut être sanctionnée."
@@ -1096,10 +1096,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Pourquoi le projet SMSI est-il considéré comme fondamentalement transversal ?",
     "options": [
-      "Parce qu'il ne concerne que le service informatique",
+      "Parce qu'il ne concerne que le service informatique et les équipes techniques de l'infrastructure réseau",
       "Parce qu'il impacte toute l'échelle hiérarchique, de la direction générale aux fonctions opérationnelles",
-      "Parce qu'il est géré uniquement par un consultant externe",
-      "Parce qu'il ne dure qu'un mois"
+      "Parce qu'il est géré uniquement par un consultant externe sans implication des équipes internes de l'organisme",
+      "Parce qu'il ne dure qu'un mois et se limite à la rédaction de quelques documents de conformité réglementaire"
     ],
     "answer": 1,
     "explanation": "Le projet SMSI est fondamentalement transversal et impacte toute l'échelle hiérarchique de l'organisation, de la direction générale aux différentes fonctions opérationnelles."
@@ -1113,10 +1113,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Quelle certification le chef de projet SMSI devrait-il idéalement posséder ?",
     "options": [
-      "PMP uniquement",
+      "PMP uniquement, sans aucune autre certification requise",
       "Lead Auditor ou Lead Implementer ISO 27001",
-      "ITIL Foundation uniquement",
-      "Aucune certification n'est nécessaire"
+      "ITIL Foundation uniquement, sans certification ISO spécifique",
+      "Aucune certification n'est nécessaire pour ce type de projet"
     ],
     "answer": 1,
     "explanation": "Il est nécessaire que le chef de projet ait reçu une formation certifiant la connaissance de la norme ISO 27001 (Lead Auditor / Lead Implementer)."
@@ -1147,10 +1147,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Pourquoi l'approche séquentielle (suivre les chapitres 4 à 10 dans l'ordre) est-elle considérée comme dangereuse ?",
     "options": [
-      "Parce que la norme l'interdit explicitement",
+      "Parce que la norme l'interdit explicitement et impose une approche itérative basée sur le modèle PDCA pour la mise en œuvre de chaque clause",
       "Parce qu'elle ne prend pas en compte la réalité du terrain, les mesures existantes, les priorités et la nécessité de paralléliser les tâches",
-      "Parce qu'elle est trop rapide",
-      "Parce qu'elle est trop coûteuse"
+      "Parce qu'elle est trop rapide et ne laisse pas suffisamment de temps pour approfondir chaque exigence et impliquer toutes les parties prenantes",
+      "Parce qu'elle est trop coûteuse en ressources humaines et financières et ne permet pas d'optimiser les investissements liés au projet du SMSI"
     ],
     "answer": 1,
     "explanation": "L'approche séquentielle est dangereuse car elle oublie de prendre en compte la réalité du terrain, les mesures déjà existantes, la définition des priorités et la nécessité de paralléliser les tâches."
@@ -1164,10 +1164,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Quelles sont les 3 contraintes de l'approche projet pour le chef de projet SMSI ?",
     "options": [
-      "Budget, délai, qualité",
+      "Budget alloué au projet, délai de mise en œuvre prévu et qualité globale des livrables attendus par les parties prenantes",
       "Les exigences de la norme, l'application du modèle PDCA, et la cohérence générale entre périmètre/politique/risques/mesures",
-      "Ressources humaines, matérielles et financières",
-      "Confidentialité, intégrité, disponibilité"
+      "Ressources humaines disponibles, ressources matérielles mobilisées et ressources financières allouées au projet du SMSI",
+      "Confidentialité des informations sensibles, intégrité des données critiques et disponibilité des services informatiques"
     ],
     "answer": 1,
     "explanation": "Le chef de projet doit tenir compte de 3 contraintes : les exigences de la norme, l'application du modèle PDCA, et la cohérence générale entre le périmètre, la politique de sécurité, l'appréciation des risques et les mesures."
@@ -1181,10 +1181,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "En quoi consiste la phase 1 'L'analyse' de l'approche projet ?",
     "options": [
-      "La mise en production du SMSI",
+      "La mise en production du SMSI et le déploiement opérationnel des mesures de sécurité",
       "L'étude d'opportunité, l'état des lieux et l'étude des options de périmètre",
-      "La rédaction de la DDA",
-      "L'audit de certification"
+      "La rédaction de la DDA et la justification détaillée de chaque mesure de l'Annexe A",
+      "L'audit de certification par un organisme accrédité et l'obtention du certificat ISO 27001"
     ],
     "answer": 1,
     "explanation": "La phase 1 comprend l'établissement d'une étude d'opportunité (évaluer la mise en place du SMSI), l'état des lieux (processus, appréciation des risques, mesures existantes) et l'étude des options de périmètre."
@@ -1198,10 +1198,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Quels éléments constituent la phase 2 'Mise en œuvre de la structure' ?",
     "options": [
-      "Uniquement l'installation de pare-feu",
+      "Uniquement l'installation de pare-feu et de systèmes de détection d'intrusion sur le réseau de l'organisme",
       "Gouvernance de la sécurité, documentation, audit interne, formation/sensibilisation et indicateurs",
-      "Uniquement l'embauche de personnel",
-      "Uniquement la rédaction de procédures"
+      "Uniquement l'embauche de personnel technique spécialisé en sécurité informatique et en gestion des risques",
+      "Uniquement la rédaction de procédures opérationnelles et leur archivage dans le système documentaire conforme"
     ],
     "answer": 1,
     "explanation": "La phase 2 comprend la gouvernance de la sécurité (structure de décisions), la documentation (procédure de gestion documentaire), l'audit interne et suivi des actions, la formation et sensibilisation, et les indicateurs."
@@ -1215,10 +1215,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Pourquoi la phase 3 'Mise en place des processus du SMSI' est-elle souvent la plus longue ?",
     "options": [
-      "Parce qu'elle ne comprend qu'une seule tâche simple",
+      "Parce qu'elle ne comprend qu'une seule tâche simple qui consiste à documenter les processus existants de l'organisation certifiée",
       "Parce qu'elle initie l'appréciation des risques et la mise en place des mesures de sécurité, avec 14 grandes catégories de mesures",
-      "Parce qu'elle ne concerne que la documentation",
-      "Parce qu'elle est réalisée uniquement par une seule personne"
+      "Parce qu'elle ne concerne que la documentation et la rédaction des procédures de gestion documentaire exigées par la norme ISO 27001",
+      "Parce qu'elle est réalisée uniquement par une seule personne sans l'aide de collaborateurs ni de prestataires spécialisés en SMSI"
     ],
     "answer": 1,
     "explanation": "La phase 3 est souvent la plus longue car elle initie l'appréciation des risques et se poursuit par la mise en place des mesures de sécurité. Chaque mesure peut faire l'objet d'un sous-projet et 14 grandes catégories sont présentes."
@@ -1232,10 +1232,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Quelles sont les erreurs courantes lors de l'implémentation d'un SMSI ?",
     "options": [
-      "Trop impliquer la direction et trop de communication",
+      "Trop impliquer la direction et communiquer de manière excessive avec les parties prenantes internes et externes de l'organisme",
       "Travailler sans l'appui de la direction, travailler seul, ne pas mettre en place de structure de base, se tromper de périmètre",
-      "Suivre trop scrupuleusement la norme",
-      "Avoir trop d'auditeurs internes"
+      "Suivre trop scrupuleusement la norme ISO 27001 en appliquant toutes les mesures sans adaptation au contexte de l'organisation",
+      "Avoir trop d'auditeurs internes formés et mobilisés pour le projet, ce qui génère des coûts supplémentaires sans valeur ajoutée"
     ],
     "answer": 1,
     "explanation": "Les erreurs courantes incluent : travailler sans l'appui de la direction, travailler seul, ne pas mettre en place une structure de base, se tromper de périmètre, erreur de granularité de la DDA, et l'approche 'Procédures et pavé'."
@@ -1266,10 +1266,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Quelle est la différence entre certification et accréditation ?",
     "options": [
-      "Il n'y a aucune différence",
+      "Il n'y a aucune différence entre la certification et l'accréditation car ces deux concepts désignent le même processus de validation de la conformité ISO",
       "La certification est l'action de délivrer des certificats ; l'accréditation est l'habilitation délivrée par le COFRAC pour qu'un organisme puisse certifier",
-      "L'accréditation est délivrée aux entreprises, la certification aux auditeurs",
-      "La certification est gratuite, l'accréditation est payante"
+      "L'accréditation est délivrée directement aux entreprises candidates, tandis que la certification est réservée exclusivement aux auditeurs individuels",
+      "La certification est entièrement gratuite pour les organisations, tandis que l'accréditation est un processus payant uniquement pour les organismes tiers"
     ],
     "answer": 1,
     "explanation": "La certification est l'action d'un organisme de certification qui délivre des certificats. L'accréditation est l'habilitation délivrée par le COFRAC à un organisme pour qu'il puisse délivrer des certificats."
@@ -1283,10 +1283,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Quelles sont les 5 catégories de constats d'audit ?",
     "options": [
-      "Bon, Moyen, Faible, Très faible, Nul",
+      "Bon, Moyen, Faible, Très faible, Nul selon une échelle de notation standardisée par la norme ISO 27001",
       "Non-conformités majeures, non-conformités mineures, points sensibles, pistes de progrès, points forts",
-      "Urgent, Important, Normal, Faible, Négligeable",
-      "Critique, Élevé, Moyen, Bas, Informationnel"
+      "Urgent, Important, Normal, Faible, Négligeable selon la classification de priorité des actions correctives",
+      "Critique, Élevé, Moyen, Bas, Informationnel selon le référentiel de classification des risques de sécurité"
     ],
     "answer": 1,
     "explanation": "Les 5 catégories de constats d'audit sont : les non-conformités majeures, les non-conformités mineures, les points sensibles, les pistes de progrès et les points forts."
@@ -1300,10 +1300,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Quel est l'objet de la norme ISO 27004 ?",
     "options": [
-      "La gestion des incidents de sécurité",
+      "La gestion des incidents de sécurité de l'information et la réponse aux alertes de cybersécurité",
       "L'élaboration et l'utilisation de mesures pour évaluer l'efficacité d'un SMSI",
-      "La gestion des risques de sécurité",
-      "La certification des organismes"
+      "La gestion des risques de sécurité de l'information et l'analyse des menaces pesant sur les actifs",
+      "La certification des organismes et l'accréditation des auditeurs pour les systèmes de management"
     ],
     "answer": 1,
     "explanation": "La norme 27004 fournit des éléments sur l'élaboration et l'utilisation de mesures afin d'évaluer l'efficacité d'un SMSI (surveillance, mesurage, analyse et évaluation)."
@@ -1317,10 +1317,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Quels types d'obligations gravitent autour de l'entreprise selon le cours ?",
     "options": [
-      "Uniquement les obligations fiscales",
+      "Uniquement les obligations fiscales et comptables imposées par les autorités de régulation nationales",
       "Lois et règlements, normes volontaires, contrats signés et politiques internes",
-      "Uniquement les contrats commerciaux",
-      "Uniquement les normes ISO"
+      "Uniquement les contrats commerciaux signés avec les clients et les partenaires commerciaux de l'entreprise",
+      "Uniquement les normes ISO applicables au secteur d'activité de l'entreprise et à son domaine de compétence"
     ],
     "answer": 1,
     "explanation": "L'écosystème des obligations comprend : les lois et règlements (obligatoires), les normes (volontaires), les contrats signés par l'organisme et les politiques internes à l'organisation."
@@ -1334,10 +1334,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "De quoi est composée la nomenclature type d'un système de management ?",
     "options": [
-      "Uniquement de documents techniques",
+      "Uniquement de documents techniques et de spécifications informatiques",
       "De politiques, de processus et de procédures",
-      "Uniquement de lois et règlements",
-      "Uniquement de logiciels et d'outils"
+      "Uniquement de lois et règlements applicables au secteur d'activité",
+      "Uniquement de logiciels et d'outils dédiés à la gestion de la sécurité"
     ],
     "answer": 1,
     "explanation": "Tout système de management repose sur une nomenclature type composée de politiques (définies par la direction), de processus (d'ordre fonctionnel) et de procédures (traduction opérationnelle des processus)."
@@ -1351,10 +1351,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Auprès de quelles parties prenantes un système de management permet-il d'accroître la confiance ?",
     "options": [
-      "Uniquement les employés",
+      "Uniquement les employés de l'organisation et les membres de l'équipe de direction générale",
       "Actionnaires, clients, fournisseurs, partenaires, banques/assurances et opinion publique",
-      "Uniquement les auditeurs",
-      "Uniquement les concurrents"
+      "Uniquement les auditeurs internes et externes chargés de vérifier la conformité du système",
+      "Uniquement les concurrents directs de l'entreprise sur son marché principal et ses segments cibles"
     ],
     "answer": 1,
     "explanation": "Un système de management permet d'accroître la confiance auprès des actionnaires, clients, fournisseurs, partenaires, banques et assurances, et de l'opinion publique."
@@ -1368,10 +1368,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Quels sont les exemples de points de sensibilisation cités dans le cours ?",
     "options": [
-      "Uniquement les règles de mots de passe",
+      "Uniquement les règles de mots de passe et les exigences de complexité imposées par la politique de sécurité de l'information de l'organisation",
       "Apports du SMSI, politique de sécurité, charte informatique, mots de passe, remontée d'incidents, ingénierie sociale, supports amovibles, virus",
-      "Uniquement la protection contre les virus",
-      "Uniquement les procédures d'embauche"
+      "Uniquement la protection contre les virus et les logiciels malveillants à l'aide d'outils antivirus déployés sur les postes de travail du SI",
+      "Uniquement les procédures d'embauche et de départ du personnel ainsi que la gestion des droits d'accès associés aux comptes utilisateurs du SI"
     ],
     "answer": 1,
     "explanation": "Les exemples de sensibilisation incluent : les apports du SMSI, la politique de sécurité, la charte informatique, les mots de passe, la remontée d'incidents, l'ingénierie sociale, les supports amovibles et la protection contre les virus."
@@ -1385,10 +1385,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Quels membres du personnel doivent être formés pendant la construction et l'exploitation du SMSI ?",
     "options": [
-      "Uniquement le RSSI",
+      "Uniquement le RSSI qui est le seul responsable de la sécurité de l'information au sein de l'organisation certifiée ISO",
       "Le chef de projet SMSI, les responsables de service, les auditeurs internes, les informaticiens et les techniciens métier",
-      "Uniquement les développeurs",
-      "Personne, la formation n'est pas exigée"
+      "Uniquement les développeurs chargés de concevoir les applications métiers et de maintenir les systèmes d'information",
+      "Personne, la formation n'est pas exigée par la norme ISO 27001 et reste entièrement facultative pour les organisations"
     ],
     "answer": 1,
     "explanation": "Doivent être formés : le chef de projet en charge de la mise en place du SMSI, les responsables de service et utilisateurs clés, les auditeurs internes, les informaticiens et les techniciens métier."
@@ -1402,10 +1402,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Quels domaines l'ISO 27004 suggère-t-elle de mesurer ?",
     "options": [
-      "Uniquement le chiffre d'affaires",
+      "Uniquement le chiffre d'affaires de l'organisation et les indicateurs financiers liés aux investissements en sécurité informatique et en gestion des risques SI",
       "Mise en œuvre des processus, gestion des incidents, vulnérabilités, sensibilisation, formation, contrôle d'accès, appréciation des risques, continuité d'activité",
-      "Uniquement la satisfaction client",
-      "Uniquement les performances réseau"
+      "Uniquement la satisfaction client mesurée par des enquêtes périodiques et des indicateurs de qualité de service perçue par les utilisateurs finaux du système",
+      "Uniquement les performances réseau et la disponibilité des serveurs de production mesurées par des outils de supervision informatique et de monitoring continu"
     ],
     "answer": 1,
     "explanation": "L'ISO 27004 suggère de mesurer : le niveau de mise en œuvre des processus, la gestion des incidents et vulnérabilités, la sensibilisation et formation du personnel, le contrôle d'accès, l'appréciation des risques, la continuité d'activité, et la sécurité physique."
@@ -1419,10 +1419,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Quels points un plan d'actions pour non-conformité doit-il prendre en considération ?",
     "options": [
-      "Il doit être le plus long et détaillé possible",
+      "Il doit être le plus long et détaillé possible en couvrant chaque aspect technique et organisationnel de manière exhaustive et documentée",
       "Il doit être sommaire, permettre de corriger les non-conformités, inclure une période de réalisation et permettre des résultats vérifiables",
-      "Il doit être confidentiel et non validé par la direction",
-      "Il doit être rédigé uniquement par l'auditeur externe"
+      "Il doit être confidentiel et non validé par la direction, réservé uniquement aux auditeurs et aux responsables techniques de la sécurité",
+      "Il doit être rédigé uniquement par l'auditeur externe sans consultation des équipes internes ni implication de la direction de l'organisme"
     ],
     "answer": 1,
     "explanation": "Le plan d'actions doit être écrit de façon sommaire, permettre de corriger les non-conformités, inclure une période de réalisation, permettre d'obtenir des résultats vérifiables, et doit être validé par la direction."
@@ -1436,10 +1436,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Que demande la clause 10.2 (Amélioration continue) ?",
     "options": [
-      "De maintenir le SMSI tel quel sans aucune modification",
+      "De maintenir le SMSI tel quel sans aucune modification ni adaptation au fil du temps et des évolutions",
       "D'améliorer continuellement la pertinence, l'adéquation et l'efficacité du SMSI",
-      "De supprimer le SMSI après 3 ans",
-      "De refaire entièrement le SMSI chaque année"
+      "De supprimer le SMSI après 3 ans et de recommencer entièrement le processus de mise en œuvre conforme",
+      "De refaire entièrement le SMSI chaque année en repartant de zéro sans capitaliser sur les acquis passés"
     ],
     "answer": 1,
     "explanation": "L'organisation doit continuellement améliorer la pertinence, l'adéquation et l'efficacité du système de management de la sécurité de l'information."
@@ -1453,10 +1453,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Quels types de changements nécessitent une amélioration continue du SMSI ?",
     "options": [
-      "Uniquement les changements technologiques",
+      "Uniquement les changements technologiques liés aux infrastructures informatiques et aux systèmes de sécurité",
       "Les changements organisationnels, technologiques, dans le SMSI et les changements externes",
-      "Uniquement les changements réglementaires",
-      "Aucun changement ne nécessite d'amélioration"
+      "Uniquement les changements réglementaires imposés par les autorités compétentes et les organismes de normalisation",
+      "Aucun changement ne nécessite d'amélioration car le SMSI reste stable une fois la certification obtenue"
     ],
     "answer": 1,
     "explanation": "L'amélioration continue doit prendre en compte les changements organisationnels, les changements dans les technologies, les changements dans le SMSI lui-même et les changements externes."
@@ -1470,10 +1470,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Quels éléments la revue de direction doit-elle prendre en compte concernant les performances ?",
     "options": [
-      "Uniquement le budget de sécurité",
+      "Uniquement le budget de sécurité alloué au SMSI et les dépenses engagées pour les mesures de protection des actifs informationnels sans considérer les autres aspects de la performance",
       "Les non-conformités, les résultats de surveillance, les résultats d'audit, la réalisation des objectifs, les retours des parties intéressées et l'état du plan de traitement des risques",
-      "Uniquement les résultats financiers",
-      "Uniquement les rapports des auditeurs externes"
+      "Uniquement les résultats financiers de l'organisation et les indicateurs économiques liés au retour sur investissement des mesures de sécurité mises en œuvre dans le cadre du SMSI actif",
+      "Uniquement les rapports des auditeurs externes de certification et les constats formulés lors de l'audit initial sans prendre en compte les évolutions et améliorations continues du SMSI"
     ],
     "answer": 1,
     "explanation": "La revue doit prendre en compte les non-conformités et actions correctives, les résultats de surveillance et mesures, les résultats d'audit, la réalisation des objectifs, les retours des parties intéressées, et l'état du plan de traitement des risques."
@@ -1487,10 +1487,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Que doit faire l'organisation concernant les processus externalisés selon la clause 8.1 ?",
     "options": [
-      "Les ignorer car ils sont hors du périmètre",
+      "Les ignorer car ils sont hors du périmètre du SMSI et ne relèvent pas de la responsabilité",
       "S'assurer que les processus externalisés sont définis et contrôlés",
-      "Les supprimer entièrement",
-      "Les internaliser obligatoirement"
+      "Les supprimer entièrement et réinternaliser toutes les activités externalisées de l'organisation",
+      "Les internaliser obligatoirement afin de garder un contrôle direct sur l'ensemble des processus"
     ],
     "answer": 1,
     "explanation": "L'organisation doit s'assurer que les processus externalisés sont définis et contrôlés, même s'ils sont réalisés par des tiers."
@@ -1504,10 +1504,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Que doit contenir la déclaration d'applicabilité selon la clause 6.1.3 ?",
     "options": [
-      "Uniquement la liste des risques identifiés",
+      "Uniquement la liste des risques identifiés lors de l'appréciation des risques sans préciser les mesures de sécurité retenues ni les justifications des choix effectués par l'organisation",
       "Les mesures nécessaires avec justification de leur insertion, le fait qu'elles soient mises en œuvre ou non, et la justification des exclusions de l'Annexe A",
-      "Uniquement le budget de sécurité",
-      "Uniquement les coordonnées des auditeurs"
+      "Uniquement le budget de sécurité alloué aux différentes mesures de l'Annexe A sans détailler leur mise en œuvre effective ni justifier les exclusions retenues par l'organisme certifié",
+      "Uniquement les coordonnées des auditeurs internes et externes chargés de vérifier la conformité du SMSI sans inclure les mesures de sécurité ni les critères d'applicabilité de la norme"
     ],
     "answer": 1,
     "explanation": "La DDA doit contenir les mesures nécessaires et la justification de leur insertion, le fait qu'elles soient mises en œuvre ou non, et la justification de l'exclusion de mesures de l'Annexe A."
@@ -1538,10 +1538,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Quelle est la hiérarchie correcte des documents de politique de sécurité ?",
     "options": [
-      "PSSI > PSI > Politiques spécifiques",
+      "PSSI > PSI > Politiques spécifiques, en plaçant la politique des systèmes d'information au sommet de la hiérarchie documentaire",
       "PSI (Politique de sécurité de l'information) > PSSI (Politique de Sécurité des Systèmes d'Information) > Politiques spécifiques",
-      "Politiques spécifiques > PSI > PSSI",
-      "Il n'y a pas de hiérarchie"
+      "Politiques spécifiques > PSI > PSSI, en inversant la hiérarchie et en plaçant les politiques opérationnelles au-dessus des autres",
+      "Il n'y a pas de hiérarchie définie entre ces documents car ils sont tous au même niveau dans le système de management de la sécurité"
     ],
     "answer": 1,
     "explanation": "La hiérarchie est : PSI (Politique de sécurité de l'information) au sommet, puis PSSI (Politique de Sécurité des Systèmes d'Information), puis les politiques de sécurité spécifiques."
@@ -1555,10 +1555,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Comment définit-on la disponibilité en sécurité de l'information ?",
     "options": [
-      "La propriété que les informations ne soient pas divulguées",
-      "La propriété de protéger l'exactitude d'un actif",
+      "La propriété que les informations ne soient pas divulguées à des personnes ou processus non autorisés",
+      "La propriété de protéger l'exactitude d'un actif contre toute altération ou modification non autorisée",
       "La propriété d'un actif d'être accessible et utilisable sur demande par une entité autorisée",
-      "La possibilité qu'une menace exploite un actif"
+      "La possibilité qu'une menace exploite un actif informationnel et cause un préjudice à l'organisation"
     ],
     "answer": 2,
     "explanation": "La disponibilité est la propriété d'un actif d'être accessible et utilisable sur demande par une entité autorisée."
@@ -1572,10 +1572,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Qu'est-ce qu'une menace en sécurité de l'information ?",
     "options": [
-      "Une faiblesse d'un actif",
+      "Une faiblesse d'un actif informationnel pouvant être exploitée par des attaquants malveillants",
       "Une cause potentielle d'incident qui peut résulter en un dommage au système ou à l'organisation",
-      "Un plan de traitement des risques",
-      "Une mesure de sécurité technique"
+      "Un plan de traitement des risques définissant les mesures de sécurité à mettre en œuvre au sein du SMSI",
+      "Une mesure de sécurité technique destinée à protéger les actifs informationnels contre les cyberattaques"
     ],
     "answer": 1,
     "explanation": "Une menace est une cause potentielle d'incident, qui peut résulter en un dommage au système ou à l'organisation."
@@ -1589,10 +1589,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Quel outil d'analyse peut être utilisé pour évaluer la situation de l'organisation vis-à-vis de l'implémentation de la norme ?",
     "options": [
-      "Analyse financière",
+      "Analyse financière des investissements en sécurité de l'information",
       "Analyse SWOT (Forces, Faiblesses, Opportunités, Menaces)",
-      "Analyse de code source",
-      "Analyse de marché"
+      "Analyse de code source pour détecter les failles de sécurité applicatives",
+      "Analyse de marché pour positionner l'entreprise face à ses concurrents"
     ],
     "answer": 1,
     "explanation": "Une approche des forces, faiblesses, opportunités et menaces (SWOT) peut être intéressante pour comprendre la situation générale de l'organisation vis-à-vis de l'implémentation de la norme et estimer un niveau de maturité."
@@ -1606,10 +1606,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Quels éléments composent l'infrastructure à comprendre dans le contexte de l'organisation ?",
     "options": [
-      "Uniquement les serveurs",
+      "Uniquement les serveurs physiques et virtuels hébergés dans le data center principal de l'organisation et les sauvegardes associées",
       "Matériels (serveurs, PC, imprimantes), logiciels (OS, ERP), réseaux (firewall, routeur, switch) et sites (salle serveur, locaux, PRA)",
-      "Uniquement les logiciels",
-      "Uniquement les réseaux"
+      "Uniquement les logiciels et applications métiers déployés sur les postes de travail des utilisateurs et sur les serveurs de production",
+      "Uniquement les réseaux de communication internes et les équipements d'interconnexion avec les partenaires commerciaux et les clients"
     ],
     "answer": 1,
     "explanation": "L'infrastructure comprend les matériels (serveur, PC, HDD, imprimantes), les logiciels (OS, suite office, ERP), les réseaux (firewall, routeur, switch) et les sites (salle serveur, locaux, PRA, bureaux)."
@@ -1623,10 +1623,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Quels sont les pièges à éviter concernant la documentation du SMSI ?",
     "options": [
-      "Avoir trop de documentation",
+      "Avoir trop de documentation et vouloir couvrir l'ensemble des processus de l'organisation de manière exhaustive sans prioriser les sujets critiques",
       "La procédure ne décrit pas la réalité, la procédure de gestion n'est pas appliquée, la numérotation est incohérente, les documents sont dispersés",
-      "Utiliser des documents électroniques",
-      "Avoir des documents multilingues"
+      "Utiliser des documents électroniques au lieu de documents papier pour la gestion documentaire du SMSI et la traçabilité des informations associées",
+      "Avoir des documents multilingues pour faciliter la compréhension des équipes internationales et des parties prenantes situées dans différents pays"
     ],
     "answer": 1,
     "explanation": "Les pièges incluent : la procédure ne décrit pas la réalité, la procédure de gestion documentaire n'est pas appliquée, la numérotation est incohérente, seuls certains documents ont un cartouche, et les procédures et enregistrements sont dispersés."
@@ -1640,10 +1640,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Quelle est la hiérarchie des documents dans un SMSI ?",
     "options": [
-      "Procédures > Politiques > Fiches de travail",
+      "Procédures > Politiques > Fiches de travail, en plaçant les documents opérationnels au sommet de la pyramide",
       "Politiques (document stratégique) > Processus et contrôles > Fiches de travail et procédures",
-      "Fiches de travail > Processus > Politiques",
-      "Il n'y a pas de hiérarchie documentaire"
+      "Fiches de travail > Processus > Politiques, en inversant la hiérarchie documentaire du système de management",
+      "Il n'y a pas de hiérarchie documentaire définie dans le cadre du SMSI selon les exigences de la norme ISO 27001"
     ],
     "answer": 1,
     "explanation": "La hiérarchie est : au sommet les politiques (document stratégique), puis les processus et contrôles, et enfin les fiches de travail et procédures (niveau opérationnel)."
@@ -1657,10 +1657,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "La norme ISO 27001:2013 couvre quel type d'organisations ?",
     "options": [
-      "Uniquement les grandes entreprises",
-      "Uniquement les entreprises du secteur informatique",
+      "Uniquement les grandes entreprises de plus de 500 salariés opérant dans le secteur des technologies numériques",
+      "Uniquement les entreprises du secteur informatique et les sociétés de services numériques spécialisées en sécurité",
       "Tous les types d'organisations, quels que soient leur type, leur taille et leur nature",
-      "Uniquement les administrations publiques"
+      "Uniquement les administrations publiques et les organismes gouvernementaux soumis aux réglementations de sécurité"
     ],
     "answer": 2,
     "explanation": "Les exigences de l'ISO/CEI 27001:2013 couvrent tous les types d'organisations, quels que soient son type, sa taille et sa nature."
@@ -1674,10 +1674,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "La norme impose-t-elle une fréquence spécifique pour les audits internes ?",
     "options": [
-      "Oui, une fois par mois",
-      "Oui, une fois par trimestre",
+      "Oui, une fois par mois au minimum selon les exigences de la clause 9.2 de la norme ISO 27001 en vigueur",
+      "Oui, une fois par trimestre au minimum selon les recommandations de la norme ISO 27007 relative aux audits",
       "Non, elle impose seulement que les audits soient planifiés selon un programme d'audits",
-      "Oui, une fois par semaine"
+      "Oui, une fois par semaine au minimum pour garantir le suivi continu de la conformité du SMSI aux exigences"
     ],
     "answer": 2,
     "explanation": "La norme n'impose pas de fréquence vis-à-vis des audits internes, elle impose seulement que ceux-ci soient planifiés selon un programme d'audits."
@@ -1691,10 +1691,10 @@
     "source": "Cours ISO 27001 - ESD Academy",
     "question": "Pourquoi sous-traiter intégralement l'appréciation des risques et la documentation à un prestataire est-il souvent voué à l'échec ?",
     "options": [
-      "Parce que les prestataires sont incompétents",
+      "Parce que les prestataires sont incompétents et ne comprennent pas les enjeux de la norme ISO 27001",
       "Parce que cette démarche ne responsabilise pas l'organisation vis-à-vis de sa sécurité",
-      "Parce que la norme l'interdit explicitement",
-      "Parce que c'est trop coûteux"
+      "Parce que la norme l'interdit explicitement et impose que l'organisation réalise elle-même ces activités",
+      "Parce que c'est trop coûteux et dépasse systématiquement le budget prévu pour la mise en œuvre du SMSI"
     ],
     "answer": 1,
     "explanation": "Concevoir une politique de sécurité puis sous-traiter l'appréciation des risques et la documentation est souvent voué à l'échec car cette démarche ne responsabilise nullement l'organisation vis-à-vis de sa sécurité."

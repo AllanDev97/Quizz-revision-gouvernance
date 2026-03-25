@@ -3,7 +3,10 @@
     "allow": [
       "Bash(brew install poppler)",
       "Bash(/usr/bin/python3 -c \":*)",
-      "Bash(node -e \":*)"
+      "Bash(node -e \":*)",
+      "Read(//Users/allansoumaili/Documents/Revision - MVP/**)",
+      "Bash(python3 /tmp/fix_iso27001.py)",
+      "Bash(python3 /tmp/fix_iso27001_v2.py)"
     ]
   }
 }
