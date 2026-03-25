@@ -34,7 +34,7 @@
         </div>
 
         <div class="norm-card" data-norm="exam-blanc-27001" data-file="data/exam-blanc-27001.json">
-          <div class="norm-badge">EXAMEN BLANC</div>
+          <div class="norm-badge-red">EXAMEN BLANC</div>
           <div class="norm-number" style="font-size:1.8rem">27001</div>
           <div class="norm-title">Examen blanc (fournit par Mr WOLF)</div>
           <div class="norm-year">23 questions</div>
@@ -82,6 +82,7 @@
             <option value="all">Toutes</option>
           </select>
         </label>
+        <button id="btn-resume-quiz" class="btn btn-secondary hidden">Reprendre le quiz</button>
       </div>
 
       <p class="home-stats" id="home-stats"></p>
@@ -97,7 +98,10 @@
       <div class="quiz-header">
         <button id="btn-prev" class="btn-prev hidden">← Précédent</button>
         <span class="quiz-theme-label" id="quiz-theme-label"></span>
-        <span class="quiz-counter" id="quiz-counter">Q 0 / 0</span>
+        <div class="quiz-header-actions">
+          <span class="quiz-counter" id="quiz-counter">Q 0 / 0</span>
+          <button id="btn-quit-quiz" class="btn-quit">Quitter</button>
+        </div>
       </div>
 
       <div id="progress-bar">

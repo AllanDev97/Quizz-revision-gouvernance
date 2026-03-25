@@ -122,6 +122,19 @@ section.active { display: block; }
   margin-bottom: 0.5rem;
 }
 
+.norm-badge-red{
+  display: inline-block;
+  background: #f32b2b33;
+  color: #ff4141;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 0.2rem 0.6rem;
+  border-radius: 20px;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
 .norm-number {
   font-size: 2.8rem;
   font-weight: 800;
@@ -304,6 +317,26 @@ section.active { display: block; }
   color: var(--text-muted);
   font-weight: 600;
 }
+
+.quiz-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.btn-quit {
+  background: var(--surface);
+  border: 2px solid var(--error);
+  border-radius: 6px;
+  padding: 0.35rem 0.7rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--error);
+  cursor: pointer;
+  transition: var(--transition);
+  white-space: nowrap;
+}
+.btn-quit:hover { background: var(--error-bg); }
 
 /* ===== BARRE DE PROGRESSION ===== */
 #progress-bar {
@@ -609,6 +642,12 @@ section.active { display: block; }
   .score-pct { font-size: 1.6rem; }
   .btn-group { flex-direction: column; }
   .btn { width: 100%; text-align: center; }
+  .quiz-header {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .quiz-theme-label { order: 3; width: 100%; }
+  .quiz-header-actions { margin-left: auto; }
 }
 
 /* ===== ANIMATIONS ===== */
