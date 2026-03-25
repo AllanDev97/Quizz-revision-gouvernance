@@ -271,7 +271,26 @@ section.active { display: block; }
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 0.5rem;
   margin-bottom: 0.75rem;
+}
+
+.btn-prev {
+  background: var(--surface);
+  border: 2px solid var(--border);
+  border-radius: 6px;
+  padding: 0.35rem 0.7rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: var(--transition);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.btn-prev:hover {
+  border-color: var(--accent);
+  color: var(--accent);
 }
 
 .quiz-theme-label {
@@ -381,6 +400,19 @@ section.active { display: block; }
 }
 
 .option-btn:disabled { cursor: default; }
+
+/* Multi-select */
+.option-btn--multi.selected {
+  border-color: var(--accent);
+  background: #e7f1ff;
+  box-shadow: inset 0 0 0 2px var(--accent);
+}
+.option-btn--multi.selected::before {
+  content: '☑ ';
+}
+.option-btn--multi:not(.selected)::before {
+  content: '☐ ';
+}
 
 /* Bouton flashcard */
 .btn-reveal {

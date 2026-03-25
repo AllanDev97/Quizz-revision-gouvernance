@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Quiz Normes ISO — Révisions</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -33,12 +33,28 @@
           <div class="norm-count" id="count-iso27001">Questions à venir</div>
         </div>
 
-        <div class="norm-card norm-card--soon" data-norm="iso22301" data-file="data/iso22301.json">
+        <div class="norm-card" data-norm="exam-blanc-27001" data-file="data/exam-blanc-27001.json">
+          <div class="norm-badge">EXAMEN BLANC</div>
+          <div class="norm-number" style="font-size:1.8rem">27001</div>
+          <div class="norm-title">Examen blanc (fournit par Mr WOLF)</div>
+          <div class="norm-year">23 questions</div>
+          <div class="norm-count" id="count-exam-blanc-27001">Chargement…</div>
+        </div>
+
+        <div class="norm-card" data-norm="devsecops" data-file="data/devsecops.json">
+          <div class="norm-badge">ESD</div>
+          <div class="norm-number" style="font-size:1.6rem">DevSecOps</div>
+          <div class="norm-title">DevOps Security Manager</div>
+          <div class="norm-year">45 questions</div>
+          <div class="norm-count" id="count-devsecops">Chargement…</div>
+        </div>
+
+        <div class="norm-card" data-norm="iso22301" data-file="data/iso22301.json">
           <div class="norm-badge">ISO</div>
           <div class="norm-number">22301</div>
           <div class="norm-title">Continuité d'activité</div>
           <div class="norm-year">:2019</div>
-          <div class="norm-count" id="count-iso22301">Questions à venir</div>
+          <div class="norm-count" id="count-iso22301">Chargement…</div>
         </div>
 
       </div>
@@ -79,6 +95,7 @@
     <div class="container">
 
       <div class="quiz-header">
+        <button id="btn-prev" class="btn-prev hidden">← Précédent</button>
         <span class="quiz-theme-label" id="quiz-theme-label"></span>
         <span class="quiz-counter" id="quiz-counter">Q 0 / 0</span>
       </div>
@@ -91,6 +108,7 @@
         <div class="question-meta" id="question-meta"></div>
         <div id="question-text"></div>
         <div id="options-list"></div>
+        <button id="btn-validate" class="btn btn-primary hidden" style="margin-top:1rem;width:100%">Valider mes réponses</button>
       </div>
 
       <div id="feedback" class="hidden">
@@ -133,6 +151,6 @@
   <!-- ==================== TOAST ==================== -->
   <div id="toast"></div>
 
-  <script src="app.js"></script>
+  <script src="js/app.js"></script>
 </body>
 </html>

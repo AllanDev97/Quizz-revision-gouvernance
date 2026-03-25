@@ -1,0 +1,756 @@
+[
+  {
+    "id": "DSO001",
+    "type": "mcq",
+    "theme": "introduction",
+    "subtheme": "referentiels",
+    "difficulty": 1,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "Que signifie l'acronyme RGPD ?",
+    "options": [
+      "Règlement de Gestion des Protocoles de Données",
+      "Registre Global de Prévention Digitale",
+      "Règlement Général sur la Protection des Données",
+      "Référentiel Général de la Protection Documentaire"
+    ],
+    "answer": 2,
+    "explanation": "Explication : RGPD signifie Règlement Général sur la Protection des Données. Il s'agit d'un règlement européen visant à simplifier et harmoniser la protection des données au niveau européen."
+  },
+  {
+    "id": "DSO002",
+    "type": "mcq",
+    "theme": "introduction",
+    "subtheme": "referentiels",
+    "difficulty": 2,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "Quelle est la sanction maximale en cas de non-respect du RGPD ?",
+    "options": [
+      "10 millions d'euros ou 1% du CA",
+      "200 millions d'euros ou 5% du CA",
+      "100 millions d'euros ou 4% du CA",
+      "50 millions d'euros ou 2% du CA"
+    ],
+    "answer": 2,
+    "explanation": "Explication : Le non-respect du RGPD peut entraîner une amende allant jusqu'à 100 millions d'euros ou 4% du chiffre d'affaires annuel mondial de l'entreprise."
+  },
+  {
+    "id": "DSO003",
+    "type": "true_false",
+    "theme": "introduction",
+    "subtheme": "referentiels",
+    "difficulty": 1,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "L'affirmation suivante est-elle vraie ou fausse : Le RGPD garantit aux utilisateurs un droit d'accès, de modification, de suppression et un droit à l'oubli concernant leurs données personnelles.",
+    "options": [
+      "Faux",
+      "Vrai"
+    ],
+    "answer": 1,
+    "explanation": "Vrai. Le RGPD accorde effectivement aux utilisateurs plusieurs droits fondamentaux dont le droit d'accès, de modification, de suppression, à l'oubli, de s'opposer au profilage et à la portabilité des données."
+  },
+  {
+    "id": "DSO004",
+    "type": "multiple",
+    "theme": "introduction",
+    "subtheme": "referentiels",
+    "difficulty": 2,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "Parmi les propositions suivantes, lesquelles sont des exigences du RGPD ? (plusieurs réponses attendues)",
+    "options": [
+      "Consentement de l'utilisateur pour le stockage de ses données personnelles",
+      "Droit de s'opposer au profilage",
+      "Droit à la portabilité des données",
+      "Publication obligatoire du code source de l'application",
+      "Obligation de stocker les données sur des serveurs français"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Les réponses A, C et E sont correctes. Le RGPD exige le consentement de l'utilisateur, lui accorde le droit de s'opposer au profilage et le droit à la portabilité de ses données. Il n'impose pas la publication du code source ni le stockage exclusif en France."
+  },
+  {
+    "id": "DSO005",
+    "type": "flashcard",
+    "theme": "introduction",
+    "subtheme": "referentiels",
+    "difficulty": 1,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "Quel est le rôle de la CNIL en matière de sécurité web ?",
+    "options": [],
+    "answer": null,
+    "explanation": "La CNIL (Commission Nationale de l'Informatique et des Libertés) contrôle les données personnelles sur le web et publie des documents relatifs à la sécurité web. Ses exigences incluent : annoncer la finalité des données, n'utiliser que des données pertinentes, limiter la rétention dans le temps, laisser le droit de modification/suppression et sécuriser les données personnelles."
+  },
+  {
+    "id": "DSO006",
+    "type": "flashcard",
+    "theme": "introduction",
+    "subtheme": "referentiels",
+    "difficulty": 1,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "Quel est le rôle de l'ANSSI dans la sécurité numérique en France ?",
+    "options": [],
+    "answer": null,
+    "explanation": "L'ANSSI (Agence Nationale de la Sécurité des Systèmes d'Information) est l'Autorité Nationale de défense des systèmes d'information. Elle assure la prévention, la protection, la réaction, la formation et la labellisation de solutions et services pour la sécurité numérique de la nation. Elle publie des bonnes pratiques, recommandations et guides pour la sécurité des sites web."
+  },
+  {
+    "id": "DSO007",
+    "type": "mcq",
+    "theme": "introduction",
+    "subtheme": "cadre-juridique",
+    "difficulty": 2,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "Dans le cadre de la prospection commerciale B2C, quel mécanisme de consentement s'applique par défaut ?",
+    "options": [
+      "L'Opt-in : le destinataire doit accepter activement",
+      "L'Opt-out : le destinataire doit refuser activement",
+      "Le double opt-in : deux confirmations sont requises",
+      "Aucun consentement n'est requis en B2C"
+    ],
+    "answer": 0,
+    "explanation": "Explication : En B2C, le mécanisme Opt-in s'applique : l'utilisateur doit donner son accord explicitement avant de recevoir des communications commerciales. Le principe est « s'il n'a pas dit oui, c'est non »."
+  },
+  {
+    "id": "DSO008",
+    "type": "mcq",
+    "theme": "introduction",
+    "subtheme": "cadre-juridique",
+    "difficulty": 2,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "Dans quel contexte le mécanisme Opt-out est-il principalement utilisé pour la prospection ?",
+    "options": [
+      "Pour toute prospection commerciale sans exception",
+      "Pour la prospection B2B par email et la prospection B2C par voie postale ou téléphone",
+      "Uniquement pour la prospection par email en B2C",
+      "Uniquement pour les réseaux sociaux en B2B"
+    ],
+    "answer": 1,
+    "explanation": "Explication : L'Opt-out s'applique en B2B pour la prospection par email et en B2C lorsque la prospection se fait par voie postale ou par téléphone. Le principe est « s'il n'a pas dit non, c'est oui »."
+  },
+  {
+    "id": "DSO009",
+    "type": "true_false",
+    "theme": "introduction",
+    "subtheme": "cadre-juridique",
+    "difficulty": 1,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "L'affirmation suivante est-elle vraie ou fausse : Tous les sites internet, professionnels ou non, doivent afficher des mentions légales obligatoires.",
+    "options": [
+      "Faux",
+      "Vrai"
+    ],
+    "answer": 1,
+    "explanation": "Vrai. Tous les sites internet, qu'ils soient édités à titre professionnel ou non professionnel, doivent afficher des mentions obligatoires pour l'information du public. Le non-respect peut être sanctionné."
+  },
+  {
+    "id": "DSO010",
+    "type": "mcq",
+    "theme": "introduction",
+    "subtheme": "cadre-juridique",
+    "difficulty": 2,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "Quelle est l'amende maximale pour le non-respect des obligations de mentions légales pour les activités réglementées ?",
+    "options": [
+      "150 000 €",
+      "375 000 €",
+      "75 000 €",
+      "500 000 €"
+    ],
+    "answer": 1,
+    "explanation": "Explication : Le non-respect des obligations de mentions légales pour les activités réglementées peut être sanctionné de 375 000 € d'amende."
+  },
+  {
+    "id": "DSO011",
+    "type": "multiple",
+    "theme": "introduction",
+    "subtheme": "cadre-juridique",
+    "difficulty": 2,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "Parmi les éléments suivants, lesquels font partie des formalités juridiques liées à la création d'une application web ? (plusieurs réponses attendues)",
+    "options": [
+      "Les droits d'auteurs",
+      "L'utilisation des Cookies",
+      "Les mentions légales",
+      "Le traitement des données",
+      "L'hébergement sur un serveur français obligatoirement"
+    ],
+    "answers": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Les réponses A, C, D et E sont correctes. Les formalités juridiques concernent le traitement des données, les droits d'auteurs, les liens hypertextes, les mentions légales, l'utilisation des cookies et l'utilisation de données personnelles. L'hébergement sur un serveur français n'est pas une obligation."
+  },
+  {
+    "id": "DSO012",
+    "type": "true_false",
+    "theme": "introduction",
+    "subtheme": "cadre-juridique",
+    "difficulty": 2,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "L'affirmation suivante est-elle vraie ou fausse : Selon l'article L111-1 du Code de la propriété intellectuelle, un site internet peut constituer une œuvre de l'esprit s'il est qualifié d'original.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "answer": 0,
+    "explanation": "Vrai. Selon l'article L111-1 du Code de la propriété intellectuelle, un site internet peut être considéré comme une œuvre de l'esprit s'il est original. Dans ce cas, son imitation peut être qualifiée de contrefaçon."
+  },
+  {
+    "id": "DSO013",
+    "type": "mcq",
+    "theme": "introduction",
+    "subtheme": "cadre-juridique",
+    "difficulty": 2,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "Quelle est la durée maximale de validité du consentement donné pour l'utilisation des cookies ?",
+    "options": [
+      "13 mois",
+      "6 mois",
+      "36 mois",
+      "24 mois"
+    ],
+    "answer": 0,
+    "explanation": "Explication : La durée de validité du consentement donné pour l'utilisation des cookies est de 13 mois maximum."
+  },
+  {
+    "id": "DSO014",
+    "type": "multiple",
+    "theme": "introduction",
+    "subtheme": "cadre-juridique",
+    "difficulty": 2,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "Quelles obligations s'appliquent aux éditeurs de sites utilisant des cookies ? (plusieurs réponses attendues)",
+    "options": [
+      "Informer les internautes de la finalité des cookies",
+      "Obtenir le consentement des internautes",
+      "Fournir un moyen de refuser les cookies",
+      "Supprimer les cookies après chaque session automatiquement"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Les réponses A, C et D sont correctes. Les éditeurs doivent informer les internautes de la finalité des cookies, obtenir leur consentement et fournir un moyen de les refuser. La suppression automatique après chaque session n'est pas une obligation légale."
+  },
+  {
+    "id": "DSO015",
+    "type": "flashcard",
+    "theme": "introduction",
+    "subtheme": "cadre-juridique",
+    "difficulty": 2,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "Qu'est-ce qu'un DPO (ou DPD) et quel est son rôle dans le cadre de l'utilisation des données personnelles ?",
+    "options": [],
+    "answer": null,
+    "explanation": "Le DPO (Data Protection Officer) ou DPD (Délégué à la Protection des Données) est le responsable désigné au sein d'un organisme pour les questions de protection des données personnelles. L'organisme doit fournir ses coordonnées aux utilisateurs. Le DPO veille à la conformité du traitement des données et sert de point de contact pour les utilisateurs et les autorités de contrôle."
+  },
+  {
+    "id": "DSO016",
+    "type": "mcq",
+    "theme": "introduction",
+    "subtheme": "cadre-juridique",
+    "difficulty": 3,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "Concernant les liens hypertextes et le droit d'auteur, dans quel cas la connaissance du caractère illégal d'un contenu lié est-elle présumée ?",
+    "options": [
+      "Lorsque le lien est placé sur un site personnel non commercial",
+      "Lorsque le lien est fourni dans un but lucratif",
+      "Lorsque le lien est partagé sur un réseau social",
+      "Lorsque le lien provient d'un moteur de recherche"
+    ],
+    "answer": 1,
+    "explanation": "Explication : Selon la CJUE, si les hyperliens vers du contenu protégé sont fournis dans un but lucratif, la connaissance du caractère illégal de la publication doit être présumée. En revanche, sans but lucratif et sans connaissance de l'illégalité, cela ne constitue pas une communication au public."
+  },
+  {
+    "id": "DSO017",
+    "type": "multiple",
+    "theme": "introduction",
+    "subtheme": "cadre-juridique",
+    "difficulty": 2,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "Quelles mentions obligatoires un entrepreneur individuel doit-il afficher sur son site web pour son identification ? (plusieurs réponses attendues)",
+    "options": [
+      "Adresse de domicile",
+      "Nom et prénom",
+      "Numéro de téléphone et adresse email",
+      "Nom de l'hébergeur du site",
+      "Chiffre d'affaires annuel"
+    ],
+    "answers": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Les réponses A, C, D et E sont correctes. Un entrepreneur individuel doit afficher ses nom et prénom, adresse de domicile, numéro de téléphone et email, ainsi que les informations de son hébergeur. Le chiffre d'affaires n'est pas une mention obligatoire."
+  },
+  {
+    "id": "DSO018",
+    "type": "mcq",
+    "theme": "vulnerabilites-web",
+    "subtheme": "bases-de-vulnerabilites",
+    "difficulty": 1,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "Quelles sont les deux principales bases de vulnérabilités web mentionnées dans le cours ?",
+    "options": [
+      "CVE et CVSS",
+      "SANS et CERT",
+      "Top 10 OWASP et CWE (Common Weakness Enumeration)",
+      "NIST et ISO 27001"
+    ],
+    "answer": 2,
+    "explanation": "Explication : Le cours cite le Top 10 OWASP et le CWE (Common Weakness Enumeration) comme les bases de vulnérabilités les plus connues, mises à jour quotidiennement pour identifier les risques portés par les applications web."
+  },
+  {
+    "id": "DSO019",
+    "type": "mcq",
+    "theme": "vulnerabilites-web",
+    "subtheme": "xss",
+    "difficulty": 2,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "Quel identifiant CWE correspond à la vulnérabilité Cross-Site Scripting (XSS) ?",
+    "options": [
+      "CWE-79",
+      "CWE-89",
+      "CWE-20",
+      "CWE-352"
+    ],
+    "answer": 0,
+    "explanation": "Explication : La vulnérabilité XSS (Cross-Site Scripting) correspond au CWE-79 – Mauvaise ré-utilisation d'entrées. Elle se produit lorsque des données invalides parviennent à une application web et sont renvoyées dans des pages dynamiques sans contrôle."
+  },
+  {
+    "id": "DSO020",
+    "type": "multiple",
+    "theme": "vulnerabilites-web",
+    "subtheme": "xss",
+    "difficulty": 2,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "Quelles sont les conséquences possibles d'une attaque XSS ? (plusieurs réponses attendues)",
+    "options": [
+      "Vol de session",
+      "Keylogger",
+      "Corruption de la base de données directement",
+      "Defacing",
+      "Élévation de privilèges"
+    ],
+    "answers": [
+      0,
+      1,
+      3,
+      4
+    ],
+    "explanation": "Les réponses A, C, D et E sont correctes. Une XSS peut entraîner un vol de session, une élévation de privilèges, l'installation d'un keylogger, du defacing, des vers XSS, du déni de service et la dégradation de l'image. La corruption directe de la base de données relève davantage de l'injection SQL."
+  },
+  {
+    "id": "DSO021",
+    "type": "true_false",
+    "theme": "vulnerabilites-web",
+    "subtheme": "xss",
+    "difficulty": 2,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "L'affirmation suivante est-elle vraie ou fausse : Dans une attaque XSS de type Stored (stockée), le code malveillant est stocké en base de données et exécuté à chaque visite de la page piégée.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "answer": 0,
+    "explanation": "Vrai. Dans une XSS stockée (Stored XSS), l'attaquant injecte du code nocif qui est stocké dans le site vulnérable. Chaque victime qui visite la page piégée exécute le code malveillant, contrairement à la XSS réfléchie (Reflected) qui nécessite un lien piégé envoyé à la victime."
+  },
+  {
+    "id": "DSO022",
+    "type": "flashcard",
+    "theme": "vulnerabilites-web",
+    "subtheme": "xss",
+    "difficulty": 2,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "Expliquez la différence entre une XSS Reflected et une XSS Stored.",
+    "options": [],
+    "answer": null,
+    "explanation": "XSS Reflected (réfléchie) : l'attaquant envoie un lien piégé à la victime. Lorsque celle-ci clique, la page demandée contient le code injecté dans l'URL par le hacker, qui est exécuté dans le navigateur de la victime. Le code n'est pas stocké sur le serveur.\n\nXSS Stored (stockée) : l'attaquant injecte du code nocif directement dans un site vulnérable (ex: commentaire, formulaire). Le code est stocké en base de données. Toute victime visitant la page piégée charge et exécute automatiquement le code malveillant."
+  },
+  {
+    "id": "DSO023",
+    "type": "mcq",
+    "theme": "vulnerabilites-web",
+    "subtheme": "injection-sql",
+    "difficulty": 2,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "Quel identifiant CWE correspond à la vulnérabilité d'injection SQL (SQLi) ?",
+    "options": [
+      "CWE-89",
+      "CWE-79",
+      "CWE-611",
+      "CWE-22"
+    ],
+    "answer": 0,
+    "explanation": "Explication : L'injection SQL correspond au CWE-89 – Mauvaise gestion des requêtes SQL. Cette vulnérabilité permet d'injecter des commandes SQL pour lire ou modifier des données dans la base de données."
+  },
+  {
+    "id": "DSO024",
+    "type": "true_false",
+    "theme": "vulnerabilites-web",
+    "subtheme": "injection-sql",
+    "difficulty": 2,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "L'affirmation suivante est-elle vraie ou fausse : Les variantes avancées d'injection SQL peuvent permettre d'écrire des fichiers arbitraires sur le serveur et d'exécuter des commandes système.",
+    "options": [
+      "Faux",
+      "Vrai"
+    ],
+    "answer": 1,
+    "explanation": "Vrai. Les variations avancées d'une attaque SQLi peuvent être utilisées non seulement pour lire et modifier des données, mais aussi pour écrire des fichiers arbitraires sur le serveur et même exécuter des commandes système."
+  },
+  {
+    "id": "DSO025",
+    "type": "mcq",
+    "theme": "vulnerabilites-web",
+    "subtheme": "csrf",
+    "difficulty": 2,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "Quelle vulnérabilité correspond au CWE-352 ?",
+    "options": [
+      "Path Traversal",
+      "Cross-Site Request Forgery (CSRF)",
+      "Cross-Site Scripting (XSS)",
+      "SQL Injection (SQLi)"
+    ],
+    "answer": 1,
+    "explanation": "Explication : Le CWE-352 correspond au Cross-Site Request Forgery (CSRF). Dans cette attaque, l'application ne vérifie pas la légitimité d'une requête, ce qui permet à un attaquant de forcer un utilisateur authentifié à effectuer des actions non souhaitées."
+  },
+  {
+    "id": "DSO026",
+    "type": "flashcard",
+    "theme": "vulnerabilites-web",
+    "subtheme": "csrf",
+    "difficulty": 2,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "Décrivez le mécanisme d'une attaque CSRF (Cross-Site Request Forgery).",
+    "options": [],
+    "answer": null,
+    "explanation": "Le CSRF exploite le fait qu'une application ne vérifie pas la légitimité du consentement de l'utilisateur lors d'une requête. Le scénario typique est : (1) le pirate envoie un email contenant un lien piégé à la victime, (2) lorsque la victime clique, une requête forgée est exécutée à son insu vers le site web ciblé, (3) comme la victime est déjà authentifiée, l'action malveillante (ex: changement de mot de passe) est effectuée avec ses droits."
+  },
+  {
+    "id": "DSO027",
+    "type": "mcq",
+    "theme": "vulnerabilites-web",
+    "subtheme": "validation-inputs",
+    "difficulty": 2,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "Pourquoi la validation côté client (HTML5) est-elle insuffisante pour sécuriser les champs de formulaires ?",
+    "options": [
+      "Parce que les attributs HTML peuvent être modifiés ou supprimés via les outils de développement du navigateur",
+      "Parce que la validation HTML5 n'est supportée que par Chrome",
+      "Parce que la validation HTML5 est trop lente",
+      "Parce que HTML5 ne supporte pas les expressions régulières"
+    ],
+    "answer": 0,
+    "explanation": "Explication : La validation HTML5 (attributs pattern, required, type) peut être facilement contournée car un utilisateur peut modifier ou supprimer ces attributs via les outils de développement du navigateur (DevTools). La validation côté serveur (back-end) est indispensable."
+  },
+  {
+    "id": "DSO028",
+    "type": "mcq",
+    "theme": "vulnerabilites-web",
+    "subtheme": "information-disclosure",
+    "difficulty": 2,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "Quel CWE correspond à l'exposition d'informations sensibles par une application ?",
+    "options": [
+      "CWE-434",
+      "CWE-79",
+      "CWE-287",
+      "CWE-200"
+    ],
+    "answer": 3,
+    "explanation": "Explication : Le CWE-200 correspond à l'exposition d'informations sensibles. L'application peut laisser fuiter l'arborescence des ressources, des mots de passe, le comportement applicatif, les protections en place, les technologies utilisées ou des fichiers de backup."
+  },
+  {
+    "id": "DSO029",
+    "type": "multiple",
+    "theme": "vulnerabilites-web",
+    "subtheme": "information-disclosure",
+    "difficulty": 2,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "Quelles informations peuvent fuiter via une vulnérabilité CWE-200 (exposition d'informations sensibles) ? (plusieurs réponses attendues)",
+    "options": [
+      "Technologies utilisées par l'application",
+      "Arborescence des ressources du serveur",
+      "Fichiers de backup accessibles",
+      "Mots de passe en clair",
+      "Le code source compilé du noyau Linux"
+    ],
+    "answers": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Les réponses A, B, D et E sont correctes. L'exposition d'informations sensibles (CWE-200) peut révéler l'arborescence des ressources, les technologies utilisées, des fichiers de backup et des mots de passe. Le code source compilé du noyau Linux n'est pas une fuite typique de cette vulnérabilité applicative."
+  },
+  {
+    "id": "DSO030",
+    "type": "mcq",
+    "theme": "vulnerabilites-web",
+    "subtheme": "path-traversal",
+    "difficulty": 2,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "Quel est le principe de la vulnérabilité CWE-22 (Path Traversal) ?",
+    "options": [
+      "Voler les cookies de session d'un utilisateur",
+      "Exploiter la construction de chemins de ressources à partir de données externes pour accéder à des fichiers arbitraires",
+      "Forger des requêtes HTTP au nom d'un utilisateur authentifié",
+      "Injecter des commandes SQL dans les paramètres d'URL"
+    ],
+    "answer": 1,
+    "explanation": "Explication : Le Path Traversal (CWE-22) se produit lorsque l'application utilise des données externes pour construire des chemins de ressources. Un attaquant peut exploiter cette faille pour remonter dans l'arborescence (ex: ../../etc/passwd) et accéder à des ressources arbitraires du serveur."
+  },
+  {
+    "id": "DSO031",
+    "type": "mcq",
+    "theme": "vulnerabilites-web",
+    "subtheme": "os-command-injection",
+    "difficulty": 2,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "Quelle vulnérabilité est exploitée lorsqu'un attaquant injecte des commandes système via un champ de saisie d'adresse IP (ex: 127.0.0.1; ls) ?",
+    "options": [
+      "CWE-89 – Injection SQL",
+      "CWE-22 – Path Traversal",
+      "CWE-78 – Injection de commandes OS",
+      "CWE-79 – Cross-Site Scripting"
+    ],
+    "answer": 2,
+    "explanation": "Explication : Il s'agit du CWE-78 – Injection de commandes OS. L'application construit une chaîne de caractères interprétée par le système d'exploitation. Sans contrôle, un attaquant peut y insérer des commandes arbitraires séparées par des caractères comme ; ou &&."
+  },
+  {
+    "id": "DSO032",
+    "type": "true_false",
+    "theme": "vulnerabilites-web",
+    "subtheme": "authentification",
+    "difficulty": 2,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "L'affirmation suivante est-elle vraie ou fausse : Utiliser des cookies côté client pour vérifier si un utilisateur est administrateur constitue une bonne pratique de gestion de l'authentification.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "answer": 1,
+    "explanation": "Faux. Se baser sur des cookies côté client (ex: vérifier $_COOKIE['admin']) pour l'authentification est une vulnérabilité (CWE-287). Un attaquant peut facilement créer ou modifier ces cookies. L'authentification doit être gérée côté serveur avec des mécanismes sécurisés."
+  },
+  {
+    "id": "DSO033",
+    "type": "mcq",
+    "theme": "vulnerabilites-web",
+    "subtheme": "idor",
+    "difficulty": 2,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "Qu'est-ce qu'une vulnérabilité IDOR (Insecure Direct Object Reference) ?",
+    "options": [
+      "Une faiblesse dans les contrôles d'accès permettant d'accéder aux ressources d'autres utilisateurs en modifiant un identifiant",
+      "Un défaut de validation des certificats SSL",
+      "Une injection de commandes dans le système d'exploitation du serveur",
+      "Une faille permettant d'exécuter du JavaScript dans le navigateur d'un autre utilisateur"
+    ],
+    "answer": 0,
+    "explanation": "Explication : L'IDOR (CWE-732 – Faiblesse de contrôles d'accès) permet à un attaquant d'accéder, modifier ou supprimer des ressources qui ne lui sont pas destinées, en modifiant simplement un identifiant dans l'URL ou les paramètres de la requête."
+  },
+  {
+    "id": "DSO034",
+    "type": "mcq",
+    "theme": "vulnerabilites-web",
+    "subtheme": "upload",
+    "difficulty": 2,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "Quel est le risque principal d'une mauvaise gestion de l'upload de fichiers (CWE-434) ?",
+    "options": [
+      "Perte de performance du serveur uniquement",
+      "Les fichiers uploadés sont systématiquement corrompus",
+      "L'attaquant peut uniquement lire les fichiers existants",
+      "L'attaquant peut uploader des fichiers interprétables par le serveur (ex: web shell) et exécuter des commandes"
+    ],
+    "answer": 3,
+    "explanation": "Explication : La mauvaise gestion d'upload (CWE-434) permet à un attaquant d'uploader des fichiers de tout type, et dans les cas les plus graves, des fichiers interprétables par l'environnement applicatif (comme un web shell PHP), ce qui permet d'exécuter des commandes système sur le serveur."
+  },
+  {
+    "id": "DSO035",
+    "type": "flashcard",
+    "theme": "vulnerabilites-web",
+    "subtheme": "xxe",
+    "difficulty": 3,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "Expliquez la vulnérabilité XXE (XML External Entity – CWE-611) et ses conséquences.",
+    "options": [],
+    "answer": null,
+    "explanation": "La vulnérabilité XXE (CWE-611) se produit lorsqu'une application parse et utilise des documents XML sans contrôle adéquat. Un attaquant peut injecter des entités XML externes qui référencent des URIs arbitraires (ex: file:///etc/passwd). Lorsque le parser XML résout ces entités, il lit le contenu des fichiers référencés et peut le renvoyer dans la réponse, provoquant des fuites d'informations sensibles du serveur. Les conséquences incluent la lecture de fichiers arbitraires et le Server-Side Request Forgery (SSRF)."
+  },
+  {
+    "id": "DSO036",
+    "type": "true_false",
+    "theme": "vulnerabilites-web",
+    "subtheme": "information-disclosure",
+    "difficulty": 2,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "L'affirmation suivante est-elle vraie ou fausse : Afficher des messages d'erreur distincts pour « utilisateur inconnu » et « mot de passe incorrect » constitue une vulnérabilité d'exposition d'informations sensibles.",
+    "options": [
+      "Faux",
+      "Vrai"
+    ],
+    "answer": 1,
+    "explanation": "Vrai. Différencier les messages d'erreur entre « Login Failed – unknown username » et « Login failed – incorrect password » permet à un attaquant d'énumérer les noms d'utilisateurs valides. Un message d'erreur générique unique devrait être utilisé pour les deux cas."
+  },
+  {
+    "id": "DSO037",
+    "type": "mcq",
+    "theme": "vulnerabilites-web",
+    "subtheme": "top-25-sans",
+    "difficulty": 3,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "Dans le Top 25 SANS/CWE, quelle vulnérabilité occupe la première position ?",
+    "options": [
+      "CWE-79 – Cross-Site Scripting",
+      "CWE-20 – Improper Input Validation",
+      "CWE-89 – SQL Injection",
+      "CWE-119 – Improper Restriction of Operations within the Bounds of a Memory Buffer"
+    ],
+    "answer": 3,
+    "explanation": "Explication : Le CWE-119 (Improper Restriction of Operations within the Bounds of a Memory Buffer) occupe la première position du Top 25 SANS/CWE, suivi du CWE-79 (XSS) en deuxième position et du CWE-20 (Improper Input Validation) en troisième."
+  },
+  {
+    "id": "DSO038",
+    "type": "multiple",
+    "theme": "introduction",
+    "subtheme": "referentiels",
+    "difficulty": 1,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "Quelles sont les missions de l'ANSSI ? (plusieurs réponses attendues)",
+    "options": [
+      "Formation en sécurité numérique",
+      "Publication de bonnes pratiques et recommandations",
+      "Prévention en matière de sécurité numérique",
+      "Vente de solutions de cybersécurité",
+      "Labellisation de solutions et services de sécurité"
+    ],
+    "answers": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "explanation": "Les réponses A, C, D et E sont correctes. L'ANSSI assure la prévention, la protection, la réaction, la formation et la labellisation de solutions et services pour la sécurité numérique. Elle ne vend pas de solutions commerciales."
+  },
+  {
+    "id": "DSO039",
+    "type": "flashcard",
+    "theme": "introduction",
+    "subtheme": "cadre-juridique",
+    "difficulty": 2,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "Quelle est la différence entre l'Opt-in et l'Opt-out en matière de prospection commerciale ?",
+    "options": [],
+    "answer": null,
+    "explanation": "Opt-in (option d'adhésion) : utilisé en B2C par email, SMS, MMS, automate d'appels ou fax. Le principe est que l'accord explicite de la personne est requis : « s'il n'a pas dit oui, c'est non ». Les cases de consentement sont décochées par défaut.\n\nOpt-out (option de retrait) : utilisé en B2B par email et en B2C par voie postale ou téléphone. Le principe est que le consentement est présumé : « s'il n'a pas dit non, c'est oui ». Les cases de refus permettent à l'utilisateur de se désinscrire (ex: « je ne souhaite pas recevoir d'offres »)."
+  },
+  {
+    "id": "DSO040",
+    "type": "mcq",
+    "theme": "introduction",
+    "subtheme": "cadre-juridique",
+    "difficulty": 2,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "Qu'est-ce qu'un cookie permet d'analyser principalement ?",
+    "options": [
+      "Le comportement des usagers lors de la visite d'un site, la lecture d'un email ou l'utilisation d'un logiciel",
+      "Le code source d'une application",
+      "Les vulnérabilités d'un site web",
+      "Les performances matérielles du serveur"
+    ],
+    "answer": 0,
+    "explanation": "Explication : Un cookie permet d'analyser le comportement des usagers lorsqu'ils visitent un site internet, lisent un email, installent ou utilisent un logiciel ou une application mobile."
+  },
+  {
+    "id": "DSO041",
+    "type": "multiple",
+    "theme": "introduction",
+    "subtheme": "cadre-juridique",
+    "difficulty": 3,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "Parmi les éléments suivants, lesquels sont des mentions obligatoires pour une société exerçant une activité commerciale en ligne ? (plusieurs réponses attendues)",
+    "options": [
+      "Forme juridique de la société (SA, SARL, SNC, SAS, etc.)",
+      "Montant du capital social",
+      "Nombre de salariés de l'entreprise",
+      "Nom de l'hébergeur du site",
+      "Dénomination sociale ou raison sociale"
+    ],
+    "answers": [
+      0,
+      1,
+      3,
+      4
+    ],
+    "explanation": "Les réponses A, C, D et E sont correctes. Pour une activité commerciale, une société doit afficher sa dénomination sociale, l'adresse du siège social, le téléphone et email, la forme juridique, le montant du capital social et les informations de l'hébergeur. Le nombre de salariés n'est pas requis."
+  },
+  {
+    "id": "DSO042",
+    "type": "flashcard",
+    "theme": "vulnerabilites-web",
+    "subtheme": "injection-sql",
+    "difficulty": 3,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "Pourquoi le code PHP suivant est-il vulnérable à l'injection SQL : $m_id = $_GET['m_id']; mysql_query(\"SELECT ... WHERE MessageID = '$m_id'\"); ?",
+    "options": [],
+    "answer": null,
+    "explanation": "Ce code est vulnérable car le paramètre $_GET['m_id'] est directement concaténé dans la requête SQL sans aucune validation ni échappement. Un attaquant peut fournir une valeur comme ' OR 1=1;-- pour modifier la logique de la requête et accéder à toutes les données. La correction implique l'utilisation de requêtes préparées (prepared statements) avec des paramètres liés, qui séparent les données de la logique SQL."
+  },
+  {
+    "id": "DSO043",
+    "type": "mcq",
+    "theme": "vulnerabilites-web",
+    "subtheme": "top-25-sans",
+    "difficulty": 2,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "Quel CWE correspond à la vulnérabilité de désérialisation de données non fiables ?",
+    "options": [
+      "CWE-434 – Unrestricted Upload of File",
+      "CWE-798 – Use of Hard-coded Credentials",
+      "CWE-502 – Deserialization of Untrusted Data",
+      "CWE-400 – Uncontrolled Resource Consumption"
+    ],
+    "answer": 2,
+    "explanation": "Explication : Le CWE-502 correspond à la désérialisation de données non fiables (Deserialization of Untrusted Data), classé 23ème dans le Top 25 SANS/CWE."
+  },
+  {
+    "id": "DSO044",
+    "type": "true_false",
+    "theme": "vulnerabilites-web",
+    "subtheme": "upload",
+    "difficulty": 2,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "L'affirmation suivante est-elle vraie ou fausse : Un code PHP qui utilise move_uploaded_file sans vérifier le type et l'extension du fichier uploadé est vulnérable au CWE-434.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "answer": 0,
+    "explanation": "Vrai. Si un code PHP déplace un fichier uploadé sans vérifier son type MIME, son extension ou son contenu, un attaquant peut uploader un fichier PHP malveillant (web shell) qui sera interprété par le serveur, permettant l'exécution de commandes arbitraires."
+  },
+  {
+    "id": "DSO045",
+    "type": "mcq",
+    "theme": "vulnerabilites-web",
+    "subtheme": "validation-inputs",
+    "difficulty": 1,
+    "source": "ESD Cybersecurity Academy – DevOps Security Manager",
+    "question": "Quel CWE correspond à la mauvaise validation des entrées utilisateur (inputs) ?",
+    "options": [
+      "CWE-352",
+      "CWE-20",
+      "CWE-79",
+      "CWE-200"
+    ],
+    "answer": 1,
+    "explanation": "Explication : Le CWE-20 correspond à la mauvaise validation des inputs (Improper Input Validation). L'application laisse passer des entrées non conformes, permettant à un attaquant de crafter des requêtes non prévues par le code back-end."
+  }
+]

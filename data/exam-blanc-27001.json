@@ -1,0 +1,466 @@
+[
+  {
+    "id": "EB001",
+    "type": "mcq",
+    "theme": "examen-blanc",
+    "subtheme": "mr-wolf",
+    "difficulty": 2,
+    "source": "Examen blanc - Mr WOLF",
+    "question": "Comment détermineriez-vous le contexte de l'organisation (Clause 4.1) et pourquoi est-ce une étape cruciale pour le succès du SMSI ?",
+    "options": [
+      "En identifiant seulement les menaces externes pesant sur l'organisation.",
+      "En comprenant à la fois les enjeux internes et externes qui affectent l'atteinte des objectifs du SMSI.",
+      "En se concentrant uniquement sur les exigences règlementaires applicables à l'organisation.",
+      "En analysant exclusivement les besoins des clients de l'organisation.",
+      "En consultant uniquement les rapports financiers de l'année précédente."
+    ],
+    "answers": [
+      1
+    ],
+    "explanation": "Réponse correcte : B."
+  },
+  {
+    "id": "EB002",
+    "type": "multiple",
+    "theme": "examen-blanc",
+    "subtheme": "mr-wolf",
+    "difficulty": 2,
+    "source": "Examen blanc - Mr WOLF",
+    "question": "La société Datasec, une entreprise de taille moyenne dans le secteur de l'assurance, doit se conformer à plusieurs régulations strictes concernant la protection des données. L'entreprise décide de formaliser ses pratiques en matière de sécurité de l'information en adoptant la norme ISO/IEC 27001:2022. — Quels sont les éléments clés que DataSafe Ltd doit considérer lors de la détermination de la portée du SMSI (Clause 4.3) ?",
+    "options": [
+      "Les besoins et attentes des parties intéressées, telles que définies en 4.2.",
+      "Les limites physiques et logiques de l'organisation.",
+      "Les ressources financières disponibles pour la mise en œuvre du SMSI.",
+      "Les interfaces et dépendances entre les activités de l'organisation et celles des tiers.",
+      "La stratégie de marketing de l'entreprise."
+    ],
+    "answers": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "Réponses correctes : A, B, D."
+  },
+  {
+    "id": "EB003",
+    "type": "mcq",
+    "theme": "examen-blanc",
+    "subtheme": "mr-wolf",
+    "difficulty": 2,
+    "source": "Examen blanc - Mr WOLF",
+    "question": "Quel élément n'est PAS requis pour obtenir la certification ISO/IEC 27001?",
+    "options": [
+      "Réalisation d'une évaluation des risques.",
+      "Mise en place d'un SMSI.",
+      "Possession d'une police d'assurance contre le cyber-risque.",
+      "Revue de la direction."
+    ],
+    "answers": [
+      2
+    ],
+    "explanation": "Réponse correcte : C."
+  },
+  {
+    "id": "EB004",
+    "type": "multiple",
+    "theme": "examen-blanc",
+    "subtheme": "mr-wolf",
+    "difficulty": 2,
+    "source": "Examen blanc - Mr WOLF",
+    "question": "Quelle démarche doit entreprendre la direction pour démontrer leadership et son engagement (Clause 5.1) envers le SMSI ?",
+    "options": [
+      "Établir et communiquer une politique de sécurité de l'information.",
+      "Désigner un responsable unique pour la sécurité de l'information sans autres engagements.",
+      "Intégrer les exigences du SMSI dans les processus organisationnels.",
+      "Réduire les ressources allouées à la sécurité pour augmenter les bénéfices.",
+      "Encourager l'amélioration continue du SMSI."
+    ],
+    "answers": [
+      0,
+      2,
+      4
+    ],
+    "explanation": "Réponses correctes : A, C, E."
+  },
+  {
+    "id": "EB005",
+    "type": "mcq",
+    "theme": "examen-blanc",
+    "subtheme": "mr-wolf",
+    "difficulty": 2,
+    "source": "Examen blanc - Mr WOLF",
+    "question": "Quel terme est utilisé dans ISO/IEC 27001 pour décrire une occurrence qui pourrait compromettre la sécurité de l'information?",
+    "options": [
+      "Menace.",
+      "Anomalie.",
+      "Incident.",
+      "Déraillement."
+    ],
+    "answers": [
+      2
+    ],
+    "explanation": "Réponse correcte : C."
+  },
+  {
+    "id": "EB006",
+    "type": "mcq",
+    "theme": "examen-blanc",
+    "subtheme": "mr-wolf",
+    "difficulty": 2,
+    "source": "Examen blanc - Mr WOLF",
+    "question": "Quelle partie de l'organisation est responsable de la mise en œuvre des contrôles de sécurité conformément à ISO/IEC 27001?",
+    "options": [
+      "La direction",
+      "Le département de la conformité.",
+      "Le département des ressources humaines.",
+      "Les auditeurs externes."
+    ],
+    "answers": [
+      0
+    ],
+    "explanation": "Réponse correcte : A."
+  },
+  {
+    "id": "EB007",
+    "type": "multiple",
+    "theme": "examen-blanc",
+    "subtheme": "mr-wolf",
+    "difficulty": 2,
+    "source": "Examen blanc - Mr WOLF",
+    "question": "Healthdata est une entreprise spécialisée dans le traitement des données médicales. En raison de la sensibilité des données qu'elle gère, l'entreprise souhaite établir des objectifs de sécurité de l'information (Clause 6.2). — Quels critères Healthdata doit-elle utiliser pour établir ses objectifs de sécurité de l'information ?",
+    "options": [
+      "Les objectifs doivent être mesurables, si possible.",
+      "Les objectifs doivent être conformes à la politique de sécurité de l'information.",
+      "Les objectifs doivent ignorer les résultats des évaluations des risques.",
+      "Les objectifs doivent être communiqués à tous les niveaux pertinents de l'organisation.",
+      "Les objectifs doivent être fixés uniquement par le service informatique."
+    ],
+    "answers": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "Réponses correctes : A, B, D."
+  },
+  {
+    "id": "EB008",
+    "type": "mcq",
+    "theme": "examen-blanc",
+    "subtheme": "mr-wolf",
+    "difficulty": 2,
+    "source": "Examen blanc - Mr WOLF",
+    "question": "Lequel des éléments suivants est inclus dans la norme ISO/IEC 27001 Annexe A?",
+    "options": [
+      "Contrôles techniques.",
+      "Normes pour les tests de pénétration.",
+      "Exigences pour les audits financiers.",
+      "Protocoles de formation en marketing."
+    ],
+    "answers": [
+      0
+    ],
+    "explanation": "Réponse correcte : A."
+  },
+  {
+    "id": "EB009",
+    "type": "multiple",
+    "theme": "examen-blanc",
+    "subtheme": "mr-wolf",
+    "difficulty": 2,
+    "source": "Examen blanc - Mr WOLF",
+    "question": "La société TechInno développe des solutions financières pour les banques. Lors de la mise en œuvre de l'ISO/IEC 27001:2022, ils doivent définir un processus d'évaluation des risques de sécurité de l'information (Clause 6.1.2). — Quelles étapes sont cruciales pour que TechInno réalise une évaluation des risques de sécurité de l'information conforme à la norme ?",
+    "options": [
+      "Établir des critères de risque, y compris des critères d'acceptation des risques.",
+      "Identifier et analyser les risques sans priorisation.",
+      "Évaluer les risques uniquement en fonction des menaces externes.",
+      "Documenter les résultats des évaluations de risques.",
+      "Comparer les résultats de l'analyse des risques aux critères établis."
+    ],
+    "answers": [
+      0,
+      3,
+      4
+    ],
+    "explanation": "Réponses correctes : A, D, E."
+  },
+  {
+    "id": "EB010",
+    "type": "mcq",
+    "theme": "examen-blanc",
+    "subtheme": "mr-wolf",
+    "difficulty": 2,
+    "source": "Examen blanc - Mr WOLF",
+    "question": "Quelle approche adopter pour garantir la sensibilisation, la formation et l'éducation en matière de sécurité de l'information (Clause 7.3) de ses employés ?",
+    "options": [
+      "Organiser des formations annuelles sans mise à jour régulière.",
+      "Fournir une formation initiale, mais négliger les mises à jour continues.",
+      "Offrir une formation appropriée et des mises à jour régulières sur les politiques et procédures de sécurité de l'information pertinente à chaque fonction.",
+      "Confier la formation à un tiers",
+      "Limiter la formation aux nouveaux employés"
+    ],
+    "answers": [
+      2
+    ],
+    "explanation": "Réponse correcte : C."
+  },
+  {
+    "id": "EB011",
+    "type": "mcq",
+    "theme": "examen-blanc",
+    "subtheme": "mr-wolf",
+    "difficulty": 2,
+    "source": "Examen blanc - Mr WOLF",
+    "question": "Lequel des éléments suivants n'est PAS une étape typique lors de l'évaluation des risques selon ISO/IEC 27001?",
+    "options": [
+      "Identification des risques.",
+      "Sélection des technologies à déployer.",
+      "Évaluation des impacts.",
+      "Traitement des risques."
+    ],
+    "answers": [
+      1
+    ],
+    "explanation": "Réponse correcte : B."
+  },
+  {
+    "id": "EB012",
+    "type": "multiple",
+    "theme": "examen-blanc",
+    "subtheme": "mr-wolf",
+    "difficulty": 2,
+    "source": "Examen blanc - Mr WOLF",
+    "question": "Quelles mesures prendre pour garantir que les informations documentées sont correctement contrôlées ?",
+    "options": [
+      "Assurer que la documentation est accessible et utilisable quand et où elle est nécessaire.",
+      "Protéger la documentation contre la perte de confidentialité et d'intégrité.",
+      "Permettre l'accès et la modification des documents par tous les employés sans restriction.",
+      "Ne pas mettre à jour les documents obsolètes.",
+      "Définir et mettre en œuvre des procédures de contrôle des changements et de gestion des versions."
+    ],
+    "answers": [
+      0,
+      1,
+      4
+    ],
+    "explanation": "Réponses correctes : A, B, E."
+  },
+  {
+    "id": "EB013",
+    "type": "mcq",
+    "theme": "examen-blanc",
+    "subtheme": "mr-wolf",
+    "difficulty": 2,
+    "source": "Examen blanc - Mr WOLF",
+    "question": "Selon la norme ISO/IEC 27001, quel document doit être établi pour préciser les rôles et responsabilités en matière de sécurité de l'information?",
+    "options": [
+      "Plan d'affaires",
+      "Politique de sécurité de l'information",
+      "Manuel de l'utilisateur",
+      "Contrat de service"
+    ],
+    "answers": [
+      1
+    ],
+    "explanation": "Réponse correcte : B."
+  },
+  {
+    "id": "EB014",
+    "type": "multiple",
+    "theme": "examen-blanc",
+    "subtheme": "mr-wolf",
+    "difficulty": 2,
+    "source": "Examen blanc - Mr WOLF",
+    "question": "ITCenter gère des services informatiques pour des clients internationaux. Lors de l'implémentation de l'ISO/IEC 27001:2022, ils doivent effectuer une évaluation des risques de sécurité de l'information à intervalles planifiés (Clause 8.2). — Quels aspects ITCenter doit prendre en compte pour réaliser des évaluations de risques de sécurité de l'information à intervalles planifiés ?",
+    "options": [
+      "Les évaluations doivent être basées sur les critères définis dans la clause 6.1.2.",
+      "Les évaluations doivent être réalisées uniquement lors de modifications majeures des infrastructures.",
+      "Les résultats des évaluations doivent être documentés.",
+      "Les évaluations doivent prendre en compte les nouvelles menaces et vulnérabilités identifiées.",
+      "Les évaluations doivent ignorer les risques résiduels acceptés."
+    ],
+    "answers": [
+      0,
+      2,
+      3
+    ],
+    "explanation": "Réponses correctes : A, C, D."
+  },
+  {
+    "id": "EB015",
+    "type": "mcq",
+    "theme": "examen-blanc",
+    "subtheme": "mr-wolf",
+    "difficulty": 2,
+    "source": "Examen blanc - Mr WOLF",
+    "question": "Pourquoi est-il important de considérer le contexte organisationnel lors de la mise en œuvre d'un SMSI selon ISO/IEC 27001?",
+    "options": [
+      "Pour s'assurer que le SMSI est unique pour chaque organisation.",
+      "Pour augmenter les couts de mise en œuvre.",
+      "Pour se conformer aux règlementations fiscales.",
+      "Pour suivre les dernières tendances du marché."
+    ],
+    "answers": [
+      0
+    ],
+    "explanation": "Réponse correcte : A."
+  },
+  {
+    "id": "EB016",
+    "type": "mcq",
+    "theme": "examen-blanc",
+    "subtheme": "mr-wolf",
+    "difficulty": 2,
+    "source": "Examen blanc - Mr WOLF",
+    "question": "Quelle est la principale différence entre ISO/IEC 27001 et ISO/IEC 27002?",
+    "options": [
+      "27001 se concentre sur la gestion des ressources humaines tandis que 27002 se concentre sur la sécurité informatique.",
+      "27001 est une norme de certification, tandis que 27002 fournit des directives et des meilleures pratiques.",
+      "27001 est une ancienne version de la norme, tandis que 27002 est la mise à jour.",
+      "27001 traite exclusivement des menaces externes, tandis que 27002 traite des menaces internes."
+    ],
+    "answers": [
+      1
+    ],
+    "explanation": "Réponse correcte : B."
+  },
+  {
+    "id": "EB017",
+    "type": "multiple",
+    "theme": "examen-blanc",
+    "subtheme": "mr-wolf",
+    "difficulty": 2,
+    "source": "Examen blanc - Mr WOLF",
+    "question": "Quels sont les éléments essentiels à inclure dans son processus de traitement des risques de sécurité de l'information ?",
+    "options": [
+      "Sélectionner des options de traitement des risques sans prendre en compte les résultats de l'évaluation des risques.",
+      "Produire une Déclaration d'Applicabilité qui inclut les contrôles nécessaires et leur justification.",
+      "Définir et appliquer un plan de traitement des risques de sécurité de l'information.",
+      "Obtenir l'approbation des propriétaires des risques pour le plan de traitement des risques et l'acceptation des risques résiduels.",
+      "Comparer les contrôles déterminés aux contrôles de l'Annexe A pour vérifier qu'aucun contrôle nécessaire n'a été omis."
+    ],
+    "answers": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation": "Réponses correctes : B, C, D, E."
+  },
+  {
+    "id": "EB018",
+    "type": "mcq",
+    "theme": "examen-blanc",
+    "subtheme": "mr-wolf",
+    "difficulty": 2,
+    "source": "Examen blanc - Mr WOLF",
+    "question": "Dans le cadre de la mise en œuvre d'ISO/IEC 27001, quel rôle le management joue-t-il dans le soutien du SMSI?",
+    "options": [
+      "Le management n'est impliqué que lors de l'audit final.",
+      "Le management fournit des conseils techniques sur les contrôles.",
+      "Le management assure la disponibilité des ressources et démontre un engagement envers le SMSI.",
+      "Le management ne joue aucun rôle spécifique, seuls les experts en sécurité le font."
+    ],
+    "answers": [
+      2
+    ],
+    "explanation": "Réponse correcte : C."
+  },
+  {
+    "id": "EB019",
+    "type": "mcq",
+    "theme": "examen-blanc",
+    "subtheme": "mr-wolf",
+    "difficulty": 2,
+    "source": "Examen blanc - Mr WOLF",
+    "question": "Selon ISO/IEC 27001, quelle activité est essentielle après avoir identifié et évalué les risques?",
+    "options": [
+      "Ignorer les risques jugés mineurs.",
+      "Informer le public des risques identifiés.",
+      "Traiter les risques selon l'acceptation, le transfert, l'évitement ou la mitigation.",
+      "Modifier l'annexe A pour refléter les nouveaux risques."
+    ],
+    "answers": [
+      2
+    ],
+    "explanation": "Réponse correcte : C."
+  },
+  {
+    "id": "EB020",
+    "type": "multiple",
+    "theme": "examen-blanc",
+    "subtheme": "mr-wolf",
+    "difficulty": 2,
+    "source": "Examen blanc - Mr WOLF",
+    "question": "Quelles actions entreprendre pour garantir l'amélioration continue de son SMSI ?",
+    "options": [
+      "Ne pas revoir les processus et procédures une fois qu'ils sont établis.",
+      "Encourager le retour d'expérience et les suggestions d'amélioration de la part des employés.",
+      "Réaliser des audits internes à intervalles réguliers pour évaluer l'efficacité du SMSI.",
+      "Ignorer les incidents de sécurité mineurs.",
+      "Prendre des mesures correctives basées sur les résultats des audits et des examens de la direction"
+    ],
+    "answers": [
+      1,
+      2,
+      4
+    ],
+    "explanation": "Réponses correctes : B, C, E."
+  },
+  {
+    "id": "EB021",
+    "type": "mcq",
+    "theme": "examen-blanc",
+    "subtheme": "mr-wolf",
+    "difficulty": 2,
+    "source": "Examen blanc - Mr WOLF",
+    "question": "Lequel des éléments suivants n'est PAS un avantage direct de la mise en œuvre de la norme ISO/IEC 27001?",
+    "options": [
+      "Amélioration de la réputation de l'entreprise",
+      "Assurer une conformité légale et règlementaire",
+      "Augmentation des ventes et du chiffre d'affaires",
+      "Réduction des risques associés à la sécurité de l'information."
+    ],
+    "answers": [
+      2
+    ],
+    "explanation": "Réponse correcte : C."
+  },
+  {
+    "id": "EB022",
+    "type": "mcq",
+    "theme": "examen-blanc",
+    "subtheme": "mr-wolf",
+    "difficulty": 2,
+    "source": "Examen blanc - Mr WOLF",
+    "question": "Comment la norme ISO/IEC 27001 recommande-t-elle d'aborder les risques qui ne sont pas explicitement couverts par l'annexe A?",
+    "options": [
+      "Ignorer ces risques, car ils sont insignifiants.",
+      "Utiliser des contrôles provenant d'autres cadres ou normes pour traiter ces risques.",
+      "Attendre la prochaine mise à jour de la norme pour les traiter.",
+      "Inclure uniquement ces risques dans le rapport de management."
+    ],
+    "answers": [
+      1
+    ],
+    "explanation": "Réponse correcte : B."
+  },
+  {
+    "id": "EB023",
+    "type": "mcq",
+    "theme": "examen-blanc",
+    "subtheme": "mr-wolf",
+    "difficulty": 2,
+    "source": "Examen blanc - Mr WOLF",
+    "question": "Quel est le but de la revue continue et de l'amélioration dans le SMSI selon ISO/IEC 27001?",
+    "options": [
+      "Assurer que les mesures de sécurité restent pertinentes et efficaces face à l'évolution des risques.",
+      "Augmenter régulièrement le budget alloué à la sécurité.",
+      "Faire de la publicité sur les réussites de l'entreprise.",
+      "S'assurer que le SMSI est mis en œuvre une fois et n'est jamais modifié par la suite."
+    ],
+    "answers": [
+      0
+    ],
+    "explanation": "Réponse correcte : A."
+  }
+]

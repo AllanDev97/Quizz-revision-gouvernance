@@ -1,0 +1,64 @@
+[
+  {
+    "id": "PREFIXE001",
+    "type": "mcq",
+    "theme": "nom-du-theme",
+    "subtheme": "sous-theme-optionnel",
+    "difficulty": 1,
+    "source": "Nom du cours ou de la source",
+    "question": "Quelle est la bonne réponse parmi les propositions suivantes ?",
+    "options": [
+      "Réponse A — un distracteur plausible de longueur similaire",
+      "Réponse B — la bonne réponse avec une longueur équilibrée",
+      "Réponse C — un autre distracteur de longueur comparable",
+      "Réponse D — encore un distracteur bien formulé"
+    ],
+    "answer": 1,
+    "explanation": "Explication : B est correct parce que…"
+  },
+  {
+    "id": "PREFIXE002",
+    "type": "true_false",
+    "theme": "nom-du-theme",
+    "subtheme": "",
+    "difficulty": 1,
+    "source": "Nom du cours ou de la source",
+    "question": "L'affirmation suivante est-elle vraie ou fausse : … ?",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "answer": 0,
+    "explanation": "Vrai. Explication : …"
+  },
+  {
+    "id": "PREFIXE003",
+    "type": "flashcard",
+    "theme": "nom-du-theme",
+    "subtheme": "",
+    "difficulty": 2,
+    "source": "Nom du cours ou de la source",
+    "question": "Définissez le concept X et expliquez son rôle.",
+    "options": [],
+    "answer": null,
+    "explanation": "Le concept X désigne… Il joue un rôle clé dans…"
+  },
+  {
+    "id": "PREFIXE004",
+    "type": "multiple",
+    "theme": "nom-du-theme",
+    "subtheme": "",
+    "difficulty": 3,
+    "source": "Nom du cours ou de la source",
+    "question": "Parmi les propositions suivantes, lesquelles sont correctes ? (plusieurs réponses attendues)",
+    "options": [
+      "Proposition A — correcte",
+      "Proposition B — incorrecte mais plausible",
+      "Proposition C — correcte",
+      "Proposition D — incorrecte mais plausible",
+      "Proposition E — correcte"
+    ],
+    "answers": [0, 2, 4],
+    "explanation": "Les réponses A, C et E sont correctes parce que…"
+  }
+]

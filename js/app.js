@@ -8,6 +8,7 @@ let sessionQuestions = [];
 let currentIndex     = 0;
 let score            = 0;
 let sessionErrors    = [];
+let userAnswers      = [];     // stocke les réponses données par question
 let selectedTheme    = 'all';
 let currentNorm      = null;   // ex: "iso27005"
 
@@ -27,6 +28,16 @@ const NORMS = {
     label:    'ISO 22301:2019',
     subtitle: 'Continuité d\'activité',
     file:     'data/iso22301.json',
+  },
+  'exam-blanc-27001': {
+    label:    'Examen blanc 27001',
+    subtitle: 'Fournit par Mr WOLF',
+    file:     'data/exam-blanc-27001.json',
+  },
+  'devsecops': {
+    label:    'DevSecOps',
+    subtitle: 'DevOps Security Manager',
+    file:     'data/devsecops.json',
   },
 };
 
@@ -57,11 +68,21 @@ const THEME_LABELS = {
   'amelioration':        'Amélioration',
   'annexe-a':            'Annexe A — Contrôles',
   // ISO 22301
-  'concepts-bcp':        'Concepts & terminologie',
-  'analyse-impact':      'Analyse d\'impact (BIA)',
-  'strategie-continuite':'Stratégie de continuité',
-  'plans-continuite':    'Plans de continuité',
-  'exercices-tests':     'Exercices & tests',
+  'Cadrage et terminologie':    'Cadrage et terminologie',
+  'PCA et Entreprise':          'PCA et Entreprise',
+  'Fonctionnement':             'Fonctionnement',
+  'Étude norme ISO 22301':      'Étude norme ISO 22301',
+  'Contexte de l\'organisation':'Contexte de l\'organisation',
+  'Leadership':                 'Leadership',
+  'Planification':              'Planification',
+  'Support':                    'Support',
+  'Évaluation des performances':'Évaluation des performances',
+  'Amélioration':               'Amélioration',
+  // Examen blanc
+  'examen-blanc':        'Examen blanc (Mr WOLF)',
+  // DevSecOps
+  'introduction':        'Introduction & Référentiels',
+  'vulnerabilites-web':  'Vulnérabilités Web',
   // Communs
   'examen':              'Simulation d\'examen',
   'all':                 'Tout réviser',
@@ -69,7 +90,7 @@ const THEME_LABELS = {
 };
 
 const DIFFICULTY_LABELS = { 1: 'Facile', 2: 'Moyen', 3: 'Difficile' };
-const TYPE_LABELS = { mcq: 'QCM', true_false: 'Vrai/Faux', flashcard: 'Flashcard' };
+const TYPE_LABELS = { mcq: 'QCM', true_false: 'Vrai/Faux', flashcard: 'Flashcard', multiple: 'Réponses multiples' };
 
 // ── Bootstrap ────────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', () => {
@@ -191,6 +212,7 @@ function startQuiz(theme) {
   currentIndex  = 0;
   score         = 0;
   sessionErrors = [];
+  userAnswers   = [];
 
   show('screen-quiz');
   document.getElementById('quiz-theme-label').textContent = label(theme);
@@ -206,6 +228,7 @@ function startErrorMode() {
   currentIndex     = 0;
   score            = 0;
   sessionErrors    = [];
+  userAnswers      = [];
 
   show('screen-quiz');
   document.getElementById('quiz-theme-label').textContent = 'Mes erreurs';
@@ -220,6 +243,20 @@ function showQuestion() {
   document.getElementById('quiz-counter').textContent       = `Q ${currentIndex + 1} / ${total}`;
   document.getElementById('progress-fill').style.width      = `${(currentIndex / total) * 100}%`;
 
+  // Bouton Précédent
+  const btnPrev = document.getElementById('btn-prev');
+  if (currentIndex > 0) {
+    btnPrev.classList.remove('hidden');
+    const btnPrevClone = btnPrev.cloneNode(true);
+    btnPrev.parentNode.replaceChild(btnPrevClone, btnPrev);
+    btnPrevClone.addEventListener('click', () => {
+      currentIndex--;
+      showQuestion();
+    });
+  } else {
+    btnPrev.classList.add('hidden');
+  }
+
   const meta = document.getElementById('question-meta');
   meta.innerHTML = `
     <span class="tag tag-type">${TYPE_LABELS[q.type] || q.type}</span>
@@ -232,36 +269,122 @@ function showQuestion() {
   const list = document.getElementById('options-list');
   list.innerHTML = '';
 
+  const previousAnswer = userAnswers[currentIndex];
+
   if (q.type === 'flashcard') {
-    const btn = document.createElement('button');
-    btn.className   = 'btn-reveal';
-    btn.textContent = 'Révéler la réponse';
-    btn.addEventListener('click', () => showFeedback(q, null));
-    list.appendChild(btn);
+    if (previousAnswer) {
+      // Déjà vu : afficher directement le feedback
+      showFeedback(q, null);
+    } else {
+      const btn = document.createElement('button');
+      btn.className   = 'btn-reveal';
+      btn.textContent = 'Révéler la réponse';
+      btn.addEventListener('click', () => {
+        userAnswers[currentIndex] = { answered: true };
+        showFeedback(q, null);
+      });
+      list.appendChild(btn);
+    }
     return;
   }
 
-  q.options.forEach((opt, i) => {
-    const btn = document.createElement('button');
-    btn.className   = 'option-btn';
-    btn.textContent = opt;
-    btn.addEventListener('click', () => handleAnswer(q, i));
-    list.appendChild(btn);
-  });
+  const btnValidate = document.getElementById('btn-validate');
+
+  if (q.type === 'multiple') {
+    btnValidate.classList.add('hidden');
+    q.options.forEach((opt, i) => {
+      const btn = document.createElement('button');
+      btn.className   = 'option-btn option-btn--multi';
+      btn.textContent = opt;
+      btn.dataset.index = i;
+
+      if (previousAnswer) {
+        // Déjà répondu : afficher l'état final
+        btn.disabled = true;
+        const correctIndices = [...q.answers].sort();
+        if (correctIndices.includes(i))                         btn.classList.add('correct');
+        else if (previousAnswer.selectedIndices.includes(i))    btn.classList.add('incorrect');
+      } else {
+        btn.addEventListener('click', () => btn.classList.toggle('selected'));
+      }
+      list.appendChild(btn);
+    });
+
+    if (previousAnswer) {
+      showFeedback(q, previousAnswer.correct);
+    } else {
+      btnValidate.classList.remove('hidden');
+      const cloned = btnValidate.cloneNode(true);
+      btnValidate.parentNode.replaceChild(cloned, btnValidate);
+      cloned.addEventListener('click', () => handleMultipleValidate(q));
+    }
+  } else {
+    btnValidate.classList.add('hidden');
+    const correctIdx = getCorrectIndex(q);
+    q.options.forEach((opt, i) => {
+      const btn = document.createElement('button');
+      btn.className   = 'option-btn';
+      btn.textContent = opt;
+
+      if (previousAnswer) {
+        btn.disabled = true;
+        if (i === correctIdx)                        btn.classList.add('correct');
+        else if (i === previousAnswer.selectedIndex) btn.classList.add('incorrect');
+      } else {
+        btn.addEventListener('click', () => handleAnswer(q, i));
+      }
+      list.appendChild(btn);
+    });
+
+    if (previousAnswer) {
+      showFeedback(q, previousAnswer.correct);
+    }
+  }
 }
 
 // ── Gestion Réponse ──────────────────────────────────────────
+function getCorrectIndex(q) {
+  // Support both `answer` (int) and `answers` (array) fields
+  if (q.answer !== undefined) return q.answer;
+  if (q.answers && q.answers.length === 1) return q.answers[0];
+  return null;
+}
+
 function handleAnswer(q, selectedIndex) {
-  const correct = selectedIndex === q.answer;
+  const correctIdx = getCorrectIndex(q);
+  const correct = selectedIndex === correctIdx;
+  userAnswers[currentIndex] = { selectedIndex, correct };
   if (correct) score++;
   else if (!sessionErrors.includes(q.id)) sessionErrors.push(q.id);
 
   document.querySelectorAll('.option-btn').forEach((btn, i) => {
     btn.disabled = true;
-    if (i === q.answer)          btn.classList.add('correct');
+    if (i === correctIdx)         btn.classList.add('correct');
     else if (i === selectedIndex) btn.classList.add('incorrect');
   });
 
+  showFeedback(q, correct);
+}
+
+function handleMultipleValidate(q) {
+  const selectedBtns = document.querySelectorAll('.option-btn--multi.selected');
+  const selectedIndices = [...selectedBtns].map(b => parseInt(b.dataset.index)).sort();
+  const correctIndices  = [...q.answers].sort();
+
+  const correct = JSON.stringify(selectedIndices) === JSON.stringify(correctIndices);
+  userAnswers[currentIndex] = { selectedIndices, correct };
+  if (correct) score++;
+  else if (!sessionErrors.includes(q.id)) sessionErrors.push(q.id);
+
+  document.querySelectorAll('.option-btn--multi').forEach((btn) => {
+    btn.disabled = true;
+    btn.classList.remove('selected');
+    const idx = parseInt(btn.dataset.index);
+    if (correctIndices.includes(idx))       btn.classList.add('correct');
+    else if (selectedIndices.includes(idx)) btn.classList.add('incorrect');
+  });
+
+  document.getElementById('btn-validate').classList.add('hidden');
   showFeedback(q, correct);
 }
 
@@ -348,7 +471,10 @@ function showResults() {
     sessionQuestions.filter(q => sessionErrors.includes(q.id)).forEach(q => {
       const div = document.createElement('div');
       div.className = 'error-item';
-      const correct = q.type === 'flashcard' ? '(voir explication)' : q.options[q.answer];
+      let correct;
+      if (q.type === 'flashcard') correct = '(voir explication)';
+      else if (q.answers) correct = q.answers.map(i => q.options[i]).join(' | ');
+      else correct = q.options[q.answer];
       div.innerHTML = `<div class="error-q">${q.question}</div>
                        <div class="error-expl"><strong>Bonne réponse :</strong> ${correct}<br>${q.explanation}</div>`;
       errorsItems.appendChild(div);
