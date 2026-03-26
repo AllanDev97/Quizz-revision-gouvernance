@@ -77,6 +77,26 @@ section.active { display: block; }
 }
 .btn-back:hover { background: rgba(255,255,255,0.25); }
 
+.btn-refresh {
+  position: fixed;
+  bottom: 1.2rem;
+  left: 1.2rem;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+  z-index: 900;
+  transition: var(--transition);
+}
+.btn-refresh:hover { background: var(--primary-light); transform: rotate(90deg); }
+
 /* ===== ÉCRAN CHOIX NORME ===== */
 #norm-grid {
   display: grid;

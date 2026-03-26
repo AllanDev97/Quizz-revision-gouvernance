@@ -125,6 +125,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
   document.getElementById('btn-quit-quiz').addEventListener('click', pauseQuizAndReturnHome);
 
+  document.getElementById('btn-hard-refresh').addEventListener('click', () => {
+    if ('caches' in window) {
+      caches.keys().then(names => names.forEach(name => caches.delete(name)));
+    }
+    location.reload(true);
+  });
+
   document.getElementById('question-count').addEventListener('change', () => {
     if (allQuestions.length > 0) buildHomeScreen();
   });
