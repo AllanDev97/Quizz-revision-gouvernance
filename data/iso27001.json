@@ -1698,5 +1698,141 @@
     ],
     "answer": 0,
     "explanation": "Concevoir une politique de sécurité puis sous-traiter l'appréciation des risques et la documentation est souvent voué à l'échec car cette démarche ne responsabilise nullement l'organisation vis-à-vis de sa sécurité."
+  },
+  {
+    "id": "Q101",
+    "type": "mcq",
+    "theme": "norme-27001-2017",
+    "subtheme": "traitement-risques",
+    "difficulty": 2,
+    "source": "Cours ISO 27001 - ESD Academy",
+    "question": "Quelles sont les 4 options de traitement d'un risque selon la norme ISO 27001 (clause 6.1.3) ?",
+    "options": [
+      "Identifier, analyser, évaluer, documenter",
+      "Réduire, éviter, transférer, accepter",
+      "Planifier, exécuter, contrôler, améliorer",
+      "Détecter, signaler, corriger, prévenir"
+    ],
+    "answer": 1,
+    "explanation": "La clause 6.1.3 prévoit 4 options pour traiter un risque : le Réduire (mettre en place des mesures de sécurité), l'Éviter (supprimer l'activité à l'origine du risque), le Transférer (assurance, sous-traitance), ou l'Accepter (risque résiduel jugé acceptable)."
+  },
+  {
+    "id": "Q102",
+    "type": "mcq",
+    "theme": "securite-de-linformation",
+    "subtheme": "definitions-securite",
+    "difficulty": 2,
+    "source": "Cours ISO 27001 - ESD Academy",
+    "question": "Qu'est-ce que le risque résiduel dans le cadre d'un SMSI ?",
+    "options": [
+      "Le risque initial identifié avant toute mise en place de mesures de sécurité dans l'organisation",
+      "Le risque qui subsiste après application des mesures de traitement choisies",
+      "Un risque jugé inexistant et donc exclu de la déclaration d'applicabilité",
+      "Le risque lié uniquement aux prestataires externes et sous-traitants de l'organisation"
+    ],
+    "answer": 1,
+    "explanation": "Le risque résiduel est le risque qui demeure après que des mesures de traitement ont été appliquées. Il doit être accepté par la direction. La clause 6.1.3 exige que les propriétaires des risques approuvent le plan de traitement et acceptent les risques résiduels."
+  },
+  {
+    "id": "Q103",
+    "type": "mcq",
+    "theme": "normes-iso-2700x",
+    "subtheme": "iso-27008",
+    "difficulty": 2,
+    "source": "Cours ISO 27001 - ESD Academy",
+    "question": "Quel est l'objet de la norme ISO 27008 ?",
+    "options": [
+      "Définir les exigences pour les organismes de certification souhaitant auditer un SMSI",
+      "Fournir des lignes directrices pour les auditeurs sur la mise en œuvre et le fonctionnement des contrôles de sécurité",
+      "Spécifier les mesures de sécurité spécifiques aux environnements Cloud Computing",
+      "Décrire le processus de gestion des incidents de sécurité de l'information"
+    ],
+    "answer": 1,
+    "explanation": "La norme ISO 27008 fournit des lignes directrices pour les auditeurs sur la mise en œuvre ainsi que le fonctionnement des contrôles de sécurité de l'information. Elle est distincte de la 27007 qui porte sur l'audit du SMSI dans son ensemble."
+  },
+  {
+    "id": "Q104",
+    "type": "mcq",
+    "theme": "securite-de-linformation",
+    "subtheme": "definitions-securite",
+    "difficulty": 2,
+    "source": "Cours ISO 27001 - ESD Academy",
+    "question": "Quels sont les principaux types d'actifs (biens) pris en compte dans un SMSI ?",
+    "options": [
+      "Uniquement les serveurs physiques et les équipements réseau de l'infrastructure informatique",
+      "Données/informations, logiciels, matériels, services, personnes et locaux",
+      "Uniquement les données numériques stockées dans les bases de données de l'organisation",
+      "Les brevets, marques déposées et droits de propriété intellectuelle de l'organisation"
+    ],
+    "answer": 1,
+    "explanation": "Un actif informationnel (bien) est tout ce qui a de la valeur pour l'organisation. On distingue plusieurs types : les données et informations, les logiciels, le matériel (hardware), les services, les personnes (compétences), et les locaux. Tous peuvent faire l'objet d'une appréciation des risques."
+  },
+  {
+    "id": "Q105",
+    "type": "mcq",
+    "theme": "norme-27001-2017",
+    "subtheme": "roles-responsabilites",
+    "difficulty": 2,
+    "source": "Cours ISO 27001 - ESD Academy",
+    "question": "Quel est le rôle du comité de sécurité de l'information dans la gouvernance du SMSI ?",
+    "options": [
+      "Remplacer la direction générale dans toutes les décisions opérationnelles quotidiennes de l'organisation",
+      "Réaliser les audits internes de conformité à la place de l'auditeur interne désigné dans la norme",
+      "Regrouper les acteurs clés (DSI, RSSI, RH, Finance…) pour piloter, arbitrer et contrôler le SMSI",
+      "Gérer uniquement les incidents de sécurité informatique et la réponse aux cyberattaques"
+    ],
+    "answer": 2,
+    "explanation": "Le comité de sécurité de l'information regroupe les acteurs clés de l'organisation (DSI, responsable SMSI, RH, IT, Auditeur, Finance, etc.). Son objectif est la validation, la prise de décision, le contrôle et l'arbitrage pour le SMSI. Sa tenue est recommandée au minimum une fois par an."
+  },
+  {
+    "id": "Q106",
+    "type": "mcq",
+    "theme": "norme-27001-2017",
+    "subtheme": "roles-responsabilites",
+    "difficulty": 3,
+    "source": "Cours ISO 27001 - ESD Academy",
+    "question": "Dans un SMSI, quel est le rôle spécifique de la fonction RH ?",
+    "options": [
+      "Réaliser les audits de conformité techniques et valider les mesures de sécurité informatique déployées",
+      "Gérer la formation et la sensibilisation à la sécurité de l'information pour l'ensemble du personnel",
+      "Définir les objectifs de sécurité de l'information et approuver les risques résiduels du SMSI",
+      "Administrer les systèmes d'information et gérer les droits d'accès des utilisateurs au quotidien"
+    ],
+    "answer": 1,
+    "explanation": "Dans le cadre du SMSI, la fonction RH est responsable de la formation et de la sensibilisation à la sécurité de l'information. Elle s'assure que le personnel possède les compétences nécessaires et est sensibilisé aux exigences du SMSI, conformément aux clauses 7.2 et 7.3."
+  },
+  {
+    "id": "Q107",
+    "type": "mcq",
+    "theme": "introduction-et-definitions",
+    "subtheme": "annexe-a",
+    "difficulty": 2,
+    "source": "Cours ISO 27001 - ESD Academy",
+    "question": "Quels sont les grands thèmes couverts par les 14 sections de l'Annexe A de la norme ISO 27001 (version 2013) ?",
+    "options": [
+      "Politique de sécurité, organisation, sécurité RH, gestion des actifs, contrôle d'accès, cryptographie, sécurité physique, exploitation, réseaux, acquisition/dev/maintenance, fournisseurs, incidents, continuité, conformité",
+      "Uniquement la politique de sécurité, la gestion des risques, l'audit interne et la revue de direction",
+      "Les 14 clauses obligatoires de la norme correspondant aux chapitres 4 à 10 et leurs sous-clauses associées",
+      "La gouvernance, le budget sécurité, la certification, la formation, les KPI, les sauvegardes, les patchs et la conformité RGPD"
+    ],
+    "answer": 0,
+    "explanation": "L'Annexe A de l'ISO 27001:2013 comporte 114 mesures réparties en 14 sections : A.5 Politiques de sécurité, A.6 Organisation, A.7 Sécurité des RH, A.8 Gestion des actifs, A.9 Contrôle d'accès, A.10 Cryptographie, A.11 Sécurité physique, A.12 Sécurité de l'exploitation, A.13 Sécurité des réseaux, A.14 Acquisition/développement/maintenance, A.15 Relations avec les fournisseurs, A.16 Gestion des incidents, A.17 Continuité d'activité, A.18 Conformité."
+  },
+  {
+    "id": "Q108",
+    "type": "mcq",
+    "theme": "norme-27001-2017",
+    "subtheme": "traitement-risques",
+    "difficulty": 3,
+    "source": "Cours ISO 27001 - ESD Academy",
+    "question": "Dans quel cas l'organisation choisit-elle l'option 'éviter' pour traiter un risque ?",
+    "options": [
+      "Lorsqu'elle décide de mettre en place des mesures techniques et organisationnelles pour diminuer le risque",
+      "Lorsqu'elle décide de partager le risque via une assurance ou en le confiant à un prestataire externe",
+      "Lorsqu'elle décide de ne pas démarrer ou de cesser l'activité qui engendre le risque identifié",
+      "Lorsqu'elle juge le risque acceptable en connaissance de cause et l'approuve formellement"
+    ],
+    "answer": 2,
+    "explanation": "L'option 'éviter' consiste à décider de ne pas démarrer ou de cesser l'activité à l'origine du risque (ex : abandonner un projet, ne pas déployer une technologie jugée trop risquée). C'est différent du 'réduire' (mesures), du 'transférer' (assurance/externalisation) et de l''accepter' (risque résiduel approuvé)."
   }
 ]

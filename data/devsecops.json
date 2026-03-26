@@ -72,26 +72,36 @@
   },
   {
     "id": "DSO005",
-    "type": "flashcard",
+    "type": "mcq",
     "theme": "introduction",
     "subtheme": "referentiels",
     "difficulty": 1,
     "source": "ESD Cybersecurity Academy – DevOps Security Manager",
     "question": "Quel est le rôle de la CNIL en matière de sécurité web ?",
-    "options": [],
-    "answer": null,
+    "options": [
+      "Contrôler les données personnelles sur le web et publier des exigences de sécurité",
+      "Auditer la sécurité des réseaux des entreprises privées",
+      "Certifier les développeurs en sécurité informatique",
+      "Gérer les incidents de cybersécurité à l'échelle nationale"
+    ],
+    "answer": 0,
     "explanation": "La CNIL (Commission Nationale de l'Informatique et des Libertés) contrôle les données personnelles sur le web et publie des documents relatifs à la sécurité web. Ses exigences incluent : annoncer la finalité des données, n'utiliser que des données pertinentes, limiter la rétention dans le temps, laisser le droit de modification/suppression et sécuriser les données personnelles."
   },
   {
     "id": "DSO006",
-    "type": "flashcard",
+    "type": "mcq",
     "theme": "introduction",
     "subtheme": "referentiels",
     "difficulty": 1,
     "source": "ESD Cybersecurity Academy – DevOps Security Manager",
     "question": "Quel est le rôle de l'ANSSI dans la sécurité numérique en France ?",
-    "options": [],
-    "answer": null,
+    "options": [
+      "Vendre des solutions de cybersécurité aux entreprises françaises",
+      "Sanctionner les entreprises non conformes au RGPD",
+      "Assurer la prévention, protection, réaction, formation et labellisation pour la sécurité numérique nationale",
+      "Former uniquement les fonctionnaires de l'État à la cybersécurité"
+    ],
+    "answer": 2,
     "explanation": "L'ANSSI (Agence Nationale de la Sécurité des Systèmes d'Information) est l'Autorité Nationale de défense des systèmes d'information. Elle assure la prévention, la protection, la réaction, la formation et la labellisation de solutions et services pour la sécurité numérique de la nation. Elle publie des bonnes pratiques, recommandations et guides pour la sécurité des sites web."
   },
   {
@@ -238,14 +248,19 @@
   },
   {
     "id": "DSO015",
-    "type": "flashcard",
+    "type": "mcq",
     "theme": "introduction",
     "subtheme": "cadre-juridique",
     "difficulty": 2,
     "source": "ESD Cybersecurity Academy – DevOps Security Manager",
     "question": "Qu'est-ce qu'un DPO (ou DPD) et quel est son rôle dans le cadre de l'utilisation des données personnelles ?",
-    "options": [],
-    "answer": null,
+    "options": [
+      "Un auditeur externe chargé de tester la sécurité des applications",
+      "Un logiciel de chiffrement automatique des données personnelles",
+      "Un responsable désigné au sein d'un organisme pour les questions de protection des données personnelles",
+      "Un représentant légal de l'entreprise auprès des tribunaux"
+    ],
+    "answer": 2,
     "explanation": "Le DPO (Data Protection Officer) ou DPD (Délégué à la Protection des Données) est le responsable désigné au sein d'un organisme pour les questions de protection des données personnelles. L'organisme doit fournir ses coordonnées aux utilisateurs. Le DPO veille à la conformité du traitement des données et sert de point de contact pour les utilisateurs et les autorités de contrôle."
   },
   {
@@ -362,14 +377,19 @@
   },
   {
     "id": "DSO022",
-    "type": "flashcard",
+    "type": "mcq",
     "theme": "vulnerabilites-web",
     "subtheme": "xss",
     "difficulty": 2,
     "source": "ESD Cybersecurity Academy – DevOps Security Manager",
     "question": "Expliquez la différence entre une XSS Reflected et une XSS Stored.",
-    "options": [],
-    "answer": null,
+    "options": [
+      "La XSS Reflected est stockée en base de données ; la XSS Stored nécessite un lien piégé",
+      "La XSS Reflected nécessite un lien piégé envoyé à la victime ; la XSS Stored est persistante en base de données",
+      "Les deux types sont identiques mais affectent des navigateurs différents",
+      "La XSS Reflected cible les serveurs ; la XSS Stored cible uniquement les clients"
+    ],
+    "answer": 1,
     "explanation": "XSS Reflected (réfléchie) : l'attaquant envoie un lien piégé à la victime. Lorsque celle-ci clique, la page demandée contient le code injecté dans l'URL par le hacker, qui est exécuté dans le navigateur de la victime. Le code n'est pas stocké sur le serveur.\n\nXSS Stored (stockée) : l'attaquant injecte du code nocif directement dans un site vulnérable (ex: commentaire, formulaire). Le code est stocké en base de données. Toute victime visitant la page piégée charge et exécute automatiquement le code malveillant."
   },
   {
@@ -423,14 +443,19 @@
   },
   {
     "id": "DSO026",
-    "type": "flashcard",
+    "type": "mcq",
     "theme": "vulnerabilites-web",
     "subtheme": "csrf",
     "difficulty": 2,
     "source": "ESD Cybersecurity Academy – DevOps Security Manager",
     "question": "Décrivez le mécanisme d'une attaque CSRF (Cross-Site Request Forgery).",
-    "options": [],
-    "answer": null,
+    "options": [
+      "L'attaquant injecte du code JavaScript directement dans la page d'un utilisateur",
+      "L'attaquant exploite une faille SQL pour modifier la base de données",
+      "L'attaquant intercepte les communications réseau entre client et serveur",
+      "L'attaquant envoie un lien piégé à la victime qui exécute une requête forgée vers un site cible avec ses droits"
+    ],
+    "answer": 3,
     "explanation": "Le CSRF exploite le fait qu'une application ne vérifie pas la légitimité du consentement de l'utilisateur lors d'une requête. Le scénario typique est : (1) le pirate envoie un email contenant un lien piégé à la victime, (2) lorsque la victime clique, une requête forgée est exécutée à son insu vers le site web ciblé, (3) comme la victime est déjà authentifiée, l'action malveillante (ex: changement de mot de passe) est effectuée avec ses droits."
   },
   {
@@ -575,14 +600,19 @@
   },
   {
     "id": "DSO035",
-    "type": "flashcard",
+    "type": "mcq",
     "theme": "vulnerabilites-web",
     "subtheme": "xxe",
     "difficulty": 3,
     "source": "ESD Cybersecurity Academy – DevOps Security Manager",
     "question": "Expliquez la vulnérabilité XXE (XML External Entity – CWE-611) et ses conséquences.",
-    "options": [],
-    "answer": null,
+    "options": [
+      "Une faille permettant l'injection de code JavaScript dans des documents XML",
+      "Une vulnérabilité liée au parsing XML sans contrôle, permettant de lire des fichiers arbitraires via des entités externes",
+      "Une attaque ciblant directement les bases de données XML",
+      "Une mauvaise configuration des certificats SSL dans les échanges XML"
+    ],
+    "answer": 1,
     "explanation": "La vulnérabilité XXE (CWE-611) se produit lorsqu'une application parse et utilise des documents XML sans contrôle adéquat. Un attaquant peut injecter des entités XML externes qui référencent des URIs arbitraires (ex: file:///etc/passwd). Lorsque le parser XML résout ces entités, il lit le contenu des fichiers référencés et peut le renvoyer dans la réponse, provoquant des fuites d'informations sensibles du serveur. Les conséquences incluent la lecture de fichiers arbitraires et le Server-Side Request Forgery (SSRF)."
   },
   {
@@ -642,14 +672,19 @@
   },
   {
     "id": "DSO039",
-    "type": "flashcard",
+    "type": "mcq",
     "theme": "introduction",
     "subtheme": "cadre-juridique",
     "difficulty": 2,
     "source": "ESD Cybersecurity Academy – DevOps Security Manager",
     "question": "Quelle est la différence entre l'Opt-in et l'Opt-out en matière de prospection commerciale ?",
-    "options": [],
-    "answer": null,
+    "options": [
+      "L'Opt-in requiert le refus explicite ; l'Opt-out requiert l'accord explicite",
+      "Les deux mécanismes sont équivalents mais s'appliquent dans des pays différents",
+      "L'Opt-in requiert l'accord explicite de la personne ; l'Opt-out présume le consentement sauf refus actif",
+      "L'Opt-in s'applique uniquement par courrier ; l'Opt-out uniquement par email"
+    ],
+    "answer": 2,
     "explanation": "Opt-in (option d'adhésion) : utilisé en B2C par email, SMS, MMS, automate d'appels ou fax. Le principe est que l'accord explicite de la personne est requis : « s'il n'a pas dit oui, c'est non ». Les cases de consentement sont décochées par défaut.\n\nOpt-out (option de retrait) : utilisé en B2B par email et en B2C par voie postale ou téléphone. Le principe est que le consentement est présumé : « s'il n'a pas dit non, c'est oui ». Les cases de refus permettent à l'utilisateur de se désinscrire (ex: « je ne souhaite pas recevoir d'offres »)."
   },
   {
@@ -694,14 +729,19 @@
   },
   {
     "id": "DSO042",
-    "type": "flashcard",
+    "type": "mcq",
     "theme": "vulnerabilites-web",
     "subtheme": "injection-sql",
     "difficulty": 3,
     "source": "ESD Cybersecurity Academy – DevOps Security Manager",
     "question": "Pourquoi le code PHP suivant est-il vulnérable à l'injection SQL : $m_id = $_GET['m_id']; mysql_query(\"SELECT ... WHERE MessageID = '$m_id'\"); ?",
-    "options": [],
-    "answer": null,
+    "options": [
+      "La fonction mysql_query() chiffre les paramètres avant usage",
+      "La requête SQL utilise un mauvais type de jointure",
+      "Le paramètre $_GET['m_id'] est directement concaténé dans la requête SQL sans validation ni échappement",
+      "La connexion à la base de données n'est pas sécurisée par SSL"
+    ],
+    "answer": 2,
     "explanation": "Ce code est vulnérable car le paramètre $_GET['m_id'] est directement concaténé dans la requête SQL sans aucune validation ni échappement. Un attaquant peut fournir une valeur comme ' OR 1=1;-- pour modifier la logique de la requête et accéder à toutes les données. La correction implique l'utilisation de requêtes préparées (prepared statements) avec des paramètres liés, qui séparent les données de la logique SQL."
   },
   {

@@ -67,26 +67,36 @@
   },
   {
     "id": "ISO22301005",
-    "type": "flashcard",
+    "type": "mcq",
     "theme": "Cadrage et terminologie",
     "subtheme": "Définitions générales",
     "difficulty": 1,
     "source": "ESD Cybersecurity Academy - ISO 22301 - Section 1",
     "question": "Qu'est-ce que le PCI (Plan de Continuité Informatique) ?",
-    "options": [],
-    "answer": null,
+    "options": [
+      "Un plan d'urgence pour la continuité des activités commerciales en général",
+      "La composante du PCA dédiée au maintien des systèmes informatiques et des TI pendant une perturbation",
+      "Un protocole de communication interne en cas de crise",
+      "Un plan de formation du personnel aux outils informatiques"
+    ],
+    "answer": 1,
     "explanation": "Le PCI (Plan de Continuité Informatique) est la composante du PCA qui se concentre spécifiquement sur le maintien des systèmes informatiques et des technologies de l'information pendant une perturbation. Il traite de la continuité des services IT nécessaires au fonctionnement de l'organisation."
   },
   {
     "id": "ISO22301006",
-    "type": "flashcard",
+    "type": "mcq",
     "theme": "Cadrage et terminologie",
     "subtheme": "Définitions générales",
     "difficulty": 1,
     "source": "ESD Cybersecurity Academy - ISO 22301 - Section 1",
     "question": "Qu'est-ce que le PRI (Plan de Reprise Informatique) ?",
-    "options": [],
-    "answer": null,
+    "options": [
+      "Un plan de prévention des risques informatiques",
+      "Un document décrivant la politique de sécurité informatique de l'organisation",
+      "La composante du PRA dédiée à la restauration des systèmes informatiques et des données après un sinistre",
+      "Un registre des incidents informatiques de l'organisation"
+    ],
+    "answer": 2,
     "explanation": "Le PRI (Plan de Reprise Informatique) est la composante du PRA dédiée à la reprise des systèmes informatiques après un sinistre. Il définit les procédures techniques pour restaurer les systèmes IT et les données à un état opérationnel."
   },
   {
@@ -180,50 +190,70 @@
   },
   {
     "id": "ISO22301012",
-    "type": "flashcard",
+    "type": "mcq",
     "theme": "Fonctionnement",
     "subtheme": "Indicateurs temporels",
     "difficulty": 2,
     "source": "ESD Cybersecurity Academy - ISO 22301 - Section 8",
     "question": "Qu'est-ce que le RPO (Recovery Point Objective) ?",
-    "options": [],
-    "answer": null,
+    "options": [
+      "La durée maximale acceptable pour restaurer un service après un incident",
+      "Le niveau minimum de service à maintenir pendant une crise",
+      "Le temps nécessaire pour valider l'intégrité des données après restauration",
+      "Le point dans le temps jusqu'auquel les données doivent être restaurées, définissant la perte maximale acceptable"
+    ],
+    "answer": 3,
     "explanation": "Le RPO (Recovery Point Objective) ou Point de Reprise Objectif est le point dans le temps jusqu'auquel les données doivent être restaurées après un incident. Il détermine la quantité maximale de données que l'organisation accepte de perdre, exprimée en durée (ex: RPO de 4h signifie que les sauvegardes doivent être effectuées au moins toutes les 4 heures)."
   },
   {
     "id": "ISO22301013",
-    "type": "flashcard",
+    "type": "mcq",
     "theme": "Fonctionnement",
     "subtheme": "Indicateurs temporels",
     "difficulty": 2,
     "source": "ESD Cybersecurity Academy - ISO 22301 - Section 8",
     "question": "Qu'est-ce que le RTO (Recovery Time Objective) ?",
-    "options": [],
-    "answer": null,
+    "options": [
+      "La quantité maximale de données pouvant être perdue en cas d'incident",
+      "La durée maximale acceptable pour restaurer un service ou une activité après une interruption",
+      "Le temps de validation de l'intégrité des systèmes après restauration",
+      "Le délai légal pour notifier une violation de données aux autorités"
+    ],
+    "answer": 1,
     "explanation": "Le RTO (Recovery Time Objective) ou Durée Maximale d'Interruption Admissible est la durée maximale acceptable pour restaurer un service ou une activité après une interruption. C'est le temps cible entre le moment de l'incident et la reprise du service à un niveau acceptable."
   },
   {
     "id": "ISO22301014",
-    "type": "flashcard",
+    "type": "mcq",
     "theme": "Fonctionnement",
     "subtheme": "Indicateurs temporels",
     "difficulty": 2,
     "source": "ESD Cybersecurity Academy - ISO 22301 - Section 8",
     "question": "Qu'est-ce que le WRT (Work Recovery Time) ?",
-    "options": [],
-    "answer": null,
+    "options": [
+      "Le temps maximum tolérable d'indisponibilité totale d'un système",
+      "La durée entre l'incident et le début de la restauration technique",
+      "Le temps nécessaire pour vérifier l'intégrité des systèmes et des données après leur restauration",
+      "Le délai de reprise des activités commerciales à pleine capacité"
+    ],
+    "answer": 2,
     "explanation": "Le WRT (Work Recovery Time) est le temps nécessaire pour vérifier l'intégrité des systèmes et des données après leur restauration. C'est la période entre la restauration technique (RTO atteint) et le retour complet à un fonctionnement normal validé."
   },
   {
     "id": "ISO22301015",
-    "type": "flashcard",
+    "type": "mcq",
     "theme": "Fonctionnement",
     "subtheme": "Indicateurs temporels",
     "difficulty": 2,
     "source": "ESD Cybersecurity Academy - ISO 22301 - Section 8",
     "question": "Qu'est-ce que le MTD (Maximum Tolerable Downtime) ?",
-    "options": [],
-    "answer": null,
+    "options": [
+      "Le temps de restauration des sauvegardes informatiques uniquement",
+      "La durée maximale pendant laquelle une activité peut être interrompue avant des conséquences inacceptables (MTD = RTO + WRT)",
+      "Le délai minimal obligatoire entre deux sauvegardes de données",
+      "La durée standard d'un exercice de test du plan de continuité"
+    ],
+    "answer": 1,
     "explanation": "Le MTD (Maximum Tolerable Downtime) ou Durée d'Indisponibilité Maximale Tolérable est la durée maximale pendant laquelle une activité peut être interrompue avant que les conséquences ne deviennent inacceptables pour l'organisation. MTD = RTO + WRT."
   },
   {
@@ -245,14 +275,19 @@
   },
   {
     "id": "ISO22301017",
-    "type": "flashcard",
+    "type": "mcq",
     "theme": "Fonctionnement",
     "subtheme": "BIA",
     "difficulty": 2,
     "source": "ESD Cybersecurity Academy - ISO 22301 - Section 8",
     "question": "Qu'est-ce que la DIMA (Durée d'Interruption Maximale Admissible) ?",
-    "options": [],
-    "answer": null,
+    "options": [
+      "Un document formalisant les besoins de continuité des processus métier",
+      "La durée maximale de traitement d'un incident de sécurité informatique",
+      "Le temps maximum pendant lequel une activité critique peut être interrompue sans causer de dommages irréversibles",
+      "La durée légale de conservation des données personnelles de l'organisation"
+    ],
+    "answer": 2,
     "explanation": "La DIMA (Durée d'Interruption Maximale Admissible) représente le temps maximum pendant lequel une activité critique peut être interrompue sans causer de dommages irréversibles à l'organisation. Elle est déterminée lors de l'analyse d'impact sur l'activité (BIA) et sert de base pour définir les objectifs de reprise."
   },
   {
@@ -274,14 +309,19 @@
   },
   {
     "id": "ISO22301019",
-    "type": "flashcard",
+    "type": "mcq",
     "theme": "Fonctionnement",
     "subtheme": "EBCA",
     "difficulty": 2,
     "source": "ESD Cybersecurity Academy - ISO 22301 - Section 8",
     "question": "Qu'est-ce que l'EBCA (Expression en Besoin de Continuité d'Activités) ?",
-    "options": [],
-    "answer": null,
+    "options": [
+      "Un outil logiciel d'évaluation automatique des risques informatiques",
+      "Un document formalisant les besoins de continuité de chaque métier, recensant ressources nécessaires et délais de reprise",
+      "Un rapport d'audit annuel du système de management de la continuité",
+      "Une méthode d'analyse des vulnérabilités techniques des systèmes"
+    ],
+    "answer": 1,
     "explanation": "L'EBCA (Expression en Besoin de Continuité d'Activités) est un document qui formalise les besoins de chaque métier ou processus en matière de continuité. Il recense les ressources nécessaires (humaines, techniques, informationnelles) et les délais de reprise attendus pour chaque activité critique identifiée lors du BIA."
   },
   {
@@ -585,14 +625,19 @@
   },
   {
     "id": "ISO22301036",
-    "type": "flashcard",
+    "type": "mcq",
     "theme": "Fonctionnement",
     "subtheme": "Stratégie de continuité",
     "difficulty": 2,
     "source": "ESD Cybersecurity Academy - ISO 22301 - Section 8",
     "question": "Sur quels éléments s'appuie l'élaboration de la stratégie de continuité d'activité ?",
-    "options": [],
-    "answer": null,
+    "options": [
+      "Uniquement sur le BIA et la gestion des risques informatiques",
+      "Sur les résultats des tests et exercices de continuité précédents uniquement",
+      "Sur le BIA, l'EBCA, la gestion des risques SI, la politique de continuité et la stratégie de la Direction Générale",
+      "Sur les exigences légales et réglementaires exclusivement"
+    ],
+    "answer": 2,
     "explanation": "L'élaboration de la stratégie de continuité s'appuie sur cinq éléments : l'analyse des impacts (BIA), l'expression en besoins de continuité d'activité (EBCA), la gestion des risques SI, la politique de continuité d'activité, et la stratégie insufflée par la Direction Générale."
   },
   {
@@ -958,14 +1003,19 @@
   },
   {
     "id": "ISO22301056",
-    "type": "flashcard",
+    "type": "mcq",
     "theme": "Amélioration",
     "subtheme": "Amélioration continue",
     "difficulty": 1,
     "source": "ESD Cybersecurity Academy - ISO 22301 - Section 10 (Clause 10.2)",
     "question": "Qu'exige la clause 10.2 de l'ISO 22301 concernant l'amélioration continue ?",
-    "options": [],
-    "answer": null,
+    "options": [
+      "Définir le périmètre du SMCA et identifier les parties intéressées",
+      "Mettre en place des procédures documentées de gestion des incidents",
+      "Améliorer continuellement la pertinence, l'adéquation et l'efficacité du SMCA",
+      "Réaliser obligatoirement des audits internes tous les six mois"
+    ],
+    "answer": 2,
     "explanation": "La clause 10.2 exige que l'organisation améliore continuellement la pertinence, l'adéquation et l'efficacité du SMCA. Cela implique un cycle permanent d'évaluation et d'amélioration de tous les aspects du système de management de la continuité d'activité."
   },
   {
@@ -987,14 +1037,19 @@
   },
   {
     "id": "ISO22301058",
-    "type": "flashcard",
+    "type": "mcq",
     "theme": "Fonctionnement",
     "subtheme": "Reprise",
     "difficulty": 2,
     "source": "ESD Cybersecurity Academy - ISO 22301 - Section 8 (Clause 8.4.5)",
     "question": "Que doit prévoir l'organisation en matière de reprise après un incident selon la clause 8.4.5 ?",
-    "options": [],
-    "answer": null,
+    "options": [
+      "Identifier et évaluer les risques pouvant affecter la continuité d'activité",
+      "Former tout le personnel aux procédures d'urgence une fois par an",
+      "Notifier systématiquement les parties prenantes dans les 24h suivant un incident",
+      "Disposer de procédures documentées pour rétablir les activités après un incident en s'appuyant sur des mesures temporaires"
+    ],
+    "answer": 3,
     "explanation": "L'organisation doit disposer de procédures documentées lui permettant de rétablir et de reprendre ses activités en s'appuyant sur des mesures temporaires adoptées pour répondre aux exigences métier habituelles après un incident. La reprise vise le retour à un fonctionnement normal après la phase de gestion de crise."
   },
   {
@@ -1080,14 +1135,19 @@
   },
   {
     "id": "ISO22301064",
-    "type": "flashcard",
+    "type": "mcq",
     "theme": "Contexte de l'organisation",
     "subtheme": "Périmètre du SMCA",
     "difficulty": 2,
     "source": "ESD Cybersecurity Academy - ISO 22301 - Section 4 (Clause 4)",
     "question": "Pourquoi est-il important de bien définir le périmètre du SMCA ?",
-    "options": [],
-    "answer": null,
+    "options": [
+      "Il permet uniquement de réduire les coûts de certification ISO 22301",
+      "Il détermine les limites et l'applicabilité du système, en s'assurant que toutes les activités critiques sont couvertes",
+      "Il n'a aucune importance si la politique de continuité est correctement définie",
+      "Il sert uniquement à des fins de communication externe avec les clients"
+    ],
+    "answer": 1,
     "explanation": "La définition du périmètre du SMCA est cruciale car elle détermine les limites et l'applicabilité du système. L'organisation doit considérer les enjeux internes/externes, les exigences des parties intéressées et les activités concernées. Un périmètre bien défini assure que toutes les activités critiques sont couvertes sans étendre inutilement le système, et il doit être disponible sous forme d'information documentée."
   },
   {
@@ -1109,14 +1169,19 @@
   },
   {
     "id": "ISO22301066",
-    "type": "flashcard",
+    "type": "mcq",
     "theme": "PCA et Entreprise",
     "subtheme": "Mission d'entreprise",
     "difficulty": 1,
     "source": "ESD Cybersecurity Academy - ISO 22301 - Section 2",
     "question": "Quelle est la différence entre la Mission et la Vision dans le contexte de la stratégie d'entreprise ?",
-    "options": [],
-    "answer": null,
+    "options": [
+      "La Mission est une projection future ; la Vision décrit les activités actuelles de l'organisation",
+      "Les deux termes sont synonymes et interchangeables dans le contexte du SMCA",
+      "La Mission s'applique aux opérations IT ; la Vision aux activités métier uniquement",
+      "La Mission est la raison d'être de l'organisation (présent) ; la Vision est ce qu'elle aspire à devenir (futur)"
+    ],
+    "answer": 3,
     "explanation": "La Mission représente la raison d'être de l'organisation, ce qu'elle fait aujourd'hui et pour qui. La Vision est une projection future, décrivant ce que l'organisation aspire à devenir. La Mission guide les actions quotidiennes tandis que la Vision oriente les décisions stratégiques à long terme. Les deux sont essentielles pour cadrer le SMCA."
   },
   {
