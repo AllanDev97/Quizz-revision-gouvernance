@@ -1,0 +1,970 @@
+[
+  {
+    "id": "RGPD001",
+    "type": "mcq",
+    "theme": "rgpd-definitions",
+    "subtheme": "Définitions fondamentales",
+    "difficulty": 1,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Que signifie l'acronyme RGPD ?",
+    "options": [
+      "Règlement Général sur la Protection des Données",
+      "Règlement de Gestion des Processus de Données",
+      "Réglementation Globale de la Protection des Droits",
+      "Registre Général de la Protection des Données"
+    ],
+    "answer": 0,
+    "explanation": "RGPD signifie Règlement Général sur la Protection des Données (en anglais : General Data Protection Regulation ou GDPR). Il encadre le traitement des données personnelles sur le territoire de l'Union Européenne."
+  },
+  {
+    "id": "RGPD002",
+    "type": "mcq",
+    "theme": "rgpd-definitions",
+    "subtheme": "Définitions fondamentales",
+    "difficulty": 1,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Quelle est la définition d'une donnée à caractère personnel ?",
+    "options": [
+      "Toute information relative à une entreprise susceptible d'être identifiée",
+      "Toute information relative à une personne physique susceptible d'être identifiée, directement ou indirectement",
+      "Uniquement le nom, prénom et adresse d'une personne physique",
+      "Toute information stockée dans un système informatique"
+    ],
+    "answer": 1,
+    "explanation": "Une donnée à caractère personnel est toute information relative à une personne physique susceptible d'être identifiée, directement (nom, prénom, photo) ou indirectement par regroupement d'informations (pseudonyme, numéro de téléphone, données biométriques, etc.)."
+  },
+  {
+    "id": "RGPD003",
+    "type": "true_false",
+    "theme": "rgpd-definitions",
+    "subtheme": "Données anonymisées",
+    "difficulty": 2,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Des données sont considérées comme anonymisées si l'on peut encore identifier une personne par regroupement d'informations (âge, sexe, ville, téléphone).",
+    "options": ["Vrai", "Faux"],
+    "answer": 1,
+    "explanation": "Faux. Si un regroupement d'informations permet d'identifier une personne, les données sont toujours considérées comme personnelles. Pour qu'elles cessent d'être personnelles, l'identification doit être rendue totalement impossible."
+  },
+  {
+    "id": "RGPD004",
+    "type": "mcq",
+    "theme": "rgpd-definitions",
+    "subtheme": "Données sensibles",
+    "difficulty": 2,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Parmi les éléments suivants, lequel constitue une donnée sensible au sens du RGPD ?",
+    "options": [
+      "L'adresse postale d'une personne",
+      "Le numéro de téléphone professionnel",
+      "Les données biométriques aux fins d'identifier une personne de manière unique",
+      "La date d'embauche d'un salarié"
+    ],
+    "answer": 2,
+    "explanation": "Les données biométriques permettant d'identifier une personne de manière unique sont des données sensibles au sens de l'article 9 du RGPD. Sont également sensibles : l'origine raciale/ethnique, les opinions politiques, les données de santé, l'orientation sexuelle, etc."
+  },
+  {
+    "id": "RGPD005",
+    "type": "multiple",
+    "theme": "rgpd-definitions",
+    "subtheme": "Données sensibles",
+    "difficulty": 2,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Parmi les éléments suivants, lesquels constituent des données sensibles selon le RGPD ? (plusieurs réponses attendues)",
+    "options": [
+      "Les données révélant l'origine ethnique",
+      "L'adresse e-mail professionnelle",
+      "Les données concernant la santé",
+      "Les données génétiques",
+      "Le numéro de client"
+    ],
+    "answers": [0, 2, 3],
+    "explanation": "Les données sensibles incluent celles révélant l'origine raciale ou ethnique, les opinions politiques, les convictions religieuses, les données de santé, les données génétiques, les données biométriques, ainsi que les données relatives à la vie sexuelle ou à l'orientation sexuelle."
+  },
+  {
+    "id": "RGPD006",
+    "type": "mcq",
+    "theme": "rgpd-definitions",
+    "subtheme": "Données sensibles — exceptions",
+    "difficulty": 3,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Dans quel cas est-il autorisé de traiter des données sensibles selon l'article 9 du RGPD ?",
+    "options": [
+      "Si l'entreprise possède un système de sécurité informatique performant",
+      "Si la personne concernée a donné son consentement exprès, écrit, clair et explicite",
+      "Si les données sont chiffrées sur les serveurs de l'entreprise",
+      "Si le traitement est réalisé uniquement en interne sans partage avec des tiers"
+    ],
+    "answer": 1,
+    "explanation": "L'article 9 du RGPD autorise le traitement de données sensibles notamment si la personne concernée a donné son consentement exprès (écrit, clair et explicite), si cela est nécessaire dans un but médical, si l'utilisation est justifiée par l'intérêt public et autorisé par la CNIL, ou si elles concernent des membres d'une association ou organisation."
+  },
+  {
+    "id": "RGPD007",
+    "type": "flashcard",
+    "theme": "rgpd-definitions",
+    "subtheme": "Traitement de données",
+    "difficulty": 2,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Qu'est-ce qu'un « traitement de données personnelles » au sens du RGPD ?",
+    "options": [],
+    "answer": null,
+    "explanation": "Un traitement de données personnelles est une opération, ou un ensemble d'opérations, portant sur des données personnelles, quel que soit le procédé utilisé (collecte, enregistrement, organisation, conservation, adaptation, modification, extraction, consultation, utilisation, communication, diffusion, rapprochement). Tout traitement doit avoir une finalité précise — on ne peut pas collecter des données « au cas où »."
+  },
+  {
+    "id": "RGPD008",
+    "type": "mcq",
+    "theme": "rgpd-definitions",
+    "subtheme": "Historique",
+    "difficulty": 2,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "En quelle année la loi « Informatique et Libertés » est-elle entrée en vigueur en France ?",
+    "options": [
+      "1973",
+      "1978",
+      "1995",
+      "2005"
+    ],
+    "answer": 1,
+    "explanation": "La loi « Informatique et Libertés » est entrée en vigueur le 6 janvier 1978, faisant suite au scandale du projet SAFARI (Système Automatisé pour les Fichiers Administratifs et le Répertoire des Individus) révélé en 1974."
+  },
+  {
+    "id": "RGPD009",
+    "type": "mcq",
+    "theme": "rgpd-definitions",
+    "subtheme": "Historique",
+    "difficulty": 2,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "À quelle date le RGPD est-il entré en application dans tous les pays de l'Union Européenne ?",
+    "options": [
+      "25 mai 2016",
+      "25 janvier 2012",
+      "25 mai 2018",
+      "7 octobre 2016"
+    ],
+    "answer": 2,
+    "explanation": "Le RGPD est entré en application le 25 mai 2018 dans chacun des pays de l'Union Européenne. Le règlement était entré en vigueur le 25 mai 2016, avec un délai de mise en conformité de 2 ans."
+  },
+  {
+    "id": "RGPD010",
+    "type": "mcq",
+    "theme": "rgpd-definitions",
+    "subtheme": "Historique",
+    "difficulty": 3,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Quel était le projet scandaleux révélé en 1974 qui a conduit à la création de la CNIL ?",
+    "options": [
+      "Le projet ARIANE",
+      "Le projet SAFARI",
+      "Le projet VIGIE",
+      "Le projet NEXUS"
+    ],
+    "answer": 1,
+    "explanation": "Le projet SAFARI (Système Automatisé pour les Fichiers Administratifs et le Répertoire des Individus) visait à interconnecter tous les fichiers de l'administration via le numéro de sécurité sociale. Révélé par Le Monde en mars 1974, il suscita l'indignation générale et mena à la création de la CNIL et à la loi Informatique et Libertés de 1978."
+  },
+  {
+    "id": "RGPD011",
+    "type": "mcq",
+    "theme": "rgpd-conformite",
+    "subtheme": "Acteurs RGPD",
+    "difficulty": 2,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Qui est le « responsable de traitement » selon le RGPD ?",
+    "options": [
+      "La personne physique dont les données sont traitées",
+      "L'autorité de contrôle indépendante (CNIL en France)",
+      "La personne physique ou morale qui détermine les finalités et les moyens du traitement",
+      "Le sous-traitant qui exécute techniquement le traitement"
+    ],
+    "answer": 2,
+    "explanation": "Le responsable de traitement est la personne physique ou morale, l'autorité publique ou tout autre organisme qui, seul ou conjointement avec d'autres, détermine les finalités (pourquoi) et les moyens (comment) du traitement des données personnelles."
+  },
+  {
+    "id": "RGPD012",
+    "type": "mcq",
+    "theme": "rgpd-conformite",
+    "subtheme": "Acteurs RGPD",
+    "difficulty": 2,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Qu'est-ce qu'un sous-traitant au sens du RGPD ?",
+    "options": [
+      "Un salarié de l'entreprise chargé de saisir les données",
+      "La personne qui traite des données à caractère personnel pour le compte du responsable de traitement",
+      "L'autorité publique qui contrôle la conformité des traitements",
+      "La personne concernée par les données traitées"
+    ],
+    "answer": 1,
+    "explanation": "Le sous-traitant est la personne physique ou morale, l'autorité publique ou tout autre organisme qui traite des données à caractère personnel pour le compte du responsable du traitement. Par exemple, un prestataire informatique qui gère les données clients d'une entreprise."
+  },
+  {
+    "id": "RGPD013",
+    "type": "flashcard",
+    "theme": "rgpd-conformite",
+    "subtheme": "Acteurs RGPD",
+    "difficulty": 2,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Quel est le rôle de la CNIL et quelle est sa nature juridique ?",
+    "options": [],
+    "answer": null,
+    "explanation": "La CNIL (Commission Nationale de l'Informatique et des Libertés) est l'autorité de contrôle française en matière de protection des données personnelles. C'est une autorité publique indépendante (AAI), créée en 1978, dont la mission est de contrôler la conformité des traitements de données personnelles au RGPD et à la loi Informatique et Libertés."
+  },
+  {
+    "id": "RGPD014",
+    "type": "mcq",
+    "theme": "rgpd-conformite",
+    "subtheme": "DPO",
+    "difficulty": 2,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Dans quel cas la désignation d'un DPO (Délégué à la Protection des Données) est-elle obligatoire ?",
+    "options": [
+      "Pour toute entreprise de plus de 50 salariés",
+      "Pour tout organisme public ou toute entreprise réalisant un suivi régulier et systématique de personnes à grande échelle",
+      "Uniquement pour les entreprises du secteur de la santé",
+      "Pour toute entreprise traitant des données personnelles dans le cadre de son activité"
+    ],
+    "answer": 1,
+    "explanation": "La désignation d'un DPO est obligatoire si : (1) vous êtes un organisme public, (2) votre activité vous amène à réaliser un suivi régulier et systématique de personnes à grande échelle, ou (3) vous traitez à grande échelle des données sensibles ou relatives à des condamnations pénales."
+  },
+  {
+    "id": "RGPD015",
+    "type": "multiple",
+    "theme": "rgpd-conformite",
+    "subtheme": "DPO",
+    "difficulty": 3,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Parmi les missions suivantes, lesquelles font partie des responsabilités du DPO ? (plusieurs réponses attendues)",
+    "options": [
+      "S'informer sur le contenu des nouvelles obligations",
+      "Fixer les sanctions en cas de violation RGPD",
+      "Sensibiliser les décideurs sur l'impact des nouvelles règles",
+      "Réaliser l'inventaire des traitements de données de l'organisme",
+      "Rédiger et signer les contrats clients"
+    ],
+    "answers": [0, 2, 3],
+    "explanation": "Le DPO doit notamment : s'informer sur les obligations légales, sensibiliser les décideurs, réaliser l'inventaire des traitements, concevoir des actions de sensibilisation, et piloter la conformité en continu. Il n'a pas de pouvoir de sanction ni de rôle commercial."
+  },
+  {
+    "id": "RGPD016",
+    "type": "mcq",
+    "theme": "rgpd-conformite",
+    "subtheme": "Étapes de conformité",
+    "difficulty": 2,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Quelle est la première étape recommandée par la CNIL pour se mettre en conformité au RGPD ?",
+    "options": [
+      "Rédiger une politique de confidentialité",
+      "Désigner un pilote (DPO)",
+      "Cartographier les traitements de données",
+      "Gérer les risques par une AIPD"
+    ],
+    "answer": 1,
+    "explanation": "La première étape est de désigner un pilote (le DPO), qui sera le chef d'orchestre de la gouvernance des données. Les étapes suivantes sont : cartographier les traitements, prioriser les actions, gérer les risques (AIPD), organiser les processus, et documenter la conformité."
+  },
+  {
+    "id": "RGPD017",
+    "type": "mcq",
+    "theme": "rgpd-conformite",
+    "subtheme": "Registre des traitements",
+    "difficulty": 2,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Que doit contenir le registre des traitements selon l'article 30 §1 du RGPD ?",
+    "options": [
+      "Uniquement la liste des logiciels utilisés par l'entreprise",
+      "La finalité du traitement, les catégories de données, les destinataires et les délais d'effacement",
+      "Les résultats des audits de sécurité annuels",
+      "La liste des salariés autorisés à accéder aux données"
+    ],
+    "answer": 1,
+    "explanation": "Le registre doit contenir notamment : le nom et coordonnées du responsable de traitement et du DPO, la finalité du traitement, les catégories de personnes et données concernées, les catégories de destinataires, les transferts hors UE, les délais d'effacement, et les mesures de sécurité."
+  },
+  {
+    "id": "RGPD018",
+    "type": "mcq",
+    "theme": "rgpd-conformite",
+    "subtheme": "AIPD",
+    "difficulty": 2,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Que signifie AIPD ?",
+    "options": [
+      "Audit Interne de Protection des Données",
+      "Analyse d'Impact relative à la Protection des Données",
+      "Autorisation Individuelle de Protection des Données",
+      "Accord International sur la Protection des Données"
+    ],
+    "answer": 1,
+    "explanation": "AIPD signifie Analyse d'Impact relative à la Protection des Données. C'est un outil d'évaluation d'impact sur la vie privée, obligatoire pour les traitements susceptibles d'engendrer des risques élevés pour les droits et libertés des personnes."
+  },
+  {
+    "id": "RGPD019",
+    "type": "mcq",
+    "theme": "rgpd-conformite",
+    "subtheme": "AIPD",
+    "difficulty": 3,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Selon les lignes directrices du G29, combien de critères un traitement doit-il remplir (au minimum) pour rendre une AIPD obligatoire ?",
+    "options": [
+      "1 critère",
+      "2 critères",
+      "3 critères",
+      "Tous les critères listés"
+    ],
+    "answer": 1,
+    "explanation": "Selon le G29 (Groupe de travail Article 29), un traitement doit remplir au moins 2 des critères définis (évaluation/notation, décision automatisée, surveillance systématique, données sensibles, grande échelle, croisement de données, personnes vulnérables, usage innovant, exclusion d'un droit) pour que l'AIPD soit obligatoire."
+  },
+  {
+    "id": "RGPD020",
+    "type": "mcq",
+    "theme": "rgpd-conformite",
+    "subtheme": "AIPD",
+    "difficulty": 3,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Si les risques résiduels d'un traitement restent élevés après une AIPD, que doit faire le responsable de traitement ?",
+    "options": [
+      "Abandonner le projet de traitement",
+      "Consulter la CNIL avant la mise en place du traitement",
+      "Augmenter les mesures de sécurité techniques et continuer",
+      "Demander une dérogation auprès de la Commission Européenne"
+    ],
+    "answer": 1,
+    "explanation": "Lorsque les risques résiduels restent élevés après l'AIPD (art. 36 §1 du RGPD), le responsable de traitement doit obligatoirement consulter la CNIL (autorité de contrôle) avant de mettre en place le traitement."
+  },
+  {
+    "id": "RGPD021",
+    "type": "mcq",
+    "theme": "rgpd-conformite",
+    "subtheme": "Notification de violation",
+    "difficulty": 2,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Dans quel délai une violation de données personnelles doit-elle être notifiée à la CNIL, si elle engendre un risque pour les personnes ?",
+    "options": [
+      "24 heures",
+      "48 heures",
+      "72 heures",
+      "7 jours"
+    ],
+    "answer": 2,
+    "explanation": "En cas de violation de données personnelles susceptible d'engendrer un risque pour les droits et libertés des personnes, le responsable de traitement doit notifier la CNIL dans les 72 heures suivant la prise de connaissance de la violation."
+  },
+  {
+    "id": "RGPD022",
+    "type": "true_false",
+    "theme": "rgpd-conformite",
+    "subtheme": "Périmètre du RGPD",
+    "difficulty": 2,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Le RGPD s'applique uniquement aux entreprises dont le siège social est établi sur le territoire de l'Union Européenne.",
+    "options": ["Vrai", "Faux"],
+    "answer": 1,
+    "explanation": "Faux. Le RGPD s'applique à toute organisation qui traite des données personnelles dès lors qu'elle est établie sur le territoire de l'UE, OU que son activité cible directement des résidents européens. Ainsi, une société établie en Chine proposant un e-commerce en France doit respecter le RGPD."
+  },
+  {
+    "id": "RGPD023",
+    "type": "mcq",
+    "theme": "rgpd-conformite",
+    "subtheme": "Nouvelles obligations",
+    "difficulty": 2,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Parmi les nouvelles obligations introduites par le RGPD, laquelle s'étend également aux sous-traitants ?",
+    "options": [
+      "La nomination d'un Président exécutif",
+      "L'obligation de déclarer tout traitement à la CNIL",
+      "L'ensemble des obligations en matière de protection des données personnelles",
+      "L'obligation de payer une cotisation annuelle à la CNIL"
+    ],
+    "answer": 2,
+    "explanation": "Le RGPD étend ses obligations aux sous-traitants qui traitent des données personnelles pour le compte d'autres organismes. Ils doivent respecter les mêmes exigences de sécurité, de confidentialité et de protection des données que les responsables de traitement."
+  },
+  {
+    "id": "RGPD024",
+    "type": "flashcard",
+    "theme": "rgpd-conformite",
+    "subtheme": "Transferts hors UE",
+    "difficulty": 3,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Quelles conditions doivent être remplies pour transférer des données personnelles en dehors de l'Union Européenne ?",
+    "options": [],
+    "answer": null,
+    "explanation": "Pour tout transfert hors UE, il faut vérifier que le pays de destination est reconnu comme adéquat par la Commission Européenne. Dans le cas contraire, le transfert doit être encadré de manière appropriée (clauses contractuelles types, règles d'entreprise contraignantes, etc.). Des mesures particulières comme une AIPD ou une autorisation préalable de la CNIL peuvent s'appliquer."
+  },
+  {
+    "id": "RGPD025",
+    "type": "mcq",
+    "theme": "rgpd-conformite",
+    "subtheme": "Cartographie SI",
+    "difficulty": 2,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Dans le cadre de la mise en conformité RGPD, à quoi sert la cartographie du système d'information ?",
+    "options": [
+      "À estimer le budget du département informatique",
+      "À représenter le SI et ses connexions afin de recenser les traitements de données personnelles",
+      "À remplacer le registre des traitements exigé par le RGPD",
+      "À contrôler les accès physiques aux locaux de l'entreprise"
+    ],
+    "answer": 1,
+    "explanation": "La cartographie du SI permet de représenter le système d'information d'une organisation et ses connexions avec l'extérieur. Elle aide à recenser les traitements de données personnelles, identifier les flux de données, les actifs concernés et les mesures de sécurité à mettre en œuvre pour la conformité RGPD."
+  },
+  {
+    "id": "RGPD026",
+    "type": "mcq",
+    "theme": "rgpd-conformite",
+    "subtheme": "Erreurs courantes",
+    "difficulty": 2,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Parmi les erreurs courantes de mise en conformité RGPD, laquelle est particulièrement mentionnée dans le livret ?",
+    "options": [
+      "Nommer un DPO trop tôt dans le processus",
+      "La non-implication de la Direction dans la démarche",
+      "Cartographier les données avant d'identifier les risques",
+      "Notifier la CNIL de toutes les violations sans exception"
+    ],
+    "answer": 1,
+    "explanation": "Parmi les erreurs courantes : la non-implication de la Direction, la non-compréhension de la possession de données à caractère personnel (DCP), l'oubli de certains traitements, le défaut de gestion des données sortantes (fournisseurs/clauses de confidentialité) et le manque de formation/sensibilisation."
+  },
+  {
+    "id": "RGPD027",
+    "type": "mcq",
+    "theme": "juridique-rssi",
+    "subtheme": "Responsabilité pénale vs civile",
+    "difficulty": 2,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Quelle est la principale différence entre la responsabilité pénale et la responsabilité civile ?",
+    "options": [
+      "La responsabilité pénale est réservée aux dirigeants, la civile aux salariés",
+      "La responsabilité pénale résulte d'une infraction à la loi, la responsabilité civile naît de l'apparition d'un dommage causé à un tiers",
+      "La responsabilité pénale est moins grave que la responsabilité civile",
+      "La responsabilité civile est gérée par le tribunal pénal, la pénale par le tribunal civil"
+    ],
+    "answer": 1,
+    "explanation": "La responsabilité pénale existe uniquement en fonction de la loi (infractions) et peut être intentionnelle ou non. La responsabilité civile naît de l'apparition d'un dommage et crée l'obligation de réparer ce préjudice. Lorsqu'une infraction pénale cause un dommage, elle entraîne également la responsabilité civile."
+  },
+  {
+    "id": "RGPD028",
+    "type": "mcq",
+    "theme": "juridique-rssi",
+    "subtheme": "Responsabilité du RSSI",
+    "difficulty": 3,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Un RSSI commet une infraction non intentionnelle sans avoir signé de délégation de pouvoir valable. Quelle est la conséquence ?",
+    "options": [
+      "Il engage sa responsabilité pénale et civile",
+      "Il ne risque pas de responsabilité pénale ou civile, mais peut faire l'objet d'une sanction disciplinaire interne",
+      "Il est automatiquement licencié sans préavis",
+      "L'entreprise ne peut pas être tenue responsable dans ce cas"
+    ],
+    "answer": 1,
+    "explanation": "Sans délégation de pouvoir valable, un RSSI commettant une infraction non intentionnelle n'encourt pas de responsabilité pénale ou civile. Cependant, il risque une sanction disciplinaire interne à l'entreprise pouvant aller jusqu'au licenciement."
+  },
+  {
+    "id": "RGPD029",
+    "type": "mcq",
+    "theme": "juridique-rssi",
+    "subtheme": "Responsabilité pénale du RSSI",
+    "difficulty": 3,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Parmi les infractions suivantes, laquelle est visée par l'article 323-1 du Code Pénal ?",
+    "options": [
+      "Le délit d'atteinte au secret des correspondances",
+      "La modification ou suppression frauduleuse de données",
+      "L'accès ou le maintien frauduleux dans un système de traitement automatisé de données",
+      "Le délit de détournement de données à caractère personnel"
+    ],
+    "answer": 2,
+    "explanation": "L'article 323-1 du Code Pénal vise l'accès ou le maintien frauduleux dans tout ou partie d'un système de traitement automatisé de données (STAD). L'article 323-2 concerne l'entrave/altération du fonctionnement, l'article 323-3 la modification ou suppression frauduleuse de données."
+  },
+  {
+    "id": "RGPD030",
+    "type": "true_false",
+    "theme": "juridique-rssi",
+    "subtheme": "Responsabilité pénale du RSSI",
+    "difficulty": 2,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Un RSSI qui reçoit l'ordre de son supérieur hiérarchique d'enfreindre la loi est exonéré de toute responsabilité pénale.",
+    "options": ["Vrai", "Faux"],
+    "answer": 1,
+    "explanation": "Faux. Selon le droit pénal français, « l'ordre reçu d'un supérieur hiérarchique ne constitue pas, pour l'auteur d'une infraction, une cause d'irresponsabilité pénale ». Le RSSI reste personnellement responsable pénalement et civilement des infractions qu'il commet, même sur ordre."
+  },
+  {
+    "id": "RGPD031",
+    "type": "mcq",
+    "theme": "juridique-rssi",
+    "subtheme": "Forensic",
+    "difficulty": 2,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Pourquoi est-il recommandé de faire appel à des professionnels qualifiés lors d'investigations forensic après une cyberattaque ?",
+    "options": [
+      "Pour réduire les coûts de l'investigation",
+      "Pour garantir la valeur et la véracité des preuves afin d'en assurer la recevabilité devant un tribunal",
+      "Parce que la loi l'exige dans tous les cas",
+      "Pour éviter d'avoir à notifier la CNIL"
+    ],
+    "answer": 1,
+    "explanation": "Le recours à des professionnels qualifiés lors d'investigations forensic permet de garantir la valeur et la véracité des preuves recueillies afin d'en assurer la recevabilité devant un tribunal. La présence d'un huissier est également nécessaire pour acter les éléments recueillis et leur horodatage."
+  },
+  {
+    "id": "RGPD032",
+    "type": "mcq",
+    "theme": "juridique-rssi",
+    "subtheme": "Forensic",
+    "difficulty": 2,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Quel organisme met à disposition une liste de prestataires qualifiés en investigation numérique et réponse aux incidents ?",
+    "options": [
+      "La CNIL",
+      "L'ANSSI",
+      "Le CERT-FR",
+      "La DGSI"
+    ],
+    "answer": 1,
+    "explanation": "L'ANSSI (Agence Nationale de la Sécurité des Systèmes d'Information) met à disposition une liste de prestataires qualifiés dans 3 domaines : recherche d'indicateurs de compromission, investigation numérique sur périmètre restreint, et investigation numérique sur périmètre large."
+  },
+  {
+    "id": "RGPD033",
+    "type": "flashcard",
+    "theme": "charte-byod",
+    "subtheme": "Charte informatique — définition",
+    "difficulty": 1,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Qu'est-ce qu'une charte informatique et quel est son objectif principal ?",
+    "options": [],
+    "answer": null,
+    "explanation": "La charte informatique est un document qui définit l'utilisation des biens informatiques confiés aux employés pour l'exercice de leurs fonctions. Elle encadre notamment : la consultation de sites web, le filtrage de la messagerie, la protection des postes, les téléchargements et l'utilisation des réseaux sociaux. Sa valeur réside dans son maintien, sa communication et son alignement sur la vision de l'entreprise."
+  },
+  {
+    "id": "RGPD034",
+    "type": "mcq",
+    "theme": "charte-byod",
+    "subtheme": "Charte informatique — valeur juridique",
+    "difficulty": 3,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Pour avoir une valeur juridique, la charte informatique doit être soumise à quel organe avant d'entrer en vigueur (article L.1321-4 du Code du travail) ?",
+    "options": [
+      "Au Conseil d'Administration de l'entreprise",
+      "Au CSE (Comité Social et Économique) ou aux délégués du personnel",
+      "Au tribunal des prud'hommes",
+      "À la CNIL pour validation"
+    ],
+    "answer": 1,
+    "explanation": "Selon l'article L.1321-4 alinéa 1er du Code du travail, la charte informatique doit être soumise auprès du CSE (Comité Social et Économique) ou des délégués du personnel pour examen. Elle doit aussi être déposée au greffe des prud'hommes et communiquée à l'inspection du travail."
+  },
+  {
+    "id": "RGPD035",
+    "type": "true_false",
+    "theme": "charte-byod",
+    "subtheme": "Charte informatique — valeur juridique",
+    "difficulty": 2,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "La signature de la charte informatique par les collaborateurs est obligatoire pour qu'elle ait une valeur juridique.",
+    "options": ["Vrai", "Faux"],
+    "answer": 1,
+    "explanation": "Faux. Selon l'article R.1321-1 du Code du travail, la mise à disposition par voie d'affichage est suffisante. La signature n'est pas obligatoire pour conférer une valeur juridique à la charte informatique, à condition que les collaborateurs aient été informés de son existence et de son contenu."
+  },
+  {
+    "id": "RGPD036",
+    "type": "mcq",
+    "theme": "charte-byod",
+    "subtheme": "BYOD",
+    "difficulty": 2,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Que signifie l'acronyme BYOD ?",
+    "options": [
+      "Build Your Own Database",
+      "Bring Your Own Device",
+      "Back Your Own Data",
+      "Bind Your Operating Devices"
+    ],
+    "answer": 1,
+    "explanation": "BYOD signifie Bring Your Own Device (Apportez Votre Propre Appareil). Ce principe consiste à utiliser les équipements personnels des salariés (smartphones, laptops) pour les intégrer, de manière plus ou moins stricte, au sein du système d'information de l'organisation."
+  },
+  {
+    "id": "RGPD037",
+    "type": "mcq",
+    "theme": "charte-byod",
+    "subtheme": "BYOD",
+    "difficulty": 2,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Quel est le principal risque lié au BYOD non géré dans une organisation ?",
+    "options": [
+      "Une augmentation des coûts de licences logicielles",
+      "Une impossibilité de garantir la sécurité des informations circulant par ces équipements",
+      "Un ralentissement des performances du réseau interne",
+      "Des problèmes de compatibilité avec les applications métiers"
+    ],
+    "answer": 1,
+    "explanation": "Sans gestion rigoureuse des équipements BYOD s'intégrant dans le SI, il devient très compliqué de garantir la sécurité des informations circulant par ces équipements (exemple : infection d'un PC portable personnel). La non-gestion de ces équipements est un risque majeur pour le SI de l'organisation."
+  },
+  {
+    "id": "RGPD038",
+    "type": "mcq",
+    "theme": "charte-byod",
+    "subtheme": "BYOD",
+    "difficulty": 2,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Quel type de solution technique est mentionné dans le livret pour gérer les équipements mobiles dans le cadre du BYOD ?",
+    "options": [
+      "VPN (Virtual Private Network)",
+      "MDM (Mobile Device Management)",
+      "SIEM (Security Information and Event Management)",
+      "IDS (Intrusion Detection System)"
+    ],
+    "answer": 1,
+    "explanation": "Le MDM (Mobile Device Management) est une solution permettant de gérer avec efficacité les équipements mobiles externes. Si l'entreprise accepte le BYOD, elle doit mettre en œuvre des moyens techniques comme le MDM pour garantir la sécurité de ses informations, et mettre en place une charte d'utilisation des biens."
+  },
+  {
+    "id": "RGPD039",
+    "type": "mcq",
+    "theme": "gestion-projet",
+    "subtheme": "Objectifs SMART",
+    "difficulty": 1,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Dans l'acronyme SMART, que signifie la lettre « M » ?",
+    "options": [
+      "Modifiable",
+      "Mesurable",
+      "Maîtrisable",
+      "Minimal"
+    ],
+    "answer": 1,
+    "explanation": "Dans SMART, M signifie Mesurable : l'objectif doit pouvoir être quantifié. Par exemple, « réduire l'absentéisme de 15% » est mesurable, tandis que « diminuer l'absentéisme » ne l'est pas. Les autres lettres : S = Spécifique, A = Accepté, R = Réaliste, T = Temps."
+  },
+  {
+    "id": "RGPD040",
+    "type": "mcq",
+    "theme": "gestion-projet",
+    "subtheme": "Matrice RACI",
+    "difficulty": 2,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Dans la matrice RACI, que signifie la lettre « A » ?",
+    "options": [
+      "Autonome : celui qui travaille seul",
+      "Approbateur (Accountable) : celui qui valide et est responsable de la décision finale",
+      "Associé : celui qui participe au projet",
+      "Averti : celui qui doit être prévenu en urgence"
+    ],
+    "answer": 1,
+    "explanation": "Dans la matrice RACI : R = Réalisateur (celui qui fait), A = Approbateur/Accountable (celui qui valide), C = Consulté (celui que l'on consulte), I = Informé (celui que l'on informe). L'Approbateur est l'unique responsable final et garant du bon déroulement de la tâche."
+  },
+  {
+    "id": "RGPD041",
+    "type": "mcq",
+    "theme": "gestion-projet",
+    "subtheme": "WBS / OBS",
+    "difficulty": 2,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Quelle est la différence entre la WBS et l'OBS dans la gestion de projet ?",
+    "options": [
+      "La WBS concerne les coûts, l'OBS concerne les délais",
+      "La WBS décompose hiérarchiquement les tâches, l'OBS représente les responsabilités de chaque membre",
+      "La WBS s'applique aux projets internes, l'OBS aux projets externalisés",
+      "Elles sont identiques, seul le terme varie selon les pays"
+    ],
+    "answer": 1,
+    "explanation": "La WBS (Work Breakdown Structure / Organigramme des Tâches) est une décomposition hiérarchique des travaux nécessaires pour réaliser les objectifs d'un projet. L'OBS (Organisation Breakdown Structure) est un schéma qui représente les responsabilités de chaque membre pour chaque tâche. La WBS couvre les tâches, l'OBS couvre les responsabilités — ensemble elles forment le RACI projet."
+  },
+  {
+    "id": "RGPD042",
+    "type": "mcq",
+    "theme": "gestion-projet",
+    "subtheme": "Conseils gestion de projet",
+    "difficulty": 1,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Quelle norme internationale définit un cadre de référence pour le management de projet ?",
+    "options": [
+      "ISO 27001",
+      "ISO 22301",
+      "ISO 21500",
+      "ISO 31000"
+    ],
+    "answer": 2,
+    "explanation": "La norme ISO 21500, intitulée « Lignes directrices sur le management de projet », définit un cadre de référence pour l'organisation, la planification et la conduite de projets."
+  },
+  {
+    "id": "RGPD043",
+    "type": "mcq",
+    "theme": "gestion-risques-projet",
+    "subtheme": "Calcul du risque",
+    "difficulty": 2,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Comment se calcule la criticité d'un risque selon le modèle présenté dans le livret ?",
+    "options": [
+      "Risque = Impact + Probabilité",
+      "Risque = Gravité × Vraisemblance",
+      "Risque = Menace ÷ Contre-mesure",
+      "Risque = Vulnérabilité × Exposition"
+    ],
+    "answer": 1,
+    "explanation": "Selon le livret, la criticité d'un risque se calcule ainsi : Risque = Gravité × Vraisemblance. Ce calcul permet de prioriser les risques et de concentrer les efforts sur ceux présentant la criticité la plus élevée."
+  },
+  {
+    "id": "RGPD044",
+    "type": "mcq",
+    "theme": "gestion-risques-projet",
+    "subtheme": "Loi de Pareto",
+    "difficulty": 2,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Comment le principe de Pareto (loi des 80/20) s'applique-t-il à la gestion des risques ?",
+    "options": [
+      "80% du budget doit être consacré à 20% des projets les plus importants",
+      "En traitant 20% des causes, on traite 80% des risques",
+      "20% des risques doivent être transférés, 80% doivent être acceptés",
+      "80% des incidents surviennent dans 20% du temps"
+    ],
+    "answer": 1,
+    "explanation": "Le principe de Pareto en gestion des risques stipule que 80% des risques peuvent être traités en agissant sur 20% des causes. Cela facilite la priorisation des risques et permet de concentrer les ressources sur les actions ayant le plus grand impact."
+  },
+  {
+    "id": "RGPD045",
+    "type": "mcq",
+    "theme": "gestion-risques-projet",
+    "subtheme": "Traitement des risques",
+    "difficulty": 2,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Parmi les types de traitement des risques, lequel correspond au recours à une assurance ?",
+    "options": [
+      "Traitement technique",
+      "Traitement organisationnel",
+      "Traitement de transfert du risque",
+      "Traitement financier"
+    ],
+    "answer": 2,
+    "explanation": "Le traitement par transfert du risque consiste à transférer le risque vers un tiers, typiquement via une assurance. Les autres types sont : techniques (IDS, monitoring), juridiques (clauses contractuelles), organisationnels (réaffectation de membres, formation) et financiers (réserve budgétaire de 5%)."
+  },
+  {
+    "id": "RGPD046",
+    "type": "mcq",
+    "theme": "gestion-risques-projet",
+    "subtheme": "Lois du temps",
+    "difficulty": 2,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Que dit la « Loi de Brooks » en gestion de projet ?",
+    "options": [
+      "Un travail réalisé en continu prend moins de temps qu'un travail fractionné",
+      "Tout ce qui peut mal tourner va mal tourner",
+      "Ajouter des participants à une tâche en retard la retarde encore plus",
+      "Au-delà de 90 minutes, l'efficacité humaine décroît"
+    ],
+    "answer": 2,
+    "explanation": "La Loi de Brooks stipule qu'« ajouter des participants à une tâche en retard la retarde encore plus », en raison du temps de formation des nouveaux membres, des erreurs de novices et des coûts de coordination qui augmentent avec la taille de l'équipe."
+  },
+  {
+    "id": "RGPD047",
+    "type": "mcq",
+    "theme": "gestion-risques-projet",
+    "subtheme": "Lois du temps",
+    "difficulty": 2,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Que dit la Loi de Carlson en gestion du temps ?",
+    "options": [
+      "Tout ce qui peut mal tourner va mal tourner",
+      "Un travail réalisé en continu prend moins de temps et d'énergie que lorsqu'il est fractionné",
+      "Au-delà de 90 minutes de travail, l'efficacité devient négative",
+      "Ajouter des ressources à un projet en retard l'aggrave"
+    ],
+    "answer": 1,
+    "explanation": "La Loi de Carlson affirme qu'un travail réalisé en continu prend moins de temps et d'énergie que lorsqu'il est réalisé en plusieurs fois. Elle encourage donc à éviter les interruptions et à travailler par séquences ininterrompues sur une même tâche."
+  },
+  {
+    "id": "RGPD048",
+    "type": "mcq",
+    "theme": "gestion-risques-projet",
+    "subtheme": "Types de risques",
+    "difficulty": 2,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Parmi les risques suivants, lequel est classé comme « risque temporel » dans le livret ?",
+    "options": [
+      "La démission d'un membre clé de l'équipe projet",
+      "Un budget sous-estimé",
+      "Des délais et estimations des temps mal évalués",
+      "Des clauses contractuelles dangereuses"
+    ],
+    "answer": 2,
+    "explanation": "Les risques temporels incluent notamment les facteurs exogènes, les achats/sous-traitance, les commandes mal définies/suivies, les délais et estimations des temps, ainsi que la mise au point (tests, débogage) dans les projets informatiques. Les autres options correspondent à des risques humains, économiques et juridiques."
+  },
+  {
+    "id": "RGPD049",
+    "type": "mcq",
+    "theme": "prise-de-poste",
+    "subtheme": "Analyse de l'existant",
+    "difficulty": 2,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Lors d'une prise de poste en tant que RSSI, quelle est la recommandation première du livret ?",
+    "options": [
+      "Remplacer immédiatement les anciens systèmes par de nouvelles solutions",
+      "Ne pas essayer de révolutionner le SI et d'abord comprendre l'environnement existant",
+      "Mettre en place une PSSI dans les premières semaines",
+      "Exiger un audit de sécurité externe dans le mois suivant la prise de poste"
+    ],
+    "answer": 1,
+    "explanation": "Lors d'une prise de poste, il ne faut pas tenter de révolutionner le SI dès les premières semaines. L'objectif est de fournir une transition propre avec une analyse avant intervention, en identifiant les acteurs, en comprenant l'environnement et en analysant la maturité des mesures déjà mises en œuvre."
+  },
+  {
+    "id": "RGPD050",
+    "type": "mcq",
+    "theme": "prise-de-poste",
+    "subtheme": "Schéma directeur SSI",
+    "difficulty": 2,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "À quoi sert un schéma directeur SSI selon le livret ?",
+    "options": [
+      "À recenser les incidents de sécurité survenus au cours des dernières années",
+      "À mettre en place une liste de projets SSI alignés sur la stratégie de l'organisation",
+      "À remplacer la politique de sécurité des systèmes d'information",
+      "À établir le budget annuel du département cybersécurité"
+    ],
+    "answer": 1,
+    "explanation": "Le schéma directeur SSI permet de mettre en place une liste de projets alignée sur la stratégie de l'organisation. Ces projets sont quantifiables et identifiables dans le temps, permettant à l'entreprise d'évoluer selon son axe de direction, d'éviter la dispersion et d'apporter satisfaction aux collaborateurs."
+  },
+  {
+    "id": "RGPD051",
+    "type": "multiple",
+    "theme": "prise-de-poste",
+    "subtheme": "Analyse de l'existant",
+    "difficulty": 2,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Lors d'une prise de poste, quels documents sont mentionnés comme devant être rassemblés ? (plusieurs réponses attendues)",
+    "options": [
+      "La charte informatique",
+      "Les contrats clients",
+      "La liste nominative des salariés",
+      "La PSSI (Politique de Sécurité des Systèmes d'Information)",
+      "Les bilans comptables des 5 dernières années"
+    ],
+    "answers": [0, 1, 3],
+    "explanation": "Lors d'une prise de poste, il faut réunir les documents susceptibles de porter atteinte à la sécurité de l'information : la charte informatique, la PSSI, la politique de sécurité, les contrats clients, et les contrats partenaires/prestataires."
+  },
+  {
+    "id": "RGPD052",
+    "type": "true_false",
+    "theme": "rgpd-conformite",
+    "subtheme": "AIPD — timing",
+    "difficulty": 2,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "L'AIPD doit être réalisée après la mise en œuvre du traitement pour évaluer son impact réel.",
+    "options": ["Vrai", "Faux"],
+    "answer": 1,
+    "explanation": "Faux. L'AIPD doit être réalisée, autant que possible, avant la mise en œuvre du traitement. C'est un processus itératif qui doit être revu et corrigé régulièrement, en particulier lors de changements majeurs des modalités d'exécution du traitement."
+  },
+  {
+    "id": "RGPD053",
+    "type": "mcq",
+    "theme": "rgpd-conformite",
+    "subtheme": "Droits des personnes",
+    "difficulty": 2,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Parmi les droits des personnes à prévoir dans la conformité RGPD, lequel est mentionné dans le livret ?",
+    "options": [
+      "Le droit à la désinformation",
+      "Le droit à la portabilité des données",
+      "Le droit de veto sur les traitements automatisés",
+      "Le droit d'opposition aux audits internes"
+    ],
+    "answer": 1,
+    "explanation": "Le RGPD prévoit notamment le droit d'accès, le droit de rectification, le droit à la portabilité des données, et le droit au retrait du consentement. Les organisations doivent prévoir les modalités d'exercice de ces droits pour les personnes concernées."
+  },
+  {
+    "id": "RGPD054",
+    "type": "mcq",
+    "theme": "rgpd-definitions",
+    "subtheme": "Acteurs RGPD",
+    "difficulty": 2,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Quelle est la différence entre un « destinataire » et un « tiers » au sens du RGPD ?",
+    "options": [
+      "Le destinataire est un sous-traitant, le tiers est le responsable de traitement",
+      "Le destinataire peut recevoir la communication de données, le tiers n'est pas autorisé à traiter les données",
+      "Le destinataire est une personne physique, le tiers est une personne morale",
+      "Il n'y a aucune différence, les deux termes sont synonymes"
+    ],
+    "answer": 1,
+    "explanation": "Le destinataire est toute personne physique ou morale qui reçoit la communication de données personnelles (il peut être un tiers). Le tiers, en revanche, est défini comme un organisme autre que la personne concernée, le responsable de traitement, le sous-traitant — et il n'est PAS autorisé à traiter les données."
+  },
+  {
+    "id": "RGPD055",
+    "type": "mcq",
+    "theme": "charte-byod",
+    "subtheme": "Charte informatique — CNIL",
+    "difficulty": 3,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Selon les recommandations de la CNIL, que doit contenir une charte informatique ?",
+    "options": [
+      "Uniquement les sanctions encourues en cas de non-respect",
+      "Le rappel des règles de protection des données, le champ d'application, les modalités d'utilisation des moyens informatiques et les responsabilités",
+      "La liste exhaustive des sites web autorisés par l'entreprise",
+      "Les procédures techniques de sauvegarde des données"
+    ],
+    "answer": 1,
+    "explanation": "Selon la CNIL, la charte informatique doit contenir : le rappel des règles de protection des données et sanctions, le champ d'application, les modalités d'utilisation des moyens informatiques et de télécommunications, les conditions d'administration du SI, et les responsabilités et sanctions encourues."
+  },
+  {
+    "id": "RGPD056",
+    "type": "mcq",
+    "theme": "gestion-projet",
+    "subtheme": "Types de réunions",
+    "difficulty": 1,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Quelle caractéristique distingue le « stand-up meeting » des autres types de réunions ?",
+    "options": [
+      "Il se tient obligatoirement en extérieur",
+      "Sa durée est très courte et il permet de faire un point rapide",
+      "Il réunit uniquement les membres du comité de direction",
+      "Il se déroule une fois par mois maximum"
+    ],
+    "answer": 1,
+    "explanation": "Le stand-up meeting (réunion debout) se distingue par sa très courte durée. Son but est de faire un point rapide, avec un tour de table et un traitement point par point. Tous les participants y sont membres disponibles, contrairement aux réunions de chantier ou techniques qui ont des participants spécifiques."
+  },
+  {
+    "id": "RGPD057",
+    "type": "mcq",
+    "theme": "gestion-projet",
+    "subtheme": "Comptes rendus",
+    "difficulty": 2,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Dans quel délai un compte rendu de réunion doit-il être envoyé selon le livret ?",
+    "options": [
+      "Dans l'heure suivant la réunion",
+      "Sous 24 heures",
+      "Sous 48 heures",
+      "Dans la semaine"
+    ],
+    "answer": 2,
+    "explanation": "Selon le livret, la rapidité d'action est une caractéristique d'un bon compte rendu : il doit être envoyé sous 48 heures, et l'approbation est demandée par défaut. Les objectifs détaillés (responsable, livrable concret, date de fin, charge de travail) doivent y figurer."
+  },
+  {
+    "id": "RGPD058",
+    "type": "flashcard",
+    "theme": "gestion-risques-projet",
+    "subtheme": "Loi de Pareto",
+    "difficulty": 2,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Expliquez la matrice de priorisation des risques selon les axes Gravité et Vraisemblance.",
+    "options": [],
+    "answer": null,
+    "explanation": "La matrice de priorisation divise les risques en 4 zones : (1) Risques négligeables (faible gravité + faible vraisemblance) — pas d'action prioritaire. (2) Risques de fréquence élevée mais peu d'impact — gérés par la gestion des incidents. (3) Risques intolérables de très haute gravité — gérés par des PCA/PRA (on ne les traite pas directement). (4) Zone intermédiaire — c'est le domaine de la gestion des risques, où l'on applique prévention et protection."
+  },
+  {
+    "id": "RGPD059",
+    "type": "true_false",
+    "theme": "rgpd-conformite",
+    "subtheme": "Registre des traitements",
+    "difficulty": 2,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Le registre des traitements RGPD ne concerne que les données traitées via des systèmes informatiques.",
+    "options": ["Vrai", "Faux"],
+    "answer": 1,
+    "explanation": "Faux. Un traitement de données personnelles n'est pas nécessairement informatisé. Les fichiers papier sont également concernés par le RGPD et doivent être protégés dans les mêmes conditions que les données numériques."
+  },
+  {
+    "id": "RGPD060",
+    "type": "mcq",
+    "theme": "juridique-rssi",
+    "subtheme": "Responsabilité civile de l'employeur",
+    "difficulty": 3,
+    "source": "Livret Juridique & RGPD V3 — ESD Academy",
+    "question": "Selon l'article 1384 alinéa 5 du Code Civil, dans quel cas l'employeur est-il civilement responsable des actes de ses salariés ?",
+    "options": [
+      "Uniquement si le salarié a agi sous ordre explicite de l'employeur",
+      "Lorsqu'un préjudice est causé à un tiers par le fait du salarié dans l'exercice de ses fonctions",
+      "Seulement si l'employeur était présent au moment des faits",
+      "Dès lors que le salarié est en CDI depuis plus d'un an"
+    ],
+    "answer": 1,
+    "explanation": "Selon l'article 1384 alinéa 5 du Code Civil, l'employeur est responsable civilement si un préjudice est causé à un tiers par le fait d'un salarié dans l'exercice de ses fonctions. L'employeur répond de ces actes dès lors que le salarié n'excède pas les limites de la mission définie dans son contrat."
+  }
+]

@@ -40,6 +40,11 @@ const NORMS = {
     subtitle: 'DevOps Security Manager',
     file:     'data/devsecops.json',
   },
+  'rgpd-juridique': {
+    label:    'Juridique & RGPD',
+    subtitle: 'Réglementation RGPD · Sécurité juridique · Gestion de projet',
+    file:     'data/rgpd-juridique.json',
+  },
 };
 
 // ── Libellés thèmes par norme ────────────────────────────────
@@ -84,6 +89,14 @@ const THEME_LABELS = {
   // DevSecOps
   'introduction':        'Introduction & Référentiels',
   'vulnerabilites-web':  'Vulnérabilités Web',
+  // Juridique & RGPD
+  'rgpd-definitions':      'RGPD — Définitions & historique',
+  'rgpd-conformite':       'RGPD — Mise en conformité',
+  'juridique-rssi':        'Responsabilité légale & Forensic',
+  'charte-byod':           'Charte informatique & BYOD',
+  'gestion-projet':        'Gestion de projet',
+  'gestion-risques-projet':'Gestion des risques projet',
+  'prise-de-poste':        'Prise de poste — bonnes pratiques',
   // Communs
   'examen':              'Simulation d\'examen',
   'all':                 'Tout réviser',
