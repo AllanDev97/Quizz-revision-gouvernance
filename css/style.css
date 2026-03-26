@@ -614,6 +614,39 @@ section.active { display: block; }
   border-bottom: 2px solid var(--border);
 }
 
+/* ===== MODALE CHOIX THÈME ===== */
+.choice-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  animation: fadeIn 0.2s ease;
+}
+.choice-overlay.hidden { display: none; }
+.choice-modal {
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 2rem 1.5rem;
+  max-width: 380px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+.choice-modal h3 {
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+  font-size: 1.15rem;
+}
+.choice-modal p {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
 /* ===== TOAST / ALERT ===== */
 #toast {
   position: fixed;

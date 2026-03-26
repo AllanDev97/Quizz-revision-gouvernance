@@ -124,6 +124,10 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   document.getElementById('btn-quit-quiz').addEventListener('click', pauseQuizAndReturnHome);
+
+  document.getElementById('question-count').addEventListener('change', () => {
+    if (allQuestions.length > 0) buildHomeScreen();
+  });
 });
 
 // ── Écran choix norme ────────────────────────────────────────
@@ -173,14 +177,12 @@ function loadNorm(norm) {
 
 // ── Écran Accueil thèmes ────────────────────────────────────
 function buildHomeScreen() {
-  const scores   = getStoredScores();
-  const errorIds = getStoredErrors();
-  const themes   = [...new Set(allQuestions.map(q => q.theme))];
+  const scores = getStoredScores();
+  const themes = [...new Set(allQuestions.map(q => q.theme))];
 
   document.getElementById('home-stats').textContent =
     allQuestions.length + ' questions · ' +
-    themes.length + ' thèmes · ' +
-    errorIds.length + ' erreur(s) enregistrée(s)';
+    themes.length + ' thèmes';
 
   const resumeBtn = document.getElementById('btn-resume-quiz');
   if (canResumeQuiz()) {
@@ -196,22 +198,60 @@ function buildHomeScreen() {
   grid.innerHTML = '';
 
   grid.appendChild(makeThemeCard('all', allQuestions.length, scores['all'] ?? null, 'all-card'));
-  if (errorIds.length > 0) {
-    grid.appendChild(makeThemeCard('errors', errorIds.length, null, 'errors-card'));
-  }
 
+  const countVal = document.getElementById('question-count').value;
   themes.forEach(theme => {
-    const count = allQuestions.filter(q => q.theme === theme).length;
-    grid.appendChild(makeThemeCard(theme, count, scores[theme] ?? null, ''));
+    const total = allQuestions.filter(q => q.theme === theme).length;
+    const displayed = countVal === 'all' ? total : Math.min(parseInt(countVal, 10), total);
+    grid.appendChild(makeThemeCard(theme, displayed, scores[theme] ?? null, ''));
   });
 
   grid.querySelectorAll('.theme-card').forEach(card => {
     card.addEventListener('click', () => {
       const t = card.dataset.theme;
-      if (t === 'errors') startErrorMode();
-      else startQuiz(t);
+      const errorIds = getStoredErrors();
+      const themePool = t === 'all' ? allQuestions : allQuestions.filter(q => q.theme === t);
+      const themeErrors = themePool.filter(q => errorIds.includes(q.id));
+
+      if (themeErrors.length > 0) {
+        showThemeChoiceModal(t, themeErrors);
+      } else {
+        startQuiz(t);
+      }
     });
   });
+}
+
+function showThemeChoiceModal(theme, themeErrors) {
+  const overlay = document.getElementById('theme-choice-overlay');
+  document.getElementById('choice-title').textContent = label(theme);
+  document.getElementById('choice-subtitle').textContent =
+    `Tu as ${themeErrors.length} erreur(s) enregistrée(s) sur ce thème.`;
+
+  document.getElementById('btn-choice-errors').textContent =
+    `Revoir mes erreurs (${themeErrors.length})`;
+  document.getElementById('btn-choice-errors').onclick = () => {
+    overlay.classList.add('hidden');
+    selectedTheme = 'errors';
+    isQuizPaused = false;
+    sessionQuestions = shuffle([...themeErrors]);
+    currentIndex = 0; score = 0; sessionErrors = []; userAnswers = [];
+    show('screen-quiz');
+    document.getElementById('quiz-theme-label').textContent = label(theme) + ' — Erreurs';
+    showQuestion();
+  };
+
+  document.getElementById('btn-choice-restart').onclick = () => {
+    overlay.classList.add('hidden');
+    clearThemeErrors(theme);
+    startQuiz(theme);
+  };
+
+  document.getElementById('btn-choice-cancel').onclick = () => {
+    overlay.classList.add('hidden');
+  };
+
+  overlay.classList.remove('hidden');
 }
 
 function makeThemeCard(theme, count, score, extraClass) {
@@ -259,22 +299,6 @@ function startQuiz(theme) {
   showQuestion();
 }
 
-function startErrorMode() {
-  const errorIds = getStoredErrors();
-  if (errorIds.length === 0) { toast('Aucune erreur enregistrée !'); return; }
-
-  selectedTheme    = 'errors';
-  isQuizPaused     = false;
-  sessionQuestions = shuffle(allQuestions.filter(q => errorIds.includes(q.id)));
-  currentIndex     = 0;
-  score            = 0;
-  sessionErrors    = [];
-  userAnswers      = [];
-
-  show('screen-quiz');
-  document.getElementById('quiz-theme-label').textContent = 'Mes erreurs';
-  showQuestion();
-}
 
 // ── Affichage Question ───────────────────────────────────────
 function showQuestion() {
@@ -481,7 +505,15 @@ function showResults() {
   document.getElementById('score-detail').textContent  = `${score} bonne(s) réponse(s) sur ${total}`;
   document.getElementById('score-message').textContent = scoreMessage(pct);
 
-  document.getElementById('btn-retry').onclick = () => startQuiz(selectedTheme === 'errors' ? 'all' : selectedTheme);
+  const btnRetry = document.getElementById('btn-retry');
+  if (selectedTheme === 'errors') {
+    btnRetry.textContent = '← Choisir un thème';
+    btnRetry.onclick = () => { buildHomeScreen(); show('screen-home'); };
+  } else {
+    btnRetry.textContent = 'Recommencer ce thème';
+    btnRetry.onclick = () => startQuiz(selectedTheme);
+  }
+
 
   const btnReview = document.getElementById('btn-review-errors');
   if (sessionErrors.length > 0) {
@@ -569,6 +601,12 @@ function saveScore(pct) {
     scores[selectedTheme] = pct;
     localStorage.setItem(storageKey('quiz_scores'), JSON.stringify(scores));
   }
+}
+function clearThemeErrors(theme) {
+  const stored = getStoredErrors();
+  const themeIds = (theme === 'all' ? allQuestions : allQuestions.filter(q => q.theme === theme)).map(q => q.id);
+  const remaining = stored.filter(id => !themeIds.includes(id));
+  localStorage.setItem(storageKey('quiz_errors'), JSON.stringify(remaining));
 }
 function saveErrors(ids) {
   if (!ids.length) return;
