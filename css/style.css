@@ -98,12 +98,58 @@ section.active { display: block; }
 .btn-refresh:hover { background: var(--primary-light); transform: rotate(90deg); }
 
 /* ===== ÉCRAN CHOIX NORME ===== */
-#norm-grid {
+.norm-layout {
+  display: flex;
+  gap: 0;
+  align-items: stretch;
+  margin-top: 1.5rem;
+}
+
+.norm-section {
+  flex: 1;
+}
+
+.norm-section--exams {
+  flex: 0 0 auto;
+}
+
+.norm-section-title {
+  color: var(--primary);
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  letter-spacing: 0.02em;
+}
+
+.norm-divider-vertical {
+  width: 1px;
+  background: var(--border);
+  margin: 0 1.5rem;
+  align-self: stretch;
+}
+
+#norm-grid, .norm-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 1.25rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+}
+
+.norm-grid .norm-card {
+  max-width: 260px;
+}
+
+@media (max-width: 768px) {
+  .norm-layout {
+    flex-direction: column;
+  }
+  .norm-section--exams {
+    flex: 1;
+  }
+  .norm-divider-vertical {
+    width: 100%;
+    height: 1px;
+    margin: 1.5rem 0;
+  }
 }
 
 .norm-card {

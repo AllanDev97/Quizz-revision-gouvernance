@@ -1,0 +1,495 @@
+[
+  {
+    "id": "RQ001",
+    "type": "multiple",
+    "theme": "rgpd",
+    "subtheme": "finalite-traitement",
+    "difficulty": 2,
+    "source": "Examen Blanc RGPD",
+    "context": "Après avoir recueilli des données pour une enquête de satisfaction, une entreprise décide d'utiliser ces mêmes données pour une campagne de marketing direct.",
+    "question": "Quelles obligations le RGPD impose-t-il en cas de changement de finalité du traitement des données personnelles ?",
+    "options": [
+      "A. Informer les personnes concernées du nouveau but et obtenir un nouveau consentement",
+      "B. Réaliser une nouvelle analyse d'impact sur la protection des données pour le nouveau traitement",
+      "C. Supprimer immédiatement les données si le consentement n'est pas obtenu",
+      "D. Continuer le traitement si la nouvelle finalité est compatible avec l'original",
+      "E. Aucune action requise si les données ont été anonymisées"
+    ],
+    "answers": [
+      0,
+      3
+    ],
+    "explanation": "Selon le principe de limitation des finalités (Art. 5(1)(b)), si la nouvelle finalité est compatible avec l'originale, le traitement peut continuer (D). Si elle est incompatible, il faut une nouvelle base légale, notamment informer les personnes et obtenir un nouveau consentement (A). Si les données sont réellement anonymisées, le RGPD ne s'applique plus (E est vrai mais hors sujet ici). Réponses correctes : A et D."
+  },
+  {
+    "id": "RQ002",
+    "type": "multiple",
+    "theme": "rgpd",
+    "subtheme": "droits-personnes-concernees",
+    "difficulty": 2,
+    "source": "Examen Blanc RGPD",
+    "context": "Un client soumet une demande d'accès à ses données personnelles détenues par une entreprise de services financiers.",
+    "question": "Comment l'entreprise doit-elle répondre à une demande d'accès aux données personnelles conformément au RGPD ?",
+    "options": [
+      "A. Fournir les informations demandées dans un délai de 30 jours",
+      "B. Facturer un frais raisonnable pour couvrir les coûts administratifs de la demande",
+      "C. Refuser la demande si elle est manifestement infondée ou excessive",
+      "D. Fournir les données dans un format électronique standard si demandé",
+      "E. Informer d'autres contrôleurs qui traitent les données de la demande"
+    ],
+    "answers": [
+      0,
+      2,
+      3
+    ],
+    "explanation": "Art. 12(3) : délai de réponse d'1 mois (~30 jours), extensible à 3 mois (A ✓). Art. 12(5) : l'organisation peut refuser une demande manifestement infondée ou excessive (C ✓). Art. 15(3) : les données doivent être fournies en format électronique si la demande est faite par voie électronique (D ✓). Des frais (B) ne sont possibles qu'en cas de demandes excessives, pas systématiquement. Informer d'autres contrôleurs (E) n'est pas une obligation de l'Art. 15."
+  },
+  {
+    "id": "RQ003",
+    "type": "multiple",
+    "theme": "rgpd",
+    "subtheme": "sanctions",
+    "difficulty": 2,
+    "source": "Examen Blanc RGPD",
+    "context": "Une entreprise de technologie est auditée et il est découvert qu'elle n'a pas correctement sécurisé les données personnelles, entraînant plusieurs violations.",
+    "question": "Quelles sanctions le RGPD peut-il imposer en cas de non-conformité ?",
+    "options": [
+      "A. Amendes administratives pouvant atteindre 4% du chiffre d'affaires annuel mondial ou 20 millions d'euros",
+      "B. Obligation de publier les détails de la violation",
+      "C. Suspension temporaire du traitement des données personnelles",
+      "D. Formation obligatoire en protection des données pour le personnel",
+      "E. Fermeture temporaire de l'entreprise jusqu'à résolution des problèmes"
+    ],
+    "answers": [
+      0,
+      2
+    ],
+    "explanation": "Art. 83(5) : les autorités peuvent imposer des amendes administratives allant jusqu'à 4% du CA annuel mondial ou 20 millions d'euros (A ✓). Art. 58(2)(f) : l'autorité de contrôle peut imposer une limitation temporaire ou une interdiction de traitement (C ✓). La publication des détails (B), la formation obligatoire (D) et la fermeture (E) ne font pas partie des sanctions formelles prévues par le RGPD."
+  },
+  {
+    "id": "RQ004",
+    "type": "multiple",
+    "theme": "rgpd",
+    "subtheme": "violation-donnees",
+    "difficulty": 2,
+    "source": "Examen Blanc RGPD",
+    "context": "Suite à un incident de cybersécurité, des données personnelles sensibles ont été exposées par une entreprise de vente au détail.",
+    "question": "Quelles exigences spécifiques de notification le RGPD impose-t-il en cas de fuite de données personnelles ?",
+    "options": [
+      "A. Notification à l'autorité de protection des données dans les 72 heures",
+      "B. Notification aux personnes affectées sans retard injustifié si la violation est susceptible de poser un risque élevé pour leurs droits",
+      "C. Publier un avis de violation sur le site web de l'entreprise",
+      "D. Informer toutes les parties prenantes, y compris les actionnaires et partenaires commerciaux",
+      "E. Réaliser une conférence de presse pour expliquer les détails de la violation"
+    ],
+    "answers": [
+      0,
+      1
+    ],
+    "explanation": "Art. 33 : notification à l'autorité de contrôle (ex : CNIL) dans les 72 heures suivant la découverte de la violation (A ✓). Art. 34 : notification directe aux personnes concernées est requise sans retard injustifié lorsque la violation est susceptible d'engendrer un risque élevé pour leurs droits et libertés (B ✓). La publication sur le site web (C), l'information des actionnaires (D) et la conférence de presse (E) ne sont pas des obligations du RGPD."
+  },
+  {
+    "id": "RQ005",
+    "type": "multiple",
+    "theme": "rgpd",
+    "subtheme": "categories-speciales",
+    "difficulty": 2,
+    "source": "Examen Blanc RGPD",
+    "context": "",
+    "question": "Parmi les données suivantes, lesquelles sont considérées comme données sensibles (catégories spéciales) selon le RGPD ?",
+    "options": [
+      "A. Orientation sexuelle",
+      "B. Âge",
+      "C. Sexe",
+      "D. Conviction religieuse",
+      "E. Appartenance religieuse",
+      "F. Conviction politique",
+      "G. Donnée génétique",
+      "H. Nom",
+      "I. Adresse",
+      "J. Téléphone",
+      "K. Origine ethnique",
+      "L. Groupe sanguin"
+    ],
+    "answers": [
+      0,
+      3,
+      4,
+      5,
+      6,
+      10,
+      11
+    ],
+    "explanation": "Art. 9 du RGPD définit les catégories spéciales (données sensibles) : origine raciale ou ethnique (K ✓), opinions politiques (F ✓), convictions religieuses ou philosophiques (D ✓, E ✓), données génétiques (G ✓), vie sexuelle ou orientation sexuelle (A ✓). Le groupe sanguin (L ✓) relève des données de santé, également catégorie spéciale. L'âge (B), le sexe (C), le nom (H), l'adresse (I) et le téléphone (J) sont des données personnelles ordinaires, non sensibles."
+  },
+  {
+    "id": "RQ006",
+    "type": "multiple",
+    "theme": "rgpd",
+    "subtheme": "transferts-internationaux",
+    "difficulty": 3,
+    "source": "Examen Blanc RGPD",
+    "context": "Une entreprise européenne envisage de transférer des données personnelles vers un sous-traitant en Inde.",
+    "question": "Quel rôle jouent les clauses contractuelles types dans la sécurisation des transferts de données internationaux selon le RGPD ?",
+    "options": [
+      "A. Elles nécessitent une vérification annuelle pour assurer leur conformité.",
+      "B. Elles permettent de transférer des données sans l'approbation préalable de l'autorité de protection des données.",
+      "C. Elles garantissent que le sous-traitant en dehors de l'UE adhère aux normes de protection des données de l'UE.",
+      "D. Elles sont facultatives si le pays tiers a une décision d'adéquation de la Commission européenne.",
+      "E. Elles doivent être complétées par des mesures de sécurité techniques et organisationnelles supplémentaires."
+    ],
+    "answers": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation": "Art. 46(2)(c) : les clauses contractuelles types (CCT) permettent généralement un transfert sans autorisation préalable de l'autorité de contrôle (B ✓). Elles imposent au destinataire hors UE le respect des normes européennes (C ✓). Art. 45 : si le pays destinataire bénéficie d'une décision d'adéquation, les CCT ne sont pas nécessaires (D ✓). Depuis l'arrêt Schrems II (2020), il est recommandé de compléter les CCT par des mesures supplémentaires (E ✓). La vérification annuelle (A) n'est pas une exigence formelle du RGPD."
+  },
+  {
+    "id": "RQ007",
+    "type": "multiple",
+    "theme": "rgpd",
+    "subtheme": "droits-personnes-concernees",
+    "difficulty": 2,
+    "source": "Examen Blanc RGPD",
+    "context": "Un consommateur découvre que des informations incorrectes le concernant sont utilisées par une banque pour évaluer sa solvabilité.",
+    "question": "Quelles obligations le RGPD impose-t-il aux organisations en matière de droit de rectification ?",
+    "options": [
+      "A. Offrir des services gratuits pour aider les personnes à corriger leurs données.",
+      "B. Informer les tiers auxquels les données ont été divulguées des corrections effectuées.",
+      "C. Corriger les données inexactes sans délai.",
+      "D. Justifier toute non-correction de données auprès de la personne concernée.",
+      "E. Conserver une trace des anciennes données pour référence future."
+    ],
+    "answers": [
+      1,
+      2,
+      3
+    ],
+    "explanation": "Art. 16 : le responsable du traitement doit rectifier les données inexactes dans les meilleurs délais (C ✓). Art. 19 : il doit notifier les corrections aux tiers auxquels les données ont été communiquées (B ✓). Art. 12(4) : en cas de non-action, l'organisation doit informer la personne des raisons de cette non-action (D ✓). Offrir des services gratuits (A) n'est pas une obligation, et conserver les anciennes données (E) n'est pas requis."
+  },
+  {
+    "id": "RQ008",
+    "type": "multiple",
+    "theme": "rgpd",
+    "subtheme": "securite-donnees",
+    "difficulty": 2,
+    "source": "Examen Blanc RGPD",
+    "context": "Une société de services financiers implémente des politiques pour renforcer la sécurité des données personnelles qu'elle détient.",
+    "question": "Quelles mesures techniques le RGPD recommande-t-il pour protéger les données personnelles ?",
+    "options": [
+      "A. Chiffrement des données en transit et au repos.",
+      "B. Installation de pare-feu de dernière génération.",
+      "C. Surveillance continue et tests de pénétration périodiques.",
+      "D. Utilisation de logiciels antivirus sur tous les appareils utilisant des données personnelles.",
+      "E. Formation des employés sur les pratiques de sécurité des données."
+    ],
+    "answers": [
+      0,
+      2,
+      4
+    ],
+    "explanation": "Art. 32 cite expressément : le chiffrement (A ✓) et la pseudonymisation, ainsi que la capacité à tester, évaluer et apprécier régulièrement l'efficacité des mesures (C ✓). La formation des employés est une mesure organisationnelle reconnue (E ✓). Les pare-feu (B) et antivirus (D) sont de bonnes pratiques mais ne sont pas explicitement cités dans le texte du RGPD."
+  },
+  {
+    "id": "RQ009",
+    "type": "multiple",
+    "theme": "rgpd",
+    "subtheme": "pseudonymisation",
+    "difficulty": 3,
+    "source": "Examen Blanc RGPD",
+    "context": "Une entreprise de recherche souhaite utiliser des données personnelles pour une étude à long terme sur les tendances de la santé.",
+    "question": "Quel est le rôle de la pseudonymisation dans la gestion des données personnelles selon le RGPD ?",
+    "options": [
+      "A. Elle remplace le consentement des sujets de données.",
+      "B. Elle réduit les risques en cas de violation de données.",
+      "C. Elle permet le traitement de données à des fins de recherche sans obtenir un consentement supplémentaire.",
+      "D. Elle est considérée comme une mesure de sécurité technique suffisante par elle-même.",
+      "E. Elle aide à assurer que les données ne peuvent pas être attribuées à une personne spécifique sans l'utilisation d'informations supplémentaires."
+    ],
+    "answers": [
+      1,
+      2,
+      4
+    ],
+    "explanation": "Art. 4(5) : la pseudonymisation est le traitement de données de sorte qu'elles ne peuvent plus être attribuées à une personne sans informations supplémentaires (E ✓). Art. 32 + Recital 83 : elle réduit les risques en cas de violation (B ✓). Art. 89 : dans le cadre de la recherche, la pseudonymisation constitue une garantie permettant d'alléger certaines obligations de consentement (C ✓). Elle ne remplace pas le consentement (A faux) et n'est pas une mesure suffisante à elle seule (D faux)."
+  },
+  {
+    "id": "RQ010",
+    "type": "multiple",
+    "theme": "rgpd",
+    "subtheme": "technologies-emergentes",
+    "difficulty": 3,
+    "source": "Examen Blanc RGPD",
+    "context": "Avec l'avènement de nouvelles technologies telles que l'intelligence artificielle et le big data, une entreprise de technologie doit revoir ses processus de traitement des données.",
+    "question": "Comment les technologies émergentes affectent-elles la conformité au RGPD pour le traitement des données personnelles ?",
+    "options": [
+      "A. Elles nécessitent une réévaluation constante des mesures de sécurité.",
+      "B. Elles augmentent le risque de profilage non consensuel.",
+      "C. Elles peuvent conduire à des décisions automatisées sans intervention humaine adéquate.",
+      "D. Elles facilitent le respect du RGPD grâce à des solutions automatisées de gestion des consentements.",
+      "E. Elles exigent une formation continue du personnel sur les implications du RGPD liées à ces technologies."
+    ],
+    "answers": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "explanation": "Les technologies émergentes (IA, big data) imposent une réévaluation constante des mesures de sécurité (A ✓), augmentent le risque de profilage sans consentement explicite (B ✓), peuvent produire des décisions automatisées sans intervention humaine, ce que le RGPD encadre (Art. 22) (C ✓), et nécessitent une formation continue du personnel (E ✓). L'option D est partiellement vraie mais simpliste : la technologie peut aider mais ne garantit pas automatiquement la conformité."
+  },
+  {
+    "id": "RQ011",
+    "type": "multiple",
+    "theme": "rgpd",
+    "subtheme": "transparence",
+    "difficulty": 2,
+    "source": "Examen Blanc RGPD",
+    "context": "Une entreprise de vente en ligne met à jour sa politique de confidentialité pour mieux informer ses clients sur l'usage de leurs données personnelles.",
+    "question": "Quelles obligations de transparence le RGPD impose-t-il aux organisations concernant l'utilisation des données personnelles ?",
+    "options": [
+      "A. Afficher publiquement toutes les données collectées sur chaque utilisateur.",
+      "B. Fournir des informations claires et compréhensibles sur les traitements des données.",
+      "C. Envoyer des notifications mensuelles à tous les utilisateurs sur l'état de leurs données.",
+      "D. Informer les utilisateurs des droits qu'ils ont, y compris comment accéder à leurs données et les rectifier.",
+      "E. Divulguer toutes les entités tiers avec lesquelles les données sont partagées."
+    ],
+    "answers": [
+      1,
+      3,
+      4
+    ],
+    "explanation": "Art. 12 : les informations doivent être fournies sous une forme concise, transparente, compréhensible et aisément accessible (B ✓). Art. 13(2)(b)(c) : informer les personnes de leurs droits d'accès, de rectification, d'effacement, etc. (D ✓). Art. 13(1)(e) : mentionner les destinataires ou catégories de destinataires (E ✓). Afficher publiquement les données de chaque utilisateur (A) violerait la confidentialité. L'envoi mensuel de notifications (C) n'est pas requis."
+  },
+  {
+    "id": "RQ012",
+    "type": "multiple",
+    "theme": "rgpd",
+    "subtheme": "principes-rgpd",
+    "difficulty": 2,
+    "source": "Examen Blanc RGPD",
+    "context": "Une organisation à but non lucratif collecte des données pour une étude sur le bien-être des enfants mais envisage d'utiliser ces données à des fins commerciales.",
+    "question": "Quelles limitations le RGPD impose-t-il pour limiter le traitement des données personnelles ?",
+    "options": [
+      "A. Les données doivent être traitées uniquement pour les finalités spécifiées lors de la collecte.",
+      "B. Le traitement à des fins différentes est autorisé avec le consentement explicite de chaque sujet.",
+      "C. Les données peuvent être utilisées à des fins différentes si elles sont anonymisées.",
+      "D. Les données ne peuvent être conservées plus longtemps que nécessaire pour les finalités pour lesquelles elles ont été collectées.",
+      "E. Une autorisation de l'autorité de contrôle est nécessaire pour changer la finalité du traitement."
+    ],
+    "answers": [
+      0,
+      2,
+      3
+    ],
+    "explanation": "Art. 5(1)(b) : principe de limitation des finalités — les données doivent être collectées pour des finalités déterminées, explicites et légitimes et ne pas être traitées à des fins incompatibles (A ✓). Art. 5(1)(e) : principe de limitation de la conservation — les données ne doivent pas être conservées plus longtemps que nécessaire (D ✓). Si les données sont réellement anonymisées, elles ne sont plus des données personnelles et le RGPD ne s'applique plus (C ✓). Le consentement seul (B) ne suffit pas toujours et ne justifie pas n'importe quel traitement. L'autorisation de l'autorité (E) n'est pas requise systématiquement."
+  },
+  {
+    "id": "RQ013",
+    "type": "multiple",
+    "theme": "rgpd",
+    "subtheme": "consentement",
+    "difficulty": 2,
+    "source": "Examen Blanc RGPD",
+    "context": "Un site web de commerce électronique souhaite améliorer sa gestion des consentements des utilisateurs pour se conformer au RGPD.",
+    "question": "Quelles exigences spécifiques concernant le consentement le RGPD impose-t-il pour le traitement des données personnelles ?",
+    "options": [
+      "A. Le consentement doit être donné de manière libre, spécifique, éclairée et univoque.",
+      "B. Les enfants de moins de 16 ans peuvent donner leur consentement sans l'intervention des parents.",
+      "C. Le consentement peut être retiré à tout moment, aussi facilement qu'il a été donné.",
+      "D. Les utilisateurs doivent renouveler leur consentement chaque année.",
+      "E. Le consentement doit être documenté et facilement accessible pour vérification."
+    ],
+    "answers": [
+      0,
+      2,
+      4
+    ],
+    "explanation": "Art. 7 + Recital 32 : le consentement doit être libre, spécifique, éclairé et univoque (A ✓). Art. 7(3) : la personne peut retirer son consentement à tout moment, aussi facilement qu'elle l'a accordé (C ✓). Art. 7(1) : le responsable doit être en mesure de prouver que la personne a consenti, impliquant une documentation accessible (E ✓). Art. 8 : les enfants de moins de 16 ans (ou 13 ans selon l'État membre) ont besoin du consentement parental (B est faux). Le renouvellement annuel (D) n'est pas une exigence du RGPD."
+  },
+  {
+    "id": "RQ014",
+    "type": "multiple",
+    "theme": "rgpd",
+    "subtheme": "sous-traitants",
+    "difficulty": 2,
+    "source": "Examen Blanc RGPD",
+    "context": "Une entreprise de logiciels utilise plusieurs sous-traitants pour le traitement des données clients.",
+    "question": "Quelles sont les obligations spécifiques imposées aux sous-traitants par le RGPD ?",
+    "options": [
+      "A. Les sous-traitants doivent suivre strictement les instructions du responsable du traitement.",
+      "B. Ils doivent informer le responsable du traitement en cas de violation de données.",
+      "C. Ils doivent conserver des registres indépendants de toutes les activités de traitement.",
+      "D. Ils doivent obtenir un consentement indépendant des sujets de données pour le traitement.",
+      "E. Ils sont responsables de la réalisation des analyses d'impact sur la protection des données avant de commencer le traitement."
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Art. 28(3)(a) : le sous-traitant ne traite les données personnelles que sur instruction documentée du responsable (A ✓). Art. 28(3)(f) : il doit notifier toute violation au responsable du traitement dans les meilleurs délais (B ✓). Art. 30(2) : les sous-traitants doivent tenir un registre de toutes les catégories d'activités de traitement (C ✓). Obtenir un consentement indépendant (D) relève du responsable du traitement, pas du sous-traitant. La réalisation des AIPD (E) est aussi la responsabilité du responsable du traitement (Art. 35)."
+  },
+  {
+    "id": "RQ015",
+    "type": "multiple",
+    "theme": "rgpd",
+    "subtheme": "decision-automatisee",
+    "difficulty": 3,
+    "source": "Examen Blanc RGPD",
+    "context": "Une banque utilise un algorithme pour évaluer la solvabilité des demandeurs de prêt.",
+    "question": "Quels droits le RGPD accorde-t-il aux individus concernant la prise de décision automatisée, y compris le profilage ?",
+    "options": [
+      "A. Droit de demander la vérification de l'algorithme par un expert indépendant.",
+      "B. Droit à une explication détaillée de la logique algorithmique utilisée.",
+      "C. Droit de refuser toute forme de décision automatisée.",
+      "D. Droit à l'information sur la durée de conservation des données utilisées pour le profilage.",
+      "E. Droit d'obtenir une intervention humaine, de faire valoir son point de vue et de contester la décision."
+    ],
+    "answers": [
+      1,
+      2,
+      4
+    ],
+    "explanation": "Art. 22 + Recital 71 : les personnes ont le droit de ne pas faire l'objet d'une décision fondée exclusivement sur un traitement automatisé (C ✓), le droit à une explication sur la logique utilisée (B ✓), et le droit d'obtenir une intervention humaine, d'exprimer son point de vue et de contester la décision (E ✓). La vérification par un expert indépendant (A) n'est pas un droit formel du RGPD. L'information sur la durée de conservation (D) est un droit général (Art. 13/14), pas spécifique à Art. 22."
+  },
+  {
+    "id": "RQ016",
+    "type": "multiple",
+    "theme": "rgpd",
+    "subtheme": "privacy-by-design",
+    "difficulty": 2,
+    "source": "Examen Blanc RGPD",
+    "context": "Une start-up de technologie développe une nouvelle application mobile qui collectera des données personnelles importantes.",
+    "question": "Quelles implications a le concept de \"Privacy by Design\" selon le RGPD pour le développement de nouveaux produits ?",
+    "options": [
+      "A. Intégration de la protection des données dès la conception du produit.",
+      "B. Évaluation d'impact sur la protection des données obligatoire pour tous les nouveaux produits.",
+      "C. Consentement obligatoire de l'utilisateur avant toute collecte de données.",
+      "D. Audit de sécurité des données par une tierce partie avant le lancement du produit.",
+      "E. Documentation de toutes les mesures de protection des données intégrées dans le produit."
+    ],
+    "answers": [
+      0,
+      4
+    ],
+    "explanation": "Art. 25(1) : le responsable du traitement doit mettre en œuvre des mesures de protection des données dès la conception (Privacy by Design) (A ✓). Art. 5(2) accountability : ces mesures doivent être documentées pour en démontrer la conformité (E ✓). L'AIPD (B) n'est obligatoire que pour les traitements à risque élevé (Art. 35), pas pour tous les produits. Le consentement (C) n'est qu'une des bases légales possibles. L'audit par une tierce partie (D) n'est pas exigé par Art. 25."
+  },
+  {
+    "id": "RQ017",
+    "type": "multiple",
+    "theme": "rgpd",
+    "subtheme": "violation-donnees",
+    "difficulty": 2,
+    "source": "Examen Blanc RGPD",
+    "context": "Une entreprise de médias sociaux découvre une fuite de données affectant des millions d'utilisateurs.",
+    "question": "Selon le RGPD, quelle est la procédure à suivre en cas de violation de données personnelles ?",
+    "options": [
+      "A. Notification à l'autorité de protection des données dans les 72 heures.",
+      "B. Évaluation interne pour déterminer si la violation présente un risque élevé pour les droits et libertés des personnes.",
+      "C. Notification aux utilisateurs affectés si la violation présente un risque élevé pour leurs droits et libertés.",
+      "D. Publication d'un communiqué de presse détaillant la nature de la violation dans les 24 heures.",
+      "E. Mise en place immédiate de mesures correctives pour prévenir de futures violations."
+    ],
+    "answers": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "explanation": "Art. 33 : notification à l'autorité dans les 72h (A ✓). Avant de notifier, l'organisation doit d'abord évaluer le niveau de risque (B ✓). Art. 34 : si le risque est élevé, les personnes concernées doivent également être notifiées (C ✓). Art. 32 + bonne pratique : mettre en place des mesures correctives fait partie de la gestion de la violation (E ✓). Un communiqué de presse dans les 24h (D) n'est pas une obligation du RGPD."
+  },
+  {
+    "id": "RQ018",
+    "type": "multiple",
+    "theme": "rgpd",
+    "subtheme": "droits-personnes-concernees",
+    "difficulty": 2,
+    "source": "Examen Blanc RGPD",
+    "context": "Un utilisateur découvre que des informations le concernant sur une plateforme de réseautage professionnel sont obsolètes et potentiellement nuisibles à sa réputation professionnelle.",
+    "question": "Quels droits le RGPD accorde-t-il à cette personne pour corriger ou effacer ses données ?",
+    "options": [
+      "A. Droit de demander la mise à jour des informations sans retard injustifié.",
+      "B. Droit d'exiger que les données soient effacées si elles ne sont plus nécessaires aux fins pour lesquelles elles ont été collectées.",
+      "C. Droit de faire appel à une autorité de contrôle si la demande n'est pas satisfaite.",
+      "D. Droit de recevoir une compensation en cas de non-conformité par la plateforme.",
+      "E. Droit d'informer les autres utilisateurs de la plateforme de la rectification."
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Art. 16 : droit de rectification — obtenir la correction des données inexactes sans retard injustifié (A ✓). Art. 17 : droit à l'effacement ('droit à l'oubli') — si les données ne sont plus nécessaires à leurs fins initiales (B ✓). Art. 77 : toute personne a le droit d'introduire une réclamation auprès d'une autorité de contrôle (CNIL en France) (C ✓). La compensation financière (D) n'est pas un droit direct du RGPD (mais peut exister via la responsabilité civile). Informer les autres utilisateurs (E) n'est pas un droit du RGPD."
+  },
+  {
+    "id": "RQ019",
+    "type": "multiple",
+    "theme": "rgpd",
+    "subtheme": "transferts-internationaux",
+    "difficulty": 3,
+    "source": "Examen Blanc RGPD",
+    "context": "Une entreprise européenne souhaite externaliser le traitement des données client à un prestataire en Asie.",
+    "question": "Quelles conditions doivent être remplies pour transférer légalement des données personnelles hors de l'UE selon le RGPD ?",
+    "options": [
+      "A. Assurer que le pays destinataire possède une décision d'adéquation de la Commission européenne.",
+      "B. Mise en œuvre des clauses contractuelles types entre l'entreprise et le prestataire.",
+      "C. Obtention du consentement explicite des individus dont les données sont transférées.",
+      "D. Notification préalable de ce transfert à l'autorité de protection des données.",
+      "E. Réalisation d'une évaluation d'impact sur la protection des données concernant ce transfert."
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Art. 45 : un transfert peut s'appuyer sur une décision d'adéquation de la Commission (A ✓). Art. 46(2)(c) : les clauses contractuelles types constituent une garantie appropriée pour le transfert (B ✓). Art. 49(1)(a) : le consentement explicite de la personne concernée constitue une dérogation valide pour un transfert spécifique (C ✓). La notification préalable à l'autorité (D) n'est pas systématiquement requise. L'AIPD (E) peut être recommandée mais n'est pas toujours obligatoire pour un transfert."
+  },
+  {
+    "id": "RQ020",
+    "type": "multiple",
+    "theme": "rgpd",
+    "subtheme": "dpo",
+    "difficulty": 2,
+    "source": "Examen Blanc RGPD",
+    "context": "Une municipalité engage un DPO pour superviser la gestion des données personnelles des citoyens.",
+    "question": "Quelles sont les responsabilités principales d'un DPO sous le RGPD ?",
+    "options": [
+      "A. Conseiller l'organisation sur le respect du RGPD.",
+      "B. Agir comme point de contact avec l'autorité de protection des données.",
+      "C. Fournir une formation régulière en protection des données au personnel.",
+      "D. Réaliser des audits annuels de conformité au RGPD.",
+      "E. Informer et conseiller les personnes concernées sur leurs droits en matière de protection des données."
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Art. 39(1) liste les missions du DPO : informer et conseiller le responsable et les employés (A ✓, C ✓ — la formation en fait partie), et coopérer avec l'autorité de contrôle et être le point de contact (B ✓). Les audits annuels (D) ne sont pas mentionnés comme mission explicite dans Art. 39. Le DPO informe et conseille l'organisation, pas directement les personnes concernées au sens strict (E est une interprétation extensive — les missions formelles du Art. 39 visent le responsable du traitement)."
+  },
+  {
+    "id": "RQ021",
+    "type": "multiple",
+    "theme": "rgpd",
+    "subtheme": "impact-pme",
+    "difficulty": 2,
+    "source": "Examen Blanc RGPD",
+    "context": "",
+    "question": "Quels impacts spécifiques le RGPD a-t-il sur les petites entreprises en matière de protection des données ?",
+    "options": [
+      "A. Exemption de certaines exigences de reporting en cas de violations de données mineures.",
+      "B. Obligation de nommer un DPO si le traitement des données est leur activité principale.",
+      "C. Nécessité de mettre en œuvre des mesures techniques et organisationnelles proportionnées à leur taille et capacités.",
+      "D. Exemption de l'obligation de réaliser une évaluation d'impact sur la protection des données pour la plupart des traitements.",
+      "E. Obligation de tenir un registre des activités de traitement seulement si le traitement présente des risques élevés pour les droits et libertés des personnes."
+    ],
+    "answers": [
+      1,
+      2,
+      4
+    ],
+    "explanation": "Art. 37(1)(b)(c) : le DPO est obligatoire si le traitement de données constitue l'activité principale et implique un suivi à grande échelle ou des données sensibles (B ✓). Art. 32 : les mesures de sécurité doivent être proportionnées à la nature, la portée et le contexte du traitement, y compris la taille de l'organisation (C ✓). Art. 30(5) : les organisations de moins de 250 personnes sont exemptées de l'obligation de tenue du registre, SAUF si le traitement est susceptible de comporter un risque pour les droits, n'est pas occasionnel, ou porte sur des catégories spéciales (E ✓). L'exemption totale de reporting (A) et d'AIPD (D) ne sont pas des dispositions exactes du RGPD."
+  }
+]

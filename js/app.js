@@ -45,6 +45,11 @@ const NORMS = {
     subtitle: 'Réglementation RGPD · Sécurité juridique · Gestion de projet',
     file:     'data/rgpd-juridique.json',
   },
+  'rgpd-exam-blanc': {
+    label:    'Examen blanc RGPD',
+    subtitle: 'Fournit par Claudie',
+    file:     'data/rgpd_exam_blanc.json',
+  },
 };
 
 // ── Libellés thèmes par norme ────────────────────────────────
@@ -97,6 +102,8 @@ const THEME_LABELS = {
   'gestion-projet':        'Gestion de projet',
   'gestion-risques-projet':'Gestion des risques projet',
   'prise-de-poste':        'Prise de poste — bonnes pratiques',
+  // Examen blanc RGPD
+  'rgpd':                'RGPD',
   // Communs
   'examen':              'Simulation d\'examen',
   'all':                 'Tout réviser',
