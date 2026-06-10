@@ -104,6 +104,17 @@ const THEME_LABELS = {
   'prise-de-poste':        'Prise de poste — bonnes pratiques',
   // Examen blanc RGPD
   'rgpd':                'RGPD',
+  // Mots-clés cybersécurité
+  'cyber-operations':    'Centres & équipes (SOC, CERT…)',
+  'cyber-renseignement': 'Renseignement & menaces (OSINT, CTI…)',
+  'cyber-detection':     'Détection & supervision (SIEM, EDR…)',
+  'cyber-grc':           'Gouvernance & risques (PDCA, EBIOS…)',
+  'cyber-identite':      'Identité & accès (IAM, MFA, Zero Trust)',
+  'cyber-menaces':       'Attaques & menaces (APT, DDoS, Phishing)',
+  'cyber-attaque':       'Offensif (Pentest, Kill Chain, C2…)',
+  'cyber-defense':       'Défensif (Blue Team, Hardening, Honeypot)',
+  'cyber-crypto':        'Cryptographie (PKI)',
+  'cyber-cadres':        'Cadres & référentiels (MITRE, CVE/CVSS)',
   // Communs
   'examen':              'Simulation d\'examen',
   'all':                 'Tout réviser',

@@ -1,0 +1,1481 @@
+[
+  {
+    "id": "CYB001",
+    "type": "flashcard",
+    "theme": "cyber-operations",
+    "subtheme": "SOC",
+    "difficulty": 1,
+    "source": "Mots-clés cybersécurité",
+    "question": "SOC",
+    "options": [],
+    "answer": null,
+    "explanation": "Security Operations Center — Centre opérationnel de sécurité. Équipe (et plateau technique) qui supervise, détecte, analyse et répond aux incidents de sécurité en continu (souvent 24/7), généralement à l'aide d'un SIEM."
+  },
+  {
+    "id": "CYB002",
+    "type": "mcq",
+    "theme": "cyber-operations",
+    "subtheme": "SOC",
+    "difficulty": 1,
+    "source": "Mots-clés cybersécurité",
+    "question": "Que désigne un SOC (Security Operations Center) ?",
+    "options": [
+      "Le centre opérationnel qui supervise et répond aux incidents de sécurité en continu",
+      "Un standard de chiffrement des communications réseau",
+      "Le service juridique chargé de la conformité RGPD",
+      "Un type de pare-feu applicatif pour les sites web"
+    ],
+    "answer": 0,
+    "explanation": "Le SOC (Security Operations Center) est l'équipe et la plateforme qui assurent la détection, l'analyse et la réponse aux incidents de sécurité, souvent 24/7."
+  },
+  {
+    "id": "CYB003",
+    "type": "flashcard",
+    "theme": "cyber-operations",
+    "subtheme": "CERT-CSIRT",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "CERT / CSIRT",
+    "options": [],
+    "answer": null,
+    "explanation": "CERT (Computer Emergency Response Team) / CSIRT (Computer Security Incident Response Team) — Équipe spécialisée dans la réponse aux incidents de sécurité : coordination, investigation, remédiation et diffusion d'alertes. « CERT » est une marque déposée ; « CSIRT » est le terme générique équivalent."
+  },
+  {
+    "id": "CYB004",
+    "type": "mcq",
+    "theme": "cyber-operations",
+    "subtheme": "CERT-CSIRT",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "Quel est le rôle principal d'un CERT / CSIRT ?",
+    "options": [
+      "Réaliser les tests d'intrusion offensifs sur les applications",
+      "Coordonner la réponse aux incidents de sécurité et diffuser des alertes",
+      "Gérer les droits d'accès et les identités des utilisateurs",
+      "Définir la politique de continuité d'activité de l'entreprise"
+    ],
+    "answer": 1,
+    "explanation": "Un CERT/CSIRT est une équipe de réponse aux incidents : investigation, remédiation, coordination et publication d'alertes de sécurité."
+  },
+  {
+    "id": "CYB005",
+    "type": "flashcard",
+    "theme": "cyber-renseignement",
+    "subtheme": "OSINT",
+    "difficulty": 1,
+    "source": "Mots-clés cybersécurité",
+    "question": "OSINT",
+    "options": [],
+    "answer": null,
+    "explanation": "Open Source Intelligence — Renseignement en sources ouvertes. Collecte et analyse d'informations accessibles publiquement (réseaux sociaux, sites web, registres, fuites publiées…) pour la reconnaissance, l'investigation ou la threat intelligence."
+  },
+  {
+    "id": "CYB006",
+    "type": "mcq",
+    "theme": "cyber-renseignement",
+    "subtheme": "OSINT",
+    "difficulty": 1,
+    "source": "Mots-clés cybersécurité",
+    "question": "Que signifie OSINT ?",
+    "options": [
+      "Operating System Integrity",
+      "Open Source Intelligence — renseignement en sources ouvertes",
+      "Online Security Incident Notification",
+      "Open Standard Internet Network Tunnel"
+    ],
+    "answer": 1,
+    "explanation": "OSINT = Open Source Intelligence : exploitation d'informations publiquement accessibles à des fins de renseignement ou d'investigation."
+  },
+  {
+    "id": "CYB007",
+    "type": "flashcard",
+    "theme": "cyber-renseignement",
+    "subtheme": "CTI",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "CTI",
+    "options": [],
+    "answer": null,
+    "explanation": "Cyber Threat Intelligence — Renseignement sur les cybermenaces. Discipline qui collecte, analyse et contextualise les informations sur les attaquants (acteurs, TTP, IOC) pour anticiper et mieux se défendre."
+  },
+  {
+    "id": "CYB008",
+    "type": "mcq",
+    "theme": "cyber-renseignement",
+    "subtheme": "CTI",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "À quoi sert la Cyber Threat Intelligence (CTI) ?",
+    "options": [
+      "À chiffrer les échanges entre deux serveurs distants",
+      "À connaître les attaquants (acteurs, TTP, IOC) pour anticiper les menaces",
+      "À sauvegarder les données critiques de l'entreprise",
+      "À authentifier les utilisateurs via plusieurs facteurs"
+    ],
+    "answer": 1,
+    "explanation": "La CTI fournit du renseignement sur les menaces (qui attaque, comment, avec quels indicateurs) afin d'orienter la défense de façon proactive."
+  },
+  {
+    "id": "CYB009",
+    "type": "flashcard",
+    "theme": "cyber-renseignement",
+    "subtheme": "IOC",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "IOC",
+    "options": [],
+    "answer": null,
+    "explanation": "Indicator of Compromise — Indicateur de compromission. Artefact technique observable trahissant une attaque : hash de fichier malveillant, adresse IP ou domaine C2, clé de registre, signature… Utilisé pour la détection et la chasse aux menaces."
+  },
+  {
+    "id": "CYB010",
+    "type": "mcq",
+    "theme": "cyber-renseignement",
+    "subtheme": "IOC",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "Qu'est-ce qu'un IOC (Indicator of Compromise) ?",
+    "options": [
+      "Un indicateur de performance du SOC",
+      "Un artefact technique (hash, IP, domaine…) trahissant une compromission",
+      "Une politique interne de classification des données",
+      "Un certificat numérique délivré par une autorité de certification"
+    ],
+    "answer": 1,
+    "explanation": "Un IOC est un indicateur de compromission : élément observable (hash, IP/domaine malveillant, clé de registre…) servant à détecter une attaque."
+  },
+  {
+    "id": "CYB011",
+    "type": "flashcard",
+    "theme": "cyber-renseignement",
+    "subtheme": "TTP",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "TTP",
+    "options": [],
+    "answer": null,
+    "explanation": "Tactics, Techniques and Procedures — Tactiques, techniques et procédures. Façon dont un attaquant opère : la Tactique = l'objectif (le pourquoi), la Technique = la méthode (le comment), la Procédure = la mise en œuvre concrète. Cœur du référentiel MITRE ATT&CK."
+  },
+  {
+    "id": "CYB012",
+    "type": "mcq",
+    "theme": "cyber-renseignement",
+    "subtheme": "TTP",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "Dans le sigle TTP, que décrivent les Tactiques, Techniques et Procédures ?",
+    "options": [
+      "Les niveaux de criticité d'une vulnérabilité",
+      "La manière dont un attaquant opère (objectifs, méthodes, mise en œuvre)",
+      "Les phases d'un plan de continuité d'activité",
+      "Les types de chiffrement utilisés dans une PKI"
+    ],
+    "answer": 1,
+    "explanation": "Les TTP décrivent le mode opératoire d'un attaquant : tactiques (objectifs), techniques (méthodes) et procédures (mise en œuvre). C'est la base de MITRE ATT&CK."
+  },
+  {
+    "id": "CYB013",
+    "type": "flashcard",
+    "theme": "cyber-detection",
+    "subtheme": "SIEM",
+    "difficulty": 1,
+    "source": "Mots-clés cybersécurité",
+    "question": "SIEM",
+    "options": [],
+    "answer": null,
+    "explanation": "Security Information and Event Management — Solution qui centralise et corrèle les journaux (logs) de tout le SI pour détecter en temps réel les événements de sécurité et générer des alertes. Outil central du SOC."
+  },
+  {
+    "id": "CYB014",
+    "type": "mcq",
+    "theme": "cyber-detection",
+    "subtheme": "SIEM",
+    "difficulty": 1,
+    "source": "Mots-clés cybersécurité",
+    "question": "Quelle est la fonction d'un SIEM ?",
+    "options": [
+      "Centraliser et corréler les logs du SI pour détecter les incidents",
+      "Chiffrer les disques durs des postes de travail",
+      "Gérer le cycle de vie des certificats numériques",
+      "Réaliser des sauvegardes automatiques quotidiennes"
+    ],
+    "answer": 0,
+    "explanation": "Le SIEM (Security Information and Event Management) collecte, centralise et corrèle les journaux pour détecter les événements de sécurité et lever des alertes."
+  },
+  {
+    "id": "CYB015",
+    "type": "flashcard",
+    "theme": "cyber-detection",
+    "subtheme": "SOAR",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "SOAR",
+    "options": [],
+    "answer": null,
+    "explanation": "Security Orchestration, Automation and Response — Plateforme qui orchestre et automatise la réponse aux incidents via des playbooks (scénarios). Elle complète le SIEM en réduisant le temps de traitement des alertes."
+  },
+  {
+    "id": "CYB016",
+    "type": "mcq",
+    "theme": "cyber-detection",
+    "subtheme": "SOAR",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "Qu'apporte une solution SOAR par rapport à un SIEM ?",
+    "options": [
+      "Elle remplace le pare-feu périmétrique",
+      "Elle orchestre et automatise la réponse aux incidents via des playbooks",
+      "Elle stocke physiquement les sauvegardes hors site",
+      "Elle délivre les certificats TLS aux serveurs web"
+    ],
+    "answer": 1,
+    "explanation": "Le SOAR (Security Orchestration, Automation and Response) automatise et orchestre la réponse aux incidents (playbooks), là où le SIEM se concentre sur la détection."
+  },
+  {
+    "id": "CYB017",
+    "type": "flashcard",
+    "theme": "cyber-detection",
+    "subtheme": "IDS-IPS",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "IDS / IPS",
+    "options": [],
+    "answer": null,
+    "explanation": "Intrusion Detection System / Intrusion Prevention System. L'IDS détecte et alerte sur les activités suspectes (mode passif) ; l'IPS détecte ET bloque l'attaque en temps réel (mode actif, en coupure de flux)."
+  },
+  {
+    "id": "CYB018",
+    "type": "mcq",
+    "theme": "cyber-detection",
+    "subtheme": "IDS-IPS",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "Quelle est la différence entre un IDS et un IPS ?",
+    "options": [
+      "L'IDS chiffre le trafic, l'IPS le déchiffre",
+      "L'IDS détecte et alerte (passif), l'IPS détecte et bloque (actif)",
+      "L'IDS est matériel, l'IPS est forcément logiciel",
+      "Il n'y a aucune différence, ce sont des synonymes"
+    ],
+    "answer": 1,
+    "explanation": "L'IDS (Intrusion Detection System) se contente de détecter et d'alerter ; l'IPS (Intrusion Prevention System) bloque activement l'attaque en coupure de flux."
+  },
+  {
+    "id": "CYB019",
+    "type": "flashcard",
+    "theme": "cyber-detection",
+    "subtheme": "EDR-XDR",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "EDR / XDR",
+    "options": [],
+    "answer": null,
+    "explanation": "Endpoint Detection and Response / Extended Detection and Response. L'EDR surveille et répond aux menaces sur les terminaux (postes, serveurs). Le XDR étend cette détection-réponse à plusieurs sources corrélées (réseau, mail, cloud, endpoints)."
+  },
+  {
+    "id": "CYB020",
+    "type": "mcq",
+    "theme": "cyber-detection",
+    "subtheme": "EDR-XDR",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "Sur quoi un EDR (Endpoint Detection and Response) se concentre-t-il ?",
+    "options": [
+      "La détection et la réponse aux menaces sur les terminaux (postes, serveurs)",
+      "Le filtrage des e-mails entrants uniquement",
+      "La gestion des sauvegardes du datacenter",
+      "Le chiffrement des bases de données"
+    ],
+    "answer": 0,
+    "explanation": "L'EDR surveille les endpoints (postes/serveurs) pour détecter et répondre aux menaces. Le XDR élargit cette approche à plusieurs sources corrélées."
+  },
+  {
+    "id": "CYB021",
+    "type": "flashcard",
+    "theme": "cyber-detection",
+    "subtheme": "DLP",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "DLP",
+    "options": [],
+    "answer": null,
+    "explanation": "Data Loss Prevention — Prévention des fuites de données. Ensemble de technologies qui détectent et empêchent l'exfiltration ou la divulgation non autorisée de données sensibles (mail, USB, cloud, copier-coller…)."
+  },
+  {
+    "id": "CYB022",
+    "type": "mcq",
+    "theme": "cyber-detection",
+    "subtheme": "DLP",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "Quel est l'objectif d'une solution DLP (Data Loss Prevention) ?",
+    "options": [
+      "Accélérer le trafic réseau de l'entreprise",
+      "Empêcher l'exfiltration ou la fuite de données sensibles",
+      "Gérer les mots de passe des administrateurs",
+      "Détecter les intrusions sur le périmètre réseau"
+    ],
+    "answer": 1,
+    "explanation": "Le DLP vise à prévenir la fuite ou l'exfiltration non autorisée de données sensibles via différents canaux (mail, USB, cloud…)."
+  },
+  {
+    "id": "CYB023",
+    "type": "flashcard",
+    "theme": "cyber-grc",
+    "subtheme": "PDCA",
+    "difficulty": 1,
+    "source": "Mots-clés cybersécurité",
+    "question": "PDCA",
+    "options": [],
+    "answer": null,
+    "explanation": "Plan-Do-Check-Act — Roue de Deming. Cycle d'amélioration continue en 4 phases : Planifier, Réaliser (Déployer), Vérifier (Contrôler), Agir (Améliorer/Ajuster). Structure de fond des normes ISO de management (dont l'ISO 27001)."
+  },
+  {
+    "id": "CYB024",
+    "type": "mcq",
+    "theme": "cyber-grc",
+    "subtheme": "PDCA",
+    "difficulty": 1,
+    "source": "Mots-clés cybersécurité",
+    "question": "Que représente le cycle PDCA (roue de Deming) ?",
+    "options": [
+      "Plan-Do-Check-Act : un cycle d'amélioration continue",
+      "Un protocole de chiffrement asymétrique",
+      "Une attaque par déni de service distribué",
+      "Un type de contrôle d'accès basé sur les rôles"
+    ],
+    "answer": 0,
+    "explanation": "PDCA = Plan-Do-Check-Act : cycle d'amélioration continue (Planifier, Réaliser, Vérifier, Agir) qui structure les systèmes de management ISO."
+  },
+  {
+    "id": "CYB025",
+    "type": "flashcard",
+    "theme": "cyber-grc",
+    "subtheme": "SMSI-ISMS",
+    "difficulty": 1,
+    "source": "Mots-clés cybersécurité",
+    "question": "SMSI / ISMS",
+    "options": [],
+    "answer": null,
+    "explanation": "Système de Management de la Sécurité de l'Information / Information Security Management System. Ensemble organisé de politiques, processus et contrôles visant à gérer la sécurité de l'information de façon continue. C'est l'objet de la certification ISO/IEC 27001."
+  },
+  {
+    "id": "CYB026",
+    "type": "mcq",
+    "theme": "cyber-grc",
+    "subtheme": "SMSI-ISMS",
+    "difficulty": 1,
+    "source": "Mots-clés cybersécurité",
+    "question": "À quelle norme est associé le SMSI (Système de Management de la Sécurité de l'Information) ?",
+    "options": [
+      "ISO/IEC 27001",
+      "ISO 9001",
+      "ISO 14001",
+      "ISO 22301"
+    ],
+    "answer": 0,
+    "explanation": "Le SMSI/ISMS est le cœur de l'ISO/IEC 27001 : un système de management dédié à la sécurité de l'information."
+  },
+  {
+    "id": "CYB027",
+    "type": "flashcard",
+    "theme": "cyber-grc",
+    "subtheme": "EBIOS-RM",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "EBIOS RM",
+    "options": [],
+    "answer": null,
+    "explanation": "Expression des Besoins et Identification des Objectifs de Sécurité — Risk Manager. Méthode française d'analyse et de gestion des risques publiée par l'ANSSI, fondée sur des scénarios de menace et une approche par les sources de risque."
+  },
+  {
+    "id": "CYB028",
+    "type": "mcq",
+    "theme": "cyber-grc",
+    "subtheme": "EBIOS-RM",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "Qu'est-ce qu'EBIOS Risk Manager ?",
+    "options": [
+      "Un logiciel antivirus open source",
+      "Une méthode française d'analyse des risques publiée par l'ANSSI",
+      "Une norme européenne sur la protection des données",
+      "Un protocole d'authentification forte"
+    ],
+    "answer": 1,
+    "explanation": "EBIOS RM est la méthode d'appréciation et de traitement des risques numériques publiée par l'ANSSI, basée sur des scénarios de menace."
+  },
+  {
+    "id": "CYB029",
+    "type": "flashcard",
+    "theme": "cyber-grc",
+    "subtheme": "PCA-PRA",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "PCA / PRA",
+    "options": [],
+    "answer": null,
+    "explanation": "Plan de Continuité d'Activité / Plan de Reprise d'Activité. Le PCA vise à maintenir les activités essentielles pendant une crise (continuité) ; le PRA décrit comment remettre en service le SI après un sinistre (reprise). En anglais : BCP / DRP."
+  },
+  {
+    "id": "CYB030",
+    "type": "mcq",
+    "theme": "cyber-grc",
+    "subtheme": "PCA-PRA",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "Quelle est la différence entre un PCA et un PRA ?",
+    "options": [
+      "Le PCA concerne le matériel, le PRA uniquement le logiciel",
+      "Le PCA maintient les activités pendant la crise, le PRA remet en service après sinistre",
+      "Ce sont deux noms pour exactement le même document",
+      "Le PCA est obligatoire, le PRA est interdit en France"
+    ],
+    "answer": 1,
+    "explanation": "Le PCA (continuité) vise à maintenir les activités essentielles durant la crise ; le PRA (reprise) organise la remise en service du SI après le sinistre."
+  },
+  {
+    "id": "CYB031",
+    "type": "flashcard",
+    "theme": "cyber-grc",
+    "subtheme": "RTO-RPO",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "RTO / RPO",
+    "options": [],
+    "answer": null,
+    "explanation": "Recovery Time Objective / Recovery Point Objective. Le RTO = durée maximale acceptable d'interruption avant remise en service (combien de temps). Le RPO = quantité maximale de données qu'on accepte de perdre, mesurée en temps (jusqu'à quand remonter la sauvegarde)."
+  },
+  {
+    "id": "CYB032",
+    "type": "mcq",
+    "theme": "cyber-grc",
+    "subtheme": "RTO-RPO",
+    "difficulty": 3,
+    "source": "Mots-clés cybersécurité",
+    "question": "Que mesure le RPO (Recovery Point Objective) ?",
+    "options": [
+      "Le temps maximal d'indisponibilité toléré avant reprise",
+      "La quantité maximale de données que l'on accepte de perdre (en temps)",
+      "Le nombre de tentatives de connexion autorisées",
+      "Le coût total d'un incident de sécurité"
+    ],
+    "answer": 1,
+    "explanation": "Le RPO mesure la perte de données maximale acceptable (exprimée en temps : ex. 1h de données). Le RTO, lui, mesure le temps de remise en service toléré."
+  },
+  {
+    "id": "CYB033",
+    "type": "flashcard",
+    "theme": "cyber-grc",
+    "subtheme": "DICP-CIA",
+    "difficulty": 1,
+    "source": "Mots-clés cybersécurité",
+    "question": "DIC / DICP (CIA)",
+    "options": [],
+    "answer": null,
+    "explanation": "Critères de sécurité de l'information : Disponibilité, Intégrité, Confidentialité — et parfois la Preuve (traçabilité), d'où DICP. En anglais : CIA = Confidentiality, Integrity, Availability. Ce sont les propriétés fondamentales à protéger."
+  },
+  {
+    "id": "CYB034",
+    "type": "mcq",
+    "theme": "cyber-grc",
+    "subtheme": "DICP-CIA",
+    "difficulty": 1,
+    "source": "Mots-clés cybersécurité",
+    "question": "Que recouvrent les critères DIC (CIA en anglais) ?",
+    "options": [
+      "Détection, Investigation, Confinement",
+      "Disponibilité, Intégrité, Confidentialité",
+      "Données, Identité, Chiffrement",
+      "Défense, Isolation, Continuité"
+    ],
+    "answer": 1,
+    "explanation": "Les critères fondamentaux de sécurité sont la Disponibilité, l'Intégrité et la Confidentialité (DIC / CIA), parfois complétés par la Preuve (DICP)."
+  },
+  {
+    "id": "CYB035",
+    "type": "flashcard",
+    "theme": "cyber-identite",
+    "subtheme": "IAM",
+    "difficulty": 1,
+    "source": "Mots-clés cybersécurité",
+    "question": "IAM",
+    "options": [],
+    "answer": null,
+    "explanation": "Identity and Access Management — Gestion des identités et des accès. Ensemble des processus et outils qui gèrent le cycle de vie des identités (création, droits, révocation) et contrôlent qui accède à quoi dans le SI."
+  },
+  {
+    "id": "CYB036",
+    "type": "mcq",
+    "theme": "cyber-identite",
+    "subtheme": "IAM",
+    "difficulty": 1,
+    "source": "Mots-clés cybersécurité",
+    "question": "Que gère un système IAM (Identity and Access Management) ?",
+    "options": [
+      "Les identités et les droits d'accès des utilisateurs",
+      "Le trafic réseau entrant et sortant",
+      "Les sauvegardes incrémentielles des serveurs",
+      "Les signatures antivirales des postes"
+    ],
+    "answer": 0,
+    "explanation": "L'IAM gère le cycle de vie des identités et le contrôle des accès : qui est qui, et qui a le droit d'accéder à quoi."
+  },
+  {
+    "id": "CYB037",
+    "type": "flashcard",
+    "theme": "cyber-identite",
+    "subtheme": "MFA",
+    "difficulty": 1,
+    "source": "Mots-clés cybersécurité",
+    "question": "MFA / 2FA",
+    "options": [],
+    "answer": null,
+    "explanation": "Multi-Factor Authentication / Two-Factor Authentication — Authentification à plusieurs facteurs. Combine au moins deux preuves d'identité de catégories différentes : ce que je sais (mot de passe), ce que je possède (téléphone, token), ce que je suis (biométrie)."
+  },
+  {
+    "id": "CYB038",
+    "type": "mcq",
+    "theme": "cyber-identite",
+    "subtheme": "MFA",
+    "difficulty": 1,
+    "source": "Mots-clés cybersécurité",
+    "question": "Sur quel principe repose l'authentification multifacteur (MFA) ?",
+    "options": [
+      "Utiliser un mot de passe très long uniquement",
+      "Combiner au moins deux facteurs de catégories différentes (savoir, posséder, être)",
+      "Chiffrer le mot de passe avant de l'envoyer",
+      "Changer de mot de passe toutes les heures"
+    ],
+    "answer": 1,
+    "explanation": "La MFA combine plusieurs facteurs de catégories distinctes : ce que l'on sait, ce que l'on possède, ce que l'on est — ce qui renforce fortement l'authentification."
+  },
+  {
+    "id": "CYB039",
+    "type": "flashcard",
+    "theme": "cyber-identite",
+    "subtheme": "zero-trust",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "Zero Trust",
+    "options": [],
+    "answer": null,
+    "explanation": "Modèle de sécurité « ne jamais faire confiance, toujours vérifier » (never trust, always verify). On ne fait plus confiance implicitement au réseau interne : chaque accès est authentifié, autorisé et vérifié en continu, quel que soit l'emplacement."
+  },
+  {
+    "id": "CYB040",
+    "type": "mcq",
+    "theme": "cyber-identite",
+    "subtheme": "zero-trust",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "Quel est le principe central du modèle Zero Trust ?",
+    "options": [
+      "Faire confiance à tout le réseau interne par défaut",
+      "Ne jamais faire confiance implicitement et vérifier chaque accès",
+      "Supprimer toute authentification pour fluidifier les accès",
+      "Chiffrer uniquement les flux sortants vers Internet"
+    ],
+    "answer": 1,
+    "explanation": "Le Zero Trust repose sur « never trust, always verify » : aucune confiance implicite, chaque accès est vérifié, y compris depuis le réseau interne."
+  },
+  {
+    "id": "CYB041",
+    "type": "flashcard",
+    "theme": "cyber-identite",
+    "subtheme": "least-privilege",
+    "difficulty": 1,
+    "source": "Mots-clés cybersécurité",
+    "question": "Moindre privilège (Least Privilege)",
+    "options": [],
+    "answer": null,
+    "explanation": "Principe selon lequel chaque utilisateur, processus ou système ne doit disposer que des droits strictement nécessaires à sa fonction, rien de plus. Limite la surface d'attaque et l'impact d'une compromission."
+  },
+  {
+    "id": "CYB042",
+    "type": "mcq",
+    "theme": "cyber-identite",
+    "subtheme": "least-privilege",
+    "difficulty": 1,
+    "source": "Mots-clés cybersécurité",
+    "question": "Que recommande le principe du moindre privilège ?",
+    "options": [
+      "Donner les droits administrateur à tous pour simplifier",
+      "N'accorder que les droits strictement nécessaires à chaque acteur",
+      "Supprimer tous les comptes utilisateurs inactifs chaque jour",
+      "Imposer un mot de passe identique pour tous les services"
+    ],
+    "answer": 1,
+    "explanation": "Le moindre privilège limite chaque entité aux droits strictement nécessaires, réduisant la surface d'attaque et l'impact d'une compromission."
+  },
+  {
+    "id": "CYB043",
+    "type": "flashcard",
+    "theme": "cyber-menaces",
+    "subtheme": "APT",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "APT",
+    "options": [],
+    "answer": null,
+    "explanation": "Advanced Persistent Threat — Menace persistante avancée. Attaquant sophistiqué et bien doté (souvent étatique ou criminel organisé) qui s'introduit durablement et discrètement dans un SI pour de l'espionnage ou du sabotage sur le long terme."
+  },
+  {
+    "id": "CYB044",
+    "type": "mcq",
+    "theme": "cyber-menaces",
+    "subtheme": "APT",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "Qu'est-ce qu'une APT (Advanced Persistent Threat) ?",
+    "options": [
+      "Un correctif de sécurité automatique",
+      "Une attaque sophistiquée, discrète et durable, souvent menée par un acteur très doté",
+      "Un pare-feu de nouvelle génération",
+      "Un type de sauvegarde chiffrée"
+    ],
+    "answer": 1,
+    "explanation": "Une APT est une menace persistante avancée : intrusion sophistiquée, discrète et durable, généralement menée par des acteurs étatiques ou criminels organisés."
+  },
+  {
+    "id": "CYB045",
+    "type": "flashcard",
+    "theme": "cyber-menaces",
+    "subtheme": "DDoS",
+    "difficulty": 1,
+    "source": "Mots-clés cybersécurité",
+    "question": "DDoS",
+    "options": [],
+    "answer": null,
+    "explanation": "Distributed Denial of Service — Déni de service distribué. Attaque visant à rendre un service indisponible en le saturant de requêtes depuis de nombreuses machines compromises (botnet). Vise la Disponibilité."
+  },
+  {
+    "id": "CYB046",
+    "type": "mcq",
+    "theme": "cyber-menaces",
+    "subtheme": "DDoS",
+    "difficulty": 1,
+    "source": "Mots-clés cybersécurité",
+    "question": "Quel est l'objectif d'une attaque DDoS ?",
+    "options": [
+      "Voler des mots de passe par hameçonnage",
+      "Rendre un service indisponible en le saturant de requêtes",
+      "Chiffrer les fichiers de la victime contre rançon",
+      "Intercepter les communications entre deux parties"
+    ],
+    "answer": 1,
+    "explanation": "Le DDoS (déni de service distribué) sature une cible de requêtes depuis de nombreuses sources pour la rendre indisponible : il attaque la Disponibilité."
+  },
+  {
+    "id": "CYB047",
+    "type": "flashcard",
+    "theme": "cyber-menaces",
+    "subtheme": "phishing",
+    "difficulty": 1,
+    "source": "Mots-clés cybersécurité",
+    "question": "Phishing / Spear phishing",
+    "options": [],
+    "answer": null,
+    "explanation": "Hameçonnage — Technique d'ingénierie sociale qui usurpe l'identité d'un tiers de confiance (mail, SMS, site) pour piéger la victime et lui voler des informations (identifiants, données bancaires). Le spear phishing est une version ciblée et personnalisée."
+  },
+  {
+    "id": "CYB048",
+    "type": "mcq",
+    "theme": "cyber-menaces",
+    "subtheme": "phishing",
+    "difficulty": 1,
+    "source": "Mots-clés cybersécurité",
+    "question": "Qu'est-ce que le spear phishing ?",
+    "options": [
+      "Un hameçonnage de masse envoyé au hasard",
+      "Un hameçonnage ciblé et personnalisé visant une personne précise",
+      "Un chiffrement des e-mails professionnels",
+      "Une attaque par saturation de serveurs"
+    ],
+    "answer": 1,
+    "explanation": "Le spear phishing est une variante ciblée du phishing : le message est personnalisé pour une victime précise, ce qui le rend plus crédible et dangereux."
+  },
+  {
+    "id": "CYB049",
+    "type": "flashcard",
+    "theme": "cyber-menaces",
+    "subtheme": "ransomware",
+    "difficulty": 1,
+    "source": "Mots-clés cybersécurité",
+    "question": "Ransomware",
+    "options": [],
+    "answer": null,
+    "explanation": "Rançongiciel — Logiciel malveillant qui chiffre les données (et/ou les exfiltre) puis exige une rançon pour les restituer. La double extorsion combine chiffrement et menace de publication des données volées."
+  },
+  {
+    "id": "CYB050",
+    "type": "mcq",
+    "theme": "cyber-menaces",
+    "subtheme": "ransomware",
+    "difficulty": 1,
+    "source": "Mots-clés cybersécurité",
+    "question": "Comment agit un ransomware (rançongiciel) ?",
+    "options": [
+      "Il chiffre les données de la victime et exige une rançon",
+      "Il accélère le réseau en compressant les fichiers",
+      "Il sauvegarde automatiquement les données dans le cloud",
+      "Il bloque uniquement l'accès physique aux locaux"
+    ],
+    "answer": 0,
+    "explanation": "Un ransomware chiffre (et souvent exfiltre) les données puis réclame une rançon pour les restituer ; la double extorsion ajoute la menace de publication."
+  },
+  {
+    "id": "CYB051",
+    "type": "flashcard",
+    "theme": "cyber-menaces",
+    "subtheme": "MITM",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "MITM",
+    "options": [],
+    "answer": null,
+    "explanation": "Man-In-The-Middle — Attaque de l'homme du milieu. L'attaquant s'interpose secrètement dans une communication entre deux parties pour l'écouter ou la modifier (ex. point Wi-Fi piégé, ARP spoofing). Vise Confidentialité et Intégrité."
+  },
+  {
+    "id": "CYB052",
+    "type": "mcq",
+    "theme": "cyber-menaces",
+    "subtheme": "MITM",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "En quoi consiste une attaque Man-In-The-Middle (MITM) ?",
+    "options": [
+      "Saturer un serveur de requêtes jusqu'à le faire tomber",
+      "S'interposer dans une communication pour l'écouter ou la modifier",
+      "Deviner un mot de passe par essais successifs",
+      "Chiffrer les fichiers de la victime contre rançon"
+    ],
+    "answer": 1,
+    "explanation": "Dans une attaque MITM, l'attaquant s'insère entre deux interlocuteurs pour intercepter ou altérer les échanges, compromettant confidentialité et intégrité."
+  },
+  {
+    "id": "CYB053",
+    "type": "flashcard",
+    "theme": "cyber-menaces",
+    "subtheme": "backdoor",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "Backdoor",
+    "options": [],
+    "answer": null,
+    "explanation": "Porte dérobée — Accès caché laissé dans un système (par un attaquant ou un développeur) permettant de contourner l'authentification et de reprendre le contrôle discrètement, même après une remédiation partielle."
+  },
+  {
+    "id": "CYB054",
+    "type": "mcq",
+    "theme": "cyber-menaces",
+    "subtheme": "backdoor",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "Qu'est-ce qu'une backdoor (porte dérobée) ?",
+    "options": [
+      "Un accès caché permettant de contourner l'authentification",
+      "Un pare-feu placé en sortie de réseau",
+      "Un protocole de sauvegarde redondante",
+      "Une politique de mots de passe renforcée"
+    ],
+    "answer": 0,
+    "explanation": "Une backdoor est un accès dissimulé qui contourne les contrôles d'authentification et permet de reprendre le contrôle d'un système discrètement."
+  },
+  {
+    "id": "CYB055",
+    "type": "flashcard",
+    "theme": "cyber-menaces",
+    "subtheme": "exploit-0day",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "Exploit / 0-day (zero-day)",
+    "options": [],
+    "answer": null,
+    "explanation": "Un exploit est un code ou une technique qui tire parti d'une vulnérabilité pour compromettre un système. Une faille 0-day (zero-day) est une vulnérabilité inconnue de l'éditeur, donc sans correctif disponible : particulièrement dangereuse."
+  },
+  {
+    "id": "CYB056",
+    "type": "mcq",
+    "theme": "cyber-menaces",
+    "subtheme": "exploit-0day",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "Qu'est-ce qu'une vulnérabilité 0-day (zero-day) ?",
+    "options": [
+      "Une faille corrigée le jour même de sa découverte",
+      "Une faille inconnue de l'éditeur, sans correctif disponible",
+      "Une faille qui n'affecte aucun système réel",
+      "Une faille présente uniquement dans les vieux logiciels"
+    ],
+    "answer": 1,
+    "explanation": "Une 0-day est une vulnérabilité encore inconnue de l'éditeur (donc sans patch) : les attaquants peuvent l'exploiter avant qu'une correction existe."
+  },
+  {
+    "id": "CYB057",
+    "type": "flashcard",
+    "theme": "cyber-menaces",
+    "subtheme": "social-engineering",
+    "difficulty": 1,
+    "source": "Mots-clés cybersécurité",
+    "question": "Social Engineering (ingénierie sociale)",
+    "options": [],
+    "answer": null,
+    "explanation": "Ingénierie sociale — Manipulation psychologique des personnes pour les amener à divulguer des informations ou à réaliser une action compromettante. Exploite la confiance, l'urgence, l'autorité plutôt qu'une faille technique. Le phishing en est un exemple."
+  },
+  {
+    "id": "CYB058",
+    "type": "mcq",
+    "theme": "cyber-menaces",
+    "subtheme": "social-engineering",
+    "difficulty": 1,
+    "source": "Mots-clés cybersécurité",
+    "question": "Sur quoi repose l'ingénierie sociale (social engineering) ?",
+    "options": [
+      "L'exploitation de failles logicielles uniquement",
+      "La manipulation psychologique des personnes",
+      "Le chiffrement des communications",
+      "La redondance des serveurs"
+    ],
+    "answer": 1,
+    "explanation": "L'ingénierie sociale exploite l'humain (confiance, urgence, autorité) pour obtenir des informations ou une action, plutôt qu'une faille technique."
+  },
+  {
+    "id": "CYB059",
+    "type": "flashcard",
+    "theme": "cyber-menaces",
+    "subtheme": "brute-force",
+    "difficulty": 1,
+    "source": "Mots-clés cybersécurité",
+    "question": "Brute Force",
+    "options": [],
+    "answer": null,
+    "explanation": "Attaque par force brute — Tentative de découvrir un mot de passe ou une clé en testant systématiquement toutes les combinaisons possibles. Variantes : attaque par dictionnaire (mots probables), credential stuffing (réutilisation de couples connus)."
+  },
+  {
+    "id": "CYB060",
+    "type": "mcq",
+    "theme": "cyber-menaces",
+    "subtheme": "brute-force",
+    "difficulty": 1,
+    "source": "Mots-clés cybersécurité",
+    "question": "En quoi consiste une attaque par force brute (brute force) ?",
+    "options": [
+      "Tester systématiquement toutes les combinaisons pour trouver un mot de passe",
+      "Saturer un serveur de trafic réseau",
+      "Intercepter une communication chiffrée",
+      "Usurper l'identité d'un site web officiel"
+    ],
+    "answer": 0,
+    "explanation": "La force brute teste toutes les combinaisons possibles pour casser un mot de passe ou une clé ; le MFA et le verrouillage de compte la contrent efficacement."
+  },
+  {
+    "id": "CYB061",
+    "type": "flashcard",
+    "theme": "cyber-attaque",
+    "subtheme": "pentest",
+    "difficulty": 1,
+    "source": "Mots-clés cybersécurité",
+    "question": "Pentest (test d'intrusion)",
+    "options": [],
+    "answer": null,
+    "explanation": "Penetration Test — Test d'intrusion. Évaluation de sécurité autorisée qui simule une attaque réelle pour identifier et exploiter les vulnérabilités d'un système, afin d'en mesurer l'impact et de recommander des corrections. Modes : black/grey/white box."
+  },
+  {
+    "id": "CYB062",
+    "type": "mcq",
+    "theme": "cyber-attaque",
+    "subtheme": "pentest",
+    "difficulty": 1,
+    "source": "Mots-clés cybersécurité",
+    "question": "Qu'est-ce qu'un pentest (test d'intrusion) ?",
+    "options": [
+      "Une attaque illégale menée par des cybercriminels",
+      "Une simulation d'attaque autorisée pour évaluer la sécurité d'un système",
+      "Une sauvegarde planifiée du système d'information",
+      "Un audit purement documentaire sans test technique"
+    ],
+    "answer": 1,
+    "explanation": "Un pentest est une simulation d'attaque autorisée et encadrée visant à découvrir et exploiter des failles pour en mesurer l'impact et recommander des correctifs."
+  },
+  {
+    "id": "CYB063",
+    "type": "flashcard",
+    "theme": "cyber-attaque",
+    "subtheme": "kill-chain",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "Cyber Kill Chain",
+    "options": [],
+    "answer": null,
+    "explanation": "Modèle (Lockheed Martin) décrivant les étapes successives d'une cyberattaque : reconnaissance, armement, livraison, exploitation, installation, command & control (C2), actions sur objectifs. Briser une seule étape suffit à stopper l'attaque."
+  },
+  {
+    "id": "CYB064",
+    "type": "mcq",
+    "theme": "cyber-attaque",
+    "subtheme": "kill-chain",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "Que décrit la Cyber Kill Chain ?",
+    "options": [
+      "Les étapes successives d'une cyberattaque, de la reconnaissance à l'action finale",
+      "La liste des correctifs à appliquer chaque mois",
+      "Le classement des mots de passe les plus faibles",
+      "Le cycle de vie d'un certificat numérique"
+    ],
+    "answer": 0,
+    "explanation": "La Kill Chain (Lockheed Martin) modélise les phases d'une attaque (reconnaissance → livraison → exploitation → C2 → actions) ; rompre une étape stoppe l'attaque."
+  },
+  {
+    "id": "CYB065",
+    "type": "flashcard",
+    "theme": "cyber-attaque",
+    "subtheme": "privilege-escalation",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "Privilege Escalation",
+    "options": [],
+    "answer": null,
+    "explanation": "Élévation de privilèges — Action par laquelle un attaquant obtient des droits supérieurs à ceux dont il dispose (passer d'un compte utilisateur à administrateur/root). Verticale (plus de droits) ou horizontale (droits d'un autre utilisateur de même niveau)."
+  },
+  {
+    "id": "CYB066",
+    "type": "mcq",
+    "theme": "cyber-attaque",
+    "subtheme": "privilege-escalation",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "Qu'est-ce que l'élévation de privilèges (privilege escalation) ?",
+    "options": [
+      "Obtenir des droits supérieurs à ceux initialement accordés",
+      "Augmenter la bande passante d'un serveur",
+      "Renforcer la longueur d'un mot de passe",
+      "Chiffrer les communications d'un administrateur"
+    ],
+    "answer": 0,
+    "explanation": "L'élévation de privilèges permet à un attaquant d'acquérir des droits plus élevés (ex. devenir admin/root), étape clé pour étendre le contrôle d'un système."
+  },
+  {
+    "id": "CYB067",
+    "type": "flashcard",
+    "theme": "cyber-attaque",
+    "subtheme": "lateral-movement",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "Lateral Movement (déplacement latéral)",
+    "options": [],
+    "answer": null,
+    "explanation": "Déplacement latéral — Techniques par lesquelles un attaquant, après une première compromission, se propage de machine en machine à l'intérieur du réseau pour atteindre ses cibles (souvent via des identifiants volés)."
+  },
+  {
+    "id": "CYB068",
+    "type": "mcq",
+    "theme": "cyber-attaque",
+    "subtheme": "lateral-movement",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "Que désigne le déplacement latéral (lateral movement) ?",
+    "options": [
+      "La propagation d'un attaquant de machine en machine dans le réseau",
+      "Le transfert d'un fichier vers une clé USB",
+      "La rotation régulière des clés de chiffrement",
+      "Le basculement vers un site de secours en cas de sinistre"
+    ],
+    "answer": 0,
+    "explanation": "Le lateral movement consiste, après une intrusion initiale, à se déplacer au sein du réseau (souvent via des identifiants volés) pour atteindre des cibles de valeur."
+  },
+  {
+    "id": "CYB069",
+    "type": "flashcard",
+    "theme": "cyber-attaque",
+    "subtheme": "payload",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "Payload (charge utile)",
+    "options": [],
+    "answer": null,
+    "explanation": "Charge utile — Partie d'un code malveillant qui réalise l'action néfaste prévue (vol de données, chiffrement, ouverture d'un accès), par opposition au mécanisme de livraison/exploitation qui l'achemine jusqu'à la cible."
+  },
+  {
+    "id": "CYB070",
+    "type": "mcq",
+    "theme": "cyber-attaque",
+    "subtheme": "payload",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "Dans une attaque, que désigne le payload (charge utile) ?",
+    "options": [
+      "Le composant qui exécute l'action malveillante prévue",
+      "Le pare-feu qui bloque l'attaque",
+      "Le rapport d'audit produit après l'incident",
+      "La liste des utilisateurs autorisés"
+    ],
+    "answer": 0,
+    "explanation": "Le payload est la partie du code qui accomplit l'objectif malveillant (vol, chiffrement, accès distant), distincte du vecteur qui le délivre."
+  },
+  {
+    "id": "CYB071",
+    "type": "flashcard",
+    "theme": "cyber-attaque",
+    "subtheme": "C2",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "C2 (C&C — Command and Control)",
+    "options": [],
+    "answer": null,
+    "explanation": "Command and Control — Infrastructure (serveurs, canaux) que l'attaquant utilise pour communiquer avec les machines compromises : envoyer des ordres, exfiltrer des données, mettre à jour le malware. Détecter le trafic C2 est un objectif clé du SOC."
+  },
+  {
+    "id": "CYB072",
+    "type": "mcq",
+    "theme": "cyber-attaque",
+    "subtheme": "C2",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "À quoi sert un serveur C2 (Command and Control) pour un attaquant ?",
+    "options": [
+      "À piloter à distance les machines compromises et exfiltrer les données",
+      "À héberger légalement le site web de l'entreprise",
+      "À sauvegarder les journaux de sécurité",
+      "À distribuer les correctifs aux postes de travail"
+    ],
+    "answer": 0,
+    "explanation": "Le C2 (Command and Control) est l'infrastructure depuis laquelle l'attaquant commande les machines infectées et exfiltre les données ; son trafic est une cible de détection."
+  },
+  {
+    "id": "CYB073",
+    "type": "flashcard",
+    "theme": "cyber-attaque",
+    "subtheme": "xss-csrf",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "XSS / CSRF",
+    "options": [],
+    "answer": null,
+    "explanation": "Failles web côté client. XSS (Cross-Site Scripting) : injection de scripts malveillants exécutés dans le navigateur d'autres utilisateurs. CSRF (Cross-Site Request Forgery) : forcer le navigateur d'une victime authentifiée à exécuter une action à son insu."
+  },
+  {
+    "id": "CYB074",
+    "type": "mcq",
+    "theme": "cyber-attaque",
+    "subtheme": "xss-csrf",
+    "difficulty": 3,
+    "source": "Mots-clés cybersécurité",
+    "question": "Que permet une attaque XSS (Cross-Site Scripting) ?",
+    "options": [
+      "Injecter du code SQL dans une base de données",
+      "Exécuter un script malveillant dans le navigateur d'autres utilisateurs",
+      "Saturer un serveur de requêtes",
+      "Casser une clé de chiffrement par force brute"
+    ],
+    "answer": 1,
+    "explanation": "Le XSS injecte un script qui s'exécute dans le navigateur des visiteurs d'un site, permettant vol de session, défiguration ou redirection. Le CSRF, lui, abuse d'une session déjà authentifiée."
+  },
+  {
+    "id": "CYB075",
+    "type": "flashcard",
+    "theme": "cyber-attaque",
+    "subtheme": "sqli",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "SQLi (injection SQL)",
+    "options": [],
+    "answer": null,
+    "explanation": "SQL Injection — Injection SQL. Insertion de code SQL malveillant dans un champ d'entrée mal filtré pour manipuler la base de données : lire, modifier ou supprimer des données, voire contourner l'authentification. Contre-mesure : requêtes paramétrées."
+  },
+  {
+    "id": "CYB076",
+    "type": "mcq",
+    "theme": "cyber-attaque",
+    "subtheme": "sqli",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "Qu'exploite une injection SQL (SQLi) ?",
+    "options": [
+      "Un champ d'entrée mal filtré pour manipuler la base de données",
+      "Une faiblesse du protocole Wi-Fi",
+      "Un mot de passe administrateur par défaut",
+      "Une absence de chiffrement des sauvegardes"
+    ],
+    "answer": 0,
+    "explanation": "La SQLi insère du code SQL via une entrée non assainie pour lire/modifier la base ou contourner l'authentification ; les requêtes paramétrées la préviennent."
+  },
+  {
+    "id": "CYB077",
+    "type": "flashcard",
+    "theme": "cyber-defense",
+    "subtheme": "teams",
+    "difficulty": 1,
+    "source": "Mots-clés cybersécurité",
+    "question": "Red Team / Blue Team / Purple Team",
+    "options": [],
+    "answer": null,
+    "explanation": "Red Team = équipe offensive qui simule des attaquants réalistes. Blue Team = équipe défensive qui détecte et répond. Purple Team = collaboration des deux pour améliorer la défense grâce aux enseignements de l'attaque."
+  },
+  {
+    "id": "CYB078",
+    "type": "mcq",
+    "theme": "cyber-defense",
+    "subtheme": "teams",
+    "difficulty": 1,
+    "source": "Mots-clés cybersécurité",
+    "question": "Quel est le rôle de la Blue Team ?",
+    "options": [
+      "Simuler des attaques réalistes contre l'organisation",
+      "Détecter, analyser et répondre aux attaques (défense)",
+      "Rédiger les contrats juridiques de l'entreprise",
+      "Gérer la facturation des prestations de sécurité"
+    ],
+    "answer": 1,
+    "explanation": "La Blue Team est l'équipe défensive (détection et réponse). La Red Team attaque, et la Purple Team fait collaborer les deux pour renforcer la défense."
+  },
+  {
+    "id": "CYB079",
+    "type": "flashcard",
+    "theme": "cyber-defense",
+    "subtheme": "hardening",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "Hardening (durcissement)",
+    "options": [],
+    "answer": null,
+    "explanation": "Durcissement — Réduction de la surface d'attaque d'un système en désactivant les services inutiles, supprimant les comptes par défaut, appliquant des configurations sécurisées (guides CIS/ANSSI) et limitant les droits."
+  },
+  {
+    "id": "CYB080",
+    "type": "mcq",
+    "theme": "cyber-defense",
+    "subtheme": "hardening",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "Que vise le durcissement (hardening) d'un système ?",
+    "options": [
+      "Réduire la surface d'attaque via des configurations sécurisées",
+      "Augmenter la vitesse du processeur",
+      "Supprimer les sauvegardes obsolètes",
+      "Chiffrer uniquement les e-mails sortants"
+    ],
+    "answer": 0,
+    "explanation": "Le hardening réduit la surface d'attaque : désactivation des services inutiles, suppression des comptes/mots de passe par défaut, configurations sécurisées (CIS/ANSSI)."
+  },
+  {
+    "id": "CYB081",
+    "type": "flashcard",
+    "theme": "cyber-defense",
+    "subtheme": "patch-management",
+    "difficulty": 1,
+    "source": "Mots-clés cybersécurité",
+    "question": "Patch Management",
+    "options": [],
+    "answer": null,
+    "explanation": "Gestion des correctifs — Processus consistant à identifier, tester et déployer en temps voulu les mises à jour de sécurité sur les systèmes et logiciels, afin de corriger les vulnérabilités connues avant qu'elles ne soient exploitées."
+  },
+  {
+    "id": "CYB082",
+    "type": "mcq",
+    "theme": "cyber-defense",
+    "subtheme": "patch-management",
+    "difficulty": 1,
+    "source": "Mots-clés cybersécurité",
+    "question": "Quel est l'objectif du patch management ?",
+    "options": [
+      "Déployer les correctifs de sécurité pour combler les vulnérabilités connues",
+      "Gérer les contrats des fournisseurs",
+      "Chiffrer les bases de données clients",
+      "Bloquer le trafic réseau entrant"
+    ],
+    "answer": 0,
+    "explanation": "Le patch management organise l'identification, le test et le déploiement des correctifs afin de corriger les failles connues avant exploitation."
+  },
+  {
+    "id": "CYB083",
+    "type": "flashcard",
+    "theme": "cyber-defense",
+    "subtheme": "honeypot",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "Honeypot (pot de miel)",
+    "options": [],
+    "answer": null,
+    "explanation": "Pot de miel — Leurre volontairement vulnérable et isolé, déployé pour attirer les attaquants, détecter leur présence et observer leurs techniques sans risque pour les systèmes réels. Un ensemble de honeypots forme un honeynet."
+  },
+  {
+    "id": "CYB084",
+    "type": "mcq",
+    "theme": "cyber-defense",
+    "subtheme": "honeypot",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "À quoi sert un honeypot (pot de miel) ?",
+    "options": [
+      "À sauvegarder les données critiques",
+      "À attirer et piéger les attaquants pour les détecter et les étudier",
+      "À chiffrer le trafic réseau interne",
+      "À authentifier les utilisateurs distants"
+    ],
+    "answer": 1,
+    "explanation": "Un honeypot est un leurre destiné à attirer les attaquants afin de détecter leur activité et d'analyser leurs techniques, à l'écart des systèmes de production."
+  },
+  {
+    "id": "CYB085",
+    "type": "flashcard",
+    "theme": "cyber-defense",
+    "subtheme": "threat-hunting",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "Threat Hunting",
+    "options": [],
+    "answer": null,
+    "explanation": "Chasse aux menaces — Démarche proactive consistant à rechercher activement, par hypothèses et analyses, des attaquants ou compromissions déjà présents mais non détectés par les alertes automatiques. Complète la détection réactive du SOC."
+  },
+  {
+    "id": "CYB086",
+    "type": "mcq",
+    "theme": "cyber-defense",
+    "subtheme": "threat-hunting",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "Qu'est-ce que le threat hunting ?",
+    "options": [
+      "Attendre les alertes automatiques du SIEM",
+      "Rechercher proactivement des menaces non détectées par les outils",
+      "Bloquer tout le trafic sortant par précaution",
+      "Former les utilisateurs au phishing"
+    ],
+    "answer": 1,
+    "explanation": "Le threat hunting est une recherche proactive de compromissions déjà présentes mais passées sous les radars, fondée sur des hypothèses et l'analyse des données."
+  },
+  {
+    "id": "CYB087",
+    "type": "flashcard",
+    "theme": "cyber-defense",
+    "subtheme": "sandboxing",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "Sandboxing (bac à sable)",
+    "options": [],
+    "answer": null,
+    "explanation": "Bac à sable — Environnement isolé et contrôlé dans lequel on exécute un fichier, un programme ou un code suspect pour observer son comportement sans risque de contaminer le système réel. Utilisé pour l'analyse de malware."
+  },
+  {
+    "id": "CYB088",
+    "type": "mcq",
+    "theme": "cyber-defense",
+    "subtheme": "sandboxing",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "Quel est l'intérêt du sandboxing (bac à sable) ?",
+    "options": [
+      "Exécuter un code suspect dans un environnement isolé pour l'analyser",
+      "Accélérer le démarrage du système d'exploitation",
+      "Compresser les fichiers volumineux",
+      "Gérer les certificats numériques"
+    ],
+    "answer": 0,
+    "explanation": "Le sandboxing isole l'exécution d'un élément suspect afin d'étudier son comportement sans risque de contaminer l'environnement réel."
+  },
+  {
+    "id": "CYB089",
+    "type": "flashcard",
+    "theme": "cyber-defense",
+    "subtheme": "WAF",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "WAF",
+    "options": [],
+    "answer": null,
+    "explanation": "Web Application Firewall — Pare-feu applicatif web. Filtre et surveille le trafic HTTP/HTTPS d'une application web pour bloquer les attaques applicatives (injections SQL, XSS, etc.), à la différence d'un pare-feu réseau classique qui opère plus bas."
+  },
+  {
+    "id": "CYB090",
+    "type": "mcq",
+    "theme": "cyber-defense",
+    "subtheme": "WAF",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "Quelle est la spécificité d'un WAF (Web Application Firewall) ?",
+    "options": [
+      "Il filtre le trafic web (HTTP/HTTPS) pour bloquer les attaques applicatives",
+      "Il chiffre les disques durs des serveurs",
+      "Il gère les sauvegardes des bases de données",
+      "Il authentifie les utilisateurs par biométrie"
+    ],
+    "answer": 0,
+    "explanation": "Le WAF protège spécifiquement les applications web en filtrant le trafic HTTP/HTTPS contre les attaques applicatives (SQLi, XSS…), là où un pare-feu réseau agit plus bas."
+  },
+  {
+    "id": "CYB091",
+    "type": "flashcard",
+    "theme": "cyber-defense",
+    "subtheme": "segmentation",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "Segmentation réseau (Network Segmentation)",
+    "options": [],
+    "answer": null,
+    "explanation": "Cloisonnement du réseau en zones isolées (VLAN, sous-réseaux, DMZ) avec contrôle des flux entre elles. Limite la propagation d'un attaquant (déplacement latéral) et confine l'impact d'une compromission."
+  },
+  {
+    "id": "CYB092",
+    "type": "mcq",
+    "theme": "cyber-defense",
+    "subtheme": "segmentation",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "Quel bénéfice principal apporte la segmentation réseau ?",
+    "options": [
+      "Limiter la propagation d'un attaquant et confiner les compromissions",
+      "Augmenter la taille des disques de stockage",
+      "Supprimer le besoin d'authentification",
+      "Accélérer le chiffrement des e-mails"
+    ],
+    "answer": 0,
+    "explanation": "La segmentation cloisonne le réseau en zones contrôlées, ce qui freine le déplacement latéral d'un attaquant et confine l'impact d'un incident."
+  },
+  {
+    "id": "CYB093",
+    "type": "flashcard",
+    "theme": "cyber-defense",
+    "subtheme": "forensics",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "Forensics (investigation numérique)",
+    "options": [],
+    "answer": null,
+    "explanation": "Investigation numérique / inforensique — Collecte, préservation et analyse des preuves numériques après un incident, en respectant la chaîne de custody, pour comprendre ce qui s'est passé, mesurer l'impact et, le cas échéant, soutenir une action judiciaire."
+  },
+  {
+    "id": "CYB094",
+    "type": "mcq",
+    "theme": "cyber-defense",
+    "subtheme": "forensics",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "Quand intervient principalement le forensics (investigation numérique) ?",
+    "options": [
+      "Avant tout incident, pour empêcher les attaques",
+      "Après un incident, pour analyser les preuves et comprendre l'attaque",
+      "Uniquement lors de la création des comptes utilisateurs",
+      "Pendant la sauvegarde quotidienne des données"
+    ],
+    "answer": 1,
+    "explanation": "Le forensics intervient après un incident : collecte et analyse des preuves numériques (en préservant leur intégrité) pour reconstituer l'attaque et son impact."
+  },
+  {
+    "id": "CYB095",
+    "type": "flashcard",
+    "theme": "cyber-defense",
+    "subtheme": "defense-in-depth",
+    "difficulty": 1,
+    "source": "Mots-clés cybersécurité",
+    "question": "Defense in Depth (défense en profondeur)",
+    "options": [],
+    "answer": null,
+    "explanation": "Défense en profondeur — Stratégie consistant à empiler plusieurs couches de sécurité indépendantes (physique, réseau, système, application, humain) de sorte que la défaillance d'une couche n'expose pas tout le SI. Inspirée des principes militaires."
+  },
+  {
+    "id": "CYB096",
+    "type": "mcq",
+    "theme": "cyber-defense",
+    "subtheme": "defense-in-depth",
+    "difficulty": 1,
+    "source": "Mots-clés cybersécurité",
+    "question": "Sur quoi repose la défense en profondeur (defense in depth) ?",
+    "options": [
+      "Une unique barrière de sécurité très robuste",
+      "Plusieurs couches de sécurité indépendantes et complémentaires",
+      "L'absence totale de contrôle interne",
+      "Le chiffrement comme seule mesure de protection"
+    ],
+    "answer": 1,
+    "explanation": "La défense en profondeur multiplie les couches de sécurité indépendantes : si une couche cède, les autres limitent l'impact de la compromission."
+  },
+  {
+    "id": "CYB097",
+    "type": "flashcard",
+    "theme": "cyber-crypto",
+    "subtheme": "PKI",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "PKI (ICP)",
+    "options": [],
+    "answer": null,
+    "explanation": "Public Key Infrastructure — Infrastructure à clés publiques (ICP). Ensemble des composants (autorité de certification, autorité d'enregistrement, annuaires) qui gèrent le cycle de vie des certificats numériques et lient une identité à une clé publique."
+  },
+  {
+    "id": "CYB098",
+    "type": "mcq",
+    "theme": "cyber-crypto",
+    "subtheme": "PKI",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "Quel est le rôle d'une PKI (Public Key Infrastructure) ?",
+    "options": [
+      "Gérer le cycle de vie des certificats numériques et des clés publiques",
+      "Saturer un serveur de requêtes malveillantes",
+      "Stocker les sauvegardes hors site",
+      "Filtrer les e-mails indésirables"
+    ],
+    "answer": 0,
+    "explanation": "La PKI gère la création, la distribution et la révocation des certificats numériques via une autorité de certification, liant une identité à une clé publique."
+  },
+  {
+    "id": "CYB099",
+    "type": "flashcard",
+    "theme": "cyber-cadres",
+    "subtheme": "mitre-attack",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "MITRE ATT&CK",
+    "options": [],
+    "answer": null,
+    "explanation": "Base de connaissances publique du MITRE recensant les tactiques et techniques (TTP) réellement observées des attaquants, organisées en matrices. Sert de langage commun pour décrire, détecter et évaluer la couverture face aux menaces."
+  },
+  {
+    "id": "CYB100",
+    "type": "mcq",
+    "theme": "cyber-cadres",
+    "subtheme": "mitre-attack",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "Que recense le référentiel MITRE ATT&CK ?",
+    "options": [
+      "Les tactiques et techniques (TTP) observées des attaquants",
+      "La liste des normes ISO de sécurité",
+      "Les certificats numériques révoqués",
+      "Les adresses IP autorisées sur le réseau"
+    ],
+    "answer": 0,
+    "explanation": "MITRE ATT&CK est une base de connaissances des TTP adverses réellement observées, utilisée comme langage commun pour la détection et l'évaluation de couverture."
+  },
+  {
+    "id": "CYB101",
+    "type": "flashcard",
+    "theme": "cyber-cadres",
+    "subtheme": "cve-cvss",
+    "difficulty": 2,
+    "source": "Mots-clés cybersécurité",
+    "question": "CVE / CVSS",
+    "options": [],
+    "answer": null,
+    "explanation": "CVE (Common Vulnerabilities and Exposures) = identifiant unique et public d'une vulnérabilité connue (ex. CVE-2024-12345). CVSS (Common Vulnerability Scoring System) = score de gravité de 0 à 10 attribué à cette vulnérabilité. Le CVE nomme, le CVSS note."
+  },
+  {
+    "id": "CYB102",
+    "type": "mcq",
+    "theme": "cyber-cadres",
+    "subtheme": "cve-cvss",
+    "difficulty": 3,
+    "source": "Mots-clés cybersécurité",
+    "question": "Quelle est la différence entre CVE et CVSS ?",
+    "options": [
+      "Le CVE est un score, le CVSS un identifiant",
+      "Le CVE identifie une vulnérabilité, le CVSS en mesure la gravité (0 à 10)",
+      "Ce sont deux noms pour le même catalogue",
+      "Le CVE concerne le réseau, le CVSS le chiffrement"
+    ],
+    "answer": 1,
+    "explanation": "Le CVE attribue un identifiant unique à une vulnérabilité connue ; le CVSS lui associe un score de gravité de 0 à 10. Le CVE nomme, le CVSS note."
+  }
+]
