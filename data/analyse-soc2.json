@@ -1,0 +1,1095 @@
+[
+  {
+    "id": "SOC2-001",
+    "type": "multiple",
+    "theme": "soc2-fondamentaux",
+    "subtheme": "avantages-soc",
+    "difficulty": 1,
+    "source": "Analyse SOC 2 — ESD, État de l'art du SOC",
+    "question": "Quels sont les avantages d'un SOC cités dans le cours ? (plusieurs réponses)",
+    "options": [
+      "La centralisation de la défense",
+      "L'amélioration de la gestion des menaces",
+      "Le maintien de sa conformité réglementaire",
+      "L'augmentation de la chaîne de valeur pour le SI",
+      "La suppression du besoin d'antivirus"
+    ],
+    "answers": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Les avantages du SOC : centralisation de la défense, amélioration de la gestion des menaces, maintien de la conformité réglementaire et augmentation de la chaîne de valeur pour le SI. Le SOC ne remplace pas les outils de protection comme l'antivirus, il les exploite."
+  },
+  {
+    "id": "SOC2-002",
+    "type": "multiple",
+    "theme": "soc2-fondamentaux",
+    "subtheme": "processus",
+    "difficulty": 2,
+    "source": "Analyse SOC 2 — ESD, État de l'art du SOC",
+    "question": "Quels processus liés à la supervision des événements de sécurité doivent être définis au sein du SOC ? (plusieurs réponses)",
+    "options": [
+      "Processus de détection",
+      "Processus de qualification",
+      "Processus de supervision",
+      "Processus de veille",
+      "Processus de facturation"
+    ],
+    "answers": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Les processus liés à la supervision des événements de sécurité : détection, qualification, supervision et veille. De nombreux autres processus doivent également être définis au sein du SOC."
+  },
+  {
+    "id": "SOC2-003",
+    "type": "mcq",
+    "theme": "soc2-fondamentaux",
+    "subtheme": "cert-csirt",
+    "difficulty": 2,
+    "source": "Analyse SOC 2 — ESD, État de l'art du SOC",
+    "question": "Qu'est-ce qu'un CERT ou CSIRT ?",
+    "options": [
+      "Un centre d'alerte et de réaction aux attaques informatiques, ouvert à tous",
+      "Un certificat de conformité SI délivré par l'ANSSI aux entreprises et administrations",
+      "Une équipe interne chargée uniquement de la surveillance et de l'archivage des logs",
+      "Un module de corrélation d'événements intégré nativement au moteur du SIEM"
+    ],
+    "answer": 0,
+    "explanation": "Un Computer Emergency Response Team (CERT) ou Computer Security Incident Response Team (CSIRT) est un centre d'alerte et de réaction aux attaques informatiques, destiné aux entreprises ou administrations, mais dont les informations sont généralement accessibles à tous."
+  },
+  {
+    "id": "SOC2-004",
+    "type": "mcq",
+    "theme": "soc2-fondamentaux",
+    "subtheme": "3p",
+    "difficulty": 2,
+    "source": "Analyse SOC 2 — ESD, État de l'art du SOC",
+    "question": "Que désignent les « 3 P » nécessaires au bon fonctionnement d'un SOC ?",
+    "options": [
+      "Prévention, Protection, Persistance",
+      "Process, People, Product",
+      "Playbook, Pipeline, Pattern",
+      "Périmètre, Priorité, Performance"
+    ],
+    "answer": 1,
+    "explanation": "Pour que le SOC fonctionne, il faut : des formations, de la maturité et des métriques (tableaux de bord), des procédures/processus/playbooks, un alignement aux besoins de sécurité de l'organisation et les 3 P : Process, People, Product."
+  },
+  {
+    "id": "SOC2-005",
+    "type": "mcq",
+    "theme": "soc2-fondamentaux",
+    "subtheme": "escalade",
+    "difficulty": 2,
+    "source": "Analyse SOC 2 — ESD, État de l'art du SOC",
+    "question": "Quel est le chemin d'escalade classique d'une alerte dans un SOC ?",
+    "options": [
+      "Niveau 3 → Niveau 2 → Niveau 1 → clôture de l'alerte",
+      "RSSI → Niveau 1 → CERT → Niveau 2",
+      "Niveau 1 → Niveau 2 → Niveau 3 → réponse à incident",
+      "Niveau 1 → réponse à incident → Niveau 2 → Niveau 3"
+    ],
+    "answer": 2,
+    "explanation": "L'escalade suit les niveaux : l'analyste niveau 1 (veille/triage) remonte au niveau 2 (maintenance/administration), puis au niveau 3, jusqu'à la réponse à incident (souvent hors SOC, ex. CSIRT)."
+  },
+  {
+    "id": "SOC2-006",
+    "type": "mcq",
+    "theme": "soc2-fondamentaux",
+    "subtheme": "machine-learning",
+    "difficulty": 3,
+    "source": "Analyse SOC 2 — ESD, État de l'art du SOC",
+    "question": "Quel algorithme de machine learning est cité comme exemple pour l'antispam ?",
+    "options": [
+      "Les réseaux de neurones convolutifs",
+      "L'algorithme K-means",
+      "Les forêts aléatoires",
+      "L'algorithme bayésien"
+    ],
+    "answer": 3,
+    "explanation": "Le machine learning permet de détecter, trier et qualifier plus rapidement les alertes et faux positifs. L'exemple le plus connu est l'antispam, basé sur un algorithme bayésien permettant une prise de décision rapide en fonction de probabilités. Son efficacité dépend de la qualité du jeu de données fourni en amont."
+  },
+  {
+    "id": "SOC2-007",
+    "type": "true_false",
+    "theme": "soc2-fondamentaux",
+    "subtheme": "machine-learning",
+    "difficulty": 2,
+    "source": "Analyse SOC 2 — ESD, État de l'art du SOC",
+    "question": "L'efficacité du machine learning dans un SOC dépend de la qualité du jeu de données fourni en amont.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "answer": 0,
+    "explanation": "Vrai. Le machine learning permet de détecter, trier et qualifier plus rapidement et avec plus de fiabilité qu'un humain, mais son efficacité dépend directement de la qualité du jeu de données d'apprentissage fourni en amont."
+  },
+  {
+    "id": "SOC2-008",
+    "type": "mcq",
+    "theme": "soc2-fondamentaux",
+    "subtheme": "uba",
+    "difficulty": 2,
+    "source": "Analyse SOC 2 — ESD, État de l'art du SOC",
+    "question": "Quel est l'objectif principal des outils d'analyse comportementale (UBA) selon le cours ?",
+    "options": [
+      "Détecter les APT et malwares en apprenant les usages normaux du SI",
+      "Remplacer les pare-feux périmétriques et les antivirus du parc",
+      "Générer les rapports de conformité réglementaire destinés aux auditeurs",
+      "Chiffrer les communications et les échanges de tous les utilisateurs"
+    ],
+    "answer": 0,
+    "explanation": "Les outils UBA sont des solutions interopérables avec les SIEM (présentes dans les SIEM 2.0). Ils s'appuient sur le machine learning : apprentissage des usages du SI en régime normal, puis alerte lorsque des écarts sont constatés. Objectif : détecter des APT et malwares sophistiqués."
+  },
+  {
+    "id": "SOC2-009",
+    "type": "multiple",
+    "theme": "soc2-fondamentaux",
+    "subtheme": "equipements",
+    "difficulty": 2,
+    "source": "Analyse SOC 2 — ESD, État de l'art du SOC",
+    "question": "Quels équipements sont généralement en place avant la création d'un SOC ? (plusieurs réponses)",
+    "options": [
+      "Anti-malware classique et de type « bac à sable »",
+      "EDR, EPP, SOAR",
+      "Pare-feu et PKI",
+      "IDS, IPS et scanneurs de vulnérabilités",
+      "Uniquement le SIEM"
+    ],
+    "answers": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Dans la majorité des cas, ces composants sont en place bien avant la création du SOC et opérés par différentes équipes : anti-malware (classique et sandbox), EDR/EPP/SOAR, pare-feu, PKI, IDS/IPS, scanneurs de vulnérabilités. Le SIEM, lui, est central au SOC."
+  },
+  {
+    "id": "SOC2-010",
+    "type": "mcq",
+    "theme": "soc2-fondamentaux",
+    "subtheme": "playbook",
+    "difficulty": 2,
+    "source": "Analyse SOC 2 — ESD, État de l'art du SOC",
+    "question": "Qu'est-ce qu'un Playbook dans un SOC ?",
+    "options": [
+      "Un journal chronologique des incidents déjà traités par les analystes du SOC",
+      "Une liste d'étapes et d'actions de réponse à un type d'incident donné",
+      "Un tableau de bord mesurant la performance et la maturité globale du SOC",
+      "Un référentiel des règles de détection SIGMA déployées sur le SIEM"
+    ],
+    "answer": 1,
+    "explanation": "Un Playbook est une liste de contrôles, étapes et actions requises pour répondre avec succès à des types d'incidents et à des menaces spécifiques. Les playbooks aident à établir des processus et des procédures de réponse aux incidents formalisés."
+  },
+  {
+    "id": "SOC2-011",
+    "type": "mcq",
+    "theme": "soc2-referentiels",
+    "subtheme": "dettct",
+    "difficulty": 3,
+    "source": "Analyse SOC 2 — ESD, Les référentiels",
+    "question": "À quoi sert DeTT&CT ?",
+    "options": [
+      "À simuler des attaques automatisées et des campagnes offensives sur le SI",
+      "À convertir automatiquement des règles SIGMA vers les différents SIEM",
+      "À aider les blue teams à évaluer la couverture de détection via ATT&CK",
+      "À partager des indicateurs de compromission entre plusieurs organisations"
+    ],
+    "answer": 2,
+    "explanation": "DeTT&CT vise à aider les équipes bleues (blue teams) à utiliser MITRE ATT&CK pour évaluer et comparer les journaux, leurs couvertures, la détection et le comportement. La conversion de règles c'est sigmac, le partage d'IoC c'est MISP."
+  },
+  {
+    "id": "SOC2-012",
+    "type": "mcq",
+    "theme": "soc2-referentiels",
+    "subtheme": "misp",
+    "difficulty": 2,
+    "source": "Analyse SOC 2 — ESD, Les référentiels",
+    "question": "Qu'est-ce que MISP ?",
+    "options": [
+      "Un scanner de vulnérabilités propriétaire orienté conformité réglementaire",
+      "Un module de machine learning intégré au SIEM pour trier les faux positifs",
+      "Un protocole de chiffrement et de signature des journaux d'événements",
+      "Une plateforme open source de partage d'infos sur les menaces et IoC"
+    ],
+    "answer": 3,
+    "explanation": "MISP (Threat Sharing) est un logiciel gratuit et open source qui facilite le partage d'informations sur les menaces, y compris les indicateurs de compromission (IoC)."
+  },
+  {
+    "id": "SOC2-013",
+    "type": "mcq",
+    "theme": "soc2-referentiels",
+    "subtheme": "ioc",
+    "difficulty": 2,
+    "source": "Analyse SOC 2 — ESD, Les référentiels",
+    "question": "Qu'est-ce qu'un IoC (indicateur de compromission) ?",
+    "options": [
+      "Un artefact observé indiquant une intrusion informatique",
+      "Une règle de détection écrite en YAML et déployée sur le SIEM",
+      "Un score de criticité attribué à une vulnérabilité découverte",
+      "Un identifiant unique attribué à chaque analyste du SOC actif"
+    ],
+    "answer": 0,
+    "explanation": "Un indicateur de compromission (IoC) est un artefact observé sur un réseau ou dans un système d'exploitation qui indique, avec un haut niveau de certitude, une intrusion informatique. Les TTPs décrivent quant à eux les tactiques, techniques et procédures de la menace."
+  },
+  {
+    "id": "SOC2-014",
+    "type": "mcq",
+    "theme": "soc2-referentiels",
+    "subtheme": "sigma",
+    "difficulty": 2,
+    "source": "Analyse SOC 2 — ESD, Les référentiels",
+    "question": "Complétez l'analogie du cours : « Sigma est pour les logs ce que Snort est pour … et YARA pour … »",
+    "options": [
+      "les fichiers … le trafic réseau",
+      "le trafic réseau … les fichiers",
+      "les emails … les processus",
+      "le cloud … les bases de données relationnelles"
+    ],
+    "answer": 1,
+    "explanation": "« Sigma est pour les logs ce que Snort est pour le trafic réseau et YARA pour les fichiers. » Sigma est un format de signature générique pour les événements de logs, qui s'adapte au MITRE ATT&CK ou à la plateforme MISP."
+  },
+  {
+    "id": "SOC2-015",
+    "type": "mcq",
+    "theme": "soc2-referentiels",
+    "subtheme": "attack",
+    "difficulty": 3,
+    "source": "Analyse SOC 2 — ESD, Les référentiels",
+    "question": "Dans MITRE ATT&CK, que trouve-t-on pour chaque technique, utile au SOC pour le mapping ?",
+    "options": [
+      "Un correctif logiciel à déployer en urgence sur les systèmes vulnérables",
+      "Un score CVSS reflétant la criticité de la technique employée",
+      "Une source de données permettant de mapper les sources du SOC à ATT&CK",
+      "Une signature antivirale spécifique à chaque famille de malware"
+    ],
+    "answer": 2,
+    "explanation": "Pour chaque tactique il existe des techniques, et chaque technique comporte une source de données (ex. Network device logs, Packet capture). Des jeux de données (Splunk) permettent de mapper les sources de données du SOC à ATT&CK, et CAR permet de tester le bon fonctionnement de la détection."
+  },
+  {
+    "id": "SOC2-016",
+    "type": "mcq",
+    "theme": "soc2-referentiels",
+    "subtheme": "ioc-ttp",
+    "difficulty": 2,
+    "source": "Analyse SOC 2 — ESD, Les référentiels",
+    "question": "Quelle est la différence entre un IoC et des TTPs ?",
+    "options": [
+      "L'IoC décrit le comportement de l'attaquant, les TTPs sont de simples traces",
+      "L'IoC concerne le réseau, les TTPs concernent uniquement les postes de travail",
+      "L'IoC est normalisé par le MITRE, les TTPs par l'ANSSI et le NIST",
+      "L'IoC est une trace ponctuelle, les TTPs décrivent le comportement adverse"
+    ],
+    "answer": 3,
+    "explanation": "L'IoC est un artefact observé (hash, IP, domaine…) indiquant avec un haut niveau de certitude une intrusion : c'est une trace, ponctuelle et facile à changer. Les TTPs (tactiques, techniques et procédures) décrivent le comportement et les méthodes de la menace : ils aident à identifier les lacunes de la cyberdéfense et caractérisent l'adversaire dans la durée."
+  },
+  {
+    "id": "SOC2-017",
+    "type": "multiple",
+    "theme": "soc2-analyste",
+    "subtheme": "quotidien",
+    "difficulty": 2,
+    "source": "Analyse SOC 2 — ESD, Focus sur l'analyste SOC",
+    "question": "Quelles sont les tâches quotidiennes de l'analyste SOC citées dans le cours ? (plusieurs réponses)",
+    "options": [
+      "Traiter les alertes identifiées par les SIEMs",
+      "Ajouter ou optimiser des règles de détection",
+      "Étudier les nouvelles menaces et les rapports des CERTs",
+      "Rechercher des traces de compromission sur le SI",
+      "Administrer la paie de l'entreprise"
+    ],
+    "answers": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Les tâches de l'analyste SOC : traiter les alertes des SIEMs, identifier les menaces potentielles et évaluer leurs impacts, ajouter/optimiser des règles de détection, gérer la relation client (SOC externalisé), étudier les nouvelles menaces et rapports des CERTs, rechercher des traces de compromission."
+  },
+  {
+    "id": "SOC2-018",
+    "type": "mcq",
+    "theme": "soc2-analyste",
+    "subtheme": "triage",
+    "difficulty": 2,
+    "source": "Analyse SOC 2 — ESD, Focus sur l'analyste SOC",
+    "question": "Lors du triage, que fait l'analyste de niveau 1 lorsqu'il estime qu'une alerte n'est pas un faux positif ?",
+    "options": [
+      "Il la remonte au niveau 2 (escalade)",
+      "Il la supprime immédiatement de la console du SIEM",
+      "Il la transmet directement au RSSI de l'organisation",
+      "Il attend 24 heures avant toute confirmation éventuelle"
+    ],
+    "answer": 0,
+    "explanation": "La principale tâche de l'analyste SOC est de trier en temps réel les alertes de sécurité et de les remonter au niveau 2 s'il estime que ce n'est pas un faux positif. Cette tâche devient vite écrasante si l'analyste manque de formation ou si les outils sont mal configurés."
+  },
+  {
+    "id": "SOC2-019",
+    "type": "multiple",
+    "theme": "soc2-analyste",
+    "subtheme": "revision",
+    "difficulty": 2,
+    "source": "Analyse SOC 2 — ESD, Focus sur l'analyste SOC",
+    "question": "Pour vérifier le bon fonctionnement du SOC au quotidien, l'analyste peut… (plusieurs réponses)",
+    "options": [
+      "Ajouter, modifier, améliorer les tableaux de bord",
+      "Vérifier l'état de santé du SIEM",
+      "Contrôler l'état du trafic réseau",
+      "Vérifier le volume des logs",
+      "Désactiver les alertes trop nombreuses"
+    ],
+    "answers": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "La révision et l'état de sécurité passent par : l'amélioration des tableaux de bord, la vérification de l'état de santé du SIEM, le contrôle du trafic réseau et la vérification du volume des logs. Désactiver les alertes sans analyse serait une faute."
+  },
+  {
+    "id": "SOC2-020",
+    "type": "mcq",
+    "theme": "soc2-analyste",
+    "subtheme": "rapport",
+    "difficulty": 2,
+    "source": "Analyse SOC 2 — ESD, Focus sur l'analyste SOC",
+    "question": "Quelles informations figurent dans l'exemple de ticket d'incident du cours ?",
+    "options": [
+      "Nom de l'analyste, salaire, horaires de travail et jours de congés",
+      "N°, événement, détection, atténué, investigation, commentaire",
+      "Adresse IP, mot de passe, nom d'utilisateur et clé de session",
+      "Uniquement la date, l'heure et la localisation de l'incident"
+    ],
+    "answer": 1,
+    "explanation": "L'analyste SOC doit être capable de rapporter un incident avec méthodologie. L'exemple de ticket comprend : n°, événement (ex. scan sur firewall interne), méthode de détection (ex. log firewall), atténué (oui/non), nécessite investigation (oui/non) et commentaire."
+  },
+  {
+    "id": "SOC2-021",
+    "type": "mcq",
+    "theme": "soc2-analyste",
+    "subtheme": "threat-hunting",
+    "difficulty": 2,
+    "source": "Analyse SOC 2 — ESD, Focus sur l'analyste SOC",
+    "question": "Selon le cours, la chasse aux menaces (threat hunting) consiste à…",
+    "options": [
+      "Attendre passivement les alertes du SIEM avant de lancer une enquête",
+      "Scanner les vulnérabilités du parc une fois par mois automatiquement",
+      "Dresser un portrait de la surface d'attaque et cerner les attaquants",
+      "Bloquer automatiquement toutes les adresses IP d'origine étrangère"
+    ],
+    "answer": 2,
+    "explanation": "Le threat hunting est une tactique permettant de connaître précisément le degré de risque de cyberattaques auquel est soumise l'entreprise : dresser un portrait global de la surface d'attaque, identifier les attaquants potentiels, leurs motifs et leurs façons de faire. L'analyste doit connaître le fonctionnement d'une cyberattaque et ses tactiques."
+  },
+  {
+    "id": "SOC2-022",
+    "type": "mcq",
+    "theme": "soc2-sources",
+    "subtheme": "event-4688",
+    "difficulty": 3,
+    "source": "Analyse SOC 2 — ESD, Sources de données",
+    "question": "Que permet l'événement Windows 4688 une fois activé dans les stratégies d'audit ?",
+    "options": [
+      "De bloquer automatiquement la création de tout processus jugé suspect",
+      "De chiffrer les journaux d'événements avant leur envoi au SIEM",
+      "De lister les connexions et déconnexions des périphériques USB",
+      "De lire les arguments de ligne de commande des processus créés"
+    ],
+    "answer": 3,
+    "explanation": "L'événement 4688, activé dans les stratégies d'audit Windows, permet de lire les arguments de ligne de commande pour tout processus créé avec succès. C'est très utile pour la recherche de techniques de persistance."
+  },
+  {
+    "id": "SOC2-023",
+    "type": "mcq",
+    "theme": "soc2-sources",
+    "subtheme": "event-ids",
+    "difficulty": 3,
+    "source": "Analyse SOC 2 — ESD, Sources de données",
+    "question": "Quel ID d'événement Windows correspond à l'effacement du journal d'audit ?",
+    "options": [
+      "1102",
+      "1100",
+      "4648",
+      "4700"
+    ],
+    "answer": 0,
+    "explanation": "1102 = effacement du journal d'audit (1100 = arrêt du journal). Autres ID à surveiller : 4648 (essai d'authentification via un processus), 4700 (activation d'une tâche planifiée), 4731 (création d'un groupe local de sécurité), 4720, 4657, 4798, 5142."
+  },
+  {
+    "id": "SOC2-024",
+    "type": "mcq",
+    "theme": "soc2-sources",
+    "subtheme": "event-ids",
+    "difficulty": 3,
+    "source": "Analyse SOC 2 — ESD, Sources de données",
+    "question": "À quoi correspond l'événement Windows 4700 ?",
+    "options": [
+      "Création d'un nouvel utilisateur",
+      "Activation d'une tâche planifiée",
+      "Création d'un partage réseau",
+      "Modification de la base de registre"
+    ],
+    "answer": 1,
+    "explanation": "4700 = activation d'une tâche planifiée (technique de persistance courante). 4720 = création d'utilisateur, 5142 = création d'un partage réseau, 4657 = base de registre modifiée."
+  },
+  {
+    "id": "SOC2-025",
+    "type": "mcq",
+    "theme": "soc2-sources",
+    "subtheme": "defender",
+    "difficulty": 3,
+    "source": "Analyse SOC 2 — ESD, Sources de données",
+    "question": "Dans les logs Windows Defender, à quoi correspond l'ID 1006 ?",
+    "options": [
+      "Scan stoppé",
+      "Action sur malware échouée",
+      "Malware détecté",
+      "Mise à jour des signatures échouée"
+    ],
+    "answer": 2,
+    "explanation": "Logs Windows Defender : 1002 = scan stoppé, 1006 = malware détecté, 1008 = action sur malware échouée, 2001 = mise à jour des signatures échouée."
+  },
+  {
+    "id": "SOC2-026",
+    "type": "mcq",
+    "theme": "soc2-sources",
+    "subtheme": "usb",
+    "difficulty": 3,
+    "source": "Analyse SOC 2 — ESD, Sources de données",
+    "question": "Quel ID d'événement correspond à la première connexion d'un périphérique USB (source DriverFramework-Usermode) ?",
+    "options": [
+      "20001",
+      "24576",
+      "4688",
+      "10000"
+    ],
+    "answer": 3,
+    "explanation": "Windows enregistre par défaut les événements USB : 10000 (DriverFramework-Usermode, première connexion), 20001 (UserPNP, installation ou mise à jour), 24576 (WPD-ClassInstaller, installation réussie). L'USB peut servir à l'exfiltration ou à un accès initial."
+  },
+  {
+    "id": "SOC2-027",
+    "type": "mcq",
+    "theme": "soc2-sources",
+    "subtheme": "dhcp",
+    "difficulty": 2,
+    "source": "Analyse SOC 2 — ESD, Sources de données",
+    "question": "Quelle est la solution idéale citée pour se protéger d'un serveur DHCP malveillant (rogue) ?",
+    "options": [
+      "Intégrer un service NAC (Network Access Control) et du 802.1x",
+      "Désactiver complètement le service DHCP sur l'ensemble du réseau",
+      "Utiliser uniquement des adresses IP publiques routables",
+      "Changer le numéro de port DHCP utilisé par défaut"
+    ],
+    "answer": 0,
+    "explanation": "Un attaquant peut facilement se faire passer pour un serveur DHCP (rogue) et proposer une mauvaise configuration réseau à ses victimes. L'idéal est d'intégrer un service tel que le NAC (Network Access Control) et du 802.1x."
+  },
+  {
+    "id": "SOC2-028",
+    "type": "multiple",
+    "theme": "soc2-sources",
+    "subtheme": "web",
+    "difficulty": 3,
+    "source": "Analyse SOC 2 — ESD, Sources de données",
+    "question": "Quels éléments surveiller sur le proxy pour la navigation web ? (plusieurs réponses)",
+    "options": [
+      "Les user agents",
+      "Les URLs n'ayant pas fait de recherche DNS",
+      "Les URLs contenant des extensions de type scripts (.ps1, .vbs…)",
+      "Le seuil d'alertes des WAFs",
+      "La couleur des pages web visitées"
+    ],
+    "answers": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "La surveillance web porte sur : les user agents, le nombre de sites visités une seule fois, les URLs sans recherche DNS préalable, les URLs contenant des extensions de scripts (.PS1, .vbs…), les URIs contenant plusieurs adresses IP, le seuil des WAFs, des lots et des payloads web."
+  },
+  {
+    "id": "SOC2-029",
+    "type": "multiple",
+    "theme": "soc2-sources",
+    "subtheme": "ids",
+    "difficulty": 2,
+    "source": "Analyse SOC 2 — ESD, Sources de données",
+    "question": "Que permet de détecter l'IDS pour alerter la Blue Team ? (plusieurs réponses)",
+    "options": [
+      "Du Command & Control (C2)",
+      "Des scans réseaux et de ports",
+      "Des échanges de certificats malveillants",
+      "Des erreurs de compilation de code"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "L'IDS est indispensable au SOC : il alerte la Blue Team sur la détection de Command & Control (C2), de scans réseaux/ports et d'échanges de certificats malveillants. La bonne configuration des alertes et la mise à jour des signatures sont primordiales."
+  },
+  {
+    "id": "SOC2-030",
+    "type": "multiple",
+    "theme": "soc2-sources",
+    "subtheme": "edr",
+    "difficulty": 3,
+    "source": "Analyse SOC 2 — ESD, Sources de données",
+    "question": "Quels événements les EDR permettent-ils de détecter ? (plusieurs réponses)",
+    "options": [
+      "Des IoC",
+      "Des binaires jamais utilisés",
+      "Des modifications de la base de registres",
+      "Des chargements de DLL",
+      "Des pannes électriques"
+    ],
+    "answers": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Les EDR détectent notamment : IoC, binaires jamais utilisés, modification de la base de registres, chargement de DLL, modification de répertoire sans accès avec privilèges. Des alertes à prendre au sérieux."
+  },
+  {
+    "id": "SOC2-031",
+    "type": "multiple",
+    "theme": "soc2-sources",
+    "subtheme": "antivirus",
+    "difficulty": 3,
+    "source": "Analyse SOC 2 — ESD, Sources de données",
+    "question": "Quelles remontées antivirus sont intéressantes à surveiller ? (plusieurs réponses)",
+    "options": [
+      "L'extraction de mots de passe (Mimikatz, base SAM)",
+      "Les mises à jour non réussies",
+      "Plusieurs infections dans un temps très court",
+      "La détection de programmes non désirés",
+      "Le nombre de fichiers scannés par jour"
+    ],
+    "answers": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Les remontées antivirus intéressantes : détection d'AV et programmes non désirés, extraction de mot de passe (Mimikatz, base SAM), mises à jour non réussies, plusieurs infections dans un temps très court. L'antivirus reste l'indispensable."
+  },
+  {
+    "id": "SOC2-032",
+    "type": "mcq",
+    "theme": "soc2-sources",
+    "subtheme": "email",
+    "difficulty": 2,
+    "source": "Analyse SOC 2 — ESD, Sources de données",
+    "question": "Selon le cours, l'email est très souvent le vecteur d'infection…",
+    "options": [
+      "des attaques par déni de service distribué (DDoS)",
+      "des APT (Advanced Persistent Threats)",
+      "des défaçages et défigurations de sites web",
+      "des vols physiques de matériel informatique"
+    ],
+    "answer": 1,
+    "explanation": "L'e-mail est très souvent le vecteur d'infection des APT. Il faut surveiller : le nombre d'emails détectés malicieux par la sandbox, les IoC contenus dans les emails, la quantité d'emails envoyés et les domaines reconnus dans les blacklists."
+  },
+  {
+    "id": "SOC2-033",
+    "type": "true_false",
+    "theme": "soc2-sources",
+    "subtheme": "dlp",
+    "difficulty": 2,
+    "source": "Analyse SOC 2 — ESD, Sources de données",
+    "question": "Les white lists et black lists permettent de filtrer les domaines et IP déjà notifiés comme suspects.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "answer": 0,
+    "explanation": "Vrai. Les white/black lists permettent de filtrer un maximum les domaines et IP déjà notifiés comme suspects. Une liste réputée est disponible sur github.com/hslatman/awesome-threat-intelligence. Le DLP, lui, ajoute le critère de traçabilité (surveillance d'exfiltration)."
+  },
+  {
+    "id": "SOC2-034",
+    "type": "multiple",
+    "theme": "soc2-siem",
+    "subtheme": "choix",
+    "difficulty": 2,
+    "source": "Analyse SOC 2 — ESD, Tour d'horizon d'un SIEM",
+    "question": "Quels critères guident le choix d'une solution SIEM ? (plusieurs réponses)",
+    "options": [
+      "La taille du périmètre",
+      "La volumétrie des logs",
+      "La compétence des équipes internes",
+      "Le budget",
+      "La couleur de l'interface"
+    ],
+    "answers": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Le choix d'une solution SIEM repose sur : la taille du périmètre, la volumétrie des logs, la compétence des équipes internes et le budget."
+  },
+  {
+    "id": "SOC2-035",
+    "type": "mcq",
+    "theme": "soc2-siem",
+    "subtheme": "horodatage",
+    "difficulty": 2,
+    "source": "Analyse SOC 2 — ESD, Tour d'horizon d'un SIEM",
+    "question": "Pourquoi le protocole NTP est-il essentiel à la journalisation ?",
+    "options": [
+      "Il chiffre les journaux d'événements avant leur stockage",
+      "Il compresse les logs pour accélérer leur transport réseau",
+      "Il synchronise les horloges pour dater chaque événement",
+      "Il anonymise les adresses IP présentes dans les journaux"
+    ],
+    "answer": 2,
+    "explanation": "L'horodatage est la clé de la journalisation : un événement n'est pertinent que s'il peut être situé dans le temps (occurrences, fréquences, post-mortem). Les horloges dérivent naturellement ; il faut utiliser des serveurs de temps avec le protocole NTP (Network Time Protocol) pour garder les équipements synchronisés."
+  },
+  {
+    "id": "SOC2-036",
+    "type": "multiple",
+    "theme": "soc2-siem",
+    "subtheme": "objectifs",
+    "difficulty": 2,
+    "source": "Analyse SOC 2 — ESD, Tour d'horizon d'un SIEM",
+    "question": "Quelles fonctionnalités sont apportées par le SIEM ? (plusieurs réponses)",
+    "options": [
+      "Corrélation",
+      "Alerter",
+      "Tableau de bord / Reporting",
+      "Conformité",
+      "Investigation numérique (Forensics)"
+    ],
+    "answers": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation": "Les cinq fonctionnalités du SIEM : corrélation (correspondance d'événements de plusieurs systèmes), alerter (automatisation de la détection), tableaux de bord/rapports, conformité (compliance) et investigation numérique (forensics)."
+  },
+  {
+    "id": "SOC2-037",
+    "type": "mcq",
+    "theme": "soc2-siem",
+    "subtheme": "conformite",
+    "difficulty": 3,
+    "source": "Analyse SOC 2 — ESD, Tour d'horizon d'un SIEM",
+    "question": "Le SIEM automatise la conformité à des réglementations et cadres de gouvernance. Lesquels sont cités dans le cours ?",
+    "options": [
+      "RGPD, NIS2, DORA et le Cyber Resilience Act uniquement",
+      "Les accords Bâle III et la directive Solvency II",
+      "Les normes comptables IFRS et le référentiel US GAAP",
+      "PCI DSS, HIPAA, FISMA, SOX, ISO, COBIT"
+    ],
+    "answer": 3,
+    "explanation": "Le SIEM automatise la conformité aux réglementations gouvernementales et industrielles, cadres de gouvernance et exigences internes, notamment PCI DSS, HIPAA, FISMA, SOX, ISO, COBIT — par la génération de rapports prouvant la conformité ou identifiant les non-conformités."
+  },
+  {
+    "id": "SOC2-038",
+    "type": "true_false",
+    "theme": "soc2-siem",
+    "subtheme": "solutions",
+    "difficulty": 2,
+    "source": "Analyse SOC 2 — ESD, Tour d'horizon d'un SIEM",
+    "question": "La Community Version de Splunk est limitée en fonctionnalités et en taille de collecte.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "answer": 0,
+    "explanation": "Vrai. Splunk est une solution propriétaire, facile d'installation et de prise en main. Sa Community Version est limitée en fonctionnalités et en taille de collecte ; la version Enterprise apporte l'alerting, la gestion des utilisateurs, etc."
+  },
+  {
+    "id": "SOC2-039",
+    "type": "mcq",
+    "theme": "soc2-siem",
+    "subtheme": "forensics",
+    "difficulty": 2,
+    "source": "Analyse SOC 2 — ESD, Tour d'horizon d'un SIEM",
+    "question": "Pourquoi le SIEM est-il précieux pour l'investigation numérique (forensics) ?",
+    "options": [
+      "Son analyse des logs agrégés accélère la recherche de preuves",
+      "Il supprime automatiquement les traces laissées par les attaquants",
+      "Il permet de restaurer rapidement les sauvegardes après un incident",
+      "Il bloque les connexions entrantes suspectes en temps réel"
+    ],
+    "answer": 0,
+    "explanation": "Dans le cas de la recherche de preuves lors d'un incident de sécurité, le SIEM est un gain de temps énorme et d'une efficacité redoutable grâce à sa capacité d'analyse des logs agrégés."
+  },
+  {
+    "id": "SOC2-040",
+    "type": "mcq",
+    "theme": "soc2-elastic",
+    "subtheme": "stack",
+    "difficulty": 1,
+    "source": "Analyse SOC 2 — ESD, Présentation d'Elastic Stack",
+    "question": "De quels 3 outils est composée l'Elastic Stack ?",
+    "options": [
+      "Beats, Graylog et Grafana Loki",
+      "Logstash, Elasticsearch, Kibana",
+      "Wazuh, IBM QRadar et Microsoft Sentinel",
+      "Sysmon, Snort et YARA"
+    ],
+    "answer": 1,
+    "explanation": "L'Elastic Stack est composée de Logstash (collecte et transformation des logs), Elasticsearch (moteur de recherche et d'analyse, cœur de la solution, stockage) et Kibana (interface web de visualisation). Les agents Beats viennent en amont pour la collecte."
+  },
+  {
+    "id": "SOC2-041",
+    "type": "mcq",
+    "theme": "soc2-elastic",
+    "subtheme": "sysmon",
+    "difficulty": 3,
+    "source": "Analyse SOC 2 — ESD, Présentation d'Elastic Stack",
+    "question": "Quelle commande installe Sysmon avec le hachage MD5 et SHA256 ?",
+    "options": [
+      "sysmon --install --hashing=md5,sha256,imphash",
+      "sysmon /install /quiet",
+      "sysmon -accepteula -i -h md5,sha256",
+      "install-sysmon -hash md5"
+    ],
+    "answer": 2,
+    "explanation": "Installation : sysmon -accepteula -i -h md5,sha256. La configuration se fait via un fichier XML contenant les règles de capture d'événements, et se met à jour avec : sysmon -c <chemin du fichier xml>."
+  },
+  {
+    "id": "SOC2-042",
+    "type": "multiple",
+    "theme": "soc2-elastic",
+    "subtheme": "sysmon",
+    "difficulty": 3,
+    "source": "Analyse SOC 2 — ESD, Présentation d'Elastic Stack",
+    "question": "Sur quelles conditions les règles de filtrage d'événements Sysmon sont-elles basées ? (plusieurs réponses)",
+    "options": [
+      "Is",
+      "Contains",
+      "Excludes",
+      "Begin with",
+      "Regex only"
+    ],
+    "answers": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Les règles de filtrage Sysmon (fichier XML) utilisent des conditions telles que : Is, Contains, Excludes, Begin with, Less than. Sysmon génère par ailleurs des logs sur la création de processus, le chargement de DLL, les connexions réseau et les modifications de fichiers."
+  },
+  {
+    "id": "SOC2-043",
+    "type": "mcq",
+    "theme": "soc2-elastic",
+    "subtheme": "logstash",
+    "difficulty": 3,
+    "source": "Analyse SOC 2 — ESD, Logstash",
+    "question": "Quelle est la différence entre ETL et ELT ?",
+    "options": [
+      "Aucune différence, ce sont deux appellations du même processus",
+      "L'ETL est réservé au cloud tandis que l'ELT vise le on-premise",
+      "L'ELT est simplement l'ancienne génération de l'outil ETL",
+      "L'ETL transforme puis charge, l'ELT charge puis transforme"
+    ],
+    "answer": 3,
+    "explanation": "L'ETL (Extract-Transform-Load) collecte des informations de sources diverses, les transforme puis les rend disponibles pour l'analyse. L'ELT (Extract-Load-Transform) consiste à d'abord charger les données et à les transformer ensuite au même endroit. Logstash appartient à la famille des ETL."
+  },
+  {
+    "id": "SOC2-044",
+    "type": "multiple",
+    "theme": "soc2-elastic",
+    "subtheme": "logstash",
+    "difficulty": 3,
+    "source": "Analyse SOC 2 — ESD, Logstash",
+    "question": "Via quels fichiers Logstash se configure-t-il ? (plusieurs réponses)",
+    "options": [
+      "logstash.yml",
+      "jvm.options",
+      "pipelines.yml",
+      "./conf.d/<pipelines files>.conf",
+      "logstash.ini"
+    ],
+    "answers": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Logstash se configure au travers de : logstash.yml, jvm.options, pipelines.yml et les fichiers de pipelines dans ./conf.d/*.conf. Il n'existe pas de logstash.ini."
+  },
+  {
+    "id": "SOC2-045",
+    "type": "mcq",
+    "theme": "soc2-elastic",
+    "subtheme": "grok",
+    "difficulty": 3,
+    "source": "Analyse SOC 2 — ESD, Logstash",
+    "question": "Quelle est la forme de la syntaxe « custom » (Oniguruma) d'un pattern Grok personnalisé ?",
+    "options": [
+      "(?<field_name>the pattern here)",
+      "%{PATTERN:champ}",
+      "[field_name]{pattern}",
+      "field_name := regexp('pattern personnalisé')"
+    ],
+    "answer": 0,
+    "explanation": "La syntaxe custom (Oniguruma) s'écrit (?<field_name>pattern), utilisable directement dans le fichier de configuration ou depuis un dossier de patterns. La syntaxe built-in s'écrit %{PATTERN:mon_nouveau_champ}, ex. %{IP:client}."
+  },
+  {
+    "id": "SOC2-046",
+    "type": "mcq",
+    "theme": "soc2-elastic",
+    "subtheme": "logstash",
+    "difficulty": 2,
+    "source": "Analyse SOC 2 — ESD, Logstash",
+    "question": "Quels sont les champs par défaut ajoutés lors du traitement d'un log dans un pipeline Logstash ?",
+    "options": [
+      "id, user, password",
+      "@timestamp, host, message",
+      "date, source, destination",
+      "index, document, field"
+    ],
+    "answer": 1,
+    "explanation": "Lors du traitement, le log est parsé avec des champs par défaut : @timestamp (date de collecte par Logstash), host (hôte ayant effectué la collecte) et message (texte original du log). On peut ensuite ajouter, modifier ou supprimer des champs."
+  },
+  {
+    "id": "SOC2-047",
+    "type": "mcq",
+    "theme": "soc2-elastic",
+    "subtheme": "logstash",
+    "difficulty": 3,
+    "source": "Analyse SOC 2 — ESD, Logstash",
+    "question": "Quelle commande permet de tester un fichier de configuration de pipeline Logstash ?",
+    "options": [
+      "logstash --validate --config <fichier_de_pipeline>.conf",
+      "logstash-test-rule --strict --config <fichier>.conf",
+      "logstash --config.test_and_exit -f <fichier>.conf",
+      "logstash --dry-run --pipeline <fichier>.conf"
+    ],
+    "answer": 2,
+    "explanation": "Bonnes pratiques : utiliser un éditeur adapté (parenthèses, crochets), consulter la documentation des plugins, et tester les fichiers de configuration avec .../bin/logstash --config.test_and_exit -f <fichier_de_pipeline>.conf."
+  },
+  {
+    "id": "SOC2-048",
+    "type": "mcq",
+    "theme": "soc2-elastic",
+    "subtheme": "elasticsearch",
+    "difficulty": 3,
+    "source": "Analyse SOC 2 — ESD, ElasticSearch",
+    "question": "Comment peut-on interagir directement avec Elasticsearch ?",
+    "options": [
+      "Uniquement via l'interface graphique fournie par Kibana",
+      "Via le protocole FTP sécurisé entre les nœuds du cluster",
+      "Via des requêtes SQL natives exécutées sur le moteur",
+      "Via des requêtes HTTP GET, PUT et DELETE (API REST)"
+    ],
+    "answer": 3,
+    "explanation": "Il est possible d'interagir directement avec Elasticsearch via des requêtes HTTP (API REST) : GET (obtenir des données), PUT (ajouter des données), DELETE (supprimer des données). Exemple : curl -XGET \"http://192.168.11.30:9200\"."
+  },
+  {
+    "id": "SOC2-049",
+    "type": "mcq",
+    "theme": "soc2-elastic",
+    "subtheme": "kibana",
+    "difficulty": 2,
+    "source": "Analyse SOC 2 — ESD, Kibana",
+    "question": "Quelle est la première étape pour visualiser des données dans Kibana ?",
+    "options": [
+      "Créer un index pattern puis définir le champ de temps",
+      "Créer directement un dashboard de visualisation personnalisé",
+      "Installer un plugin externe dédié à la visualisation",
+      "Écrire une règle SIGMA convertie au format Kibana"
+    ],
+    "answer": 0,
+    "explanation": "Il faut d'abord créer un index pattern (Stack Management > Index Patterns > Create index pattern) correspondant aux index disponibles dans Elasticsearch (ex. winlogbeat-*), puis définir le champ de temps primaire (@timestamp). Ensuite, les données sont visibles dans Kibana > Discover."
+  },
+  {
+    "id": "SOC2-050",
+    "type": "mcq",
+    "theme": "soc2-elastic",
+    "subtheme": "lucene",
+    "difficulty": 3,
+    "source": "Analyse SOC 2 — ESD, ElasticSearch",
+    "question": "En syntaxe Lucene, que signifie la requête « type.os : m?c » ?",
+    "options": [
+      "Rechercher toutes les valeurs commençant par la lettre « m »",
+      "Rechercher un mot type m·c, un caractère inconnu au milieu",
+      "Exclure de la recherche les valeurs contenant « mc »",
+      "Rechercher une plage de valeurs comprises entre m et c"
+    ],
+    "answer": 1,
+    "explanation": "Le point d'interrogation ? remplace un caractère inconnu : m?c peut correspondre à « mac ». m?? = deux caractères inconnus. Le wildcard * représente toutes les possibilités, le ~ l'approximation ou la proximité."
+  },
+  {
+    "id": "SOC2-051",
+    "type": "multiple",
+    "theme": "soc2-alerting",
+    "subtheme": "elastalert",
+    "difficulty": 3,
+    "source": "Analyse SOC 2 — ESD, SIGMA et ElastAlert",
+    "question": "Quels types de règles peut-on définir avec ElastAlert ? (plusieurs réponses)",
+    "options": [
+      "frequency — X événements en Y temps",
+      "spike — augmentation ou diminution du nombre d'événements",
+      "any — correspondance sur n'importe quel événement défini",
+      "cardinality — valeur d'un champ au-dessus ou en dessous d'une limite",
+      "quantum — corrélation prédictive"
+    ],
+    "answers": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Types de règles ElastAlert : frequency (détection de X événements en Y temps), spike (augmentation/diminution du volume), any (correspondance sur tout événement défini), cardinality (valeur au-dessus/en dessous d'une limite). « quantum » n'existe pas."
+  },
+  {
+    "id": "SOC2-052",
+    "type": "mcq",
+    "theme": "soc2-alerting",
+    "subtheme": "elastalert",
+    "difficulty": 3,
+    "source": "Analyse SOC 2 — ESD, SIGMA et ElastAlert",
+    "question": "Que contient le fichier ../elastalert/config.yaml ?",
+    "options": [
+      "Les règles d'alertes déclenchées par ElastAlert",
+      "Les patterns Grok personnalisés et les dictionnaires",
+      "Les infos de référence du serveur Elasticsearch",
+      "Les dashboards Kibana exportés au format NDJSON"
+    ],
+    "answer": 2,
+    "explanation": "Le fichier config.yaml contient notamment les informations de référence du serveur Elasticsearch. Les règles d'alertes sont dans /elastalert/example_rules. Un script de test valide les règles : elastalert-test-rule --config config.yaml <name_rule>.yaml."
+  },
+  {
+    "id": "SOC2-053",
+    "type": "true_false",
+    "theme": "soc2-alerting",
+    "subtheme": "sigma",
+    "difficulty": 2,
+    "source": "Analyse SOC 2 — ESD, SIGMA et ElastAlert",
+    "question": "Les règles SIGMA et les règles ElastAlert sont toutes deux basées sur le langage YAML.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "answer": 0,
+    "explanation": "Vrai. Les règles SIGMA sont basées sur le langage YAML, tout comme les règles ElastAlert. Cela facilite leur écriture, leur lecture et leur partage."
+  },
+  {
+    "id": "SOC2-054",
+    "type": "mcq",
+    "theme": "soc2-alerting",
+    "subtheme": "sigmac",
+    "difficulty": 3,
+    "source": "Analyse SOC 2 — ESD, SIGMA et ElastAlert",
+    "question": "À quoi sert l'outil sigmac (de la suite sigmatools) ?",
+    "options": [
+      "À exécuter directement les règles SIGMA sur les logs collectés",
+      "À chiffrer les règles SIGMA avant leur partage entre équipes",
+      "À générer automatiquement des règles à partir des logs bruts",
+      "À convertir des règles SIGMA vers les principaux SIEM"
+    ],
+    "answer": 3,
+    "explanation": "sigmac convertit les règles SIGMA vers les formats des principaux outils SIEM : es-qs, es-dsl, kibana, xpack-watcher, elastalert, graylog, qradar, splunk/splunkxml. Usage : tools/sigmac -t splunk -c splunk-windows <règle>.yml, où -t choisit la plateforme de sortie et -c le fichier de configuration des champs/index de la cible."
+  },
+  {
+    "id": "SOC2-055",
+    "type": "mcq",
+    "theme": "soc2-alerting",
+    "subtheme": "sigmac",
+    "difficulty": 3,
+    "source": "Analyse SOC 2 — ESD, SIGMA et ElastAlert",
+    "question": "Dans la commande sigmac, à quoi sert l'option -t ?",
+    "options": [
+      "À choisir la plateforme de sortie (splunk, qradar…)",
+      "À définir le délai maximal (timeout) de la conversion",
+      "À tester la validité de la règle sans la convertir",
+      "À traduire les commentaires de la règle en français"
+    ],
+    "answer": 0,
+    "explanation": "-t permet de choisir la plateforme de sortie ; -c désigne un fichier de configuration contenant les champs (fields) et les index correspondant à la plateforme cible ; le fichier .yml est la règle sigma source à convertir."
+  },
+  {
+    "id": "SOC2-056",
+    "type": "mcq",
+    "theme": "soc2-alerting",
+    "subtheme": "uncoder",
+    "difficulty": 2,
+    "source": "Analyse SOC 2 — ESD, SIGMA et ElastAlert",
+    "question": "Quel autre outil (en ligne) permet la conversion de formats de règles de détection ?",
+    "options": [
+      "virustotal.com",
+      "uncoder.io",
+      "shodan.io",
+      "haveibeenpwned.com"
+    ],
+    "answer": 1,
+    "explanation": "uncoder.io permet également de convertir des formats de règles de détection entre différents outils SIEM, en complément de sigmac."
+  },
+  {
+    "id": "SOC2-057",
+    "type": "true_false",
+    "theme": "soc2-alerting",
+    "subtheme": "conversion",
+    "difficulty": 2,
+    "source": "Analyse SOC 2 — ESD, SIGMA et ElastAlert",
+    "question": "Les outils de conversion de règles (sigmac, uncoder.io) fournissent une solution « clé en main » ne nécessitant aucune adaptation.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "answer": 1,
+    "explanation": "Faux. Ces outils accompagnent l'utilisateur mais ne fournissent pas une solution clé en main : les fichiers de sortie sont la plupart du temps à adapter à l'environnement et aux besoins dans lesquels ils seront utilisés."
+  },
+  {
+    "id": "SOC2-058",
+    "type": "mcq",
+    "theme": "soc2-elastic",
+    "subtheme": "beats",
+    "difficulty": 2,
+    "source": "Analyse SOC 2 — ESD, Présentation d'Elastic Stack",
+    "question": "Dans la configuration d'un agent Winlogbeat, à quoi sert la section « output.logstash » ?",
+    "options": [
+      "À sélectionner précisément les logs Windows à collecter",
+      "À définir le format de date appliqué aux logs collectés",
+      "À renseigner le serveur de collecte (hosts) des logs",
+      "À chiffrer le canal de communication avec Elasticsearch"
+    ],
+    "answer": 2,
+    "explanation": "La configuration YAML d'un agent Beats comporte : la sélection des logs souhaités (event_logs, event_id…), la personnalisation des logs (tags/mots-clés pour les retrouver dans le SIEM) et les informations du serveur de collecte dans output.logstash (hosts)."
+  },
+  {
+    "id": "SOC2-059",
+    "type": "mcq",
+    "theme": "soc2-siem",
+    "subtheme": "principe",
+    "difficulty": 1,
+    "source": "Analyse SOC 2 — ESD, Tour d'horizon d'un SIEM",
+    "question": "Quel est le principe de base d'un SIEM ?",
+    "options": [
+      "Bloquer le trafic malveillant à la périphérie du réseau",
+      "Sauvegarder et restaurer les données critiques de l'entreprise",
+      "Gérer les identités et les droits d'accès des utilisateurs",
+      "Agréger et centraliser les données de plusieurs sources"
+    ],
+    "answer": 3,
+    "explanation": "Le SIEM agrège des données émanant de plusieurs sources (pare-feu, serveurs de fichiers/FTP/VPN/Proxy, applications métiers, bases de données, IDS/IPS), les centralise pour exploitation par des agents ou des IA, applique des règles de détection et permet la visualisation dans des tableaux de bord."
+  },
+  {
+    "id": "SOC2-060",
+    "type": "mcq",
+    "theme": "soc2-elastic",
+    "subtheme": "roles",
+    "difficulty": 2,
+    "source": "Analyse SOC 2 — ESD, Présentation d'Elastic Stack",
+    "question": "Quel composant de l'Elastic Stack est le moteur de recherche où sont stockées les données ?",
+    "options": [
+      "Elasticsearch, le moteur de recherche où sont stockées les données",
+      "Logstash, le pipeline de collecte et de transformation des logs",
+      "Kibana, l'interface web de visualisation et de création de dashboards",
+      "Les Beats, les agents installés sur les machines pour collecter"
+    ],
+    "answer": 0,
+    "explanation": "Beats : agents installés sur les machines pour collecter logs et métriques (Filebeat, Metricbeat, Packetbeat, Heartbeat, Winlogbeat). Logstash : module de collecte/transformation — pipeline qui lit, transforme/parse/enrichit les données puis les transmet. Elasticsearch : moteur de recherche et d'analyse, cœur de la solution, où sont stockées toutes les données. Kibana : interface web pour explorer et visualiser les données sous forme de graphiques et dashboards."
+  }
+]

@@ -50,6 +50,26 @@ const NORMS = {
     subtitle: 'Fournit par Claudie',
     file:     'data/rgpd_exam_blanc.json',
   },
+  'cyber-mots-cles': {
+    label:    'Mots-clés Cyber',
+    subtitle: 'Sigles & concepts : SOC, OSINT, PDCA, attaque & défense',
+    file:     'data/cyber-mots-cles.json',
+  },
+  'analyse-soc1': {
+    label:    'Analyste SOC 1',
+    subtitle: 'Défense du SI · CTI · SIEM/ELK · Alerting · Évaluation',
+    file:     'data/analyse-soc1.json',
+  },
+  'analyse-soc2': {
+    label:    'Analyste SOC 2',
+    subtitle: 'Métier d\'analyste · Sources à monitorer · SIEM · Elastic Stack · ElastAlert',
+    file:     'data/analyse-soc2.json',
+  },
+  'cyberdefense': {
+    label:    'Cyberdéfense',
+    subtitle: 'Cyber en France & ANSSI · Audit SSI · Durcissement Windows · MITRE ATT&CK',
+    file:     'data/cyberdefense.json',
+  },
 };
 
 // ── Libellés thèmes par norme ────────────────────────────────
@@ -115,6 +135,31 @@ const THEME_LABELS = {
   'cyber-defense':       'Défensif (Blue Team, Hardening, Honeypot)',
   'cyber-crypto':        'Cryptographie (PKI)',
   'cyber-cadres':        'Cadres & référentiels (MITRE, CVE/CVSS)',
+  // Analyste SOC 1
+  'soc-fondamentaux':    'Défense du SI & fondamentaux',
+  'soc-metier':          'Métier d\'analyste SOC',
+  'soc-prevention':      'CTI, Threat Hunting & vulnérabilités',
+  'soc-analyse':         'Analyses systèmes & sources de données',
+  'soc-siem':            'SIEM & suite ELK',
+  'soc-alerting':        'Alerting & automatisation',
+  'soc-evaluation':      'Évaluation de la détection',
+  // Analyste SOC 2
+  'soc2-fondamentaux':   'État de l\'art & gouvernance du SOC',
+  'soc2-referentiels':   'Référentiels (ATT&CK, DeTT&CT, MISP, Sigma)',
+  'soc2-analyste':       'Le quotidien de l\'analyste',
+  'soc2-sources':        'Sources de données à monitorer',
+  'soc2-siem':           'Tour d\'horizon d\'un SIEM',
+  'soc2-elastic':        'Elastic Stack (Beats, Logstash, Kibana)',
+  'soc2-alerting':       'SIGMA, ElastAlert & conversion de règles',
+  // Cyberdéfense
+  'cyb-menaces':         'Menaces & profils d\'attaquants',
+  'cyb-etat-anssi':      'Cybersécurité en France & ANSSI',
+  'cyb-audit':           'Audit SSI',
+  'cyb-referentiels':    'Référentiels & restitution CODIR',
+  'cyb-admin':           'Sécurité des droits d\'administration',
+  'cyb-durcissement':    'Durcissement postes & protocoles',
+  'cyb-surveillance':    'Journalisation, DLP & outils d\'audit',
+  'cyb-attaques':        'Défense alignée aux attaques (ATT&CK)',
   // Communs
   'examen':              'Simulation d\'examen',
   'all':                 'Tout réviser',

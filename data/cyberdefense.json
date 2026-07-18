@@ -1,0 +1,1127 @@
+[
+  {
+    "id": "CYB-001",
+    "type": "mcq",
+    "theme": "cyb-menaces",
+    "subtheme": "profils-attaquants",
+    "difficulty": 2,
+    "source": "Cyberdéfense — ESD, module 1",
+    "question": "Quel profil d'attaquant dispose des moyens financiers, des capacités de ciblage et des compétences techniques les plus importants ?",
+    "options": [
+      "Les script kiddies",
+      "Les hacktivistes",
+      "Les États / Nations",
+      "Les terroristes"
+    ],
+    "answer": 2,
+    "explanation": "La catégorie États/Nations est la plus complexe de par les moyens financiers, les capacités de ciblage et les compétences techniques mises à disposition. Motivations principales : cyberespionnage, déstabilisation politique et sabotage."
+  },
+  {
+    "id": "CYB-002",
+    "type": "mcq",
+    "theme": "cyb-menaces",
+    "subtheme": "profils-attaquants",
+    "difficulty": 2,
+    "source": "Cyberdéfense — ESD, module 1",
+    "question": "Quel est l'objectif majeur des cybercriminels ?",
+    "options": [
+      "La déstabilisation politique",
+      "Les gains financiers liés à leurs attaques",
+      "La dénonciation de faits",
+      "Le prosélytisme"
+    ],
+    "answer": 1,
+    "explanation": "Les cybercriminels, parfois appuyés par différentes entités avec des moyens financiers importants et de fortes compétences techniques, ont un objectif majeur : les gains financiers. La déstabilisation relève des États, la dénonciation des hacktivistes, le prosélytisme des terroristes."
+  },
+  {
+    "id": "CYB-003",
+    "type": "mcq",
+    "theme": "cyb-menaces",
+    "subtheme": "profils-attaquants",
+    "difficulty": 2,
+    "source": "Cyberdéfense — ESD, module 1",
+    "question": "Pourquoi les script kiddies sont-ils considérés comme dangereux malgré leur faible niveau ?",
+    "options": [
+      "Ils disposent de moyens financiers illimités",
+      "Ils n'ont pas forcément d'objectif précis (défi, test, amusement) et utilisent des programmes efficaces qu'ils ne comprennent pas",
+      "Ils sont financés par des gouvernements",
+      "Ils ciblent uniquement les infrastructures critiques"
+    ],
+    "answer": 1,
+    "explanation": "Les script kiddies sont des néophytes sans compétences principales en hacking qui utilisent des programmes efficaces qu'ils ne comprennent pas forcément. Leur dangerosité vient justement de l'absence d'objectif précis : défi, test, amusement."
+  },
+  {
+    "id": "CYB-004",
+    "type": "mcq",
+    "theme": "cyb-menaces",
+    "subtheme": "hacktivistes",
+    "difficulty": 2,
+    "source": "Cyberdéfense — ESD, module 1",
+    "question": "Quelles sont les motivations principales des hacktivistes ?",
+    "options": [
+      "Le gain financier et le vol de propriété intellectuelle",
+      "Les motivations idéologiques, la dénonciation de faits et l'atteinte à l'image",
+      "La destruction et le sabotage industriel",
+      "Le vol de données bancaires"
+    ],
+    "answer": 1,
+    "explanation": "Les hacktivistes s'appuient sur des convictions fortes sans forcément avoir de moyens financiers et techniques importants — le ciblage est leur axe majeur. Motivations : idéologiques, dénonciation de faits, atteinte à l'image."
+  },
+  {
+    "id": "CYB-005",
+    "type": "multiple",
+    "theme": "cyb-menaces",
+    "subtheme": "vision-dirigeants",
+    "difficulty": 2,
+    "source": "Cyberdéfense — ESD, module 1",
+    "question": "Quelles problématiques reviennent de manière constante chez les dirigeants vis-à-vis de la cybersécurité ? (plusieurs réponses)",
+    "options": [
+      "Méconnaissance et incompréhension du sujet",
+      "Penser que cela ne se passe « que chez les autres »",
+      "Incompréhension des préjudices réels et impacts business",
+      "Un excès d'investissement en cybersécurité",
+      "Le problème de « juge et partie » quand la SSI dépend du DSI"
+    ],
+    "answers": [0, 1, 2, 4],
+    "explanation": "Les problématiques récurrentes : méconnaissance du sujet, croyance que les fonctions existantes suffisent, difficulté d'intégration dans la stratégie, incompréhension des impacts business, « la pluie tombe toujours ailleurs », et structure hiérarchique SI/SSI créant un problème de juge et partie."
+  },
+  {
+    "id": "CYB-006",
+    "type": "true_false",
+    "theme": "cyb-menaces",
+    "subtheme": "vision-dirigeants",
+    "difficulty": 2,
+    "source": "Cyberdéfense — ESD, module 1",
+    "question": "Pour un fonctionnement indépendant et efficient, la sécurité de l'information doit avoir un lien direct avec la direction générale de l'organisation, et non dépendre uniquement du DSI.",
+    "options": ["Vrai", "Faux"],
+    "answer": 0,
+    "explanation": "Vrai. Si la SSI est sous la direction du DSI, cela crée un problème de « juge et partie » : le budget sécurité et la priorisation des actions risquent d'être axés sur le SI et non sur la sécurité. La SSI doit avoir un lien direct avec la direction générale."
+  },
+  {
+    "id": "CYB-007",
+    "type": "flashcard",
+    "theme": "cyb-menaces",
+    "subtheme": "evolution-si",
+    "difficulty": 2,
+    "source": "Cyberdéfense — ESD, module 1",
+    "question": "Citez des évolutions des systèmes d'information qui participent au développement de nouvelles attaques.",
+    "options": [],
+    "answer": null,
+    "explanation": "Le Cloud, l'intégration de l'IoT, l'utilisation commune de terminaux mobiles, l'expansion des réseaux sociaux, la mobilité et l'expérience utilisateur, l'externalisation des ressources. Chaque évolution élargit la surface d'attaque."
+  },
+  {
+    "id": "CYB-008",
+    "type": "mcq",
+    "theme": "cyb-etat-anssi",
+    "subtheme": "comcyber",
+    "difficulty": 2,
+    "source": "Cyberdéfense — ESD, module 1",
+    "question": "À quel ministère le COMCYBER (Commandement de la cyberdéfense) est-il affilié ?",
+    "options": [
+      "Au Premier ministre",
+      "Au Ministère des Armées",
+      "Au Ministère de l'Intérieur",
+      "Au Ministère de l'Économie"
+    ],
+    "answer": 1,
+    "explanation": "Le COMCYBER est affilié au Ministère des Armées : il assure la protection des SI sous la responsabilité des armées, la lutte défensive mais également offensive. Plus de 1000 cyber-combattants en 2018, 4400 visés pour 2025. La DGA (conception des armes cyber) est également affiliée au Ministère des Armées."
+  },
+  {
+    "id": "CYB-009",
+    "type": "mcq",
+    "theme": "cyb-etat-anssi",
+    "subtheme": "anssi",
+    "difficulty": 1,
+    "source": "Cyberdéfense — ESD, module 1",
+    "question": "À qui l'ANSSI est-elle rattachée ?",
+    "options": [
+      "Au Ministère des Armées",
+      "Au Ministère de l'Intérieur",
+      "Au Premier ministre (via le SGDSN)",
+      "Au Président de la République"
+    ],
+    "answer": 2,
+    "explanation": "L'ANSSI, créée par décret en juillet 2009, est rattachée au secrétariat général de la défense et de la sécurité nationale (SGDSN), autorité chargée d'assister le Premier ministre en matière de défense et de sécurité nationale. Elle est l'autorité nationale en matière de cybersécurité et assure la veille via le CERT-FR."
+  },
+  {
+    "id": "CYB-010",
+    "type": "multiple",
+    "theme": "cyb-etat-anssi",
+    "subtheme": "anssi-missions",
+    "difficulty": 2,
+    "source": "Cyberdéfense — ESD, module 1",
+    "question": "Quelles sont les missions de l'ANSSI ? (plusieurs réponses)",
+    "options": [
+      "Proposer les règles de protection des SI de l'État et vérifier l'application des mesures",
+      "Assurer un service de veille, détection, alerte et réaction aux attaques (notamment réseaux de l'État)",
+      "Assister les OIV (opérateurs d'importance vitale)",
+      "Labelliser des produits et prestataires de confiance",
+      "Mener la lutte informatique offensive"
+    ],
+    "answers": [0, 1, 2, 3],
+    "explanation": "L'ANSSI est l'autorité nationale en matière de SSI : règles de protection, veille/détection/alerte/réaction, expertise auprès des administrations et entreprises (mission renforcée pour les OIV), promotion des technologies de confiance et labellisation. La lutte offensive relève du COMCYBER/DGA, pas de l'ANSSI."
+  },
+  {
+    "id": "CYB-011",
+    "type": "mcq",
+    "theme": "cyb-etat-anssi",
+    "subtheme": "visas",
+    "difficulty": 2,
+    "source": "Cyberdéfense — ESD, module 1",
+    "question": "Quels sont les 2 types de certifications délivrées sous l'autorité de l'ANSSI ?",
+    "options": [
+      "La certification critères communs (CC) et la certification de sécurité de premier niveau (CSPN)",
+      "La certification ISO 27001 et la certification RGPD",
+      "La certification élémentaire et la certification renforcée",
+      "La certification PSSIE et la certification RGS"
+    ],
+    "answer": 0,
+    "explanation": "La certification atteste de la robustesse de produits éprouvés lors de tests d'intrusion par un évaluateur tiers sous l'autorité de l'ANSSI. Il en existe 2 types : la certification critères communs (CC) et la certification de sécurité de premier niveau (CSPN)."
+  },
+  {
+    "id": "CYB-012",
+    "type": "mcq",
+    "theme": "cyb-etat-anssi",
+    "subtheme": "qualification",
+    "difficulty": 3,
+    "source": "Cyberdéfense — ESD, module 1",
+    "question": "Quels sont les 3 niveaux de qualification ANSSI pour les produits ?",
+    "options": [
+      "Bronze, argent, or",
+      "Élémentaire, standard, renforcé",
+      "Basique, intermédiaire, avancé",
+      "CC, CSPN, RGS"
+    ],
+    "answer": 1,
+    "explanation": "La qualification — recommandation par l'État français de produits ou services éprouvés — comporte 3 niveaux pour les produits : élémentaire, standard et renforcé. Pour les services, il existe plusieurs familles : audit, réponse aux incidents, détection, informatique en nuage, services de confiance numérique."
+  },
+  {
+    "id": "CYB-013",
+    "type": "mcq",
+    "theme": "cyb-etat-anssi",
+    "subtheme": "visas",
+    "difficulty": 3,
+    "source": "Cyberdéfense — ESD, module 1",
+    "question": "Quelle est la différence entre certification et qualification ANSSI ?",
+    "options": [
+      "Aucune, ce sont des synonymes",
+      "La certification atteste la robustesse d'un produit après tests d'intrusion ; la qualification est la recommandation par l'État de produits/services éprouvés, destinés notamment à l'administration et aux OIV",
+      "La certification est gratuite, la qualification payante",
+      "La qualification concerne les personnes, la certification les entreprises"
+    ],
+    "answer": 1,
+    "explanation": "La certification (CC ou CSPN) atteste de la robustesse d'un produit éprouvé par tests d'intrusion sous l'autorité de l'ANSSI. La qualification atteste de la conformité aux exigences réglementaires, techniques et de sécurité de l'ANSSI : c'est la recommandation par l'État français, visant à fournir à l'administration et aux OIV des solutions de confiance."
+  },
+  {
+    "id": "CYB-014",
+    "type": "mcq",
+    "theme": "cyb-etat-anssi",
+    "subtheme": "pssie-rgs",
+    "difficulty": 3,
+    "source": "Cyberdéfense — ESD, module 1",
+    "question": "Qu'est-ce que la PSSIE ?",
+    "options": [
+      "La Politique de Sécurité des Systèmes d'Information de l'État, applicable à toutes les administrations de l'État",
+      "Un protocole de chiffrement des échanges gouvernementaux",
+      "Une certification européenne de cybersécurité",
+      "Le plan de sauvegarde des services informatiques de l'État"
+    ],
+    "answer": 0,
+    "explanation": "La PSSIE (Politique de Sécurité des Systèmes d'Information de l'État) s'applique à tous les SI des administrations de l'État : ministères, établissements publics sous tutelle, services déconcentrés et autorités administratives indépendantes, ainsi qu'aux tiers (prestataires, sous-traitants) agissant pour leur compte."
+  },
+  {
+    "id": "CYB-015",
+    "type": "mcq",
+    "theme": "cyb-etat-anssi",
+    "subtheme": "pssie-rgs",
+    "difficulty": 2,
+    "source": "Cyberdéfense — ESD, module 1",
+    "question": "Quel est l'objet du RGS (Référentiel Général de Sécurité) ?",
+    "options": [
+      "Réglementer les fournisseurs d'accès internet",
+      "Instaurer la confiance dans les échanges électroniques au sein de l'administration et avec les citoyens",
+      "Définir les règles de protection du secret défense",
+      "Encadrer les opérateurs télécoms"
+    ],
+    "answer": 1,
+    "explanation": "Le RGS est le cadre réglementaire permettant d'instaurer la confiance dans les échanges au sein de l'administration et avec les citoyens. Il propose une méthodologie de responsabilisation via la démarche d'homologation, et des règles pour les prestations spécifiques (certification et horodatage électroniques, audit de sécurité)."
+  },
+  {
+    "id": "CYB-016",
+    "type": "mcq",
+    "theme": "cyb-etat-anssi",
+    "subtheme": "ebios",
+    "difficulty": 2,
+    "source": "Cyberdéfense — ESD, module 1",
+    "question": "Qu'est-ce qu'EBIOS Risk Manager ?",
+    "options": [
+      "Un outil de scan de vulnérabilités de l'ANSSI",
+      "La méthode d'appréciation et de traitement des risques numériques publiée par l'ANSSI avec le Club EBIOS",
+      "Un SIEM souverain français",
+      "Le référentiel de certification des prestataires d'audit"
+    ],
+    "answer": 1,
+    "explanation": "EBIOS RM est la méthode d'appréciation et de traitement des risques numériques publiée par l'ANSSI avec le soutien du Club EBIOS. Elle permet d'apprécier les risques numériques et d'identifier les mesures de sécurité à mettre en œuvre pour les maîtriser."
+  },
+  {
+    "id": "CYB-017",
+    "type": "mcq",
+    "theme": "cyb-etat-anssi",
+    "subtheme": "instruction-901",
+    "difficulty": 3,
+    "source": "Cyberdéfense — ESD, module 1",
+    "question": "Que définit l'instruction interministérielle 901 ?",
+    "options": [
+      "Les règles de protection des SI sensibles, notamment ceux traitant d'informations « Diffusion Restreinte »",
+      "La protection des informations classifiées OTAN",
+      "La protection du secret de la défense nationale",
+      "La protection des informations classifiées de l'UE"
+    ],
+    "answer": 0,
+    "explanation": "L'instruction 901 définit les objectifs et règles de protection des SI sensibles, notamment ceux traitant d'informations « Diffusion Restreinte » (DR — une mention de protection, pas un niveau de classification). L'instruction 1300 concerne le secret de la défense nationale, la 2100 l'OTAN, la 2102 l'UE."
+  },
+  {
+    "id": "CYB-018",
+    "type": "mcq",
+    "theme": "cyb-etat-anssi",
+    "subtheme": "homologation",
+    "difficulty": 2,
+    "source": "Cyberdéfense — ESD, module 1",
+    "question": "Quel est l'objectif de l'homologation de sécurité ?",
+    "options": [
+      "Obtenir un label commercial pour vendre un produit",
+      "Trouver un équilibre entre risque acceptable et coûts de sécurisation, arbitré formellement par un responsable qui a autorité",
+      "Certifier les compétences des administrateurs",
+      "Chiffrer les données sensibles de l'État"
+    ],
+    "answer": 1,
+    "explanation": "L'homologation vise à trouver un équilibre entre le risque acceptable et les coûts de sécurisation, arbitré formellement par un responsable ayant autorité. Elle atteste aux utilisateurs que les risques sont connus et maîtrisés. L'ANSSI a édité un guide en 9 étapes. Elle est obligatoire pour les SI traitant d'informations classifiées (IGI 1300) et les échanges administration/usagers (RGS)."
+  },
+  {
+    "id": "CYB-019",
+    "type": "mcq",
+    "theme": "cyb-audit",
+    "subtheme": "definition",
+    "difficulty": 2,
+    "source": "Cyberdéfense — ESD, module 2",
+    "question": "Qu'est-ce qu'un audit SSI ?",
+    "options": [
+      "Un test d'intrusion automatisé sur le SI",
+      "Une vue à un instant T de tout ou partie d'un SI permettant de comparer son état à un référentiel",
+      "Une analyse de risques annuelle obligatoire",
+      "Un inventaire du matériel informatique"
+    ],
+    "answer": 1,
+    "explanation": "Un audit SSI est une vue à un instant T de tout ou partie d'un SI permettant de comparer l'état du SI à un référentiel. Il répertorie points forts et faibles, et dresse une série de recommandations. Il peut être réalisé conjointement à une analyse de risque et contenir des tâches annexes (pentest, campagne de phishing…)."
+  },
+  {
+    "id": "CYB-020",
+    "type": "mcq",
+    "theme": "cyb-audit",
+    "subtheme": "types",
+    "difficulty": 2,
+    "source": "Cyberdéfense — ESD, module 2",
+    "question": "Quelles sont les 2 approches d'audit ?",
+    "options": [
+      "Audit interne et audit externe uniquement",
+      "Audit technique (architecture/code/configuration, pentest) et audit organisationnel (conformité, maturité)",
+      "Audit financier et audit qualité",
+      "Audit à froid et audit à chaud"
+    ],
+    "answer": 1,
+    "explanation": "Les audits peuvent avoir 2 approches : technique (audit d'architecture/code/configuration, test d'intrusion) et organisationnel (audit de conformité, audit de maturité). La sécurité d'une organisation repose sur les deux : les audits organisationnels solidifient les maillons humains et processus."
+  },
+  {
+    "id": "CYB-021",
+    "type": "mcq",
+    "theme": "cyb-audit",
+    "subtheme": "iso19011",
+    "difficulty": 3,
+    "source": "Cyberdéfense — ESD, module 2",
+    "question": "Selon l'ISO 19011:2018, qu'est-ce qu'un audit ?",
+    "options": [
+      "Une inspection surprise des systèmes informatiques",
+      "Un processus systématique, indépendant et documenté visant à obtenir des preuves d'audit et à les évaluer objectivement pour déterminer si les critères d'audit sont satisfaits",
+      "Une réunion annuelle de la direction sur la sécurité",
+      "Un scan automatique de conformité"
+    ],
+    "answer": 1,
+    "explanation": "L'ISO 19011 définit l'audit comme « un processus systématique, indépendant et documenté en vue d'obtenir des preuves d'audit et de les évaluer de manière objective pour déterminer dans quelle mesure les critères d'audit sont satisfaits ». L'audit est basé sur la preuve (documents, journaux, traces, constatations). Toutes les méthodes d'audit s'inspirent de cette norme."
+  },
+  {
+    "id": "CYB-022",
+    "type": "mcq",
+    "theme": "cyb-audit",
+    "subtheme": "cadre-legal",
+    "difficulty": 3,
+    "source": "Cyberdéfense — ESD, module 2",
+    "question": "Quelle clause contractuelle autorise un client à auditer son prestataire ?",
+    "options": [
+      "La clause de réversibilité",
+      "La clause d'auditabilité",
+      "La clause de confidentialité",
+      "La clause de résiliation"
+    ],
+    "answer": 1,
+    "explanation": "La clause d'auditabilité autorise l'audit du prestataire par le client (généralement une fois par an, avec préavis, ex. 30 jours). Les autres clauses : résiliation (rompre le contrat), confidentialité (protection des données) et réversibilité (récupérer les données confiées à un tiers à l'issue du contrat)."
+  },
+  {
+    "id": "CYB-023",
+    "type": "mcq",
+    "theme": "cyb-audit",
+    "subtheme": "etapes",
+    "difficulty": 2,
+    "source": "Cyberdéfense — ESD, module 2",
+    "question": "Quelles sont les 4 étapes clés d'un audit de sécurité de l'information ?",
+    "options": [
+      "Cadrage, exécution, facturation, clôture",
+      "Planification, réalisation de l'audit, rapport, suivi des recommandations",
+      "Observation, questionnaire, entrevue, échantillonnage",
+      "Analyse, test, correction, validation"
+    ],
+    "answer": 1,
+    "explanation": "Un audit comprend en général 4 étapes : 1) planification (objectifs, périmètre, échelles, référentiel…), 2) réalisation (phase terrain), 3) rapport (document obligatoire), 4) suivi des recommandations (avec plan d'action, à la charge de l'organisation auditée)."
+  },
+  {
+    "id": "CYB-024",
+    "type": "multiple",
+    "theme": "cyb-audit",
+    "subtheme": "realisation",
+    "difficulty": 2,
+    "source": "Cyberdéfense — ESD, module 2",
+    "question": "Quels sont les 4 axes majeurs permettant de mener la phase terrain d'un audit ? (plusieurs réponses)",
+    "options": [
+      "L'observation",
+      "Le(s) questionnaire(s)",
+      "Le(s) entrevue(s)",
+      "L'échantillonnage",
+      "La rétro-ingénierie"
+    ],
+    "answers": [0, 1, 2, 3],
+    "explanation": "Les 4 axes majeurs de la réalisation d'un audit : observation, questionnaires, entrevues et échantillonnage. Ces axes peuvent être couplés pour fournir une légitimité plus forte à l'audit."
+  },
+  {
+    "id": "CYB-025",
+    "type": "multiple",
+    "theme": "cyb-audit",
+    "subtheme": "rapport",
+    "difficulty": 2,
+    "source": "Cyberdéfense — ESD, module 2",
+    "question": "Que doit contenir au minimum le rapport final d'audit ? (plusieurs réponses)",
+    "options": [
+      "Objectifs et périmètre de l'audit",
+      "Écarts et constatations",
+      "Recommandations",
+      "Commentaires de l'entité auditée et signature des responsables",
+      "Le code source des applications auditées"
+    ],
+    "answers": [0, 1, 2, 3],
+    "explanation": "Le rapport final contient au minimum : objectifs et périmètre, bilan et synthèse, écarts et constatations, recommandations, commentaires de l'entité, remarques générales, approbation et signature des responsables. Une synthèse compréhensible par des non-experts et des KPI sont également attendus."
+  },
+  {
+    "id": "CYB-026",
+    "type": "true_false",
+    "theme": "cyb-audit",
+    "subtheme": "suivi",
+    "difficulty": 2,
+    "source": "Cyberdéfense — ESD, module 2",
+    "question": "C'est à l'auditeur d'assurer l'application des recommandations et le suivi de leur mise en œuvre.",
+    "options": ["Vrai", "Faux"],
+    "answer": 1,
+    "explanation": "Faux. C'est bien à l'organisation auditée d'assurer l'application des recommandations ainsi que le suivi de leur mise en œuvre, généralement accompagné d'un plan d'action (référence de l'écart, mesure, difficulté, responsable, avancement, date limite)."
+  },
+  {
+    "id": "CYB-027",
+    "type": "mcq",
+    "theme": "cyb-referentiels",
+    "subtheme": "iso27002",
+    "difficulty": 2,
+    "source": "Cyberdéfense — ESD, module 2",
+    "question": "Combien de mesures de bonnes pratiques l'ISO 27002 (version étudiée dans le cours) contient-elle, et sur combien de sections ?",
+    "options": [
+      "42 mesures sur 10 sections",
+      "114 mesures réparties sur 14 sections",
+      "93 mesures sur 4 thèmes",
+      "200 mesures sur 20 sections"
+    ],
+    "answer": 1,
+    "explanation": "L'ISO 27002 donne des lignes directrices en matière de bonnes pratiques SSI : 114 mesures réparties sur 14 sections (politique de SI, organisation, RH, gestion des actifs, contrôle d'accès, cryptographie, sécurité physique, exploitation, communications, acquisition/développement, fournisseurs, incidents, continuité, conformité). Le guide d'hygiène ANSSI compte, lui, 42 points en 10 sections."
+  },
+  {
+    "id": "CYB-028",
+    "type": "mcq",
+    "theme": "cyb-referentiels",
+    "subtheme": "guide-hygiene",
+    "difficulty": 2,
+    "source": "Cyberdéfense — ESD, module 2",
+    "question": "Comment est structuré le guide d'hygiène de l'ANSSI ?",
+    "options": [
+      "114 mesures dans 14 sections",
+      "42 points répartis dans 10 sections",
+      "20 recommandations dans 5 chapitres",
+      "99 règles dans 9 domaines"
+    ],
+    "answer": 1,
+    "explanation": "Le guide d'hygiène de l'ANSSI regroupe les mesures techniques les plus élémentaires en 42 points répartis dans 10 sections : sensibiliser et former, connaître le SI, authentifier et contrôler les accès, sécuriser les postes, sécuriser le réseau, sécuriser l'administration, gérer le nomadisme, maintenir le SI à jour, superviser/auditer/réagir, pour aller plus loin."
+  },
+  {
+    "id": "CYB-029",
+    "type": "multiple",
+    "theme": "cyb-referentiels",
+    "subtheme": "referentiels-audit",
+    "difficulty": 2,
+    "source": "Cyberdéfense — ESD, module 2",
+    "question": "Quels référentiels d'audit de la sécurité de l'information sont les plus couramment utilisés ? (plusieurs réponses)",
+    "options": [
+      "Recommandations de l'ANSSI (guide d'hygiène)",
+      "ISO 27001 / 27002",
+      "NIST Cybersecurity Framework",
+      "Le code du travail"
+    ],
+    "answers": [0, 1, 2],
+    "explanation": "Les référentiels les plus courants : recommandations de l'ANSSI (guide d'hygiène), ISO 27001/27002 et NIST Cybersecurity Framework. Le référentiel doit être sélectionné conjointement entre le client et l'auditeur. Utiliser un référentiel commun évite les problèmes d'homogénéité entre auditeurs."
+  },
+  {
+    "id": "CYB-030",
+    "type": "mcq",
+    "theme": "cyb-referentiels",
+    "subtheme": "echelle-maturite",
+    "difficulty": 2,
+    "source": "Cyberdéfense — ESD, module 2",
+    "question": "Dans l'exemple d'échelle de maturité du cours (0 à 3), que signifie le niveau 2 ?",
+    "options": [
+      "Mesures inexistantes",
+      "Mesures en cours de réflexion",
+      "Mesures en cours d'implémentation",
+      "Mesures implémentées"
+    ],
+    "answer": 2,
+    "explanation": "L'échelle d'évaluation de la maturité : 0 = mesures inexistantes, 1 = mesures en cours de réflexion, 2 = mesures en cours d'implémentation, 3 = mesures implémentées. Chaque point du guide est transformé en question fermée puis évalué, ce qui permet de mesurer la maturité et d'identifier les écarts."
+  },
+  {
+    "id": "CYB-031",
+    "type": "mcq",
+    "theme": "cyb-referentiels",
+    "subtheme": "codir",
+    "difficulty": 2,
+    "source": "Cyberdéfense — ESD, module 2",
+    "question": "Qu'attendent les membres d'un CODIR lors de la restitution d'un rapport d'audit ?",
+    "options": [
+      "Le détail technique complet de chaque vulnérabilité",
+      "Une vulgarisation du résultat, contextualisée dans le cadre business de l'organisation, avec des données schématisées",
+      "La liste des mots de passe compromis",
+      "Le code des exploits utilisés pendant l'audit"
+    ],
+    "answer": 1,
+    "explanation": "Lors d'une restitution en CODIR, l'orateur doit prendre de la hauteur : la direction attend une vulgarisation du résultat contextualisée dans le cadre business. On parle de présentation avec données schématisées, l'objectif étant de faire comprendre rapidement les conséquences de l'audit sur le business de l'entité."
+  },
+  {
+    "id": "CYB-032",
+    "type": "multiple",
+    "theme": "cyb-referentiels",
+    "subtheme": "codir",
+    "difficulty": 2,
+    "source": "Cyberdéfense — ESD, module 2",
+    "question": "Que doit comprendre au minimum un rapport de restitution pour le CODIR ? (plusieurs réponses)",
+    "options": [
+      "Rappel du contexte",
+      "La méthode d'audit",
+      "Ce qui a été identifié (négatif / positif)",
+      "Bilan et synthèse",
+      "Plan d'action"
+    ],
+    "answers": [0, 1, 2, 3, 4],
+    "explanation": "Un rapport de restitution comprend au minimum : rappel du contexte (besoins, enjeux, parties), méthode d'audit (référentiel, support, moyens de vérification, échelles), mesures identifiées (négatif et écarts a minima), bilan et synthèse (niveau final, KPI, impacts) et plan d'action (priorité, gravité, actions correctives, difficulté)."
+  },
+  {
+    "id": "CYB-033",
+    "type": "mcq",
+    "theme": "cyb-admin",
+    "subtheme": "tier-model",
+    "difficulty": 2,
+    "source": "Cyberdéfense — ESD, module 3",
+    "question": "Dans l'architecture en tiers préconisée par Microsoft, que contient le niveau 0 (Tier 0) ?",
+    "options": [
+      "Les stations de travail des utilisateurs",
+      "Les serveurs applicatifs de l'organisation",
+      "Les composants les plus critiques gérant le contrôle d'identité (contrôleurs de domaine, PKI, AD Connect…)",
+      "Les imprimantes et périphériques réseau"
+    ],
+    "answer": 2,
+    "explanation": "Le modèle en tiers limite l'escalade de privilèges : Tier 0 = composants critiques du contrôle d'identité (DC, PKI, AD Connect…), Tier 1 = serveurs et applications (serveur de fichiers, Exchange…), Tier 2 = stations de travail et appareils utilisateurs."
+  },
+  {
+    "id": "CYB-034",
+    "type": "true_false",
+    "theme": "cyb-admin",
+    "subtheme": "tier-model",
+    "difficulty": 2,
+    "source": "Cyberdéfense — ESD, module 3",
+    "question": "Un administrateur Tier 0 peut utiliser son compte T0 pour se connecter à des serveurs des couches inférieures (T1, T2).",
+    "options": ["Vrai", "Faux"],
+    "answer": 1,
+    "explanation": "Faux. Un administrateur T0 gère uniquement les composants de la couche T0 (DC, PKI, ADFS…). Son accès ne doit PAS être utilisé pour se connecter à des serveurs d'une couche inférieure — sinon ses identifiants critiques seraient exposés sur des machines moins sécurisées. Chaque tier est étanche."
+  },
+  {
+    "id": "CYB-035",
+    "type": "mcq",
+    "theme": "cyb-admin",
+    "subtheme": "comptes",
+    "difficulty": 2,
+    "source": "Cyberdéfense — ESD, module 3",
+    "question": "Dans une architecture en tiers, de combien de comptes un administrateur intervenant sur tous les niveaux doit-il disposer ?",
+    "options": [
+      "Un seul compte à privilèges pour tout administrer",
+      "Plusieurs comptes : un compte utilisateur standard + un compte admin par tier (T0, T1, T2)",
+      "Deux comptes : un normal et un administrateur de domaine",
+      "Aucun compte nominatif, uniquement des comptes génériques"
+    ],
+    "answer": 1,
+    "explanation": "Les administrateurs doivent disposer de plusieurs comptes : compte utilisateur standard (ex. jkhalfa), compte admin T2 (t2-admin-jkhalfa, admin local des machines tier 2), compte admin T1 (t1-admin-jkhalfa) et compte admin T0 (t0-admin-jkhalfa, admin de domaine)."
+  },
+  {
+    "id": "CYB-036",
+    "type": "mcq",
+    "theme": "cyb-admin",
+    "subtheme": "bastion",
+    "difficulty": 2,
+    "source": "Cyberdéfense — ESD, module 3",
+    "question": "Qu'est-ce qu'un bastion d'administration ?",
+    "options": [
+      "Un pare-feu de nouvelle génération",
+      "Un serveur de rebond à travers lequel chaque administrateur s'authentifie pour ouvrir une session distante, souvent couplé à du PAM",
+      "Un antivirus pour serveurs critiques",
+      "Une salle serveur sécurisée physiquement"
+    ],
+    "answer": 1,
+    "explanation": "Le bastion d'administration (serveur de rebond) permet aux administrateurs d'ouvrir une session distante depuis le serveur bastion et non leurs postes, après authentification sur un portail. Ce type de solution se couple à du PAM (Privileged Access Management). Exemples d'éditeurs : Wallix, CyberArk, One Identity, Rubycat."
+  },
+  {
+    "id": "CYB-037",
+    "type": "mcq",
+    "theme": "cyb-admin",
+    "subtheme": "redforest",
+    "difficulty": 3,
+    "source": "Cyberdéfense — ESD, module 3",
+    "question": "Qu'est-ce que l'architecture « Red Forest » (ESAE) pour Active Directory ?",
+    "options": [
+      "Un honeypot simulant une forêt AD",
+      "Une forêt d'administration dédiée, sans relation d'approbation bidirectionnelle, pour gérer les comptes et groupes d'administration de manière sécurisée",
+      "Un outil de sauvegarde de l'Active Directory",
+      "Une technique d'attaque de l'AD"
+    ],
+    "answer": 1,
+    "explanation": "L'environnement bastion Red Forest (Enhanced Security Administrative Environment — ESAE) est une architecture avec une forêt d'administration dédiée. Cette forêt étant distincte et sans relation d'approbation bidirectionnelle avec les forêts existantes, la compromission d'une autre forêt ne l'affecte pas. Elle augmente la sécurité d'une architecture en tiers."
+  },
+  {
+    "id": "CYB-038",
+    "type": "multiple",
+    "theme": "cyb-admin",
+    "subtheme": "protected-users",
+    "difficulty": 3,
+    "source": "Cyberdéfense — ESD, module 3",
+    "question": "Quelles protections apporte le groupe « Protected Users » (depuis Windows 2012 R2) ? (plusieurs réponses)",
+    "options": [
+      "Impossibilité de s'authentifier via NTLM, Digest ou CredSSP",
+      "Aucune mise en cache des identifiants (session offline impossible)",
+      "DES et RC4 désactivés lors de la pré-authentification Kerberos",
+      "Délégation Kerberos non possible et durée de vie du TGT écourtée",
+      "Chiffrement automatique du disque dur"
+    ],
+    "answers": [0, 1, 2, 3],
+    "explanation": "Les membres de Protected Users (sur Windows 8.1/2012+) : ne peuvent s'authentifier via NTLM, Digest ou CredSSP ; le TGT Kerberos est récupéré à l'ouverture de session et ne peut être re-demandé ; aucune mise en cache ; DES et RC4 non fonctionnels en pré-authentification ; délégation Kerberos impossible ; durée de vie du TGT écourtée."
+  },
+  {
+    "id": "CYB-039",
+    "type": "mcq",
+    "theme": "cyb-admin",
+    "subtheme": "laps",
+    "difficulty": 2,
+    "source": "Cyberdéfense — ESD, module 3",
+    "question": "À quoi sert l'outil LAPS (Local Admin Password Solution) de Microsoft ?",
+    "options": [
+      "À auditer les GPO du domaine",
+      "À gérer automatiquement les mots de passe des administrateurs locaux : uniques par poste, aléatoires, changés fréquemment, stockés dans l'annuaire",
+      "À bloquer les connexions RDP",
+      "À chiffrer les partages réseau"
+    ],
+    "answer": 1,
+    "explanation": "L'administrateur local a souvent le même mot de passe sur tous les postes du parc. LAPS gère automatiquement ces mots de passe : uniques sur chaque poste, générés aléatoirement, changés fréquemment et stockés de manière sécurisée dans l'attribut ms-MCS-AdmPwd du compte ordinateur. LAPS réduit considérablement la surface d'attaque."
+  },
+  {
+    "id": "CYB-040",
+    "type": "mcq",
+    "theme": "cyb-admin",
+    "subtheme": "kerberoasting",
+    "difficulty": 3,
+    "source": "Cyberdéfense — ESD, module 3",
+    "question": "Sur quoi repose l'attaque Kerberoasting ?",
+    "options": [
+      "L'interception des mots de passe en clair sur le réseau",
+      "La demande de TGS (chiffrés par le hash du compte exécutant le service) pour tenter de casser ce hash hors ligne",
+      "Le vol physique du contrôleur de domaine",
+      "L'exploitation d'une faille du protocole NTP"
+    ],
+    "answer": 1,
+    "explanation": "Les tickets de service (TGS) sont chiffrés par le hash du compte exécutant le service (identifié par un SPN). Un attaquant peut effectuer des demandes de TGS pour récupérer et tenter de casser le hash hors ligne — particulièrement efficace quand des comptes utilisateurs à mot de passe faible portent des services (MSSQLSvc, HTTP…)."
+  },
+  {
+    "id": "CYB-041",
+    "type": "multiple",
+    "theme": "cyb-admin",
+    "subtheme": "kerberoasting",
+    "difficulty": 3,
+    "source": "Cyberdéfense — ESD, module 3",
+    "question": "Quelles mesures permettent de mitiger le Kerberoasting ? (plusieurs réponses)",
+    "options": [
+      "Éviter de lier des SPN de services à des comptes utilisateurs",
+      "Utiliser des comptes managés MSA / gMSA (mot de passe fort changé automatiquement)",
+      "Utiliser des mots de passe forts (20+ caractères)",
+      "Désactiver Kerberos sur tout le domaine"
+    ],
+    "answers": [0, 1, 2],
+    "explanation": "Mitigation du Kerberoasting : éviter de lier des SPN à des utilisateurs, utiliser des comptes managés MSA/gMSA (utilisateur dédié au service avec mot de passe fort changé automatiquement), mots de passe forts. Si un MSA n'est pas compatible : compte de service dédié et unique par service, mot de passe fort (30 caractères), interdiction des ouvertures de session locales/RDP/tâches. Désactiver Kerberos serait absurde : c'est le protocole le plus sûr."
+  },
+  {
+    "id": "CYB-042",
+    "type": "mcq",
+    "theme": "cyb-durcissement",
+    "subtheme": "bitlocker",
+    "difficulty": 2,
+    "source": "Cyberdéfense — ESD, module 3",
+    "question": "Sur quoi s'appuie BitLocker pour stocker la clé de chiffrement et vérifier l'intégrité du système ?",
+    "options": [
+      "Sur un serveur central de clés",
+      "Sur la puce TPM (Trusted Platform Module) et un BIOS compatible",
+      "Sur le mot de passe de session Windows",
+      "Sur une carte à puce obligatoire"
+    ],
+    "answer": 1,
+    "explanation": "BitLocker (chiffrement AES-256) s'appuie sur la puce TPM et un BIOS compatible pour s'assurer de l'intégrité de l'OS et des clés. Si le disque est volé et monté sur une autre carte mère, l'attaquant ne peut pas le déchiffrer tant que la puce TPM d'origine n'est pas migrée. BitLocker vérifie que le système n'a pas été modifié avant de lire la clé."
+  },
+  {
+    "id": "CYB-043",
+    "type": "mcq",
+    "theme": "cyb-durcissement",
+    "subtheme": "bitlocker",
+    "difficulty": 3,
+    "source": "Cyberdéfense — ESD, module 3",
+    "question": "Quelle est la hiérarchie des clés BitLocker ?",
+    "options": [
+      "FVEK (chiffre le volume) → VMK (chiffre la FVEK) → SRK (stockée dans le TPM, chiffre la VMK)",
+      "SRK → FVEK → VMK",
+      "Une clé unique stockée dans l'Active Directory",
+      "VMK → SRK → FVEK"
+    ],
+    "answer": 0,
+    "explanation": "Le chiffrement utilise la FVEK (Full Volume Encryption Key), elle-même chiffrée par la VMK (Volume Master Key), à son tour chiffrée par la SRK (Storage Root Key) stockée dans le TPM. La clé de récupération peut aussi être stockée sur clé USB ou dans un attribut protégé de l'AD (ms-FVE-RecoveryPassword…)."
+  },
+  {
+    "id": "CYB-044",
+    "type": "mcq",
+    "theme": "cyb-durcissement",
+    "subtheme": "lsa",
+    "difficulty": 3,
+    "source": "Cyberdéfense — ESD, module 3",
+    "question": "Pourquoi faut-il désactiver et surveiller WDigest sur les systèmes Windows ?",
+    "options": [
+      "Il ralentit l'ouverture de session",
+      "S'il est activé (clé UseLogonCredential à 1), les mots de passe apparaissent en clair dans un dump du processus LSASS",
+      "Il empêche l'authentification Kerberos",
+      "Il consomme trop de mémoire"
+    ],
+    "answer": 1,
+    "explanation": "Les processus d'authentification Windows stockent beaucoup d'informations d'identification en mémoire (LSASS). La clé WDigest UseLogonCredential est à 0 ou inexistante depuis Windows 8.1, mais la rétablir à 1 affiche les mots de passe en clair dans le dump LSASS. Il faut la désactiver et la surveiller. Autres protections : restreindre le privilège SE_Debug, activer la protection LSA (processus non approuvés bloqués)."
+  },
+  {
+    "id": "CYB-045",
+    "type": "mcq",
+    "theme": "cyb-durcissement",
+    "subtheme": "mscache",
+    "difficulty": 3,
+    "source": "Cyberdéfense — ESD, module 3",
+    "question": "Combien de hash d'utilisateurs de domaine Windows conserve-t-il par défaut en cache (MSCacheV2) pour l'ouverture de session hors connexion ?",
+    "options": ["1", "5", "10", "50"],
+    "answer": 2,
+    "explanation": "Dans un contexte de domaine hors connexion, le hash utilisateur est stocké dans HKLM:/SECURITY/Cache (pas en base SAM). Par défaut le système conserve 10 hash, laissant un large historique en cas de compromission de poste. Il est recommandé de réduire cet historique."
+  },
+  {
+    "id": "CYB-046",
+    "type": "mcq",
+    "theme": "cyb-durcissement",
+    "subtheme": "powershell",
+    "difficulty": 2,
+    "source": "Cyberdéfense — ESD, module 3",
+    "question": "Quelle politique d'exécution PowerShell exige que les scripts locaux ET distants soient signés par une autorité de confiance ?",
+    "options": ["Restricted", "AllSigned", "RemoteSigned", "Unrestricted"],
+    "answer": 1,
+    "explanation": "Les politiques d'exécution PowerShell : Restricted (empêche l'exécution de scripts — défaut), AllSigned (scripts locaux et distants signés par une autorité de confiance), RemoteSigned (seuls les scripts distants doivent être signés), Unrestricted (pas de blocage). Attention : la politique est contournable par défaut via un sous-processus PowerShell."
+  },
+  {
+    "id": "CYB-047",
+    "type": "mcq",
+    "theme": "cyb-durcissement",
+    "subtheme": "ntlm",
+    "difficulty": 2,
+    "source": "Cyberdéfense — ESD, module 3",
+    "question": "Quels sont les 2 protocoles d'authentification utilisés dans un domaine Windows ?",
+    "options": [
+      "RADIUS et TACACS+",
+      "NTLM et Kerberos",
+      "LDAP et SAML",
+      "OAuth et OpenID"
+    ],
+    "answer": 1,
+    "explanation": "Dans les infrastructures Windows, 2 protocoles d'authentification existent en domaine : NTLM et Kerberos (depuis Windows 2000 SP4). Kerberos est plus robuste, mais pour des raisons de compatibilité beaucoup d'organisations gardent NTLM actif sans en avoir conscience."
+  },
+  {
+    "id": "CYB-048",
+    "type": "mcq",
+    "theme": "cyb-durcissement",
+    "subtheme": "ntlm",
+    "difficulty": 3,
+    "source": "Cyberdéfense — ESD, module 3",
+    "question": "Quelle est la différence entre le « hash NTLM (NT hash) » et « Net-NTLM » ?",
+    "options": [
+      "Aucune, ce sont deux noms du même élément",
+      "Le hash NT est le condensat du mot de passe utilisateur ; Net-NTLM est la version cryptographique hash+challenge échangée durant l'authentification réseau NTLMv1/v2",
+      "Le hash NT est réversible, Net-NTLM non",
+      "Net-NTLM est utilisé uniquement pour les comptes locaux"
+    ],
+    "answer": 1,
+    "explanation": "Trois notions : le Hash NTLM (NT hash) est le condensat du mot de passe (format NT, dérivé MD4) ; NTLM est le protocole d'identification (pris en charge par NTLMSSP) ; Net-NTLM (v1/v2) est la version cryptographique du hash NT et du challenge échangés entre client et serveur durant l'authentification."
+  },
+  {
+    "id": "CYB-049",
+    "type": "mcq",
+    "theme": "cyb-durcissement",
+    "subtheme": "ntlm",
+    "difficulty": 3,
+    "source": "Cyberdéfense — ESD, module 3",
+    "question": "Pourquoi faut-il forcer l'utilisation de Net-NTLMv2 et refuser LM/NTLMv1 ?",
+    "options": [
+      "Pour accélérer les authentifications",
+      "Pour empêcher un attaquant de « downgrader » la puissance cryptographique du hash capturé",
+      "Parce que NTLMv2 chiffre tout le trafic réseau",
+      "Parce que NTLMv1 ne fonctionne plus depuis Windows 10"
+    ],
+    "answer": 1,
+    "explanation": "Forcer Net-NTLMv2 (GPO « Sécurité réseau : niveau d'authentification LAN Manager » → « Envoyer uniquement une réponse NTLM version 2. Refuser LM ») empêche un attaquant de downgrader la puissance cryptographique du hash capturé. Il est aussi conseillé d'interdire le stockage des hash LM (compatibilité descendante des anciens OS)."
+  },
+  {
+    "id": "CYB-050",
+    "type": "multiple",
+    "theme": "cyb-durcissement",
+    "subtheme": "protocoles",
+    "difficulty": 3,
+    "source": "Cyberdéfense — ESD, module 3",
+    "question": "Quels protocoles doivent être désactivés/bannis d'un domaine Windows car exploités par les attaques de relai ou d'empoisonnement ? (plusieurs réponses)",
+    "options": [
+      "NetBIOS",
+      "LLMNR",
+      "SMBv1",
+      "Kerberos",
+      "DNS"
+    ],
+    "answers": [0, 1, 2],
+    "explanation": "NetBIOS doit être désactivé (nombreuses attaques de relai d'authentification s'appuient dessus), LLMNR aussi (résolution de noms locale UDP 5355, utilisée quand le DNS ne connaît pas un nom — cible classique d'empoisonnement), et SMBv1 (obsolète et vulnérable). Kerberos et DNS sont indispensables — ils se durcissent, ils ne se désactivent pas."
+  },
+  {
+    "id": "CYB-051",
+    "type": "multiple",
+    "theme": "cyb-durcissement",
+    "subtheme": "smb-rdp",
+    "difficulty": 3,
+    "source": "Cyberdéfense — ESD, module 3",
+    "question": "Quelles mesures de durcissement s'appliquent à SMB et RDP ? (plusieurs réponses)",
+    "options": [
+      "Désactiver SMBv1",
+      "Forcer la signature SMB (protection contre le relai NTLM)",
+      "Activer le chiffrement SMB au moins pour les partages sensibles",
+      "Activer l'authentification NLA pour RDP",
+      "Ouvrir RDP directement sur Internet"
+    ],
+    "answers": [0, 1, 2, 3],
+    "explanation": "Sécuriser SMB : désactiver SMBv1, forcer la signature SMB client & serveur (protection contre le relai NTLM sur SMB), activer le chiffrement SMB pour les partages sensibles. Sécuriser RDP : activer l'authentification NLA et fermer les sessions déconnectées en mémoire après X minutes. Exposer RDP sur Internet est une très mauvaise pratique."
+  },
+  {
+    "id": "CYB-052",
+    "type": "mcq",
+    "theme": "cyb-durcissement",
+    "subtheme": "kerberos",
+    "difficulty": 2,
+    "source": "Cyberdéfense — ESD, module 3",
+    "question": "Quelles sont les 2 parties du KDC (Key Distribution Center) de Kerberos ?",
+    "options": [
+      "L'AS (Authentication Service) et le TGS (Ticket-Granting Service)",
+      "Le client et le serveur",
+      "Le TGT et le SPN",
+      "L'annuaire et la base SAM"
+    ],
+    "answer": 0,
+    "explanation": "Kerberos est un protocole AAA (Authentication, Authorization, Accounting) utilisant un tiers de confiance : le KDC, divisé en 2 parties. L'AS fournit des TGT (Ticket Granting Tickets) ; le TGS vérifie l'authenticité des demandes et fournit les tickets d'accès aux services. Kerberos utilise un chiffrement symétrique couplé à une distribution de tickets."
+  },
+  {
+    "id": "CYB-053",
+    "type": "multiple",
+    "theme": "cyb-durcissement",
+    "subtheme": "kerberos",
+    "difficulty": 3,
+    "source": "Cyberdéfense — ESD, module 3",
+    "question": "Quelles mesures permettent de sécuriser Kerberos ? (plusieurs réponses)",
+    "options": [
+      "Utiliser des MSA autant que possible",
+      "Restreindre la durée de vie des tickets (au moins pour les utilisateurs protégés)",
+      "Interdire les types de chiffrement anciens (DES, RC4)",
+      "Revenir à NTLMv1 pour la compatibilité"
+    ],
+    "answers": [0, 1, 2],
+    "explanation": "Sécuriser Kerberos : utiliser des comptes managés MSA autant que possible, restreindre la durée de vie des tickets, interdire les types de chiffrement anciens dans l'authentification Kerberos (DES, RC4 — au profit d'AES). Revenir à NTLMv1 serait une régression majeure."
+  },
+  {
+    "id": "CYB-054",
+    "type": "mcq",
+    "theme": "cyb-surveillance",
+    "subtheme": "dlp",
+    "difficulty": 2,
+    "source": "Cyberdéfense — ESD, module 3",
+    "question": "Quels sont les 3 types de données à distinguer pour une stratégie DLP ?",
+    "options": [
+      "Données publiques, internes, secrètes",
+      "Data in Motion (en transit), Data at Rest (stockée), Data in Use (sur les postes clients)",
+      "Données chaudes, tièdes, froides",
+      "Données structurées, semi-structurées, non structurées"
+    ],
+    "answer": 1,
+    "explanation": "Pour une stratégie DLP : Data in Motion (information transitant via des protocoles réseau — HTTP, FTP, SMTP…), Data at Rest (information stockée sur serveurs de fichiers, BDD, terminaux partageant) et Data in Use (information sur les postes clients). Il faut ensuite établir des règles avec conditions et actions."
+  },
+  {
+    "id": "CYB-055",
+    "type": "mcq",
+    "theme": "cyb-surveillance",
+    "subtheme": "classification",
+    "difficulty": 3,
+    "source": "Cyberdéfense — ESD, module 3",
+    "question": "Dans l'exemple de niveaux de classification du cours, que signifie C2 ?",
+    "options": [
+      "Public : diffusion sans restriction",
+      "Interne : diffusion interne ou partenaire",
+      "Confidentiel : diffusion au personnel interne identifié et tiers identifiés dans une liste de diffusion",
+      "Diffusion restreinte : mesures de sécurité liées à la réglementation"
+    ],
+    "answer": 2,
+    "explanation": "L'exemple de classification : C0 Public (diffusion sans restriction), C1 Interne (diffusion interne ou partenaire), C2 Confidentiel (personnel interne identifié et tiers identifiés dans une liste), C3 Diffusion restreinte (personnes physiques identifiées, mesures liées à la réglementation). La gouvernance des données s'appuie sur cette politique de classification."
+  },
+  {
+    "id": "CYB-056",
+    "type": "mcq",
+    "theme": "cyb-surveillance",
+    "subtheme": "fsrm",
+    "difficulty": 3,
+    "source": "Cyberdéfense — ESD, module 3",
+    "question": "Que permet FSRM (File Server Resource Manager) ?",
+    "options": [
+      "De gérer le contenu des serveurs de fichiers : filtrage de fichiers, quotas, surveillance, classification sur mots-clés, protection des fichiers sensibles",
+      "De sauvegarder l'Active Directory",
+      "De gérer les mises à jour Windows",
+      "De superviser le réseau"
+    ],
+    "answer": 0,
+    "explanation": "FSRM est une fonctionnalité Windows Server permettant une meilleure gestion du contenu des filers : filtrage de fichiers, quotas utilisateurs, surveillance des fichiers, classification sur mot-clé et protection des fichiers sensibles (archivage, chiffrement, sauvegarde). Office365 embarque aussi des fonctionnalités DLP."
+  },
+  {
+    "id": "CYB-057",
+    "type": "multiple",
+    "theme": "cyb-surveillance",
+    "subtheme": "journalisation",
+    "difficulty": 2,
+    "source": "Cyberdéfense — ESD, module 3",
+    "question": "Quelles sont les bonnes pratiques de surveillance citées dans le cours ? (plusieurs réponses)",
+    "options": [
+      "Augmenter la taille des journaux",
+      "Augmenter la journalisation des événements de sécurité",
+      "Mettre en place une infrastructure de collecte de journaux",
+      "Monitorer les accès lecture/écriture aux dossiers sensibles et installer Sysmon",
+      "Désactiver les journaux pour économiser l'espace disque"
+    ],
+    "answers": [0, 1, 2, 3],
+    "explanation": "Bonnes pratiques : augmenter la taille des journaux, augmenter la journalisation des événements de sécurité (par défaut Windows ne journalise pas certains événements utiles), infrastructure de collecte centralisée, monitoring des accès aux dossiers/partages sensibles, installation de Sysmon. Voir le guide ANSSI sur la journalisation en environnement AD."
+  },
+  {
+    "id": "CYB-058",
+    "type": "mcq",
+    "theme": "cyb-surveillance",
+    "subtheme": "powershell-logs",
+    "difficulty": 3,
+    "source": "Cyberdéfense — ESD, module 3",
+    "question": "Quel ID d'événement PowerShell (journal Operational) correspond à l'exécution de commandes sous forme de blocs de script — trace principale laissée par un attaquant ?",
+    "options": ["4688", "4104", "5861", "91"],
+    "answer": 1,
+    "explanation": "L'ID 4104 (Composants Windows > PowerShell > Operational) journalise l'exécution de commandes sous forme de blocs de script : c'est la trace principale laissée par un attaquant. La journalisation renforcée s'active par GPO (modules, blocs de scripts, transcription). Pour mémoire : 4688 = création de processus, 5861 = WMI-Activity, 91 = obtention d'un shell via WinRM."
+  },
+  {
+    "id": "CYB-059",
+    "type": "mcq",
+    "theme": "cyb-surveillance",
+    "subtheme": "pingcastle",
+    "difficulty": 2,
+    "source": "Cyberdéfense — ESD, module 3",
+    "question": "Qu'est-ce que PingCastle ?",
+    "options": [
+      "Un outil de brute-force de mots de passe",
+      "Un outil orienté « risque » qui audite l'Active Directory et fournit un rapport « healthcheck » avec KPI et niveau de risque",
+      "Un pare-feu applicatif pour AD",
+      "Un gestionnaire de sauvegardes AD"
+    ],
+    "answer": 1,
+    "explanation": "PingCastle est un outil orienté risque : audit complet de l'Active Directory, état des lieux de la surface d'attaque, cartographie et rapport « healthcheck » garni de KPI. Un niveau de risque est calculé par domaine sur la base de règles : objets obsolètes, comptes à privilèges, relations d'approbation (filtrage SID, SID History…), état de sécurité (politique de mots de passe, mots de passe en GPO…)."
+  },
+  {
+    "id": "CYB-060",
+    "type": "mcq",
+    "theme": "cyb-surveillance",
+    "subtheme": "bloodhound",
+    "difficulty": 3,
+    "source": "Cyberdéfense — ESD, module 3",
+    "question": "Quels sont les composants de BloodHound ?",
+    "options": [
+      "Une base NEO4J (graphe), l'interface BloodHound (visualisation) et SharpHound (collecteur d'informations du domaine)",
+      "Un serveur web Apache et une base MySQL",
+      "Un agent EDR et une console cloud",
+      "Un scanner Nessus et un dashboard Kibana"
+    ],
+    "answer": 0,
+    "explanation": "BloodHound (open source, orienté relationnel) énumère les objets AD, modélise leurs relations, cartographie objets/droits/délégations et fournit la « best road to exploit ». Composants : base NEO4J (orientée graphe), BloodHound (GUI de visualisation) et SharpHound (l'ingesteur qui récolte les données via LDAP vers les DC et machines). Il s'appuie sur des queries prédéfinies, personnalisables."
+  },
+  {
+    "id": "CYB-061",
+    "type": "mcq",
+    "theme": "cyb-surveillance",
+    "subtheme": "cis",
+    "difficulty": 2,
+    "source": "Cyberdéfense — ESD, module 3",
+    "question": "Que sont les guides CIS Benchmarks ?",
+    "options": [
+      "Des tests de performance matérielle",
+      "Des guides de bonnes pratiques de sécurisation pour une large gamme de solutions (Linux, Windows, Docker, cloud…), avec description, check et remédiation pour chaque mesure",
+      "Des certifications professionnelles individuelles",
+      "Des rapports d'incidents publics"
+    ],
+    "answer": 1,
+    "explanation": "Les CIS Benchmarks sont des guides de bonnes pratiques recommandés pour la cyberdéfense de solutions diverses : distributions Linux, Windows, Docker, VMware, Kubernetes, Apache, MySQL, cloud providers (AWS, Azure)… Pour chaque mesure sont indiqués : le niveau d'application, la description, l'utilité, l'impact potentiel en production, le check à faire, la remédiation et la valeur par défaut."
+  },
+  {
+    "id": "CYB-062",
+    "type": "multiple",
+    "theme": "cyb-surveillance",
+    "subtheme": "ia",
+    "difficulty": 2,
+    "source": "Cyberdéfense — ESD, module 3",
+    "question": "Quelles sont les deux applications principales de l'IA en cyberdéfense selon le cours ? (plusieurs réponses)",
+    "options": [
+      "Identifier les activités anormales (prédiction/détection via machine learning)",
+      "Répondre aux incidents (scénarios de réaction modélisés, gain de réactivité)",
+      "Remplacer entièrement les équipes du SOC",
+      "Rédiger les politiques de sécurité"
+    ],
+    "answers": [0, 1],
+    "explanation": "L'IA agit sur : 1) l'identification des activités anormales — prédiction et détection via machine learning, gestion de flux de données quasi illimités à la vitesse machine, modélisation d'archétypes comportementaux ; 2) la réponse aux incidents — déroulement de scénarios de réaction modélisés, gain de réactivité. Attention, l'IA fait aussi le jeu des attaquants (IA offensive)."
+  },
+  {
+    "id": "CYB-063",
+    "type": "mcq",
+    "theme": "cyb-attaques",
+    "subtheme": "kill-chain",
+    "difficulty": 2,
+    "source": "Cyberdéfense — ESD, module 4",
+    "question": "À quoi sert la Cyber Kill Chain dans une stratégie de défense ?",
+    "options": [
+      "À chiffrer les communications de l'attaquant",
+      "À segmenter le mode opératoire d'un attaquant en étapes pour aligner les mécanismes de défense sur chaque phase",
+      "À classer les vulnérabilités par criticité",
+      "À automatiser les sauvegardes"
+    ],
+    "answer": 1,
+    "explanation": "La Cyber Kill Chain représente la méthodologie et les différentes étapes d'une attaque : elle permet de segmenter le mode opératoire d'un attaquant et d'avoir une vue d'ensemble de la réaction des mécanismes de défense à travers chaque phase. L'identification des profils et méthodologies alimente les bases de connaissance des menaces."
+  },
+  {
+    "id": "CYB-064",
+    "type": "mcq",
+    "theme": "cyb-attaques",
+    "subtheme": "mitre",
+    "difficulty": 2,
+    "source": "Cyberdéfense — ESD, module 4",
+    "question": "Qu'est-ce que MITRE (la société) ?",
+    "options": [
+      "Un éditeur commercial d'antivirus",
+      "Une société à but non lucratif qui alimente une base de connaissance technique sur les attaques et solutions (matrice ATT&CK)",
+      "Une agence gouvernementale française",
+      "Un groupe de hackers reconverti"
+    ],
+    "answer": 1,
+    "explanation": "MITRE est une société à but non lucratif (« résoudre les problèmes pour un monde plus sûr ») qui alimente une base de connaissance technique sur les attaques et solutions. La matrice MITRE ATT&CK associe les techniques d'attaques aux groupes APT ainsi que les remédiations. C'est un outil orienté Red et Blue Team (aussi utilisé en Purple)."
+  },
+  {
+    "id": "CYB-065",
+    "type": "mcq",
+    "theme": "cyb-attaques",
+    "subtheme": "apt",
+    "difficulty": 3,
+    "source": "Cyberdéfense — ESD, module 4",
+    "question": "Sous quels autres noms le groupe APT29, attribué au gouvernement russe, est-il connu ?",
+    "options": [
+      "Lazarus et Hidden Cobra",
+      "YTTRIUM, The Dukes, Cozy Bear, CozyDuke",
+      "Fancy Bear et Sofacy",
+      "Equation Group"
+    ],
+    "answer": 1,
+    "explanation": "APT29 (YTTRIUM, The Dukes, Cozy Bear, CozyDuke) est un groupe attribué au gouvernement russe, opérant depuis au moins 2008, qui aurait compromis le Democratic National Committee à partir de l'été 2015. Les groupes APT analysés sont référencés sur attack.mitre.org/groups, avec leur matrice de techniques associée."
+  },
+  {
+    "id": "CYB-066",
+    "type": "flashcard",
+    "theme": "cyb-admin",
+    "subtheme": "bonnes-pratiques",
+    "difficulty": 2,
+    "source": "Cyberdéfense — ESD, module 3",
+    "question": "Citez les bonnes pratiques de sécurisation des droits d'administration résumées dans le cours.",
+    "options": [],
+    "answer": null,
+    "explanation": "Utiliser l'administration en tier modeling ; sécuriser les comptes d'administration via le groupe Protected Users ; utiliser LAPS ; un seul compte administrateur local sur les postes ; contrôler les comptes inactifs ; appliquer les bonnes pratiques ANSSI (R39 – R52, guide d'administration sécurisée des SI)."
+  },
+  {
+    "id": "CYB-067",
+    "type": "mcq",
+    "theme": "cyb-surveillance",
+    "subtheme": "sysmon",
+    "difficulty": 2,
+    "source": "Cyberdéfense — ESD, module 3",
+    "question": "Quel avantage Sysmon apporte-t-il par rapport à la journalisation Windows par défaut ?",
+    "options": [
+      "Il bloque automatiquement les malwares",
+      "Il fournit plus d'éléments sur les activités système et utilisateur : processus avec ligne de commande, chargement de pilotes/DLL avec signatures et hash, requêtes DNS, connexions réseau, événements WMI, pipes",
+      "Il compresse les journaux existants",
+      "Il remplace l'antivirus"
+    ],
+    "answer": 1,
+    "explanation": "Sysmon (suite Sysinternals) enregistre : la création de processus avec la ligne de commande associée, le chargement de pilotes et DLL avec signatures et hachage, les requêtes DNS, les connexions réseau (processus, port, IP), les événements WMI et la création de pipes (canaux nommés). Il fournit bien plus d'éléments que la journalisation par défaut."
+  },
+  {
+    "id": "CYB-068",
+    "type": "mcq",
+    "theme": "cyb-durcissement",
+    "subtheme": "llmnr",
+    "difficulty": 3,
+    "source": "Cyberdéfense — ESD, module 3",
+    "question": "Quand Windows utilise-t-il le protocole LLMNR (UDP 5355) ?",
+    "options": [
+      "À chaque requête web",
+      "Lorsqu'un nom n'est pas connu dans le DNS (après fichier hosts, caches et serveur DNS)",
+      "Uniquement au démarrage de la machine",
+      "Pour l'authentification Kerberos"
+    ],
+    "answer": 1,
+    "explanation": "L'ordre de résolution de noms Windows : 1) fichier hosts local, 2) cache DNS local, 3) cache serveur DNS, 4) serveur DNS, 5) LLMNR, 6) NetBIOS. Windows utilise LLMNR lorsqu'un nom n'est pas connu dans le DNS — c'est un protocole à bannir d'un domaine Microsoft (empoisonnement de réponses par un attaquant local)."
+  }
+]
