@@ -8,8 +8,8 @@
     "source": "Cyberdéfense — ESD, module 1",
     "question": "Quel profil d'attaquant dispose des moyens financiers, des capacités de ciblage et des compétences techniques les plus importants ?",
     "options": [
-      "Les script kiddies",
-      "Les hacktivistes",
+      "Les script kiddies isolés et débutants",
+      "Les hacktivistes militants organisés",
       "Les États / Nations",
       "Les terroristes"
     ],
@@ -25,10 +25,10 @@
     "source": "Cyberdéfense — ESD, module 1",
     "question": "Quel est l'objectif majeur des cybercriminels ?",
     "options": [
-      "La déstabilisation politique",
-      "Les gains financiers liés à leurs attaques",
-      "La dénonciation de faits",
-      "Le prosélytisme"
+      "La déstabilisation politique d'un État",
+      "Les gains financiers",
+      "La dénonciation de faits gênants",
+      "Le prosélytisme idéologique"
     ],
     "answer": 1,
     "explanation": "Les cybercriminels, parfois appuyés par différentes entités avec des moyens financiers importants et de fortes compétences techniques, ont un objectif majeur : les gains financiers. La déstabilisation relève des États, la dénonciation des hacktivistes, le prosélytisme des terroristes."
@@ -42,10 +42,10 @@
     "source": "Cyberdéfense — ESD, module 1",
     "question": "Pourquoi les script kiddies sont-ils considérés comme dangereux malgré leur faible niveau ?",
     "options": [
-      "Ils disposent de moyens financiers illimités",
-      "Ils n'ont pas forcément d'objectif précis (défi, test, amusement) et utilisent des programmes efficaces qu'ils ne comprennent pas",
-      "Ils sont financés par des gouvernements",
-      "Ils ciblent uniquement les infrastructures critiques"
+      "Ils disposent de moyens financiers quasi illimités et de cibles imposées",
+      "Ils lancent du code efficace qu'ils ne maîtrisent pas, sans but précis",
+      "Ils sont directement financés par des gouvernements étrangers",
+      "Ils ciblent uniquement les infrastructures critiques nationales"
     ],
     "answer": 1,
     "explanation": "Les script kiddies sont des néophytes sans compétences principales en hacking qui utilisent des programmes efficaces qu'ils ne comprennent pas forcément. Leur dangerosité vient justement de l'absence d'objectif précis : défi, test, amusement."
@@ -59,10 +59,10 @@
     "source": "Cyberdéfense — ESD, module 1",
     "question": "Quelles sont les motivations principales des hacktivistes ?",
     "options": [
-      "Le gain financier et le vol de propriété intellectuelle",
-      "Les motivations idéologiques, la dénonciation de faits et l'atteinte à l'image",
-      "La destruction et le sabotage industriel",
-      "Le vol de données bancaires"
+      "Le gain financier et le vol de propriété intellectuelle sensible",
+      "Motivations idéologiques, dénonciation, atteinte à l'image",
+      "La destruction et le sabotage industriel ciblé",
+      "Le vol de données bancaires personnelles"
     ],
     "answer": 1,
     "explanation": "Les hacktivistes s'appuient sur des convictions fortes sans forcément avoir de moyens financiers et techniques importants — le ciblage est leur axe majeur. Motivations : idéologiques, dénonciation de faits, atteinte à l'image."
@@ -99,14 +99,19 @@
   },
   {
     "id": "CYB-007",
-    "type": "flashcard",
+    "type": "mcq",
     "theme": "cyb-menaces",
     "subtheme": "evolution-si",
     "difficulty": 2,
     "source": "Cyberdéfense — ESD, module 1",
-    "question": "Citez des évolutions des systèmes d'information qui participent au développement de nouvelles attaques.",
-    "options": [],
-    "answer": null,
+    "question": "Quelles évolutions des systèmes d'information participent au développement de nouvelles attaques ?",
+    "options": [
+      "La centralisation totale sur un mainframe unique coupé d'Internet et isolé",
+      "Le passage au tout-papier et la déconnexion des réseaux",
+      "Le Cloud, l'IoT, la mobilité, les réseaux sociaux, l'externalisation",
+      "La réduction du nombre de terminaux et la fin du télétravail"
+    ],
+    "answer": 2,
     "explanation": "Le Cloud, l'intégration de l'IoT, l'utilisation commune de terminaux mobiles, l'expansion des réseaux sociaux, la mobilité et l'expérience utilisateur, l'externalisation des ressources. Chaque évolution élargit la surface d'attaque."
   },
   {
@@ -137,7 +142,7 @@
     "options": [
       "Au Ministère des Armées",
       "Au Ministère de l'Intérieur",
-      "Au Premier ministre (via le SGDSN)",
+      "Au Premier ministre (SGDSN)",
       "Au Président de la République"
     ],
     "answer": 2,
@@ -170,7 +175,7 @@
     "source": "Cyberdéfense — ESD, module 1",
     "question": "Quels sont les 2 types de certifications délivrées sous l'autorité de l'ANSSI ?",
     "options": [
-      "La certification critères communs (CC) et la certification de sécurité de premier niveau (CSPN)",
+      "Les critères communs (CC) et la CSPN",
       "La certification ISO 27001 et la certification RGPD",
       "La certification élémentaire et la certification renforcée",
       "La certification PSSIE et la certification RGS"
@@ -189,7 +194,7 @@
     "options": [
       "Bronze, argent, or",
       "Élémentaire, standard, renforcé",
-      "Basique, intermédiaire, avancé",
+      "Basique, intermédiaire, avancé, expert",
       "CC, CSPN, RGS"
     ],
     "answer": 1,
@@ -204,10 +209,10 @@
     "source": "Cyberdéfense — ESD, module 1",
     "question": "Quelle est la différence entre certification et qualification ANSSI ?",
     "options": [
-      "Aucune, ce sont des synonymes",
-      "La certification atteste la robustesse d'un produit après tests d'intrusion ; la qualification est la recommandation par l'État de produits/services éprouvés, destinés notamment à l'administration et aux OIV",
-      "La certification est gratuite, la qualification payante",
-      "La qualification concerne les personnes, la certification les entreprises"
+      "Aucune, ce sont des synonymes stricts",
+      "Certification = robustesse testée ; qualification = recommandation de l'État",
+      "La certification est gratuite alors que la qualification est payante",
+      "La qualification concerne les personnes physiques, la certification les entreprises"
     ],
     "answer": 1,
     "explanation": "La certification (CC ou CSPN) atteste de la robustesse d'un produit éprouvé par tests d'intrusion sous l'autorité de l'ANSSI. La qualification atteste de la conformité aux exigences réglementaires, techniques et de sécurité de l'ANSSI : c'est la recommandation par l'État français, visant à fournir à l'administration et aux OIV des solutions de confiance."
@@ -221,9 +226,9 @@
     "source": "Cyberdéfense — ESD, module 1",
     "question": "Qu'est-ce que la PSSIE ?",
     "options": [
-      "La Politique de Sécurité des Systèmes d'Information de l'État, applicable à toutes les administrations de l'État",
+      "La Politique de Sécurité des SI de l'État",
       "Un protocole de chiffrement des échanges gouvernementaux",
-      "Une certification européenne de cybersécurité",
+      "Une certification européenne de cybersécurité harmonisée",
       "Le plan de sauvegarde des services informatiques de l'État"
     ],
     "answer": 0,
@@ -238,10 +243,10 @@
     "source": "Cyberdéfense — ESD, module 1",
     "question": "Quel est l'objet du RGS (Référentiel Général de Sécurité) ?",
     "options": [
-      "Réglementer les fournisseurs d'accès internet",
-      "Instaurer la confiance dans les échanges électroniques au sein de l'administration et avec les citoyens",
-      "Définir les règles de protection du secret défense",
-      "Encadrer les opérateurs télécoms"
+      "Réglementer les fournisseurs d'accès internet nationaux",
+      "Instaurer la confiance dans les échanges administration-citoyens",
+      "Définir les règles de protection du secret de la défense nationale",
+      "Encadrer les opérateurs télécoms et les hébergeurs"
     ],
     "answer": 1,
     "explanation": "Le RGS est le cadre réglementaire permettant d'instaurer la confiance dans les échanges au sein de l'administration et avec les citoyens. Il propose une méthodologie de responsabilisation via la démarche d'homologation, et des règles pour les prestations spécifiques (certification et horodatage électroniques, audit de sécurité)."
@@ -255,10 +260,10 @@
     "source": "Cyberdéfense — ESD, module 1",
     "question": "Qu'est-ce qu'EBIOS Risk Manager ?",
     "options": [
-      "Un outil de scan de vulnérabilités de l'ANSSI",
-      "La méthode d'appréciation et de traitement des risques numériques publiée par l'ANSSI avec le Club EBIOS",
-      "Un SIEM souverain français",
-      "Le référentiel de certification des prestataires d'audit"
+      "Un outil de scan de vulnérabilités développé par l'ANSSI",
+      "La méthode d'appréciation des risques numériques de l'ANSSI",
+      "Un SIEM souverain français certifié par l'État",
+      "Le référentiel de certification des prestataires d'audit PASSI"
     ],
     "answer": 1,
     "explanation": "EBIOS RM est la méthode d'appréciation et de traitement des risques numériques publiée par l'ANSSI avec le soutien du Club EBIOS. Elle permet d'apprécier les risques numériques et d'identifier les mesures de sécurité à mettre en œuvre pour les maîtriser."
@@ -272,10 +277,10 @@
     "source": "Cyberdéfense — ESD, module 1",
     "question": "Que définit l'instruction interministérielle 901 ?",
     "options": [
-      "Les règles de protection des SI sensibles, notamment ceux traitant d'informations « Diffusion Restreinte »",
-      "La protection des informations classifiées OTAN",
-      "La protection du secret de la défense nationale",
-      "La protection des informations classifiées de l'UE"
+      "La protection des SI sensibles, dont ceux en « Diffusion Restreinte »",
+      "La protection des informations classifiées de l'OTAN (instruction 2100)",
+      "La protection du secret de la défense nationale (instruction 1300)",
+      "La protection des informations classifiées de l'Union européenne"
     ],
     "answer": 0,
     "explanation": "L'instruction 901 définit les objectifs et règles de protection des SI sensibles, notamment ceux traitant d'informations « Diffusion Restreinte » (DR — une mention de protection, pas un niveau de classification). L'instruction 1300 concerne le secret de la défense nationale, la 2100 l'OTAN, la 2102 l'UE."
@@ -289,10 +294,10 @@
     "source": "Cyberdéfense — ESD, module 1",
     "question": "Quel est l'objectif de l'homologation de sécurité ?",
     "options": [
-      "Obtenir un label commercial pour vendre un produit",
-      "Trouver un équilibre entre risque acceptable et coûts de sécurisation, arbitré formellement par un responsable qui a autorité",
-      "Certifier les compétences des administrateurs",
-      "Chiffrer les données sensibles de l'État"
+      "Obtenir un label commercial pour vendre un produit de sécurité",
+      "Équilibrer le risque acceptable et les coûts de sécurisation",
+      "Certifier les compétences techniques des administrateurs système",
+      "Chiffrer les données sensibles manipulées par l'État"
     ],
     "answer": 1,
     "explanation": "L'homologation vise à trouver un équilibre entre le risque acceptable et les coûts de sécurisation, arbitré formellement par un responsable ayant autorité. Elle atteste aux utilisateurs que les risques sont connus et maîtrisés. L'ANSSI a édité un guide en 9 étapes. Elle est obligatoire pour les SI traitant d'informations classifiées (IGI 1300) et les échanges administration/usagers (RGS)."
@@ -306,10 +311,10 @@
     "source": "Cyberdéfense — ESD, module 2",
     "question": "Qu'est-ce qu'un audit SSI ?",
     "options": [
-      "Un test d'intrusion automatisé sur le SI",
-      "Une vue à un instant T de tout ou partie d'un SI permettant de comparer son état à un référentiel",
-      "Une analyse de risques annuelle obligatoire",
-      "Un inventaire du matériel informatique"
+      "Un test d'intrusion automatisé mené sur l'ensemble du SI",
+      "Une vue à l'instant T d'un SI, comparée à un référentiel",
+      "Une analyse de risques annuelle rendue obligatoire par la loi",
+      "Un inventaire exhaustif du matériel informatique du parc"
     ],
     "answer": 1,
     "explanation": "Un audit SSI est une vue à un instant T de tout ou partie d'un SI permettant de comparer l'état du SI à un référentiel. Il répertorie points forts et faibles, et dresse une série de recommandations. Il peut être réalisé conjointement à une analyse de risque et contenir des tâches annexes (pentest, campagne de phishing…)."
@@ -323,10 +328,10 @@
     "source": "Cyberdéfense — ESD, module 2",
     "question": "Quelles sont les 2 approches d'audit ?",
     "options": [
-      "Audit interne et audit externe uniquement",
-      "Audit technique (architecture/code/configuration, pentest) et audit organisationnel (conformité, maturité)",
-      "Audit financier et audit qualité",
-      "Audit à froid et audit à chaud"
+      "Audit interne et audit externe menés séparément",
+      "Audit technique et audit organisationnel",
+      "Audit financier et audit qualité des processus",
+      "Audit à froid et audit à chaud du système"
     ],
     "answer": 1,
     "explanation": "Les audits peuvent avoir 2 approches : technique (audit d'architecture/code/configuration, test d'intrusion) et organisationnel (audit de conformité, audit de maturité). La sécurité d'une organisation repose sur les deux : les audits organisationnels solidifient les maillons humains et processus."
@@ -340,10 +345,10 @@
     "source": "Cyberdéfense — ESD, module 2",
     "question": "Selon l'ISO 19011:2018, qu'est-ce qu'un audit ?",
     "options": [
-      "Une inspection surprise des systèmes informatiques",
-      "Un processus systématique, indépendant et documenté visant à obtenir des preuves d'audit et à les évaluer objectivement pour déterminer si les critères d'audit sont satisfaits",
-      "Une réunion annuelle de la direction sur la sécurité",
-      "Un scan automatique de conformité"
+      "Une inspection surprise et ponctuelle des systèmes informatiques",
+      "Un processus systématique et documenté fondé sur la preuve",
+      "Une réunion annuelle de la direction générale sur la sécurité",
+      "Un scan automatique de conformité réglementaire"
     ],
     "answer": 1,
     "explanation": "L'ISO 19011 définit l'audit comme « un processus systématique, indépendant et documenté en vue d'obtenir des preuves d'audit et de les évaluer de manière objective pour déterminer dans quelle mesure les critères d'audit sont satisfaits ». L'audit est basé sur la preuve (documents, journaux, traces, constatations). Toutes les méthodes d'audit s'inspirent de cette norme."
@@ -375,7 +380,7 @@
     "question": "Quelles sont les 4 étapes clés d'un audit de sécurité de l'information ?",
     "options": [
       "Cadrage, exécution, facturation, clôture",
-      "Planification, réalisation de l'audit, rapport, suivi des recommandations",
+      "Planification, réalisation, rapport, suivi",
       "Observation, questionnaire, entrevue, échantillonnage",
       "Analyse, test, correction, validation"
     ],
@@ -440,9 +445,9 @@
     "question": "Combien de mesures de bonnes pratiques l'ISO 27002 (version étudiée dans le cours) contient-elle, et sur combien de sections ?",
     "options": [
       "42 mesures sur 10 sections",
-      "114 mesures réparties sur 14 sections",
+      "114 mesures sur 14 sections",
       "93 mesures sur 4 thèmes",
-      "200 mesures sur 20 sections"
+      "200 mesures réparties sur 20 sections"
     ],
     "answer": 1,
     "explanation": "L'ISO 27002 donne des lignes directrices en matière de bonnes pratiques SSI : 114 mesures réparties sur 14 sections (politique de SI, organisation, RH, gestion des actifs, contrôle d'accès, cryptographie, sécurité physique, exploitation, communications, acquisition/développement, fournisseurs, incidents, continuité, conformité). Le guide d'hygiène ANSSI compte, lui, 42 points en 10 sections."
@@ -458,7 +463,7 @@
     "options": [
       "114 mesures dans 14 sections",
       "42 points répartis dans 10 sections",
-      "20 recommandations dans 5 chapitres",
+      "20 recommandations réparties dans 5 chapitres",
       "99 règles dans 9 domaines"
     ],
     "answer": 1,
@@ -491,7 +496,7 @@
     "question": "Dans l'exemple d'échelle de maturité du cours (0 à 3), que signifie le niveau 2 ?",
     "options": [
       "Mesures inexistantes",
-      "Mesures en cours de réflexion",
+      "Mesures en cours de réflexion, non encore engagées",
       "Mesures en cours d'implémentation",
       "Mesures implémentées"
     ],
@@ -507,10 +512,10 @@
     "source": "Cyberdéfense — ESD, module 2",
     "question": "Qu'attendent les membres d'un CODIR lors de la restitution d'un rapport d'audit ?",
     "options": [
-      "Le détail technique complet de chaque vulnérabilité",
-      "Une vulgarisation du résultat, contextualisée dans le cadre business de l'organisation, avec des données schématisées",
-      "La liste des mots de passe compromis",
-      "Le code des exploits utilisés pendant l'audit"
+      "Le détail technique complet et exhaustif de chaque vulnérabilité",
+      "Une vulgarisation business, avec des données schématisées",
+      "La liste nominative des mots de passe compromis",
+      "Le code source des exploits utilisés pendant l'audit"
     ],
     "answer": 1,
     "explanation": "Lors d'une restitution en CODIR, l'orateur doit prendre de la hauteur : la direction attend une vulgarisation du résultat contextualisée dans le cadre business. On parle de présentation avec données schématisées, l'objectif étant de faire comprendre rapidement les conséquences de l'audit sur le business de l'entité."
@@ -542,10 +547,10 @@
     "source": "Cyberdéfense — ESD, module 3",
     "question": "Dans l'architecture en tiers préconisée par Microsoft, que contient le niveau 0 (Tier 0) ?",
     "options": [
-      "Les stations de travail des utilisateurs",
-      "Les serveurs applicatifs de l'organisation",
-      "Les composants les plus critiques gérant le contrôle d'identité (contrôleurs de domaine, PKI, AD Connect…)",
-      "Les imprimantes et périphériques réseau"
+      "Les stations de travail des utilisateurs finaux",
+      "Les serveurs applicatifs métier de l'organisation",
+      "Le contrôle d'identité : DC, PKI, AD Connect",
+      "Les imprimantes et autres périphériques réseau"
     ],
     "answer": 2,
     "explanation": "Le modèle en tiers limite l'escalade de privilèges : Tier 0 = composants critiques du contrôle d'identité (DC, PKI, AD Connect…), Tier 1 = serveurs et applications (serveur de fichiers, Exchange…), Tier 2 = stations de travail et appareils utilisateurs."
@@ -571,10 +576,10 @@
     "source": "Cyberdéfense — ESD, module 3",
     "question": "Dans une architecture en tiers, de combien de comptes un administrateur intervenant sur tous les niveaux doit-il disposer ?",
     "options": [
-      "Un seul compte à privilèges pour tout administrer",
-      "Plusieurs comptes : un compte utilisateur standard + un compte admin par tier (T0, T1, T2)",
-      "Deux comptes : un normal et un administrateur de domaine",
-      "Aucun compte nominatif, uniquement des comptes génériques"
+      "Un seul compte à privilèges élevés pour tout administrer",
+      "Plusieurs : un compte standard et un compte admin par tier",
+      "Deux comptes : un compte normal et un admin de domaine unique",
+      "Aucun compte nominatif, uniquement des comptes génériques partagés"
     ],
     "answer": 1,
     "explanation": "Les administrateurs doivent disposer de plusieurs comptes : compte utilisateur standard (ex. jkhalfa), compte admin T2 (t2-admin-jkhalfa, admin local des machines tier 2), compte admin T1 (t1-admin-jkhalfa) et compte admin T0 (t0-admin-jkhalfa, admin de domaine)."
@@ -588,10 +593,10 @@
     "source": "Cyberdéfense — ESD, module 3",
     "question": "Qu'est-ce qu'un bastion d'administration ?",
     "options": [
-      "Un pare-feu de nouvelle génération",
-      "Un serveur de rebond à travers lequel chaque administrateur s'authentifie pour ouvrir une session distante, souvent couplé à du PAM",
-      "Un antivirus pour serveurs critiques",
-      "Une salle serveur sécurisée physiquement"
+      "Un pare-feu applicatif de nouvelle génération",
+      "Un serveur de rebond, souvent couplé à du PAM",
+      "Un antivirus dédié aux serveurs les plus critiques",
+      "Une salle serveur sécurisée et protégée physiquement"
     ],
     "answer": 1,
     "explanation": "Le bastion d'administration (serveur de rebond) permet aux administrateurs d'ouvrir une session distante depuis le serveur bastion et non leurs postes, après authentification sur un portail. Ce type de solution se couple à du PAM (Privileged Access Management). Exemples d'éditeurs : Wallix, CyberArk, One Identity, Rubycat."
@@ -605,10 +610,10 @@
     "source": "Cyberdéfense — ESD, module 3",
     "question": "Qu'est-ce que l'architecture « Red Forest » (ESAE) pour Active Directory ?",
     "options": [
-      "Un honeypot simulant une forêt AD",
-      "Une forêt d'administration dédiée, sans relation d'approbation bidirectionnelle, pour gérer les comptes et groupes d'administration de manière sécurisée",
-      "Un outil de sauvegarde de l'Active Directory",
-      "Une technique d'attaque de l'AD"
+      "Un honeypot conçu pour simuler une forêt AD complète",
+      "Une forêt d'administration dédiée et isolée",
+      "Un outil de sauvegarde et restauration de l'Active Directory",
+      "Une technique d'attaque avancée ciblant l'Active Directory"
     ],
     "answer": 1,
     "explanation": "L'environnement bastion Red Forest (Enhanced Security Administrative Environment — ESAE) est une architecture avec une forêt d'administration dédiée. Cette forêt étant distincte et sans relation d'approbation bidirectionnelle avec les forêts existantes, la compromission d'une autre forêt ne l'affecte pas. Elle augmente la sécurité d'une architecture en tiers."
@@ -640,10 +645,10 @@
     "source": "Cyberdéfense — ESD, module 3",
     "question": "À quoi sert l'outil LAPS (Local Admin Password Solution) de Microsoft ?",
     "options": [
-      "À auditer les GPO du domaine",
-      "À gérer automatiquement les mots de passe des administrateurs locaux : uniques par poste, aléatoires, changés fréquemment, stockés dans l'annuaire",
-      "À bloquer les connexions RDP",
-      "À chiffrer les partages réseau"
+      "À auditer et corriger la configuration des GPO du domaine",
+      "À gérer des mots de passe admin locaux uniques",
+      "À bloquer les connexions RDP non autorisées entrantes",
+      "À chiffrer les partages réseau les plus sensibles"
     ],
     "answer": 1,
     "explanation": "L'administrateur local a souvent le même mot de passe sur tous les postes du parc. LAPS gère automatiquement ces mots de passe : uniques sur chaque poste, générés aléatoirement, changés fréquemment et stockés de manière sécurisée dans l'attribut ms-MCS-AdmPwd du compte ordinateur. LAPS réduit considérablement la surface d'attaque."
@@ -657,10 +662,10 @@
     "source": "Cyberdéfense — ESD, module 3",
     "question": "Sur quoi repose l'attaque Kerberoasting ?",
     "options": [
-      "L'interception des mots de passe en clair sur le réseau",
-      "La demande de TGS (chiffrés par le hash du compte exécutant le service) pour tenter de casser ce hash hors ligne",
-      "Le vol physique du contrôleur de domaine",
-      "L'exploitation d'une faille du protocole NTP"
+      "L'interception des mots de passe en clair circulant sur le réseau",
+      "La demande de TGS pour casser hors ligne le hash du service",
+      "Le vol physique du contrôleur de domaine principal",
+      "L'exploitation d'une faille du protocole de temps NTP"
     ],
     "answer": 1,
     "explanation": "Les tickets de service (TGS) sont chiffrés par le hash du compte exécutant le service (identifié par un SPN). Un attaquant peut effectuer des demandes de TGS pour récupérer et tenter de casser le hash hors ligne — particulièrement efficace quand des comptes utilisateurs à mot de passe faible portent des services (MSSQLSvc, HTTP…)."
@@ -691,10 +696,10 @@
     "source": "Cyberdéfense — ESD, module 3",
     "question": "Sur quoi s'appuie BitLocker pour stocker la clé de chiffrement et vérifier l'intégrité du système ?",
     "options": [
-      "Sur un serveur central de clés",
-      "Sur la puce TPM (Trusted Platform Module) et un BIOS compatible",
-      "Sur le mot de passe de session Windows",
-      "Sur une carte à puce obligatoire"
+      "Sur un serveur central de gestion des clés",
+      "Sur la puce TPM et un BIOS compatible",
+      "Sur le mot de passe de session Windows de l'utilisateur",
+      "Sur une carte à puce obligatoire pour chaque poste"
     ],
     "answer": 1,
     "explanation": "BitLocker (chiffrement AES-256) s'appuie sur la puce TPM et un BIOS compatible pour s'assurer de l'intégrité de l'OS et des clés. Si le disque est volé et monté sur une autre carte mère, l'attaquant ne peut pas le déchiffrer tant que la puce TPM d'origine n'est pas migrée. BitLocker vérifie que le système n'a pas été modifié avant de lire la clé."
@@ -708,10 +713,10 @@
     "source": "Cyberdéfense — ESD, module 3",
     "question": "Quelle est la hiérarchie des clés BitLocker ?",
     "options": [
-      "FVEK (chiffre le volume) → VMK (chiffre la FVEK) → SRK (stockée dans le TPM, chiffre la VMK)",
-      "SRK → FVEK → VMK",
-      "Une clé unique stockée dans l'Active Directory",
-      "VMK → SRK → FVEK"
+      "FVEK (volume) → VMK (chiffre la FVEK) → SRK (dans le TPM)",
+      "SRK → FVEK → VMK, dans cet ordre hiérarchique",
+      "Une clé de chiffrement unique stockée dans l'Active Directory",
+      "VMK → SRK → FVEK, de la racine vers le volume"
     ],
     "answer": 0,
     "explanation": "Le chiffrement utilise la FVEK (Full Volume Encryption Key), elle-même chiffrée par la VMK (Volume Master Key), à son tour chiffrée par la SRK (Storage Root Key) stockée dans le TPM. La clé de récupération peut aussi être stockée sur clé USB ou dans un attribut protégé de l'AD (ms-FVE-RecoveryPassword…)."
@@ -725,10 +730,10 @@
     "source": "Cyberdéfense — ESD, module 3",
     "question": "Pourquoi faut-il désactiver et surveiller WDigest sur les systèmes Windows ?",
     "options": [
-      "Il ralentit l'ouverture de session",
-      "S'il est activé (clé UseLogonCredential à 1), les mots de passe apparaissent en clair dans un dump du processus LSASS",
-      "Il empêche l'authentification Kerberos",
-      "Il consomme trop de mémoire"
+      "Il ralentit sensiblement l'ouverture de session utilisateur",
+      "Activé, il expose les mots de passe en clair dans un dump LSASS",
+      "Il empêche le bon fonctionnement de l'authentification Kerberos",
+      "Il consomme une part excessive de la mémoire vive"
     ],
     "answer": 1,
     "explanation": "Les processus d'authentification Windows stockent beaucoup d'informations d'identification en mémoire (LSASS). La clé WDigest UseLogonCredential est à 0 ou inexistante depuis Windows 8.1, mais la rétablir à 1 affiche les mots de passe en clair dans le dump LSASS. Il faut la désactiver et la surveiller. Autres protections : restreindre le privilège SE_Debug, activer la protection LSA (processus non approuvés bloqués)."
@@ -783,10 +788,10 @@
     "source": "Cyberdéfense — ESD, module 3",
     "question": "Quelle est la différence entre le « hash NTLM (NT hash) » et « Net-NTLM » ?",
     "options": [
-      "Aucune, ce sont deux noms du même élément",
-      "Le hash NT est le condensat du mot de passe utilisateur ; Net-NTLM est la version cryptographique hash+challenge échangée durant l'authentification réseau NTLMv1/v2",
-      "Le hash NT est réversible, Net-NTLM non",
-      "Net-NTLM est utilisé uniquement pour les comptes locaux"
+      "Aucune différence, ce sont deux noms du même élément technique",
+      "Le hash NT condense le mot de passe ; Net-NTLM ajoute un challenge",
+      "Le hash NT est réversible alors que Net-NTLM ne l'est pas",
+      "Net-NTLM est utilisé uniquement pour les comptes locaux non-domaine"
     ],
     "answer": 1,
     "explanation": "Trois notions : le Hash NTLM (NT hash) est le condensat du mot de passe (format NT, dérivé MD4) ; NTLM est le protocole d'identification (pris en charge par NTLMSSP) ; Net-NTLM (v1/v2) est la version cryptographique du hash NT et du challenge échangés entre client et serveur durant l'authentification."
@@ -800,10 +805,10 @@
     "source": "Cyberdéfense — ESD, module 3",
     "question": "Pourquoi faut-il forcer l'utilisation de Net-NTLMv2 et refuser LM/NTLMv1 ?",
     "options": [
-      "Pour accélérer les authentifications",
-      "Pour empêcher un attaquant de « downgrader » la puissance cryptographique du hash capturé",
-      "Parce que NTLMv2 chiffre tout le trafic réseau",
-      "Parce que NTLMv1 ne fonctionne plus depuis Windows 10"
+      "Pour accélérer sensiblement les authentifications réseau",
+      "Pour empêcher le downgrade cryptographique du hash capturé",
+      "Parce que NTLMv2 chiffre l'intégralité du trafic réseau",
+      "Parce que NTLMv1 ne fonctionne plus depuis Windows 10 et 11"
     ],
     "answer": 1,
     "explanation": "Forcer Net-NTLMv2 (GPO « Sécurité réseau : niveau d'authentification LAN Manager » → « Envoyer uniquement une réponse NTLM version 2. Refuser LM ») empêche un attaquant de downgrader la puissance cryptographique du hash capturé. Il est aussi conseillé d'interdire le stockage des hash LM (compatibilité descendante des anciens OS)."
@@ -853,10 +858,10 @@
     "source": "Cyberdéfense — ESD, module 3",
     "question": "Quelles sont les 2 parties du KDC (Key Distribution Center) de Kerberos ?",
     "options": [
-      "L'AS (Authentication Service) et le TGS (Ticket-Granting Service)",
-      "Le client et le serveur",
-      "Le TGT et le SPN",
-      "L'annuaire et la base SAM"
+      "L'AS (Authentication Service) et le TGS",
+      "Le client et le serveur d'application",
+      "Le TGT et le SPN du service demandé",
+      "L'annuaire LDAP et la base de comptes SAM"
     ],
     "answer": 0,
     "explanation": "Kerberos est un protocole AAA (Authentication, Authorization, Accounting) utilisant un tiers de confiance : le KDC, divisé en 2 parties. L'AS fournit des TGT (Ticket Granting Tickets) ; le TGS vérifie l'authenticité des demandes et fournit les tickets d'accès aux services. Kerberos utilise un chiffrement symétrique couplé à une distribution de tickets."
@@ -887,10 +892,10 @@
     "source": "Cyberdéfense — ESD, module 3",
     "question": "Quels sont les 3 types de données à distinguer pour une stratégie DLP ?",
     "options": [
-      "Données publiques, internes, secrètes",
-      "Data in Motion (en transit), Data at Rest (stockée), Data in Use (sur les postes clients)",
-      "Données chaudes, tièdes, froides",
-      "Données structurées, semi-structurées, non structurées"
+      "Données publiques, données internes, données secrètes",
+      "Data in Motion, Data at Rest et Data in Use",
+      "Données chaudes, données tièdes, données froides",
+      "Données structurées, semi-structurées et non structurées"
     ],
     "answer": 1,
     "explanation": "Pour une stratégie DLP : Data in Motion (information transitant via des protocoles réseau — HTTP, FTP, SMTP…), Data at Rest (information stockée sur serveurs de fichiers, BDD, terminaux partageant) et Data in Use (information sur les postes clients). Il faut ensuite établir des règles avec conditions et actions."
@@ -904,10 +909,10 @@
     "source": "Cyberdéfense — ESD, module 3",
     "question": "Dans l'exemple de niveaux de classification du cours, que signifie C2 ?",
     "options": [
-      "Public : diffusion sans restriction",
-      "Interne : diffusion interne ou partenaire",
-      "Confidentiel : diffusion au personnel interne identifié et tiers identifiés dans une liste de diffusion",
-      "Diffusion restreinte : mesures de sécurité liées à la réglementation"
+      "Public : diffusion sans aucune restriction",
+      "Interne : diffusion interne ou aux partenaires",
+      "Confidentiel : personnel interne et tiers identifiés dans une liste",
+      "Diffusion restreinte : mesures de sécurité liées à la réglementation en vigueur"
     ],
     "answer": 2,
     "explanation": "L'exemple de classification : C0 Public (diffusion sans restriction), C1 Interne (diffusion interne ou partenaire), C2 Confidentiel (personnel interne identifié et tiers identifiés dans une liste), C3 Diffusion restreinte (personnes physiques identifiées, mesures liées à la réglementation). La gouvernance des données s'appuie sur cette politique de classification."
@@ -921,10 +926,10 @@
     "source": "Cyberdéfense — ESD, module 3",
     "question": "Que permet FSRM (File Server Resource Manager) ?",
     "options": [
-      "De gérer le contenu des serveurs de fichiers : filtrage de fichiers, quotas, surveillance, classification sur mots-clés, protection des fichiers sensibles",
-      "De sauvegarder l'Active Directory",
-      "De gérer les mises à jour Windows",
-      "De superviser le réseau"
+      "De gérer le contenu des filers : filtrage, quotas",
+      "De sauvegarder et restaurer l'Active Directory complet",
+      "De gérer et déployer les mises à jour Windows",
+      "De superviser l'ensemble du réseau d'entreprise"
     ],
     "answer": 0,
     "explanation": "FSRM est une fonctionnalité Windows Server permettant une meilleure gestion du contenu des filers : filtrage de fichiers, quotas utilisateurs, surveillance des fichiers, classification sur mot-clé et protection des fichiers sensibles (archivage, chiffrement, sauvegarde). Office365 embarque aussi des fonctionnalités DLP."
@@ -968,10 +973,10 @@
     "source": "Cyberdéfense — ESD, module 3",
     "question": "Qu'est-ce que PingCastle ?",
     "options": [
-      "Un outil de brute-force de mots de passe",
-      "Un outil orienté « risque » qui audite l'Active Directory et fournit un rapport « healthcheck » avec KPI et niveau de risque",
-      "Un pare-feu applicatif pour AD",
-      "Un gestionnaire de sauvegardes AD"
+      "Un outil de brute-force massif de mots de passe",
+      "Un outil d'audit de risque de l'Active Directory",
+      "Un pare-feu applicatif dédié à l'Active Directory",
+      "Un gestionnaire de sauvegardes pour Active Directory"
     ],
     "answer": 1,
     "explanation": "PingCastle est un outil orienté risque : audit complet de l'Active Directory, état des lieux de la surface d'attaque, cartographie et rapport « healthcheck » garni de KPI. Un niveau de risque est calculé par domaine sur la base de règles : objets obsolètes, comptes à privilèges, relations d'approbation (filtrage SID, SID History…), état de sécurité (politique de mots de passe, mots de passe en GPO…)."
@@ -985,10 +990,10 @@
     "source": "Cyberdéfense — ESD, module 3",
     "question": "Quels sont les composants de BloodHound ?",
     "options": [
-      "Une base NEO4J (graphe), l'interface BloodHound (visualisation) et SharpHound (collecteur d'informations du domaine)",
-      "Un serveur web Apache et une base MySQL",
-      "Un agent EDR et une console cloud",
-      "Un scanner Nessus et un dashboard Kibana"
+      "Une base NEO4J, l'interface BloodHound et SharpHound",
+      "Un serveur web Apache couplé à une base de données MySQL",
+      "Un agent EDR local et une console d'administration cloud",
+      "Un scanner de vulnérabilités Nessus et un dashboard Kibana"
     ],
     "answer": 0,
     "explanation": "BloodHound (open source, orienté relationnel) énumère les objets AD, modélise leurs relations, cartographie objets/droits/délégations et fournit la « best road to exploit ». Composants : base NEO4J (orientée graphe), BloodHound (GUI de visualisation) et SharpHound (l'ingesteur qui récolte les données via LDAP vers les DC et machines). Il s'appuie sur des queries prédéfinies, personnalisables."
@@ -1002,10 +1007,10 @@
     "source": "Cyberdéfense — ESD, module 3",
     "question": "Que sont les guides CIS Benchmarks ?",
     "options": [
-      "Des tests de performance matérielle",
-      "Des guides de bonnes pratiques de sécurisation pour une large gamme de solutions (Linux, Windows, Docker, cloud…), avec description, check et remédiation pour chaque mesure",
-      "Des certifications professionnelles individuelles",
-      "Des rapports d'incidents publics"
+      "Des tests de performance du matériel informatique",
+      "Des guides de sécurisation multi-solutions détaillés",
+      "Des certifications professionnelles individuelles en cyber",
+      "Des rapports publics d'analyse d'incidents de sécurité"
     ],
     "answer": 1,
     "explanation": "Les CIS Benchmarks sont des guides de bonnes pratiques recommandés pour la cyberdéfense de solutions diverses : distributions Linux, Windows, Docker, VMware, Kubernetes, Apache, MySQL, cloud providers (AWS, Azure)… Pour chaque mesure sont indiqués : le niveau d'application, la description, l'utilité, l'impact potentiel en production, le check à faire, la remédiation et la valeur par défaut."
@@ -1036,10 +1041,10 @@
     "source": "Cyberdéfense — ESD, module 4",
     "question": "À quoi sert la Cyber Kill Chain dans une stratégie de défense ?",
     "options": [
-      "À chiffrer les communications de l'attaquant",
-      "À segmenter le mode opératoire d'un attaquant en étapes pour aligner les mécanismes de défense sur chaque phase",
-      "À classer les vulnérabilités par criticité",
-      "À automatiser les sauvegardes"
+      "À chiffrer l'intégralité des communications de l'attaquant",
+      "À découper une attaque en étapes pour aligner la défense",
+      "À classer les vulnérabilités découvertes par criticité",
+      "À automatiser les sauvegardes de données critiques"
     ],
     "answer": 1,
     "explanation": "La Cyber Kill Chain représente la méthodologie et les différentes étapes d'une attaque : elle permet de segmenter le mode opératoire d'un attaquant et d'avoir une vue d'ensemble de la réaction des mécanismes de défense à travers chaque phase. L'identification des profils et méthodologies alimente les bases de connaissance des menaces."
@@ -1053,10 +1058,10 @@
     "source": "Cyberdéfense — ESD, module 4",
     "question": "Qu'est-ce que MITRE (la société) ?",
     "options": [
-      "Un éditeur commercial d'antivirus",
-      "Une société à but non lucratif qui alimente une base de connaissance technique sur les attaques et solutions (matrice ATT&CK)",
-      "Une agence gouvernementale française",
-      "Un groupe de hackers reconverti"
+      "Un éditeur commercial de solutions antivirus",
+      "Une société à but non lucratif derrière ATT&CK",
+      "Une agence gouvernementale de cyberdéfense française",
+      "Un ancien groupe de hackers reconverti dans la défense"
     ],
     "answer": 1,
     "explanation": "MITRE est une société à but non lucratif (« résoudre les problèmes pour un monde plus sûr ») qui alimente une base de connaissance technique sur les attaques et solutions. La matrice MITRE ATT&CK associe les techniques d'attaques aux groupes APT ainsi que les remédiations. C'est un outil orienté Red et Blue Team (aussi utilisé en Purple)."
@@ -1070,24 +1075,29 @@
     "source": "Cyberdéfense — ESD, module 4",
     "question": "Sous quels autres noms le groupe APT29, attribué au gouvernement russe, est-il connu ?",
     "options": [
-      "Lazarus et Hidden Cobra",
+      "Lazarus Group, Hidden Cobra, Zinc et APT38",
       "YTTRIUM, The Dukes, Cozy Bear, CozyDuke",
-      "Fancy Bear et Sofacy",
-      "Equation Group"
+      "Fancy Bear, Sofacy et Sednit",
+      "Equation Group et Tailored Access"
     ],
     "answer": 1,
     "explanation": "APT29 (YTTRIUM, The Dukes, Cozy Bear, CozyDuke) est un groupe attribué au gouvernement russe, opérant depuis au moins 2008, qui aurait compromis le Democratic National Committee à partir de l'été 2015. Les groupes APT analysés sont référencés sur attack.mitre.org/groups, avec leur matrice de techniques associée."
   },
   {
     "id": "CYB-066",
-    "type": "flashcard",
+    "type": "mcq",
     "theme": "cyb-admin",
     "subtheme": "bonnes-pratiques",
     "difficulty": 2,
     "source": "Cyberdéfense — ESD, module 3",
-    "question": "Citez les bonnes pratiques de sécurisation des droits d'administration résumées dans le cours.",
-    "options": [],
-    "answer": null,
+    "question": "Quelles bonnes pratiques sécurisent les droits d'administration selon le cours ?",
+    "options": [
+      "Tier modeling, Protected Users, LAPS et compte admin local unique",
+      "Un compte administrateur de domaine unique partagé par toute l'équipe IT",
+      "Le même mot de passe administrateur local sur l'ensemble des postes",
+      "La désactivation de la journalisation des accès privilégiés"
+    ],
+    "answer": 0,
     "explanation": "Utiliser l'administration en tier modeling ; sécuriser les comptes d'administration via le groupe Protected Users ; utiliser LAPS ; un seul compte administrateur local sur les postes ; contrôler les comptes inactifs ; appliquer les bonnes pratiques ANSSI (R39 – R52, guide d'administration sécurisée des SI)."
   },
   {
@@ -1099,10 +1109,10 @@
     "source": "Cyberdéfense — ESD, module 3",
     "question": "Quel avantage Sysmon apporte-t-il par rapport à la journalisation Windows par défaut ?",
     "options": [
-      "Il bloque automatiquement les malwares",
-      "Il fournit plus d'éléments sur les activités système et utilisateur : processus avec ligne de commande, chargement de pilotes/DLL avec signatures et hash, requêtes DNS, connexions réseau, événements WMI, pipes",
-      "Il compresse les journaux existants",
-      "Il remplace l'antivirus"
+      "Il bloque et met automatiquement en quarantaine les logiciels malveillants",
+      "Il journalise bien plus d'activités : DLL, DNS, réseau, WMI",
+      "Il compresse les journaux d'événements Windows existants",
+      "Il remplace intégralement la solution antivirus du poste"
     ],
     "answer": 1,
     "explanation": "Sysmon (suite Sysinternals) enregistre : la création de processus avec la ligne de commande associée, le chargement de pilotes et DLL avec signatures et hachage, les requêtes DNS, les connexions réseau (processus, port, IP), les événements WMI et la création de pipes (canaux nommés). Il fournit bien plus d'éléments que la journalisation par défaut."
@@ -1116,10 +1126,10 @@
     "source": "Cyberdéfense — ESD, module 3",
     "question": "Quand Windows utilise-t-il le protocole LLMNR (UDP 5355) ?",
     "options": [
-      "À chaque requête web",
-      "Lorsqu'un nom n'est pas connu dans le DNS (après fichier hosts, caches et serveur DNS)",
-      "Uniquement au démarrage de la machine",
-      "Pour l'authentification Kerberos"
+      "À chaque requête web sortante du navigateur",
+      "Quand un nom reste inconnu du DNS",
+      "Uniquement au démarrage et à l'arrêt de la machine",
+      "Pour l'authentification Kerberos sur le domaine"
     ],
     "answer": 1,
     "explanation": "L'ordre de résolution de noms Windows : 1) fichier hosts local, 2) cache DNS local, 3) cache serveur DNS, 4) serveur DNS, 5) LLMNR, 6) NetBIOS. Windows utilise LLMNR lorsqu'un nom n'est pas connu dans le DNS — c'est un protocole à bannir d'un domaine Microsoft (empoisonnement de réponses par un attaquant local)."

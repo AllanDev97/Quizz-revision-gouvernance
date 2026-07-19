@@ -8,10 +8,10 @@
     "source": "Analyse SOC 1 — ESD, module 1",
     "question": "Qu'est-ce qu'un SOC (Security Operation Center) avant tout ?",
     "options": [
-      "Un logiciel de détection d'intrusion installé sur les serveurs",
-      "Une équipe d'experts en cybersécurité chargée de surveiller, détecter, analyser et qualifier les événements de sécurité",
-      "Un pare-feu nouvelle génération centralisant les logs",
-      "Une certification délivrée aux entreprises conformes"
+      "Un logiciel de détection d'intrusion déployé sur les serveurs critiques du parc",
+      "Une équipe d'experts qui surveille et qualifie les événements de sécurité",
+      "Un pare-feu nouvelle génération centralisant les journaux du réseau",
+      "Une certification de conformité délivrée aux entreprises auditées"
     ],
     "answer": 1,
     "explanation": "Le SOC est avant tout une équipe d'experts en cybersécurité chargée de surveiller, détecter, analyser et qualifier les événements de sécurité. C'est aussi un ensemble de technologies permettant la centralisation, le traitement et l'affichage d'incidents de sécurité."
@@ -25,10 +25,10 @@
     "source": "Analyse SOC 1 — ESD, module 1",
     "question": "Quels sont les 3 principaux types de SOC ?",
     "options": [
-      "SOC préventif, SOC réactif, SOC proactif",
-      "SOC niveau 1, SOC niveau 2, SOC niveau 3",
-      "SOC opéré/interne, SOC externalisé, SOC hybride",
-      "SOC cloud, SOC on-premise, SOC mobile"
+      "SOC préventif, SOC réactif et SOC proactif",
+      "SOC de niveau 1, de niveau 2 et de niveau 3",
+      "SOC opéré/interne, externalisé ou hybride",
+      "SOC cloud, SOC on-premise et SOC mobile"
     ],
     "answer": 2,
     "explanation": "Il existe principalement 3 types de SOC : les SOC opérés et internes (gérés en propre par l'organisation), les SOC externalisés (MSSP) et le SOC hybride (combinaison des deux)."
@@ -64,14 +64,19 @@
   },
   {
     "id": "SOC1-005",
-    "type": "flashcard",
+    "type": "mcq",
     "theme": "soc-fondamentaux",
     "subtheme": "defense-profondeur",
     "difficulty": 2,
     "source": "Analyse SOC 1 — ESD, module 1",
-    "question": "Expliquez le principe de la défense en profondeur.",
-    "options": [],
-    "answer": null,
+    "question": "En quoi consiste le principe de la défense en profondeur ?",
+    "options": [
+      "Concentrer toute la sécurité sur un unique pare-feu périmétrique robuste",
+      "Superposer plusieurs couches de protection indépendantes autour du SI",
+      "Chiffrer l'ensemble des données stockées sur les serveurs de l'entreprise",
+      "Confier toute la sécurité du SI à un prestataire MSSP externe unique"
+    ],
+    "answer": 1,
     "explanation": "La défense en profondeur consiste à superposer plusieurs couches de protection indépendantes autour du SI : politiques/procédures et sensibilisation, sécurité physique, périmètre, réseau interne, hôte, application et données. Si une couche est compromise, les suivantes continuent de protéger les actifs."
   },
   {
@@ -83,10 +88,10 @@
     "source": "Analyse SOC 1 — ESD, module 1",
     "question": "Dans la pyramide de la douleur (Pyramid of Pain), quel indicateur est le plus difficile (Tough!) à changer pour un attaquant ?",
     "options": [
-      "Les adresses IP",
-      "Les valeurs de hash",
-      "Les TTPs (Tactics, Techniques and Procedures)",
-      "Les noms de domaine"
+      "Les adresses IP utilisées par l'attaquant",
+      "Les valeurs de hash des fichiers malveillants",
+      "Les TTPs, tactiques et techniques employées",
+      "Les noms de domaine et les sous-domaines"
     ],
     "answer": 2,
     "explanation": "Au sommet de la pyramide de la douleur se trouvent les TTPs : forcer un attaquant à changer ses tactiques, techniques et procédures est ce qui lui coûte le plus cher. Les hash et adresses IP (base de la pyramide) sont triviaux à modifier."
@@ -100,10 +105,10 @@
     "source": "Analyse SOC 1 — ESD, module 1",
     "question": "Qui a publié en 2011 l'article définissant le concept de « Cyber Kill Chain » ?",
     "options": [
-      "Le MITRE",
+      "L'organisation MITRE",
       "Lockheed Martin",
-      "L'ANSSI",
-      "Le NIST"
+      "L'ANSSI française",
+      "Le NIST américain"
     ],
     "answer": 1,
     "explanation": "Le terme « Kill Chain » vient du domaine militaire. En 2011, Lockheed Martin a publié un article définissant le concept de « Cyber Kill Chain » appliqué aux cyberattaques."
@@ -118,7 +123,7 @@
     "question": "Quel est le bon ordre des premières phases de la Cyber Kill Chain ?",
     "options": [
       "Reconnaissance → Weaponization → Delivery → Exploitation",
-      "Delivery → Reconnaissance → Exploitation → Installation",
+      "Delivery → Reconnaissance → Exploitation → Installation → C2",
       "Weaponization → Reconnaissance → Exploitation → Delivery",
       "Exploitation → Delivery → Reconnaissance → Installation"
     ],
@@ -134,10 +139,10 @@
     "source": "Analyse SOC 1 — ESD, module 1",
     "question": "Qu'est-ce que MITRE ATT&CK ?",
     "options": [
-      "Un outil de scan de vulnérabilités open source",
-      "Une base de connaissances sur les tactiques et techniques des adversaires, basée sur des observations du monde réel",
-      "Un framework de tests d'intrusion automatisés",
-      "Une norme ISO de gestion des incidents"
+      "Un outil open source de scan des vulnérabilités du réseau interne",
+      "Une base des techniques d'attaque observées dans le monde réel",
+      "Un framework de tests d'intrusion automatisés et continus",
+      "Une norme ISO dédiée à la gestion des incidents de sécurité"
     ],
     "answer": 1,
     "explanation": "MITRE ATT&CK est une base de connaissances sur les tactiques et techniques de l'adversaire, basée sur des observations du monde réel et de la Cyber Threat Intelligence. Chaque technique peut être développée pour révéler des sous-techniques, exemples de commandes et références à des incidents réels."
@@ -151,10 +156,10 @@
     "source": "Analyse SOC 1 — ESD, module 1",
     "question": "Que signifie l'acronyme TTP ?",
     "options": [
-      "Threat Tracking Protocol",
+      "Threat Tracking and Prevention",
       "Tactics, Techniques and Procedures",
-      "Technical Threat Prevention",
-      "Trusted Third Party"
+      "Technical Threat Prevention Standard",
+      "Trusted Third-Party Provider"
     ],
     "answer": 1,
     "explanation": "Les TTPs (Tactics, Techniques, and Procedures) représentent le comportement et les méthodes employés par les cybermenaces pour mener des attaques. Ils permettent de comprendre comment et pourquoi les attaquants opèrent."
@@ -180,10 +185,10 @@
     "source": "Analyse SOC 1 — ESD, module 1",
     "question": "Dans l'organisation d'un SOC, quel métier est associé à la tâche « veille, détection et analyse » de premier niveau ?",
     "options": [
-      "Le RSSI",
+      "Le RSSI de l'organisation",
       "L'analyste niveau 1",
-      "L'analyste niveau 3",
-      "Le CSIRT"
+      "L'analyste de niveau 3",
+      "L'équipe CSIRT externe"
     ],
     "answer": 1,
     "explanation": "L'analyste niveau 1 assure la veille et la détection. L'analyste niveau 2 gère la maintenance et l'administration. La réaction (coordination des actions, réponse à incidents) relève de l'analyste niveau 3 ou d'équipes hors SOC comme le CSIRT. Le pilotage relève du responsable opérationnel et du RSSI."
@@ -197,9 +202,9 @@
     "source": "Analyse SOC 1 — ESD, module 1",
     "question": "En quoi consiste le triage des alertes pour un analyste SOC ?",
     "options": [
-      "Supprimer automatiquement toutes les alertes de faible priorité",
-      "Distinguer les fausses alertes des menaces réelles et prioriser selon la gravité et l'urgence",
-      "Transférer toutes les alertes au CSIRT sans analyse",
+      "Supprimer automatiquement toutes les alertes jugées de faible priorité",
+      "Distinguer les fausses alertes des menaces réelles et les prioriser",
+      "Transférer sans analyse toutes les alertes reçues au CSIRT",
       "Classer les alertes par ordre alphabétique dans le SIEM"
     ],
     "answer": 1,
@@ -207,14 +212,19 @@
   },
   {
     "id": "SOC1-014",
-    "type": "flashcard",
+    "type": "mcq",
     "theme": "soc-metier",
     "subtheme": "first-responder",
     "difficulty": 2,
     "source": "Analyse SOC 1 — ESD, module 1",
     "question": "Quel est le rôle du First Responder dans un SOC ?",
-    "options": [],
-    "answer": null,
+    "options": [
+      "Piloter la stratégie de sécurité à long terme de l'organisation",
+      "Intervenir en premier pour contenir et évaluer un incident",
+      "Développer les règles de corrélation et les tableaux de bord du SIEM",
+      "Réaliser les tests d'intrusion offensifs sur le SI de l'entreprise"
+    ],
+    "answer": 1,
     "explanation": "Le First Responder effectue l'intervention initiale rapide : contenir et évaluer les incidents détectés, appliquer les premières mesures correctives et collecter les preuves nécessaires à une analyse approfondie. Il doit savoir résoudre les problèmes sous pression tout en assurant la documentation et la communication des actions entreprises."
   },
   {
@@ -226,10 +236,10 @@
     "source": "Analyse SOC 1 — ESD, module 1",
     "question": "Que sont les RETEX dans le contexte d'un SOC ?",
     "options": [
-      "Des règles de détection automatisées",
-      "Des retours d'expérience permettant d'apprendre de chaque incident de sécurité",
-      "Des rapports réglementaires envoyés à l'ANSSI",
-      "Des tests d'exfiltration réalisés par la Red Team"
+      "Des règles de détection automatisées du SIEM",
+      "Des retours d'expérience tirés de chaque incident",
+      "Des rapports réglementaires transmis à l'ANSSI chaque année",
+      "Des tests d'exfiltration menés par la Red Team interne"
     ],
     "answer": 1,
     "explanation": "Les RETEX (Retours d'EXpérience) jouent un rôle crucial dans le cycle d'amélioration continue : en analysant les attaques réussies et manquées, le SOC ajuste ses tactiques, renforce les défenses et affine la formation des analystes."
@@ -278,10 +288,10 @@
     "source": "Analyse SOC 1 — ESD, module 2",
     "question": "Quelle est la différence entre la Threat Intelligence (TI) et la Cyber Threat Intelligence (CTI) ?",
     "options": [
-      "La TI est automatisée alors que la CTI est manuelle",
-      "La TI englobe une large gamme de menaces (fraude physique incluse) alors que la CTI se concentre sur les menaces cybernétiques",
-      "La CTI est réservée aux militaires, la TI aux entreprises",
-      "Il n'y a aucune différence, ce sont des synonymes"
+      "La TI est entièrement automatisée alors que la CTI reste manuelle",
+      "La TI couvre un large spectre de menaces, la CTI cible le cyber",
+      "La CTI est réservée aux militaires et la TI aux entreprises privées",
+      "Il n'existe aucune différence, ce sont deux synonymes exacts"
     ],
     "answer": 1,
     "explanation": "La TI englobe une large gamme de menaces allant de la fraude physique aux cyberattaques, tandis que la CTI se concentre spécifiquement sur la compréhension des menaces cybernétiques, permettant une défense proactive."
@@ -364,10 +374,10 @@
     "source": "Analyse SOC 1 — ESD, module 2",
     "question": "Qu'est-ce que le Threat Hunting ?",
     "options": [
-      "Une réponse automatisée aux alertes du SIEM",
-      "Une approche ciblée et itérative pour rechercher, identifier et comprendre les adversaires présents dans les réseaux du défenseur",
-      "Un scan de vulnérabilités hebdomadaire",
-      "L'achat de flux d'IoC auprès de fournisseurs externes"
+      "Une réponse entièrement automatisée aux alertes remontées par le SIEM",
+      "Une recherche proactive des adversaires déjà présents dans le réseau",
+      "Un scan de vulnérabilités planifié chaque semaine",
+      "L'achat régulier de flux d'IoC auprès de fournisseurs externes"
     ],
     "answer": 1,
     "explanation": "Selon Robert M. Lee & Rob Lee, le Threat Hunting est « une approche ciblée et itérative pour rechercher, identifier et comprendre les adversaires internes aux réseaux du défenseur ». C'est un processus récurrent de recherche de signes de compromission ayant échappé aux défenses en place."
@@ -393,10 +403,10 @@
     "source": "Analyse SOC 1 — ESD, module 2",
     "question": "Quelles sont les 3 phases de la méthodologie TaHiTI de Threat Hunting ?",
     "options": [
-      "Détection, Analyse, Réponse",
+      "Détection, Analyse puis Réponse",
       "Initialisation, Chasse, Finalisation",
-      "Planification, Exécution, Reporting",
-      "Collecte, Corrélation, Remédiation"
+      "Planification, Exécution puis Reporting final",
+      "Collecte, Corrélation et Remédiation"
     ],
     "answer": 1,
     "explanation": "TaHiTI est une méthodologie normalisée et reproductible de threat hunting qui comporte 3 phases : Initialisation (Initiate), Chasse (Hunt) et Finalisation (Finalize). Elle intègre des processus de threat intelligence et de threat hunting."
@@ -429,9 +439,9 @@
     "question": "Que signifie CVE ?",
     "options": [
       "Common Vulnerabilities and Exposures",
-      "Critical Vulnerability Evaluation",
-      "Cyber Vulnerability Enumeration",
-      "Common Vector Exploitation"
+      "Critical Vulnerability Evaluation System",
+      "Cyber Vulnerability Enumeration Standard",
+      "Common Vector Exploitation Registry"
     ],
     "answer": 0,
     "explanation": "CVE = Common Vulnerabilities and Exposures : l'identifiant standardisé des vulnérabilités publiques. À connaître également : CVSS (Common Vulnerability Scoring System), CPE (Common Platform Enumeration), CWE (Common Weakness Enumeration) et la notion de 0-day."
@@ -455,14 +465,19 @@
   },
   {
     "id": "SOC1-029",
-    "type": "flashcard",
+    "type": "mcq",
     "theme": "soc-prevention",
     "subtheme": "vulnerabilites",
     "difficulty": 2,
     "source": "Analyse SOC 1 — ESD, module 2",
     "question": "Qu'est-ce qu'une vulnérabilité 0-day ?",
-    "options": [],
-    "answer": null,
+    "options": [
+      "Une vulnérabilité automatiquement corrigée le jour de sa publication",
+      "Une faille sans correctif disponible, souvent inconnue de l'éditeur",
+      "Une vulnérabilité exploitable durant les seules premières 24 heures",
+      "Une faille présente uniquement dans les vieux logiciels open source"
+    ],
+    "answer": 1,
     "explanation": "Une 0-day est une vulnérabilité découverte mais pour laquelle aucun correctif n'existe encore (et souvent inconnue de l'éditeur). Elle est particulièrement dangereuse car exploitable avant toute possibilité de correction. En 2023, 198 failles 0-day ont été découvertes et 28 902 CVE publiées."
   },
   {
@@ -475,9 +490,9 @@
     "question": "Quel est l'ordre logique du processus de gestion des vulnérabilités (source CLUSIF) ?",
     "options": [
       "Remédiation → Identification → Cartographie → Priorisation",
-      "Cartographie des actifs → Identification des vulnérabilités → Priorisation → Remédiation, avec suivi et pilotage",
+      "Cartographie → Identification → Priorisation → Remédiation",
       "Priorisation → Remédiation → Cartographie → Identification",
-      "Identification → Remédiation → Cartographie → Suivi"
+      "Identification → Remédiation → Cartographie → Suivi continu"
     ],
     "answer": 1,
     "explanation": "Le processus : cartographie des actifs et enjeux métiers, identification des vulnérabilités (failles logicielles, mauvaises configurations, écarts), priorisation, puis remédiation (déploiement de correctifs, modification des configurations), le tout accompagné d'un suivi et pilotage continus."
@@ -527,10 +542,10 @@
     "source": "Analyse SOC 1 — ESD, module 3",
     "question": "Que sont les LOLBAS ?",
     "options": [
-      "Des malwares chiffrant les données pour demander une rançon",
-      "Des binaires signés, jugés légitimes et présents nativement sur l'OS, détournés par les attaquants",
-      "Des règles de détection au format ouvert",
-      "Des agents de collecte de logs pour le SIEM"
+      "Des malwares qui chiffrent les données pour exiger une rançon",
+      "Des binaires système légitimes détournés à des fins malveillantes",
+      "Des règles de détection écrites dans un format ouvert et partageable",
+      "Des agents de collecte de logs déployés pour alimenter le SIEM"
     ],
     "answer": 1,
     "explanation": "Les LOLBAS (Living Off the Land Binaries and Scripts) sont des binaires signés donc jugés légitimes et présents nativement sur l'OS (lolbins), détournés à des fins malveillantes. Exemples à surveiller : bitsadmin.exe (télécharger/exécuter des binaires), mshta.exe (exécuter des commandes), hh.exe, winword.exe, excel.exe."
@@ -544,10 +559,10 @@
     "source": "Analyse SOC 1 — ESD, module 3",
     "question": "Sous Linux, quel fichier de log contient les événements d'authentification ?",
     "options": [
-      "/var/log/kern.log",
-      "/var/log/auth.log (ou /var/log/secure)",
-      "/var/log/boot.log",
-      "/var/log/cron"
+      "/var/log/kern.log (journal noyau)",
+      "/var/log/auth.log ou /var/log/secure",
+      "/var/log/boot.log (démarrage système)",
+      "/var/log/cron (tâches planifiées)"
     ],
     "answer": 1,
     "explanation": "/var/log/auth.log (ou /var/log/secure sur certaines distributions) contient les événements d'authentification. Autres logs essentiels : /var/log/syslog ou messages, /var/log/kern.log, /var/log/boot.log, /var/log/cron."
@@ -561,10 +576,10 @@
     "source": "Analyse SOC 1 — ESD, module 3",
     "question": "Que sont les GTFOBins qu'il convient de surveiller sous Linux ?",
     "options": [
-      "Des rootkits installés dans le noyau Linux",
-      "Des binaires légitimes sensibles (sudo, awk, find, tar…) pouvant être détournés",
-      "Des fichiers de logs corrompus",
-      "Des paquets non signés installés via apt"
+      "Des rootkits furtifs installés directement dans le noyau Linux",
+      "Des binaires légitimes (sudo, awk, find) détournables",
+      "Des fichiers de logs corrompus lors d'une attaque",
+      "Des paquets non signés installés via le gestionnaire apt"
     ],
     "answer": 1,
     "explanation": "Les GTFOBins sont des binaires légitimes de Linux (sudo, awk, curl, find, tar…) qui peuvent être détournés par un attaquant pour élever ses privilèges ou contourner des restrictions. Il est important de surveiller leur utilisation."
@@ -578,10 +593,10 @@
     "source": "Analyse SOC 1 — ESD, module 3",
     "question": "À quoi sert « auditd » sous Linux ?",
     "options": [
-      "À compresser les fichiers de logs",
-      "À tracer les appels système, surveiller les accès aux fichiers et enregistrer les actions des utilisateurs",
-      "À synchroniser l'horloge du système",
-      "À gérer les paquets logiciels"
+      "À compresser et archiver les fichiers de logs volumineux du système",
+      "À tracer les appels système et les accès aux fichiers",
+      "À synchroniser l'horloge du système via NTP",
+      "À installer et gérer les paquets logiciels du système"
     ],
     "answer": 1,
     "explanation": "auditd est le démon d'audit du système Linux : il permet de tracer les appels système, surveiller les accès aux fichiers et enregistrer les actions des utilisateurs — un mécanisme clé pour la sécurité des systèmes Linux."
@@ -595,10 +610,10 @@
     "source": "Analyse SOC 1 — ESD, module 3",
     "question": "« Pass-The-Hash » et « Pass-The-Ticket » sont des techniques de…",
     "options": [
-      "Chiffrement des communications",
-      "Relai d'authentification visant l'élévation de privilèges",
-      "Déni de service distribué",
-      "Exfiltration de données par DNS"
+      "Chiffrement des communications réseau entre postes internes",
+      "Relai d'authentification et élévation de privilèges",
+      "Déni de service distribué contre un serveur",
+      "Exfiltration de données via des requêtes DNS"
     ],
     "answer": 1,
     "explanation": "Pass-The-Hash et Pass-The-Ticket sont les techniques de relai d'authentification les plus utilisées par les attaquants pour augmenter leurs privilèges sur le SI. ID events à corréler pour les détecter : 4672, 4674, 4688, 4768 (TGT demandé), 4769 (ST demandé), 5140."
@@ -642,10 +657,10 @@
     "source": "Analyse SOC 1 — ESD, module 3",
     "question": "Quelle est la différence entre EDR, XDR et NDR ?",
     "options": [
-      "EDR surveille les machines, XDR étend la surveillance (mails, réseau, cloud…), NDR se concentre sur le trafic réseau",
-      "EDR est pour le cloud, XDR pour les mobiles, NDR pour les serveurs",
-      "Ce sont trois noms commerciaux du même produit",
-      "EDR détecte, XDR corrige, NDR archive"
+      "EDR couvre les machines, XDR étend au mail et cloud, NDR le réseau",
+      "EDR est dédié au cloud, XDR aux mobiles et NDR aux serveurs physiques",
+      "Ce sont trois appellations commerciales d'un seul et même produit",
+      "EDR détecte les menaces, XDR les corrige et NDR les archive"
     ],
     "answer": 0,
     "explanation": "Les sondes EDR détectent et neutralisent les attaques sur les machines (signatures + analyse heuristique). Les XDR sont l'évolution des EDR : ils surveillent aussi les mails, le réseau, le cloud, pour stopper une attaque plus tôt dans la killchain. Les NDR se concentrent sur la surveillance du trafic réseau."
@@ -659,10 +674,10 @@
     "source": "Analyse SOC 1 — ESD, module 3",
     "question": "Quel est le rôle d'une sandbox dans un SOC ?",
     "options": [
-      "Sauvegarder les logs à long terme",
-      "Fournir un environnement sécurisé et isolé pour exécuter et analyser du code suspect",
-      "Bloquer les emails de phishing en amont",
-      "Répartir la charge réseau entre les serveurs"
+      "Sauvegarder les journaux de logs sur le long terme et de façon fiable",
+      "Exécuter du code suspect dans un environnement isolé",
+      "Bloquer les emails de phishing avant leur réception",
+      "Répartir la charge réseau entre les différents serveurs"
     ],
     "answer": 1,
     "explanation": "Les sandboxes fournissent un environnement sécurisé et isolé pour exécuter et analyser du code suspect : isolation et analyse, détection des comportements malveillants, analyse forensique, test et validation de sécurité."
@@ -676,10 +691,10 @@
     "source": "Analyse SOC 1 — ESD, module 3",
     "question": "Qu'apporte l'UBA (User Behavior Analytics) aux systèmes de sécurité ?",
     "options": [
-      "Un antivirus par signatures plus rapide",
-      "Une analyse fondée sur le comportement des utilisateurs, souvent à base de machine learning, interopérable avec les SIEMs",
-      "Un chiffrement automatique des données sensibles",
-      "Une sauvegarde comportementale des postes de travail"
+      "Un antivirus par signatures aux performances nettement améliorées",
+      "Une analyse du comportement des utilisateurs par machine learning",
+      "Un chiffrement automatique de l'ensemble des données sensibles",
+      "Une sauvegarde comportementale régulière des postes de travail"
     ],
     "answer": 1,
     "explanation": "L'UBA renforce la sécurité par une analyse comportementale : profils dynamiques, détection de compromission d'identifiants, intégration et corrélation étendue, aide à la conformité et priorisation d'alertes. Souvent à base de machine learning, elle est présente nativement dans les SIEMs dits 2.0."
@@ -693,10 +708,10 @@
     "source": "Analyse SOC 1 — ESD, module 3",
     "question": "Qu'est-ce que Sysmon ?",
     "options": [
-      "Un antivirus intégré à Windows Defender",
-      "Un service de la suite Sysinternals qui surveille et enregistre l'activité système dans les logs (processus, connexions réseau…)",
-      "Un scanner de ports réseau",
-      "Un gestionnaire de mises à jour Windows"
+      "Un module antivirus intégré nativement au sein de Windows Defender",
+      "Un service Sysinternals qui journalise l'activité système",
+      "Un scanner de ports réseau pour cartographier les hôtes",
+      "Un gestionnaire centralisé des mises à jour Windows"
     ],
     "answer": 1,
     "explanation": "Sysmon (suite Sysinternals) est un service permettant de surveiller et enregistrer l'activité système : créations de processus, connexions réseau, modifications de l'heure de création des fichiers. Sa configuration se fait via un fichier XML contenant les règles de capture d'événements."
@@ -745,10 +760,10 @@
     "source": "Analyse SOC 1 — ESD, module 4",
     "question": "À quoi sert le CIM (Common Information Model) dans un SIEM ?",
     "options": [
-      "À chiffrer les logs avant leur stockage",
-      "À normaliser les données de sources multiples au format champ:valeur, indépendamment des fabricants, tout en gardant les données brutes intactes",
-      "À compresser les événements pour économiser du stockage",
-      "À anonymiser les données personnelles des logs"
+      "À chiffrer l'ensemble des logs avant leur stockage définitif",
+      "À normaliser les données multi-sources au format champ:valeur",
+      "À compresser les événements afin d'économiser de l'espace de stockage",
+      "À anonymiser les données personnelles présentes dans les logs"
     ],
     "answer": 1,
     "explanation": "Le CIM est un standard ouvert de normalisation : devant la multitude de sources de données, il permet de normaliser au format champs:valeur, de définir des relations dans les données d'événements, indépendamment des fournisseurs, en laissant intactes les données brutes."
@@ -850,10 +865,10 @@
     "source": "Analyse SOC 1 — ESD, module 4",
     "question": "Quels sont les 3 types de plugins d'un pipeline Logstash ?",
     "options": [
-      "Collect, Parse, Store",
+      "Collect, Parse and Store",
       "Inputs, Filters, Outputs",
-      "Source, Transform, Sink",
-      "Read, Process, Write"
+      "Source, Transform and Sink",
+      "Read, Process and Write"
     ],
     "answer": 1,
     "explanation": "Le pipeline Logstash fonctionne via des plugins : Inputs (réceptionnent l'événement, ex. file, syslog, tcp, beats), Filters (modifient l'événement, ex. grok, mutate, geoip — étape non obligatoire), Outputs (envoient l'événement, ex. elasticsearch, file, graphite)."
@@ -867,10 +882,10 @@
     "source": "Analyse SOC 1 — ESD, module 4",
     "question": "À quoi sert le filtre Grok dans Logstash ?",
     "options": [
-      "À supprimer les logs en double",
-      "À extraire des informations d'un événement grâce à des expressions régulières et les structurer en champs",
-      "À envoyer les événements vers Elasticsearch",
-      "À géolocaliser une adresse IP"
+      "À supprimer automatiquement les logs présents en double",
+      "À structurer un log en champs via des expressions régulières",
+      "À envoyer les événements traités vers le cluster Elasticsearch",
+      "À géolocaliser une adresse IP à partir de sa position"
     ],
     "answer": 1,
     "explanation": "Le filtre Grok se base sur des expressions régulières pour parser et structurer un événement. Syntaxe built-in : %{PATTERN:nom_du_champ} (ex. %{IP:client}). Il existe aussi une syntaxe custom pour créer ses propres patterns. Geoip ajoute la géolocalisation, Mutate transforme les champs."
@@ -896,10 +911,10 @@
     "source": "Analyse SOC 1 — ESD, module 4",
     "question": "En syntaxe Lucene, que permet le caractère « * » (wildcard) ?",
     "options": [
-      "Rechercher un seul caractère inconnu",
-      "Représenter toutes les possibilités, en fin ou au milieu d'un mot (ex. hostname:win*)",
-      "Faire une recherche approximative",
-      "Exclure un terme de la recherche"
+      "Rechercher un seul et unique caractère inconnu dans le terme",
+      "Représenter toutes les possibilités en fin ou milieu de mot",
+      "Faire une recherche approximative ou de proximité",
+      "Exclure complètement un terme de la recherche"
     ],
     "answer": 1,
     "explanation": "Le wildcard * représente toutes les possibilités (hostname:win*). Le ? remplace un caractère inconnu, le ~ permet l'approximation ou la proximité, [] les plages inclusives, {} les plages exclusives, et NOT/- l'exclusion."
@@ -913,10 +928,10 @@
     "source": "Analyse SOC 1 — ESD, module 4",
     "question": "Quel est le rôle de Kibana dans la suite ELK ?",
     "options": [
-      "Stocker les données collectées",
-      "Collecter les logs sur les machines",
-      "Visualiser les données d'Elasticsearch : recherches, graphes, dashboards",
-      "Transformer les logs avant stockage"
+      "Stocker durablement les données collectées et indexées",
+      "Collecter les journaux directement sur les machines du parc",
+      "Visualiser les données d'Elasticsearch en graphes",
+      "Transformer et enrichir les logs avant leur stockage"
     ],
     "answer": 2,
     "explanation": "Kibana est l'interface graphique de visualisation d'Elasticsearch : recherches (langage KQL par défaut, Lucene possible), visualisation de documents, agrégation de résultats dans des graphes et dashboards. Elasticsearch stocke, Logstash transforme, Beats collectent."
@@ -929,7 +944,12 @@
     "difficulty": 2,
     "source": "Analyse SOC 1 — ESD, module 4",
     "question": "Quel langage de requête Kibana utilise-t-il par défaut ?",
-    "options": ["SQL", "KQL (Kibana Query Language)", "SPL", "GraphQL"],
+    "options": [
+      "SQL (Structured Query Language)",
+      "KQL (Kibana Query Language)",
+      "SPL (Search Processing Language)",
+      "GraphQL (Graph Query Language)"
+    ],
     "answer": 1,
     "explanation": "Kibana utilise par défaut le KQL (Kibana Query Language) avec auto-complétion. Exemples : event.id : 4650, event.id : (4650 or 4651) and username : « michel dupond ». Il est possible de désactiver KQL pour revenir au langage Lucene."
   },
@@ -959,10 +979,10 @@
     "source": "Analyse SOC 1 — ESD, module 5",
     "question": "Qu'est-ce que SIGMA ?",
     "options": [
-      "Un moteur de détection intégré aux SIEM",
-      "Un format générique et ouvert de signature décrivant des événements de logs, convertible pour différents SIEM",
-      "Une base de connaissance des menaces",
-      "Un langage de programmation pour l'automatisation"
+      "Un moteur de détection directement intégré aux solutions SIEM",
+      "Un format ouvert de signature convertible pour différents SIEM",
+      "Une base de connaissance centralisée sur les menaces connues",
+      "Un langage de programmation dédié à l'automatisation des tâches"
     ],
     "answer": 1,
     "explanation": "SIGMA est un format générique de signature standardisé décrivant des événements de logs, convertible pour être utilisable sur différents SIEM. C'est un format flexible, facile à écrire et partageable. SIGMA n'est PAS un moteur de détection ni une base de connaissance."
@@ -988,10 +1008,10 @@
     "source": "Analyse SOC 1 — ESD, module 5",
     "question": "Qu'est-ce qu'ElastAlert ?",
     "options": [
-      "Un framework d'alerte sur les anomalies dans les données Elasticsearch, avec notifications email, Jira, Slack…",
-      "Un plugin de visualisation Kibana",
-      "L'antivirus intégré de la suite Elastic",
-      "Un agent de collecte de logs Windows"
+      "Un framework d'alerte sur les anomalies dans Elasticsearch",
+      "Un plugin de visualisation graphique pour l'interface web Kibana",
+      "L'antivirus nativement intégré à la suite Elastic Stack",
+      "Un agent de collecte des journaux d'événements Windows"
     ],
     "answer": 0,
     "explanation": "ElastAlert est un cadre conçu pour alerter sur les anomalies, pics ou autres modèles d'intérêt dans les données Elasticsearch. Il combine Elasticsearch avec des types de règles et d'alertes, et supporte une variété de canaux : email, JIRA, Slack, etc."
@@ -1005,10 +1025,10 @@
     "source": "Analyse SOC 1 — ESD, module 5",
     "question": "Sur quoi se concentre l'UEBA (User and Entity Behavior Analytics) ?",
     "options": [
-      "Sur les signatures de malwares connus uniquement",
-      "Sur le comportement des utilisateurs et des entités du réseau, appris en continu via le machine learning",
-      "Sur l'analyse des emails de phishing",
-      "Sur le blocage des adresses IP malveillantes"
+      "Sur les seules signatures de malwares déjà connus et répertoriés",
+      "Sur le comportement des utilisateurs et des entités du réseau",
+      "Sur l'analyse des emails de phishing entrants et sortants",
+      "Sur le blocage des adresses IP identifiées comme malveillantes"
     ],
     "answer": 1,
     "explanation": "L'UEBA se concentre sur le comportement des utilisateurs et des entités au sein du réseau. Grâce au machine learning, elle apprend continuellement le comportement normal pour identifier les activités suspectes — sans reposer uniquement sur les signatures connues."
@@ -1022,24 +1042,29 @@
     "source": "Analyse SOC 1 — ESD, module 5",
     "question": "Que signifie SOAR et quel est son objectif ?",
     "options": [
-      "Security Orchestration, Automation and Response — automatiser les tâches répétitives des équipes de sécurité",
-      "System Of Advanced Reporting — générer des rapports de conformité",
-      "Security Operations And Recovery — restaurer les systèmes après incident",
-      "Software Oriented Attack Replication — simuler des attaques"
+      "Security Orchestration, Automation, Response — automatiser les tâches",
+      "System Of Advanced Reporting — produire des rapports de conformité détaillés",
+      "Security Operations And Recovery — restaurer les systèmes après un incident",
+      "Software Oriented Attack Replication — simuler des attaques réalistes"
     ],
     "answer": 0,
     "explanation": "Les technologies SOAR (Security Orchestration, Automation, and Response) automatisent une partie des tâches répétitives quotidiennes des équipes de sécurité : détection, action sur les incidents, gestion des vulnérabilités. Dans le duo SIEM/SOAR : le SIEM « oriente » (ORIENT), le SOAR « décide » (DECIDE)."
   },
   {
     "id": "SOC1-066",
-    "type": "flashcard",
+    "type": "mcq",
     "theme": "soc-alerting",
     "subtheme": "playbooks",
     "difficulty": 2,
     "source": "Analyse SOC 1 — ESD, module 5",
     "question": "Qu'est-ce qu'un playbook en cybersécurité ?",
-    "options": [],
-    "answer": null,
+    "options": [
+      "Un inventaire exhaustif des actifs matériels et logiciels du parc",
+      "Un guide d'actions automatisées de réponse aux incidents",
+      "Un rapport mensuel des incidents transmis à la direction générale",
+      "Un journal centralisant l'ensemble des logs bruts des équipements"
+    ],
+    "answer": 1,
     "explanation": "Un playbook est un guide d'actions automatisé essentiel pour une réponse rapide et efficace aux incidents. Il définit des procédures détaillées pour détecter, analyser et neutraliser les menaces selon des scénarios préétablis. Cette automatisation garantit la cohérence de la gestion des alertes et réduit le temps de réponse."
   },
   {
@@ -1051,10 +1076,10 @@
     "source": "Analyse SOC 1 — ESD, module 5",
     "question": "Quelles actions automatisées un EDR permet-il d'exécuter ?",
     "options": [
-      "Uniquement l'envoi d'un email à l'administrateur",
-      "L'isolement instantané des terminaux compromis, la suppression automatique de malwares et la collecte enrichie des données d'incident",
-      "La réinstallation complète du système d'exploitation",
-      "La modification des règles de pare-feu périmétrique uniquement"
+      "Uniquement l'envoi d'un courriel d'alerte à l'administrateur système",
+      "L'isolement des terminaux compromis et la purge des malwares",
+      "La réinstallation complète du système d'exploitation infecté",
+      "La seule modification des règles du pare-feu périmétrique"
     ],
     "answer": 1,
     "explanation": "Grâce à leur capacité à détecter automatiquement les menaces et exécuter des réponses préconfigurées, les EDR permettent l'isolement instantané des terminaux compromis, la suppression automatique de malwares et la collecte/analyse enrichies des données d'incident."
@@ -1085,9 +1110,9 @@
     "source": "Analyse SOC 1 — ESD, module 5",
     "question": "Quels sont les deux types de règles de détection dans un SIEM ?",
     "options": [
-      "Les règles « génériques » et les règles « personnelles » (ou locales)",
-      "Les règles « ouvertes » et les règles « fermées »",
-      "Les règles « actives » et les règles « passives »",
+      "Les règles « génériques » et les règles « personnelles »",
+      "Les règles « ouvertes » et les règles « fermées » du moteur",
+      "Les règles « actives » et les règles « passives » du SIEM",
       "Les règles « primaires » et les règles « secondaires »"
     ],
     "answer": 0,
@@ -1119,10 +1144,10 @@
     "source": "Analyse SOC 1 — ESD, module 6",
     "question": "Qu'est-ce que le BAS (Breach and Attack Simulation) ?",
     "options": [
-      "Un audit de conformité réglementaire annuel",
-      "L'automatisation de simulations d'attaques continues et réalistes pour tester la robustesse des systèmes de sécurité",
-      "Un exercice de gestion de crise avec la direction",
-      "Un test d'intrusion physique dans les locaux"
+      "Un audit de conformité réglementaire réalisé chaque année",
+      "L'automatisation de simulations d'attaques réalistes en continu",
+      "Un exercice de gestion de crise mené avec la direction générale",
+      "Un test d'intrusion physique mené dans les locaux de l'entreprise"
     ],
     "answer": 1,
     "explanation": "Le BAS automatise le processus de simulation d'attaques : les organisations exécutent continuellement des simulations réalistes pour identifier les vulnérabilités, tester l'efficacité des contrôles et évaluer la préparation des équipes. Attention : le BAS ne remplace en aucune façon les tests réalisés par des humains."
@@ -1183,10 +1208,10 @@
     "source": "Analyse SOC 1 — ESD, module 6",
     "question": "À quoi servent les tests de régression dans un SOC ?",
     "options": [
-      "À mesurer la vitesse de traitement du SIEM",
-      "À vérifier que les modifications apportées (correctifs, nouvelles règles) n'introduisent pas de nouveaux problèmes et que l'existant fonctionne toujours",
-      "À simuler une attaque DDoS sur l'infrastructure",
-      "À former les nouveaux analystes"
+      "À mesurer la vitesse de traitement des événements du SIEM",
+      "À vérifier que les correctifs n'introduisent pas de régression",
+      "À simuler une attaque DDoS massive sur l'infrastructure réseau",
+      "À former et évaluer les nouveaux analystes du SOC"
     ],
     "answer": 1,
     "explanation": "Les tests de régression vérifient que les modifications du système (correction de vulnérabilités, mise à jour de règles de détection, nouvelles fonctionnalités) n'introduisent pas de nouveaux problèmes et que les fonctionnalités existantes continuent de fonctionner. Ils maintiennent la stabilité du système de détection."
@@ -1200,10 +1225,10 @@
     "source": "Analyse SOC 1 — ESD, module 6",
     "question": "En quoi consiste le benchmarking externe en cybersécurité ?",
     "options": [
-      "Tester les performances matérielles des serveurs du SOC",
-      "Comparer les performances et stratégies de cybersécurité de son organisation à celles d'entités similaires du secteur",
-      "Publier ses vulnérabilités sur des plateformes de bug bounty",
-      "Mesurer la bande passante du réseau"
+      "Tester les performances matérielles des serveurs physiques du SOC",
+      "Comparer sa cybersécurité à celle d'organisations similaires",
+      "Publier ses vulnérabilités sur des plateformes publiques de bug bounty",
+      "Mesurer la bande passante disponible sur le réseau interne"
     ],
     "answer": 1,
     "explanation": "Le benchmarking externe évalue les performances et stratégies de cybersécurité de l'organisation en les comparant à celles d'autres entités similaires du secteur : il permet d'identifier les lacunes, de découvrir les meilleures pratiques industrielles et d'encourager l'innovation."
@@ -1217,10 +1242,10 @@
     "source": "Analyse SOC 1 — ESD, module 6",
     "question": "Quels KPIs sont cités comme pertinents pour le suivi de la sécurité dans les tableaux de bord ?",
     "options": [
-      "Le temps de réponse à un incident, le nombre de vulnérabilités non corrigées, le taux de faux positifs",
-      "Le nombre d'employés du SOC, le budget annuel, le nombre de licences",
-      "La taille des logs stockés, le nombre de dashboards créés",
-      "Le nombre de réunions de sécurité par mois"
+      "Temps de réponse aux incidents, vulnérabilités ouvertes, faux positifs",
+      "Le nombre d'employés du SOC, le budget annuel et le nombre de licences",
+      "La taille totale des logs stockés et le nombre de dashboards créés",
+      "Le nombre de réunions de sécurité organisées chaque mois"
     ],
     "answer": 0,
     "explanation": "Des KPIs spécifiques doivent être soigneusement sélectionnés : temps de réponse à un incident, nombre de vulnérabilités non corrigées, taux de faux positifs. Les tableaux de bord permettent de visualiser en temps réel les performances des mesures de sécurité et facilitent une prise de décision rapide."
@@ -1234,24 +1259,29 @@
     "source": "Analyse SOC 1 — ESD, module 6",
     "question": "Dans la simulation d'adversaires, quel est le rôle de la Purple Team ?",
     "options": [
-      "Attaquer l'infrastructure comme un adversaire réel",
-      "Défendre l'infrastructure contre les attaques",
-      "Faire collaborer les équipes offensives (Red) et défensives (Blue) pour améliorer la détection",
-      "Auditer la conformité réglementaire"
+      "Attaquer l'infrastructure en simulant un adversaire réel et déterminé",
+      "Défendre l'infrastructure contre les attaques en temps réel",
+      "Faire collaborer les équipes offensives et défensives",
+      "Auditer la conformité réglementaire de l'organisation"
     ],
     "answer": 2,
     "explanation": "La Red Team simule l'attaquant, la Blue Team défend, et la Purple Team fait le lien entre les deux : elle assure la collaboration entre équipes offensives et défensives afin de maximiser l'amélioration des capacités de détection et de réponse."
   },
   {
     "id": "SOC1-079",
-    "type": "flashcard",
+    "type": "mcq",
     "theme": "soc-fondamentaux",
     "subtheme": "chiffres",
     "difficulty": 3,
     "source": "Analyse SOC 1 — ESD, module 1",
-    "question": "Citez quelques chiffres clés de la cybersécurité en 2023 mentionnés dans le cours.",
-    "options": [],
-    "answer": null,
+    "question": "Parmi ces chiffres de la cybersécurité en 2023 (cités dans le cours), lequel est exact ?",
+    "options": [
+      "Environ 50% des malwares étaient distribués par email en 2023",
+      "94% des malwares étaient distribués par email",
+      "Le coût moyen d'une fuite de données atteignait 1,2 million de dollars",
+      "Le temps moyen de détection d'une intrusion était de 10 jours"
+    ],
+    "answer": 1,
     "explanation": "En 2023 : 94% des malwares distribués par email ; 300 000 attaques recensées contre des PME ; +112% de ransomwares par rapport à l'année précédente ; coût moyen d'une fuite de données : 4,45 M$ (3,75 M€ en France) ; 198 failles 0-day découvertes et 28 902 CVE publiées ; temps moyen de détection d'une intrusion en France : 94 jours."
   },
   {
@@ -1263,10 +1293,10 @@
     "source": "Analyse SOC 1 — ESD, module 3",
     "question": "Pourquoi les signalements utilisateurs sont-ils une source de données précieuse pour le SOC ?",
     "options": [
-      "Parce qu'ils sont automatiquement intégrés au SIEM",
-      "Parce que les utilisateurs manipulent les outils métier au quotidien et peuvent remarquer un fonctionnement inhabituel, première approche vers la découverte d'un incident",
-      "Parce qu'ils remplacent les sondes EDR",
-      "Parce qu'ils sont obligatoires selon le RGPD"
+      "Parce qu'ils sont automatiquement intégrés et corrélés dans le SIEM",
+      "Parce qu'ils repèrent un comportement inhabituel de leurs outils",
+      "Parce qu'ils remplacent avantageusement les sondes EDR déployées",
+      "Parce qu'ils sont rendus obligatoires par le règlement RGPD"
     ],
     "answer": 1,
     "explanation": "Les utilisateurs sont ceux qui utilisent les outils métier au quotidien : un fonctionnement non habituel, un ralentissement ou un bug constaté peut être une première approche vers la découverte d'un incident. Cette source de grande valeur n'est malheureusement pas assez prise en compte (et n'est pas incorporée directement au SIEM)."
